@@ -74,6 +74,9 @@ topics:
   this:
     images:
     -  image_path: 13-76 Troll SIY -- Missing Rock Star Caper (117).txt.gv.png
+  interactive:
+    images:
+    -  image_path: 10-04 WWY 03 Who Kidnapped Princess Saralinda.txt.gv.png
   falseendings:
     images:
      -  image_path: 13-70 Troll FF -- War of the Wizards.txt.gv.png
@@ -88,6 +91,40 @@ topics:
        caption: "Node 97 and 101"
     -  image_path: 10-06 WWY 04 Ghost Knights of Camelot.txt.gv.png
        caption: ""
+  caveoftime:
+    images:
+    -  image_path: 01-01 CYOA -- Cave of Time, The.txt.gv.png
+    -  image_path: 01-05 CYOA -- Cave of Time, The.txt.gv.png
+    -  image_path: 01-07 CYOA -- Cave of Time, The (115).txt.gv.png
+    -  image_path: 01-07v2 CYOA -- Cave of Time, The (115).txt.gv.png
+  thrombey:
+    images:
+    -  image_path: 01-31 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png
+    -  image_path: 01-32 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png
+    -  image_path: 01-33 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png
+  snowman:
+    images:
+    -  image_path: 01-42 CYOA -- Abominable Snowman, The. (new edition from Jeremy collection).txt.gv.png
+    -  image_path: 01-42 CYOA -- Abominable Snowman, The. (old edition from Katz collection).txt.gv.png
+    -  image_path: 01-42b CYOA -- Abominable Snowman, The.txt.gv.png
+  vampire:
+    images:
+    -  image_path: 01-65 CYOA -- Vampire Express.txt.gv.png
+    -  image_path: 01-65v2 CYOA -- Vampire Express (printing-error).txt.gv.png
+    -  image_path: 01-65v3 CYOA -- Vampire Express (broken).txt.gv.png
+  ufo:
+    images:
+    -  image_path: 01-39 CYOA -- Inside UFO 54-40.txt.gv.png
+    -  image_path: 01-39v2 CYOA -- Inside UFO 54-40 (labeled).txt.gv.png
+  dreamtrips:
+    images:
+    -  image_path: 05-22 CYOA-YA -- Dream Trips (Go to any Page Version).txt.gv.png
+    -  image_path: 05-22 CYOA-YA -- Dream Trips.txt.gv.png
+  tenopia:
+    images:
+    -  image_path: 11-11 EFT 01 Tenopia Island.txt.gv.png
+    -  image_path: 11-11v2 EFT 01 Tenopia Island (no maps).txt.gv.png
+    -  image_path: 11-11v3 EFT 01 Tenopia Island (no maps, simplified).txt.gv.png
 ---
 
 # Concepts
@@ -170,7 +207,11 @@ Branch-merge &#8212; Very high degree node. See log for &#8220;interesting&#8221
 
 #### Interactive Nodes
 
-<br><img src="{{ site.baseurl }}/assets/thumbs/10-04 WWY 03 Who Kidnapped Princess Saralinda.txt.gv.png" alt="10 04 WWY 03 Who Kidnapped Princess Saralinda.Txt.Gv" onload="this.width/=2;this.onload=null;"/>
+<ul class="photo-gallery">
+  {% for image in page.topics.interactive.images %}
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+  {% endfor %}
+</ul>
 
 #### False Endings
 
@@ -291,56 +332,63 @@ What&#8217;s the difference between these two graphs?
 
 <h1>Comparative examples</h1>
 
-<br><br><br><br><br>
-
 <h2>CYOA (The Cave of Time)</h2>
 
-<a href="{{ site.baseurl }}/assets/images/01-01 CYOA -- Cave of Time, The.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-01 CYOA -- Cave of Time, The.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-<a href="{{ site.baseurl }}/assets/images/01-05 CYOA -- Cave of Time, The.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-05 CYOA -- Cave of Time, The.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-<a href="{{ site.baseurl }}/assets/images/01-07 CYOA -- Cave of Time, The (115).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-07 CYOA -- Cave of Time, The (115).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-	<br>
-<a href="{{ site.baseurl }}/assets/images/01-07v2 CYOA -- Cave of Time, The (115).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-07v2 CYOA -- Cave of Time, The (115).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<ul class="photo-gallery">
+  {% for image in page.topics.caveoftime.images %}
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+  {% endfor %}
+</ul>
 
 <h2>CYOA (Who Killed Harlowe Thrombey)</h2>
 
-<img src="{{ site.baseurl }}/assets/thumbs/01-31 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png" onload="this.width/=2;this.onload=null;"/>
-<br>
-<img src="{{ site.baseurl }}/assets/thumbs/01-32 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png"  onload="this.width/=2;this.onload=null;"/>
-<br>
-<img src="{{ site.baseurl }}/assets/thumbs/01-33 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png" onload="this.width/=2;this.onload=null;"/>
+<ul class="photo-gallery">
+  {% for image in page.topics.thrombey.images %}
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+  {% endfor %}
+</ul>
 
 <h2>CYOA (Abominable Snowman)</h2>
 
-<img src="{{ site.baseurl }}/assets/thumbs/01-42 CYOA -- Abominable Snowman, The. (new edition from Jeremy collection).txt.gv.png" onload="this.width/=2;this.onload=null;"/>
-<img src="{{ site.baseurl }}/assets/thumbs/01-42 CYOA -- Abominable Snowman, The. (old edition from Katz collection).txt.gv.png" onload="this.width/=2;this.onload=null;"/>
-<img src="{{ site.baseurl }}/assets/thumbs/01-42b CYOA -- Abominable Snowman, The.txt.gv.png" onload="this.width/=2;this.onload=null;"/>
+<ul class="photo-gallery">
+  {% for image in page.topics.snowman.images %}
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+  {% endfor %}
+</ul>
 
 <h2>CYOA (Vampire Express)</h2>
 
-<a href="{{ site.baseurl }}/assets/images/01-65 CYOA -- Vampire Express.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-65 CYOA -- Vampire Express.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-<a href="{{ site.baseurl }}/assets/images/01-65v2 CYOA -- Vampire Express (printing-error).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-65v2 CYOA -- Vampire Express (printing-error).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-<a href="{{ site.baseurl }}/assets/images/01-65v3 CYOA -- Vampire Express (broken).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-65v3 CYOA -- Vampire Express (broken).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<ul class="photo-gallery">
+  {% for image in page.topics.vampire.images %}
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+  {% endfor %}
+</ul>
 
 <h2>CYOA (Inside UFO 54-40)</h2>
 
 Node 117 choices are flipped
 
-<a href="{{ site.baseurl }}/assets/images/01-39 CYOA -- Inside UFO 54-40.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-39 CYOA -- Inside UFO 54-40.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-<a href="{{ site.baseurl }}/assets/images/01-39v2 CYOA -- Inside UFO 54-40 (labeled).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-39v2 CYOA -- Inside UFO 54-40 (labeled).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<ul class="photo-gallery">
+  {% for image in page.topics.ufo.images %}
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+  {% endfor %}
+</ul>
 
 <h2>Dream Trips</h2>
-<a href="{{ site.baseurl }}/assets/images/05-22 CYOA-YA -- Dream Trips (Go to any Page Version).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/05-22 CYOA-YA -- Dream Trips (Go to any Page Version).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-<br>
-<a href="{{ site.baseurl }}/assets/images/05-22 CYOA-YA -- Dream Trips.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/05-22 CYOA-YA -- Dream Trips.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+
+<ul class="photo-gallery">
+  {% for image in page.topics.dreamtrips.images %}
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+  {% endfor %}
+</ul>
 
 <h2>EFT (Tenopia Island)</h2>
 
-<a href="{{ site.baseurl }}/assets/images/11-11 EFT 01 Tenopia Island.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/11-11 EFT 01 Tenopia Island.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-<br>
-<a href="{{ site.baseurl }}/assets/images/11-11v2 EFT 01 Tenopia Island (no maps).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/11-11v2 EFT 01 Tenopia Island (no maps).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-<br>
-<a href="{{ site.baseurl }}/assets/images/11-11v3 EFT 01 Tenopia Island (no maps, simplified).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/11-11v3 EFT 01 Tenopia Island (no maps, simplified).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-
+<ul class="photo-gallery">
+  {% for image in page.topics.tenopia.images %}
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+  {% endfor %}
+</ul>
 
 ## Inspecting and Exploring
 
