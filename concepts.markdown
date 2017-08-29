@@ -135,13 +135,13 @@ When web-like story networks are laid out heirarchically they tend to produce la
   {% endfor %}
 </ul>
 
-(See [Exploring section](#exploring)</a> for Yed representation below)
+(See [Exploring section](#exploring) for Yed representation below)
 
 ## Local Features
 
 ### Branch Nodes and Merge Nodes
 
-branch node &#8212; the elevator (7 buttons). Graph vocab: &#8220;indegree&#8221;
+branch node &#8212; the elevator (7 buttons). Graph vocab: &#8220;outdegree&#8221;
 
 <ul class="photo-gallery">
   {% for image in page.topics.branchnodes.images %}
@@ -149,7 +149,7 @@ branch node &#8212; the elevator (7 buttons). Graph vocab: &#8220;indegree&#8221
   {% endfor %}
 </ul>
 
-Merge nodes &#8212; a local funnel (see also convergent endings) Graph vocab: &#8220;outdegree&#8221; 
+Merge nodes &#8212; a local funnel (see also convergent endings) Graph vocab: &#8220;indegree&#8221; 
 
 <ul class="photo-gallery">
   {% for image in page.topics.mergenodes.images %}
