@@ -17,3 +17,4 @@ categories: tools
    -  [Graphing Branching Narrative](https://docs.google.com/document/d/1LVA7au0Z1Z4-qiRy77yib8lmeL7rjeIp1V3lPaaUYbo/) training materials
       -  includes technical information
 -  [Special Research Collections Library Hours](https://www.library.ucsb.edu/hours) -- bottom of table
+-  [Gamebooks.org](http://gamebooks.org) -- founded by the collector, full of rich information about items in the collection. If you find something ambiguous or confusing -- a likely printer's error, for example -- these are sometimes commented on by reviewers and fans in that site.

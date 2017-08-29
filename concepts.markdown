@@ -119,7 +119,7 @@ When web-like story networks are laid out heirarchically they tend to produce la
   {% endfor %}
 </ul>
 
-(See <a href= #"exploring"> Exploring section </a> for Yed representation below)
+(See [Exploring section](#exploring)</a> for Yed representation below)
 
 ## Local Features
 
