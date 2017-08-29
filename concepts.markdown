@@ -71,7 +71,23 @@ topics:
     -  image_path: 03-17 CYOA -- Alien, Go Home.txt.gv.png
     -  image_path: 10-73 Explorer 02 Destination Brain.txt.gv.png
     -  image_path: 13-76 Troll SIY -- Missing Rock Star Caper (117).txt.gv.png
-
+  this:
+    images:
+    -  image_path: 13-76 Troll SIY -- Missing Rock Star Caper (117).txt.gv.png
+  falseendings:
+    images:
+     -  image_path: 13-70 Troll FF -- War of the Wizards.txt.gv.png
+     -  image_path: 13-72 Troll FF -- Magician's Ring.txt.gv.png
+  fragments:
+    images:
+    -  image_path: 01-65v3 CYOA -- Vampire Express (broken).txt.gv.png
+    -  image_path: 01-39 CYOA -- Inside UFO 54-40.txt.gv.png
+  reference:
+    images:
+    -  image_path: 10-01 WWY 01 Forest of Twisted Dreams, The.txt.gv.png
+       caption: "Node 97 and 101"
+    -  image_path: 10-06 WWY 04 Ghost Knights of Camelot.txt.gv.png
+       caption: ""
 ---
 
 # Concepts
@@ -151,7 +167,6 @@ Branch-merge &#8212; Very high degree node. See log for &#8220;interesting&#8221
 
 ### Computing Fake Nodes
 
-&#8230;
 
 #### Interactive Nodes
 
@@ -159,16 +174,26 @@ Branch-merge &#8212; Very high degree node. See log for &#8220;interesting&#8221
 
 #### False Endings
 
-<br><img src="{{ site.baseurl }}/assets/thumbs/13-70 Troll FF -- War of the Wizards.txt.gv.png" alt="13 70 Troll FF   War Of The Wizards.Txt.Gv" onload="this.width/=2;this.onload=null;"/>
-<br><img src="{{ site.baseurl }}/assets/thumbs/13-72 Troll FF -- Magician's Ring.txt.gv.png" alt="13 72 Troll FF   Magician'S Ring.Txt.Gv" onload="this.width/=2;this.onload=null;"/>
+<ul class="photo-gallery">
+  {% for image in page.topics.falseendings.images %}
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+  {% endfor %}
+</ul>
 
 ### Reference Page
 
-<br><a href="{{ site.baseurl }}/assets/images/10-01 WWY 01 Forest of Twisted Dreams, The.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/10-01 WWY 01 Forest of Twisted Dreams, The.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<ul class="photo-gallery">
+  {% for image in page.topics.reference.images %}
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a><br>
+	{{ image.caption }}<br>
+  {% endfor %}
+</ul>
 
- Node 97 and 101
- 
-<br><img src="{{ site.baseurl }}/assets/thumbs/10-06 WWY 04 Ghost Knights of Camelot.txt.gv.png" alt="10 06 WWY 04 Ghost Knights Of Camelot.Txt.Gv" onload="this.width/=2;this.onload=null;"/>
+
+
+
+
+
 
 ### Shortcuts and Loopbacks
 
@@ -230,7 +255,7 @@ Second Choice always moves the reader further into the narrative
   {% endfor %}
 </ul>
 
-### Floating Nodes / Fragments
+### Fragments and Floating Nodes
 
 (disconnected parts of the graph)
 
@@ -238,8 +263,12 @@ Second Choice always moves the reader further into the narrative
 
 What&#8217;s the difference between these two graphs?
 
-<br><a href="{{ site.baseurl }}/assets/images/01-65v3 CYOA -- Vampire Express (broken).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-65v3 CYOA -- Vampire Express (broken).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-<br><a href="{{ site.baseurl }}/assets/images/01-39 CYOA -- Inside UFO 54-40.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-39 CYOA -- Inside UFO 54-40.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<ul class="photo-gallery">
+  {% for image in page.topics.fragments.images %}
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+  {% endfor %}
+</ul>
+
 <!--add 14-41 "You Can Be the Stainless Steel Rat" graph (also includes disconnected return nodes)-->
 
 ## Approaches to analysis
