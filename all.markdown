@@ -343,7 +343,7 @@ This gallery presents the complete collection of works mapped to-date in collect
 
 <ul class="photo-gallery">
   {% for image in page.images %}
-    <a href="{{ site.baseurl }}/assets/illustrations/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/illustrations//thumbs/{{ image.image_path }}" alt="image" onload="this.width/=4;this.onload=null;"/></a>
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=4;this.onload=null;"/></a>
   {% endfor %}
 </ul>
 

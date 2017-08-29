@@ -88,7 +88,7 @@ Some works have lots of choices at almost every turn &#8212; they are more game-
 
 <ul class="photo-gallery">
   {% for image in page.topics.linearheavy.images %}
-    <a href="{{ site.baseurl }}/assets/illustrations/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
 	<br><br>
   {% endfor %}
 </ul>
@@ -99,7 +99,7 @@ Some works have lots of choices at almost every turn &#8212; they are more game-
 
 <ul class="photo-gallery">
   {% for image in page.topics.branchheavy.images %}
-    <a href="{{ site.baseurl }}/assets/illustrations/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
   {% endfor %}
 </ul>
 
@@ -115,7 +115,7 @@ When web-like story networks are laid out heirarchically they tend to produce la
 
 <ul class="photo-gallery">
   {% for image in page.topics.rhizomatic.images %}
-    <a href="{{ site.baseurl }}/assets/illustrations/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
   {% endfor %}
 </ul>
 
@@ -129,7 +129,7 @@ branch node &#8212; the elevator (7 buttons). Graph vocab: &#8220;indegree&#8221
 
 <ul class="photo-gallery">
   {% for image in page.topics.branchnodes.images %}
-    <a href="{{ site.baseurl }}/assets/illustrations/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
   {% endfor %}
 </ul>
 
@@ -137,7 +137,7 @@ Merge nodes &#8212; a local funnel (see also convergent endings) Graph vocab: &#
 
 <ul class="photo-gallery">
   {% for image in page.topics.mergenodes.images %}
-    <a href="{{ site.baseurl }}/assets/illustrations/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
   {% endfor %}
 </ul>
 
@@ -145,7 +145,7 @@ Branch-merge &#8212; Very high degree node. See log for &#8220;interesting&#8221
 
 <ul class="photo-gallery">
   {% for image in page.topics.branchmerge.images %}
-    <a href="{{ site.baseurl }}/assets/illustrations/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
   {% endfor %}
 </ul>
 
@@ -155,20 +155,20 @@ Branch-merge &#8212; Very high degree node. See log for &#8220;interesting&#8221
 
 #### Interactive Nodes
 
-<br><img src="{{ site.baseurl }}/assets/illustrations/thumbs/10-04 WWY 03 Who Kidnapped Princess Saralinda.txt.gv.png" alt="10 04 WWY 03 Who Kidnapped Princess Saralinda.Txt.Gv" onload="this.width/=2;this.onload=null;"/>
+<br><img src="{{ site.baseurl }}/assets/thumbs/10-04 WWY 03 Who Kidnapped Princess Saralinda.txt.gv.png" alt="10 04 WWY 03 Who Kidnapped Princess Saralinda.Txt.Gv" onload="this.width/=2;this.onload=null;"/>
 
 #### False Endings
 
-<br><img src="{{ site.baseurl }}/assets/illustrations/thumbs/13-70 Troll FF -- War of the Wizards.txt.gv.png" alt="13 70 Troll FF   War Of The Wizards.Txt.Gv" onload="this.width/=2;this.onload=null;"/>
-<br><img src="{{ site.baseurl }}/assets/illustrations/thumbs/13-72 Troll FF -- Magician's Ring.txt.gv.png" alt="13 72 Troll FF   Magician'S Ring.Txt.Gv" onload="this.width/=2;this.onload=null;"/>
+<br><img src="{{ site.baseurl }}/assets/thumbs/13-70 Troll FF -- War of the Wizards.txt.gv.png" alt="13 70 Troll FF   War Of The Wizards.Txt.Gv" onload="this.width/=2;this.onload=null;"/>
+<br><img src="{{ site.baseurl }}/assets/thumbs/13-72 Troll FF -- Magician's Ring.txt.gv.png" alt="13 72 Troll FF   Magician'S Ring.Txt.Gv" onload="this.width/=2;this.onload=null;"/>
 
 ### Reference Page
 
-<br><a href="{{ site.baseurl }}/assets/illustrations/images/10-01 WWY 01 Forest of Twisted Dreams, The.txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/10-01 WWY 01 Forest of Twisted Dreams, The.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<br><a href="{{ site.baseurl }}/assets/images/10-01 WWY 01 Forest of Twisted Dreams, The.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/10-01 WWY 01 Forest of Twisted Dreams, The.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
 
  Node 97 and 101
  
-<br><img src="{{ site.baseurl }}/assets/illustrations/thumbs/10-06 WWY 04 Ghost Knights of Camelot.txt.gv.png" alt="10 06 WWY 04 Ghost Knights Of Camelot.Txt.Gv" onload="this.width/=2;this.onload=null;"/>
+<br><img src="{{ site.baseurl }}/assets/thumbs/10-06 WWY 04 Ghost Knights of Camelot.txt.gv.png" alt="10 06 WWY 04 Ghost Knights Of Camelot.Txt.Gv" onload="this.width/=2;this.onload=null;"/>
 
 ### Shortcuts and Loopbacks
 
@@ -184,7 +184,7 @@ Most noticible in linear works. Multiple shortcuts create an optimal shortest pa
 
 <ul class="photo-gallery">
   {% for image in page.topics.shortcuts.images %}
-    <a href="{{ site.baseurl }}/assets/illustrations/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
   {% endfor %}
 </ul>
 
@@ -202,7 +202,7 @@ For the first example, see node 4. For the second example, see node sequence 88-
 
 <ul class="photo-gallery">
   {% for image in page.topics.loopbacks.images %}
-    <a href="{{ site.baseurl }}/assets/illustrations/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
   {% endfor %}
 </ul>
 
@@ -214,7 +214,7 @@ Other stories only have a single end, often a scoring system or total assessment
 
 <ul class="photo-gallery">
   {% for image in page.topics.convergent.images %}
-    <a href="{{ site.baseurl }}/assets/illustrations/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
   {% endfor %}
 </ul>
 
@@ -226,7 +226,7 @@ Second Choice always moves the reader further into the narrative
 
 <ul class="photo-gallery">
   {% for image in page.topics.choiceorder.images %}
-    <a href="{{ site.baseurl }}/assets/illustrations/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
   {% endfor %}
 </ul>
 
@@ -238,8 +238,8 @@ Second Choice always moves the reader further into the narrative
 
 What&#8217;s the difference between these two graphs?
 
-<br><a href="{{ site.baseurl }}/assets/illustrations/images/01-65v3 CYOA -- Vampire Express (broken).txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-65v3 CYOA -- Vampire Express (broken).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-<br><a href="{{ site.baseurl }}/assets/illustrations/images/01-39 CYOA -- Inside UFO 54-40.txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-39 CYOA -- Inside UFO 54-40.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<br><a href="{{ site.baseurl }}/assets/images/01-65v3 CYOA -- Vampire Express (broken).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-65v3 CYOA -- Vampire Express (broken).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<br><a href="{{ site.baseurl }}/assets/images/01-39 CYOA -- Inside UFO 54-40.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-39 CYOA -- Inside UFO 54-40.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
 <!--add 14-41 "You Can Be the Stainless Steel Rat" graph (also includes disconnected return nodes)-->
 
 ## Approaches to analysis
@@ -248,7 +248,7 @@ What&#8217;s the difference between these two graphs?
 
 <ul class="photo-gallery">
   {% for image in page.topics.identical.images %}
-    <a href="{{ site.baseurl }}/assets/illustrations/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
   {% endfor %}
 </ul>
 
@@ -256,7 +256,7 @@ What&#8217;s the difference between these two graphs?
 
 <ul class="photo-gallery">
   {% for image in page.topics.almostidentical.images %}
-    <a href="{{ site.baseurl }}/assets/illustrations/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
   {% endfor %}
 </ul>
 
@@ -266,51 +266,51 @@ What&#8217;s the difference between these two graphs?
 
 <h2>CYOA (The Cave of Time)</h2>
 
-<a href="{{ site.baseurl }}/assets/illustrations/images/01-01 CYOA -- Cave of Time, The.txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-01 CYOA -- Cave of Time, The.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-<a href="{{ site.baseurl }}/assets/illustrations/images/01-05 CYOA -- Cave of Time, The.txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-05 CYOA -- Cave of Time, The.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-<a href="{{ site.baseurl }}/assets/illustrations/images/01-07 CYOA -- Cave of Time, The (115).txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-07 CYOA -- Cave of Time, The (115).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<a href="{{ site.baseurl }}/assets/images/01-01 CYOA -- Cave of Time, The.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-01 CYOA -- Cave of Time, The.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<a href="{{ site.baseurl }}/assets/images/01-05 CYOA -- Cave of Time, The.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-05 CYOA -- Cave of Time, The.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<a href="{{ site.baseurl }}/assets/images/01-07 CYOA -- Cave of Time, The (115).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-07 CYOA -- Cave of Time, The (115).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
 	<br>
-<a href="{{ site.baseurl }}/assets/illustrations/images/01-07v2 CYOA -- Cave of Time, The (115).txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-07v2 CYOA -- Cave of Time, The (115).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<a href="{{ site.baseurl }}/assets/images/01-07v2 CYOA -- Cave of Time, The (115).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-07v2 CYOA -- Cave of Time, The (115).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
 
 <h2>CYOA (Who Killed Harlowe Thrombey)</h2>
 
-<img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-31 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png" onload="this.width/=2;this.onload=null;"/>
+<img src="{{ site.baseurl }}/assets/thumbs/01-31 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png" onload="this.width/=2;this.onload=null;"/>
 <br>
-<img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-32 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png"  onload="this.width/=2;this.onload=null;"/>
+<img src="{{ site.baseurl }}/assets/thumbs/01-32 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png"  onload="this.width/=2;this.onload=null;"/>
 <br>
-<img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-33 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png" onload="this.width/=2;this.onload=null;"/>
+<img src="{{ site.baseurl }}/assets/thumbs/01-33 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png" onload="this.width/=2;this.onload=null;"/>
 
 <h2>CYOA (Abominable Snowman)</h2>
 
-<img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-42 CYOA -- Abominable Snowman, The. (new edition from Jeremy collection).txt.gv.png" onload="this.width/=2;this.onload=null;"/>
-<img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-42 CYOA -- Abominable Snowman, The. (old edition from Katz collection).txt.gv.png" onload="this.width/=2;this.onload=null;"/>
-<img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-42b CYOA -- Abominable Snowman, The.txt.gv.png" onload="this.width/=2;this.onload=null;"/>
+<img src="{{ site.baseurl }}/assets/thumbs/01-42 CYOA -- Abominable Snowman, The. (new edition from Jeremy collection).txt.gv.png" onload="this.width/=2;this.onload=null;"/>
+<img src="{{ site.baseurl }}/assets/thumbs/01-42 CYOA -- Abominable Snowman, The. (old edition from Katz collection).txt.gv.png" onload="this.width/=2;this.onload=null;"/>
+<img src="{{ site.baseurl }}/assets/thumbs/01-42b CYOA -- Abominable Snowman, The.txt.gv.png" onload="this.width/=2;this.onload=null;"/>
 
 <h2>CYOA (Vampire Express)</h2>
 
-<a href="{{ site.baseurl }}/assets/illustrations/images/01-65 CYOA -- Vampire Express.txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-65 CYOA -- Vampire Express.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-<a href="{{ site.baseurl }}/assets/illustrations/images/01-65v2 CYOA -- Vampire Express (printing-error).txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-65v2 CYOA -- Vampire Express (printing-error).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-<a href="{{ site.baseurl }}/assets/illustrations/images/01-65v3 CYOA -- Vampire Express (broken).txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-65v3 CYOA -- Vampire Express (broken).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<a href="{{ site.baseurl }}/assets/images/01-65 CYOA -- Vampire Express.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-65 CYOA -- Vampire Express.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<a href="{{ site.baseurl }}/assets/images/01-65v2 CYOA -- Vampire Express (printing-error).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-65v2 CYOA -- Vampire Express (printing-error).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<a href="{{ site.baseurl }}/assets/images/01-65v3 CYOA -- Vampire Express (broken).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-65v3 CYOA -- Vampire Express (broken).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
 
 <h2>CYOA (Inside UFO 54-40)</h2>
 
 Node 117 choices are flipped
 
-<a href="{{ site.baseurl }}/assets/illustrations/images/01-39 CYOA -- Inside UFO 54-40.txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-39 CYOA -- Inside UFO 54-40.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-<a href="{{ site.baseurl }}/assets/illustrations/images/01-39v2 CYOA -- Inside UFO 54-40 (labeled).txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/01-39v2 CYOA -- Inside UFO 54-40 (labeled).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<a href="{{ site.baseurl }}/assets/images/01-39 CYOA -- Inside UFO 54-40.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-39 CYOA -- Inside UFO 54-40.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<a href="{{ site.baseurl }}/assets/images/01-39v2 CYOA -- Inside UFO 54-40 (labeled).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/01-39v2 CYOA -- Inside UFO 54-40 (labeled).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
 
 <h2>Dream Trips</h2>
-<a href="{{ site.baseurl }}/assets/illustrations/images/05-22 CYOA-YA -- Dream Trips (Go to any Page Version).txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/05-22 CYOA-YA -- Dream Trips (Go to any Page Version).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<a href="{{ site.baseurl }}/assets/images/05-22 CYOA-YA -- Dream Trips (Go to any Page Version).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/05-22 CYOA-YA -- Dream Trips (Go to any Page Version).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
 <br>
-<a href="{{ site.baseurl }}/assets/illustrations/images/05-22 CYOA-YA -- Dream Trips.txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/05-22 CYOA-YA -- Dream Trips.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<a href="{{ site.baseurl }}/assets/images/05-22 CYOA-YA -- Dream Trips.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/05-22 CYOA-YA -- Dream Trips.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
 
 <h2>EFT (Tenopia Island)</h2>
 
-<a href="{{ site.baseurl }}/assets/illustrations/images/11-11 EFT 01 Tenopia Island.txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/11-11 EFT 01 Tenopia Island.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<a href="{{ site.baseurl }}/assets/images/11-11 EFT 01 Tenopia Island.txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/11-11 EFT 01 Tenopia Island.txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
 <br>
-<a href="{{ site.baseurl }}/assets/illustrations/images/11-11v2 EFT 01 Tenopia Island (no maps).txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/11-11v2 EFT 01 Tenopia Island (no maps).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<a href="{{ site.baseurl }}/assets/images/11-11v2 EFT 01 Tenopia Island (no maps).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/11-11v2 EFT 01 Tenopia Island (no maps).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
 <br>
-<a href="{{ site.baseurl }}/assets/illustrations/images/11-11v3 EFT 01 Tenopia Island (no maps, simplified).txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/thumbs/11-11v3 EFT 01 Tenopia Island (no maps, simplified).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+<a href="{{ site.baseurl }}/assets/images/11-11v3 EFT 01 Tenopia Island (no maps, simplified).txt.gv.png"><img src="{{ site.baseurl }}/assets/thumbs/11-11v3 EFT 01 Tenopia Island (no maps, simplified).txt.gv.png" alt="image" onload="this.width/=2;this.onload=null;"/></a>
 
 
 ## Inspecting and Exploring
