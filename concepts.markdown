@@ -71,9 +71,6 @@ topics:
     -  image_path: 03-17 CYOA -- Alien, Go Home.txt.gv.png
     -  image_path: 10-73 Explorer 02 Destination Brain.txt.gv.png
     -  image_path: 13-76 Troll SIY -- Missing Rock Star Caper (117).txt.gv.png
-  this:
-    images:
-    -  image_path: 13-76 Troll SIY -- Missing Rock Star Caper (117).txt.gv.png
   interactive:
     images:
     -  image_path: 10-04 WWY 03 Who Kidnapped Princess Saralinda.txt.gv.png
