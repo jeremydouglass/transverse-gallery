@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "New website"
+date:   2017-08-28
+categories: tools
+---
+
+A new project website is up for Transverse Reading, featuring the ongoing research work of the team.
+
+One of the central features of the site is a gallery of all the narrative network visualizations produced by researchers working on surveying the Demian Katz Gamebook Collection at UCSB Library Special Collections. Arnhold Undergraduate Research Assistants will also post their short research write-ups to the site at the end of their RAship.
+
+

@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Research Meeting"
+date:   2017-08-29
+categories: events
+---
+
+Our research meeting is Tuesday Aug 29 at 2p in UCSB South Hall room 2509 (the Transcriptions Lab).
+
+The agenda:
+
+-  review work done so far in Special Collections
+-  talk about discoveries and difficulties
+-  plan next steps 
+
+Prepare before the meeting:
+
+1. Review the [Boxes gallery]({{ site.baseurl }}/boxes.html) of interactive narrative graphs organized by Katz Collection box number and identified by series. You may wish to zoom out the browser to see more -- or click on individaul images and zoom into them to inspect details.
+2. Review the [Concepts]({{ site.baseurl }}/concepts.html) page on classifications of narrative networks, feature identification, analysis and debugging.
+3. Fill out a short survey on the current state of your archival research, and your future interests <https://goo.gl/forms/t6itFh3xgYqIdAO52>

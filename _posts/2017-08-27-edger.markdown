@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Edger update"
+date:   2017-08-27
+categories: tools
+---
+
+(/ˈɛdɡɚ/) 
+
+A new version of the Edger software is available for download. Improvements:
+
+-  new interface
+-  save working directory between sessions without reloading
+-  change working directory without restarting
+-  style sheets to create different graph appearances
+-  default styles for marking beginnings, endings, reference pages
+-  custom visuals styles for personal keywords -- mark your own features
+-  better error handling
+
+The latest Edger is available here:
+
+-  <https://github.com/jeremydouglass/edger/archive/>
+
+Installation:
+
+1. delete your old version of Edger
+2. download zip from <https://github.com/jeremydouglass/edger/archive/master.zip>
+3. unzip
+4. run Edger using Processing
+
