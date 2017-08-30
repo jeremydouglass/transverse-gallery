@@ -85,9 +85,9 @@ topics:
   reference:
     images:
     -  image_path: 10-01 WWY 01 Forest of Twisted Dreams, The.txt.gv.png
-       caption: "Node 97 and 101"
-    -  image_path: 10-06 WWY 04 Ghost Knights of Camelot.txt.gv.png
        caption: ""
+    -  image_path: 10-06 WWY 04 Ghost Knights of Camelot.txt.gv.png
+       caption: "For examples of reference pages, see nodes 97 and 101"
   caveoftime:
     images:
     -  image_path: 01-01 CYOA -- Cave of Time, The.txt.gv.png
@@ -130,44 +130,31 @@ topics:
 
 ### Linear vs. Branching
 
-Some works have lots of choices at almost every turn &#8212; they are more game-like. Others involve long series of passages with few or occassional choices &#8212; they are more novel-like.
+Some works have lots of choices at almost every turn -- they are more game-like. Others involve long series of passages with few or occassional choices -- they are more novel-like.
 
 "Wide" vs. "Tall": With a left-to-right graph flow, linear-heavy works will have very wide graphs, while branch-heavy works will be very tall.
 
 #### Linear-heavy (wide)
 
-<ul class="photo-gallery">
-  {% for image in page.topics.linearheavy.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-	<br><br>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.linearheavy.images break=true %}
 
 #### Branch-heavy (tall)
 
-&#8220;Arboreal,&#8221; or tree-like &#8212; most of the nodes are choices, and there are many choices, generally leading to many endings.
+"Arboreal," or tree-like -- most of the nodes are choices, and there are many choices, generally leading to many endings.
 
-<ul class="photo-gallery">
-  {% for image in page.topics.branchheavy.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.branchheavy.images %}
 
 ### Hierarchical vs. Web
 
 (Arboreal vs Rhizomatic -- fern-like vs. stringy, spaghetti-looking)
 
-Many works (whether the branch or are linear) tend to proceed in order &#8212; shallow pages are reached first, deep pages are reached later. The train may switch tracks, but all the rails are running in the same direction. Such story networks tend to produce branching tree structures with perhaps a few extra edges jumping across and between them.
+Many works (whether the branch or are linear) tend to proceed in order -- shallow pages are reached first, deep pages are reached later. The train may switch tracks, but all the rails are running in the same direction. Such story networks tend to produce branching tree structures with perhaps a few extra edges jumping across and between them.
 
 Other works are more web-like. For example they may be organized narratively not around the passage of time, but around movement through a series of interconnected spaces which can be visited in any order.
 
 When web-like story networks are laid out heirarchically they tend to produce large quantities of loops that move around the main network in every direction. Sometimes taking such networks into yEd and laying them out with another algorithm (e.g. Organic or Radial) can better reveal how the story network works.
 
-<ul class="photo-gallery">
-  {% for image in page.topics.rhizomatic.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.rhizomatic.images %}
 
 (See [Exploring section](#exploring) for Yed representation below)
 
@@ -175,63 +162,31 @@ When web-like story networks are laid out heirarchically they tend to produce la
 
 ### Branch Nodes and Merge Nodes
 
-branch node &#8212; the elevator (7 buttons). Graph vocab: &#8220;outdegree&#8221;
+branch node -- the elevator (7 buttons). Graph vocab: "outdegree"
 
-<ul class="photo-gallery">
-  {% for image in page.topics.branchnodes.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.branchnodes.images %}
 
-Merge nodes &#8212; a local funnel (see also convergent endings) Graph vocab: &#8220;indegree&#8221; 
+Merge nodes -- a local funnel (see also convergent endings) Graph vocab: "indegree" 
 
-<ul class="photo-gallery">
-  {% for image in page.topics.mergenodes.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.mergenodes.images %}
 
-Branch-merge &#8212; Very high degree node. See log for &#8220;interesting&#8221; nodes listed from any given graph, they will be branches or merges.
+Branch-merge -- Very high degree node. See log for "interesting" nodes listed from any given graph, they will be branches or merges.
 
-<ul class="photo-gallery">
-  {% for image in page.topics.branchmerge.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.branchmerge.images %}
 
 ### Computing Fake Nodes
 
-
 #### Interactive Nodes
 
-<ul class="photo-gallery">
-  {% for image in page.topics.interactive.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.interactive.images %}
 
 #### False Endings
 
-<ul class="photo-gallery">
-  {% for image in page.topics.falseendings.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.falseendings.images %}
 
 ### Reference Page
 
-<ul class="photo-gallery">
-  {% for image in page.topics.reference.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a><br>
-	{{ image.caption }}<br>
-  {% endfor %}
-</ul>
-
-
-
-
-
-
+{% include gallery.html imagelist=page.topics.reference.images %}
 
 ### Shortcuts and Loopbacks
 
@@ -243,13 +198,9 @@ Branch-merge &#8212; Very high degree node. See log for &#8220;interesting&#8221
 
 (Long forward arrows)
 
-Most noticible in linear works. Multiple shortcuts create an optimal shortest path to the end &#8212; the work may have a story 50 lexias deep, but one can reach the finish by only reading 6 lexias. (see log: &#8220;diameter&#8221;)
+Most noticible in linear works. Multiple shortcuts create an optimal shortest path to the end -- the work may have a story 50 lexias deep, but one can reach the finish by only reading 6 lexias. (see log: "diameter")
 
-<ul class="photo-gallery">
-  {% for image in page.topics.shortcuts.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.shortcuts.images %}
 
 #### Loopbacks
 
@@ -263,23 +214,15 @@ Most noticible in linear works. Multiple shortcuts create an optimal shortest pa
 
 For the first example, see node 4. For the second example, see node sequence 88->18->1.
 
-<ul class="photo-gallery">
-  {% for image in page.topics.loopbacks.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.loopbacks.images %}
 
 ### Convergent Endings
 
-Some convergent ending patterns funnel together many &#8220;lose&#8221; endings, leaving a separate &#8220;win&#8221; ending. 
+Some convergent ending patterns funnel together many "lose" endings, leaving a separate "win" ending. 
 
 Other stories only have a single end, often a scoring system or total assessment -- or a public service announcement / moral message.
 
-<ul class="photo-gallery">
-  {% for image in page.topics.convergent.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.convergent.images %}
 
 ### Choice Ordering
 
@@ -287,25 +230,17 @@ Ordered vs. Disordered Choices
 
 Second Choice always moves the reader further into the narrative
 
-<ul class="photo-gallery">
-  {% for image in page.topics.choiceorder.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.choiceorder.images %}
 
 ### Fragments and Floating Nodes
 
 (disconnected parts of the graph)
 
-&#8220;Orphans&#8221;
+"Orphans"
 
-What&#8217;s the difference between these two graphs?
+What's the difference between these two graphs?
 
-<ul class="photo-gallery">
-  {% for image in page.topics.fragments.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.fragments.images %}
 
 <!--add 14-41 "You Can Be the Stainless Steel Rat" graph (also includes disconnected return nodes)-->
 
@@ -313,79 +248,43 @@ What&#8217;s the difference between these two graphs?
 
 ### Identical Graphs
 
-<ul class="photo-gallery">
-  {% for image in page.topics.identical.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.identical.images %}
 
 ### Almost Identical Graphs
 
-<ul class="photo-gallery">
-  {% for image in page.topics.almostidentical.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.almostidentical.images %}
 
 <h1>Comparative examples</h1>
 
 <h2>CYOA (The Cave of Time)</h2>
 
-<ul class="photo-gallery">
-  {% for image in page.topics.caveoftime.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.caveoftime.images %}
 
 <h2>CYOA (Who Killed Harlowe Thrombey)</h2>
 
-<ul class="photo-gallery">
-  {% for image in page.topics.thrombey.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.thrombey.images %}
 
 <h2>CYOA (Abominable Snowman)</h2>
 
-<ul class="photo-gallery">
-  {% for image in page.topics.snowman.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.snowman.images %}
 
 <h2>CYOA (Vampire Express)</h2>
 
-<ul class="photo-gallery">
-  {% for image in page.topics.vampire.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.vampire.images %}
 
 <h2>CYOA (Inside UFO 54-40)</h2>
 
 Node 117 choices are flipped
 
-<ul class="photo-gallery">
-  {% for image in page.topics.ufo.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.ufo.images %}
 
 <h2>Dream Trips</h2>
 
-<ul class="photo-gallery">
-  {% for image in page.topics.dreamtrips.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.dreamtrips.images %}
 
 <h2>EFT (Tenopia Island)</h2>
 
-<ul class="photo-gallery">
-  {% for image in page.topics.tenopia.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include gallery.html imagelist=page.topics.tenopia.images %}
 
 ## Inspecting and Exploring
 

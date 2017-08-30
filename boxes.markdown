@@ -467,7 +467,7 @@ Boxes {% for box in page.boxes %} | <a href="#box{{ box.box_number }}">{{ box.bo
     {% for series in box.series %}
     <h3>{{ series.series_name }}</h3>
       {% for image in series.images %}
-      <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+        {% include graph.html graph=image.image_path scale="2" %}
       {% endfor %}
     {% endfor %}
   {% endfor %}
