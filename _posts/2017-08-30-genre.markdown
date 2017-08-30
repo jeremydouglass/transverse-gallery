@@ -1,0 +1,72 @@
+---
+layout: post
+title:  "Genre Research Group"
+date:   2017-08-30
+categories: research
+topics:
+  romance:
+    images:
+    - image_path: "14-05 Turning Points 01 Friends Forever.txt.gv.png"
+    - image_path: "14-10 Follow Your Heart Romance 01 Summer in the Sun.txt.gv.png"
+    - image_path: "14-23 Confidentially Yours -- Confidentially Yours.txt.gv.png"
+  turningpoints:
+    images:
+    - image_path: "14-05 Turning Points 01 Friends Forever.txt.gv.png"
+    - image_path: "14-06 Turning Points 02 Kerry's Dance.txt.gv.png"
+    - image_path: "14-07 Turning Points 03 Valentine for Betsy.txt.gv.png"
+    - image_path: "14-08 Turning Points 04 Forget Me Not.txt.gv.png"
+  followheart:
+    images:
+    - image_path: "14-10 Follow Your Heart Romance 01 Summer in the Sun.txt.gv.png"
+    - image_path: "14-11 Follow Your Heart Romance 04 Sun, Sea and Boys.txt.gv.png"
+    - image_path: "14-12 Follow Your Heart Romance 08 Lots of Boys.txt.gv.png"
+    - image_path: "14-13 Follow Your Heart Romance 10 Seven Boy Vacation.txt.gv.png"
+  confidentially:
+    images:
+    - image_path: "14-23 Confidentially Yours -- Confidentially Yours.txt.gv.png"
+    - image_path: "14-24 Confidentially Yours -- Breaking Up is Hard to Do.txt.gv.png"
+---
+
+Greetings, GameKatz!
+
+I'm currently developing a research group for interrogating the relevance of _genre_ to the narrative structures of gamebooks. As you may have already noticed, such relevance is not immediately apparent. In overviewing the graphs produced thus far, it's easy to spot recurrent and congruent narrative structures within a specific _series_ and sometimes even amongst a specific _author_. However, correlations between narrative structures of the same genre remain elusive. See, for example, the graphs below:
+
+<ul class="photo-gallery">
+  {% for image in page.topics.romance.images %}
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+  {% endfor %}
+</ul>
+
+These series--- _Turning Points_, _Follow Your Heart_, and _Confidentially Yours_ ---all fall within the Romance genre, but the narrative structures appear to have nothing in common. If one were to review each series separately, it appears that structural congruence correlates much stronger with _series_ than _genre_.
+
+<ul class="photo-gallery">
+  {% for image in page.topics.turningpoints.images %}
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+  {% endfor %}
+</ul>
+
+<ul class="photo-gallery">
+  {% for image in page.topics.followheart.images %}
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+  {% endfor %}
+</ul>
+
+<ul class="photo-gallery">
+  {% for image in page.topics.confidentially.images %}
+    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
+  {% endfor %}
+</ul>
+
+Each _Turning Points_ gamebook has an incredibly linear structure, ultimately culminating in a choice between two endings. Each _Follow Your Heart_ gamebook has a classical arboreal, or tree-like, structure, bearing much more in common with the prototypical CYOA series. Each _Confidentially Yours_ gamebook is split into two narratives (one for each letter), and each of these narratives remain fairly linear, diverging into two or three branches that never intersect or branch out any further. 
+
+But all of these are Romance gamebooks. Shouldn't that matter?
+
+It might not. But theoretically there should be some kind of correlation or interaction between generic codes and narrative structure. Generally speaking, these two elements are not entirely separable, as if the narrative structure is merely an empty vessel in which to pour whatever generic conventions one wishes. Or perhaps they are in the realm of gamebooks? And, if they are, what might be the implications for the larger field of genre studies?
+
+As you may have noticed, this research group will be entering fairly unchartered territory, and it isn't entirely clear that will be able to discover any meaningful connection between genre and narrative structure (although, of course, that could also be a meaningful discovery, leading to ever-more questions!). As mentioned above, at first glance, there doesn't appear to be one. However, this may result more from our current approach to graphing the gamebooks (the elements we've been encoding or highlighting). Perhaps we can find generic congruence at another level of the text, through, say, more rigorous labeling of nodes and edges to elucidate recurring generic conventions at a more localized level than provided by the overview of entire narrative structures. For example, the overall structure of _Turning Points_ may not have anything in common with other Romance gamebooks, but perhaps branching node at the end providing a selection between two different boyfriends recurs throughout the genre at a more localized level. However, such recurrences remain hidden so long as these branches remain unlabeled. 
+
+In addition to encoding more specific data for each gamebook (e.g. edge labels), we will also undertake the generic classification of gamebooks in multi-generic series. [Gamebooks.org](https://www.gamebooks.org) provides metadata for genre, but only at the level of series. As such, a series like CYOA is categoried as nine different genres, but the individual books in this series are not as yet categorized. Part of the Genre Research group project will involve identifying the genre of these individual books, so that we can categorize the graphs accordingly. 
+
+Afterwards, each researcher will immerse themselves within a specific genre, moving beyond merely encoding page turns toward (1) labeling edges and nodes; (2) identifying recurring instructions or rules; (3) analyzing the function of illustrations within the narrative; and (4) developing a new Edger style sheet to elucidate these as yet hidden properties. 
+
+All of you have mastered encoding page-turns by now; this project will provide the opportunity to further explore the functionality of graphing tools (Edger, Graphvis, YEd) in order to explore new elements of the texts and their interrelations among and across genres. If you're interested in joing the Genre Research Group, please email [Ryan Leach](rkleach@umail.ucsb.edu) with a short description of what interests you about the project and the main genres that you would like to explore. 
