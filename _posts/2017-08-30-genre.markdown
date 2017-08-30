@@ -67,6 +67,17 @@ As you may have noticed, this research group will be entering fairly unchartered
 
 In addition to encoding more specific data for each gamebook (e.g. edge labels), we will also undertake the generic classification of gamebooks in multi-generic series. [Gamebooks.org](https://www.gamebooks.org) provides metadata for genre, but only at the level of series. As such, a series like CYOA is categoried as nine different genres, but the individual books in this series are not as yet categorized. Part of the Genre Research group project will involve identifying the genre of these individual books, so that we can categorize the graphs accordingly. 
 
-Afterwards, each researcher will immerse themselves within a specific genre, moving beyond merely encoding page turns toward (1) labeling edges and nodes; (2) identifying recurring instructions or rules; (3) analyzing the function of illustrations within the narrative; and (4) developing a new Edger style sheet to elucidate these as yet hidden properties. 
+Afterwards, each researcher will immerse themselves within a specific genre, moving beyond merely encoding page turns toward [descriptive phrase].
 
-All of you have mastered encoding page-turns by now; this project will provide the opportunity to further explore the functionality of graphing tools (Edger, Graphvis, YEd) in order to explore new elements of the texts and their interrelations among and across genres. If you're interested in joing the Genre Research Group, please email [Ryan Leach](rkleach@umail.ucsb.edu) with a short description of what interests you about the project and the main genres that you would like to explore. 
+1. develop a set of labels used to identify features of interest in your genre / topic
+2. labeling edges and nodes
+3. identifying recurring instructions or rules
+4. analyzing the function of illustrations within the narrative
+5. developing a new Edger style sheet to elucidate these as yet hidden properties
+
+All of you have mastered encoding page-turns by now; this project will provide the opportunity to further explore the functionality of graphing tools (Edger, Graphvis, YEd) in order to explore new elements of the texts and their interrelations among and across genres. If you're interested in joining the Genre Research Group, please email me with:
+
+1. a short description of what interests you about the project.
+2. a list or description of the main genre or genres that you would like to explore.
+
+[Ryan Leach](rkleach@umail.ucsb.edu)
