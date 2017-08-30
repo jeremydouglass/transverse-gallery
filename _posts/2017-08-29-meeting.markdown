@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Research Meeting"
+title:  "Meeting 8-29"
 date:   2017-08-29
 categories: events
 ---

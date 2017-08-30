@@ -5,7 +5,7 @@ date:   2017-08-25
 categories: tools
 ---
 
-### For Undergraduate Research Assistants:
+### For Research Assistants:
 
 -  [Shared cloud folder]() (GDrive) -- for uploading completed network encodings and sharing materials
    -  [Katz Data upload folder](https://drive.google.com/drive/u/0/folders/0BwBRb4YK4iSQaVhUSm9PS3l5MDA)
