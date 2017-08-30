@@ -67,7 +67,7 @@ As you may have noticed, this research group will be entering fairly unchartered
 
 In addition to encoding more specific data for each gamebook (e.g. edge labels), we will also undertake the generic classification of gamebooks in multi-generic series. [Gamebooks.org](https://www.gamebooks.org) provides metadata for genre, but only at the level of series. As such, a series like CYOA is categoried as nine different genres, but the individual books in this series are not as yet categorized. Part of the Genre Research group project will involve identifying the genre of these individual books, so that we can categorize the graphs accordingly. 
 
-Afterwards, each researcher will immerse themselves within a specific genre, moving beyond merely encoding page turns toward [descriptive phrase].
+Afterwards, each researcher will immerse themselves within a specific genre, moving beyond merely encoding page turns toward developing a unique descriptive vocabulary to use in your encoding efforts -- in short, do develop not only your unique map of a genre, but mapping methods that are uniquely appropriate to that genre.
 
 1. develop a set of labels used to identify features of interest in your genre / topic
 2. labeling edges and nodes
