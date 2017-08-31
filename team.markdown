@@ -6,6 +6,15 @@ date:  2017-08-31
 
 # Research Team
 
+## Faculty Project Leader
+
+- Jeremy Douglass
+
+## Graduate Research Advisors
+
+- Alanna Bartolini
+- Ryan Leach
+
 ## Undergraduate Research Fellows
 
 - Sarah Cifranic
@@ -18,11 +27,6 @@ date:  2017-08-31
 - Yee-Ann Wong
 
 
-## Graduate Research Advisors
 
-- Alanna Bartolini
-- Ryan Leach
 
-## Faculty Project Leader
 
-- Jeremy Douglass
