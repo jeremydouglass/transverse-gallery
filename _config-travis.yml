@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   A gallery of interactive narrative graph visualizations created
   by the UCSB Transverse Reading Project, working with the materials
   of the Demian Katz Collection.
-baseurl: "/transverse-gallery" # the subpath of your site, e.g. /blog
+# baseurl: "/transverse-gallery" # the subpath of your site, e.g. /blog
 url: "https://jeremydouglass.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
