@@ -80,4 +80,4 @@ All of you have mastered encoding page-turns by now; this project will provide t
 1. a short description of what interests you about the project.
 2. a list or description of the main genre or genres that you would like to explore.
 
-[Ryan Leach](rkleach@umail.ucsb.edu)
+[Ryan Leach](mailto:rkleach@umail.ucsb.edu)
