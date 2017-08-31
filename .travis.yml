@@ -5,13 +5,14 @@ rvm:
 # before_script:
 # - chmod +x ./.ci/cibuild
 # 
+# script: ./.ci/cibuild
+# install: gem install jekyll html-proofer
+# 
 # The `install` step will run `bundle install` by default.
 # install: bundle install
-# 
-# script: ./.ci/cibuild
 
-install: gem install jekyll html-proofer
-script: jekyll build && htmlproofer ./_site --disable-external
+# script: jekyll build && htmlproofer ./_site --disable-external
+script: bundle install jekyll build --config _config-travis.yml && htmlproofer --assume-extension --disable-external ./_site
 
 # branch whitelist for GitHub Pages
 branches:
