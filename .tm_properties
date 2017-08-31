@@ -1,0 +1,11 @@
+[ *.markdown ]
+softTabs = true
+tabSize = 2
+
+[ *.yml ]
+softTabs = true
+tabSize = 2
+
+[ .*.yml ]
+softTabs = true
+tabSize = 2
