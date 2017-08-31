@@ -12,7 +12,7 @@ rvm:
 # install: bundle install
 
 # script: jekyll build && htmlproofer ./_site --disable-external
-script: bundle install jekyll build --config _config-travis.yml && htmlproofer --assume-extension --disable-external ./_site
+script: bundle exec jekyll build --config _config-travis.yml && htmlproofer --assume-extension --disable-external ./_site
 
 # branch whitelist for GitHub Pages
 branches:
