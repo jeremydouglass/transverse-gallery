@@ -1,1 +1,3 @@
-<a href="{{ site.baseurl }}/assets/images/{{ include.graph }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ include.graph }}" alt="image" onload="this.width/={{ include.scale | default=:2 }};this.onload=null;"/></a>
+{% assign nameparts = include.graph | split: ' ' %}
+{{ nameparts[0] | slice: 0, 5 }}
+<a href="{{ site.baseurl }}/gamebooks/{{ nameparts[0] | slice: 0, 5 }}.html"><img src="{{ site.baseurl }}/assets/thumbs/{{ include.graph }}" alt="image" onload="this.width/={{ include.scale | default=:2 }};this.onload=null;"/></a><a href="{{ site.baseurl }}/assets/images/{{ include.graph }}">*</a>
