@@ -1,0 +1,39 @@
+digraph g{
+  graph [ label="05-73 CYOA-YR -- You Can Make a Difference The Story of Martin Luther King Jr..txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  1 -> 2;
+  2 -> 8;
+  7 -> 19;
+  8 -> 16;
+  9 -> 38;
+  10 -> 40;
+  12 -> 34;
+  15 -> 24;
+  16 -> 43;
+  16 -> 28;
+  18 -> 10;
+  18 -> 21;
+  19 -> 37;
+  21 -> 7;
+  21 -> 27;
+  23 -> 41;
+  24 -> 9;
+  24 -> 50;
+  26 -> 33;
+  27 -> 31;
+  28 -> 44;
+  28 -> 46;
+  31 -> 23;
+  32 -> 12;
+  34 -> 4;
+  38 -> 49;
+  41 -> 24;
+  41 -> 15;
+  43 -> 18;
+  44 -> 26;
+  46 -> 53;
+  46 -> 54;
+  49 -> 32;
+}
+

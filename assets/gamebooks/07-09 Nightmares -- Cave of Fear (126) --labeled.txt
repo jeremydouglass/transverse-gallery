@@ -1,0 +1,143 @@
+6		S
+6	7
+7	8
+8	9
+9	10
+10	11
+11	12
+12	13
+13	14
+14	15
+15	16
+16	17
+17	18	head down
+	78	head up
+18	19	play with girl
+	24	keep going
+19	20
+20	21
+21	22
+22	23
+23		E
+24	25	left
+	39	enter
+	45	exit
+25	26	left
+	30	right
+26	27
+27	28
+28	29
+29		E
+30	31	grab ropes
+	36	head back
+31	32
+32	33
+33	34
+34	35
+35		E
+36	37
+37	38
+38		WIN
+39	40
+40	41
+41	42
+42	43
+43	44
+44		WIN
+45	46
+46	47
+47	48	check out house
+	55	leave the house
+48	49
+49	50
+50	51
+51	52
+52	53
+53	54
+54		E
+55	56
+56	57	go with Roger
+	67	don’t go
+57	58
+58	59
+59	60	play
+	64	don’t play
+60	61
+61	62
+62	63
+63		E
+64	65
+65	66
+66		WIN
+67	68	
+68	69	keep going
+	74	stop
+69	70
+70	71
+71	72
+72	73
+73		WIN
+74	75
+75	76
+76	77
+77		E
+78	79	push button
+	121	continue on
+79	80	push 1
+	81	push 2
+	82	push 3
+	91	push 4
+	92	push 5
+	103	push 6
+	108	push 7
+80		E
+81		E
+82	83
+83	84
+84	85
+85	86
+86	87	trade
+	90	don’t trade
+87	88
+88	89
+89		E
+90		WIN
+91		WIN
+92	93
+93	94	know your future
+	102	decide not to
+94	95
+95	96
+96	97
+97	98
+98	99
+99	100
+100	101
+101		E
+102	79
+103	104
+104	105	swim back
+	109	find it impossible
+105	106
+106	107
+107		E
+108		WIN
+109	110	climb the hill
+	114	follow the shore
+110	111
+111	112
+112	113
+113		WIN
+114	115
+115	116
+116	117
+117	118
+118	119
+119	120
+120		E
+121	122
+122	123
+123	124
+124	125
+125	126
+126		E

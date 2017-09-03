@@ -1,0 +1,149 @@
+# 10-04 WWY 03 Who Kidnapped Princess Saralinda
+# Jeremy Douglass
+# 2017-08-16
+
+1		S
+1	2
+2	3
+3	4
+4	5
+5	11
+	9
+6		6-7 Map
+8	24
+	13
+9	101		# The Book of Weapons reference -- return
+	10
+10	21
+	15
+	26
+11	97		# The Book of Spells reference -- return
+	6		# Map reference -- return
+	8
+	18
+	36
+12	88
+13	11
+14	31
+	64
+15	33
+	90
+16		E
+17	37
+18	42
+19	46
+	22
+20	89
+21	29
+22	46
+	10
+23	28		# If you think this number means that you will find the Princess on PAGE 28, go there now
+	12
+	11
+	1000		# If you think you have already discovered the solution to this crime, you'll know what to do with this magical number. Do it now!
+24	18
+	94
+25	32
+	30
+26	52
+	92
+27	45
+29	84
+29	10
+30	55
+31	87
+32	17
+33	34
+34	10
+35	41
+36	37
+37	12
+	20
+	25
+38	39
+39	47
+41	58
+42	56
+	78
+43	60
+44	53
+	65
+45	57
+	62
+46	10
+47	50
+48	68
+	85
+49	26
+	66
+50	76
+	91
+51		E
+52	16
+	27
+53	72
+54	43
+55	32
+	5500
+5500		55-E
+56	51
+	23
+57		E
+58	59
+59	74
+	67
+60	79
+	75
+61	35
+	77
+62	92
+64		E
+65		E
+66	73
+	26
+67	54
+68		E
+69	70
+70	71
+71	95
+72	14
+73	10
+74		E
+75	69
+	7500
+7500		75-E
+76	80
+77		E
+78		E
+79	69
+80	1000		# Reverse the digits now, and go to that page
+	18
+81		E
+82	95
+84	19
+	22
+85	86
+86	38
+87	38
+88	36
+89	44
+	48
+90	49
+	81
+91		E
+92	93
+93	61
+94	18
+95		E	# the good ending
+
+# REFERENCES
+97		97 The Book of Spells	# reference
+101		101 The Book of Weapons	# reference
+
+# suggestion to restart character selection -- messes up graph layout
+# 95	9		# restart -- If you choose to begin your next adventure now as a Warrior (9)
+# 95 	11		# restart -- If you choose to begin your next adventure now as a Wizard (11)
+
+# fake lexia to mark a virtual, computed page
+1000	82		# (the reversed answer)
+1000		(28 reversed)

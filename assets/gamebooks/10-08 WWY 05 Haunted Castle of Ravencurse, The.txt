@@ -1,0 +1,136 @@
+# 10-08 WWY 05 The Haunted Castle of Ravencurse
+# Jeremy Douglass
+# 2017-08-17
+
+1		S
+1	3
+3	4
+4	5
+5	10
+5	9
+8	21
+8	27
+8	18
+9	101	refer	# reference Weapons
+	6	refer	# reference Map
+	15
+10	97	refer	# reference Weapons
+	6	refer	# reference Map
+	14
+11	12	
+12	22
+	17
+13	45
+	95
+14	71
+	11
+15	16
+16	19
+	8
+17		E
+18	24
+19	20
+20	31
+	33
+21	24
+22	34
+24	25
+25	36
+	40
+26		E
+27		E
+28	29
+29	87
+30	34
+31	24
+32		E
+34	35
+35	41
+	26
+36	38
+38	28
+	43
+39		E
+40	49
+	87
+41	42
+42	60
+	48
+43	67
+	57
+44	87
+	68
+45	50
+46	56
+	75
+47	74	!	# If you are reading this book anytime between midnight and 3P
+	61
+48	13
+49	85
+50	70
+51	82
+	64
+52	79
+	32
+53		E
+54	69
+55	44
+	72
+	80
+56	83
+	69
+57	87
+58	62
+	73
+	51
+60	50
+61	83
+	69
+62		E
+63		E
+64	68
+	49
+65	90
+66	46
+	47
+67		E
+68	86	!	# missing lexia number due to illustration
+69	88
+70	66
+71	30
+	39
+72	68
+	87
+73	89
+74		E
+75		E
+76		E
+77	63
+78		E
+79	93
+80		E
+81	93
+82		E
+83	84
+84	53
+	54
+85	77
+	55
+86	76
+	65
+87	94
+88	52
+	78
+89	68
+	49
+90	92
+92	81	!	# ending with mid-lexia link
+92		E
+93		E
+94	58
+95		E
+
+# REFERENCES
+6		6-7 Map					# reference
+97		97 The Book of Spells	# reference
+101		101 The Book of Weapons	# reference

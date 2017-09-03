@@ -1,0 +1,27 @@
+5		chapter 1
+5	17
+17		chapter 2
+17	27
+27		chapter 3
+27	37
+37		chapter 4
+37	51
+51		chapter 5
+51	63
+63		chapter 6
+63	73
+73		chapter 7
+73	81
+81		chapter 8
+81	95
+95		chapter 9
+95	107
+107		chapter 10
+107	117
+117		chapter 11
+117	127
+127		the choice
+127	129
+	143
+129		ending 1
+143		ending 2

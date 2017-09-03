@@ -1,0 +1,35 @@
+digraph g{
+  graph [ label="05-72 CYOA-YR -- Stranded!.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  1 -> 6;
+  3 -> 22;
+  3 -> 10;
+  6 -> 16;
+  10 -> 39;
+  10 -> 25;
+  11 -> 33;
+  14 -> 45;
+  14 -> 36;
+  16 -> 3;
+  17 -> 27;
+  21 -> 34;
+  22 -> 14;
+  25 -> 21;
+  25 -> 41;
+  27 -> 29;
+  27 -> 12;
+  29 -> 50;
+  29 -> 4;
+  30 -> 19;
+  31 -> 52;
+  36 -> 46;
+  39 -> 17;
+  41 -> 48;
+  41 -> 31;
+  42 -> 9;
+  46 -> 11;
+  46 -> 30;
+  48 -> 42;
+}
+

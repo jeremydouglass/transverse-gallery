@@ -1,0 +1,67 @@
+# 10-72 Explorer 01 Journey to the Center of the Atom
+# Jeremy Douglass
+# 2017-08-18
+# 2:30 -
+
+# This book uses:
+# -  page numbers for references
+# -  an extensive preface of unnumbered pages
+
+1		S
+1	7
+4	23
+	10
+7	19
+	13
+10	17
+13	19
+17	26
+	29
+19	4
+	36
+23	43
+	45
+26	23
+29		E
+31	71
+	69
+36	23
+39	67
+	31
+43		E
+45	51
+	55
+49	53
+	63
+51		E
+53	63
+	57
+55	49
+	53
+57	61
+	63
+59	65
+61	59
+	65
+63	39
+65	63
+67	31
+69		E
+71	81
+73	88
+	98
+79	73
+	85
+81	79
+85		E
+87	96
+88	92
+90	94
+92	90
+	94
+94	102
+96	107
+98		E
+102	96
+	87
+107		WIN	# mission completed

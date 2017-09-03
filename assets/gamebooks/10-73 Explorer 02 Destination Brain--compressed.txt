@@ -1,0 +1,54 @@
+# 10-73 Explorer 02 Destination Brain
+# Jeremy Douglass
+# 2017-08-21
+
+# This book uses:
+# -  page numbers for references
+# -  an extensive preface of unnumbered pages -- and an appendix
+
+1		S
+1	5
+5	11
+6	18
+11	6
+	18
+15	23
+18	27
+23	31
+27	15
+	23
+31	41
+	44
+35	66
+	57
+	60
+41		E
+44	35
+	54
+49	35
+54	49
+57		E
+60	68
+66		E
+68	76
+	74
+71		E
+74	80
+	90
+76	74
+80	71
+	88
+83	93
+88	83
+	93
+90	71
+	88
+93	103
+	99
+97		E
+99	97
+	105
+103		E
+105	109
+109		WIN
+

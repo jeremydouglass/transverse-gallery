@@ -1,0 +1,40 @@
+digraph g{
+  graph [ label="05-69  CYOA-YR -- Spooky Thanksgiving.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  1 -> 6;
+  2 -> 8;
+  2 -> 13;
+  5 -> 19;
+  5 -> 45;
+  6 -> 10;
+  8 -> 9;
+  9 -> 14;
+  10 -> 2;
+  13 -> 5;
+  14 -> 26;
+  15 -> 34;
+  15 -> 36;
+  17 -> 23;
+  19 -> 33;
+  19 -> 52;
+  20 -> 11;
+  23 -> 30;
+  23 -> 39;
+  24 -> 25;
+  25 -> 22;
+  26 -> 17;
+  29 -> 24;
+  30 -> 31;
+  31 -> 37;
+  34 -> 29;
+  36 -> 48;
+  37 -> 20;
+  39 -> 15;
+  43 -> 50;
+  45 -> 40;
+  48 -> 43;
+  50 -> 54;
+  52 -> 46;
+}
+
