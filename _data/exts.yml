@@ -1,0 +1,5 @@
+data:     ".txt"
+log:      ".txt.log.txt"
+yed:      ".txt.tgf"
+graphviz: ".txt.gv"
+image:    ".txt.gv.png"
