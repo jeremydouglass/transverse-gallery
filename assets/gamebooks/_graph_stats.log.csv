@@ -1,0 +1,445 @@
+File,Nodes,Diameter,AvgDegree,Top Nodes
+"01-01 CYOA -- Cave of Time, The.txt",103,20.00,2.06,"25, 10, 61, 11, 55"
+"01-05 CYOA -- Cave of Time, The.txt",109,23.00,2.04,"25, 10, 61, 11, 55"
+"01-07 CYOA -- Cave of Time, The (115).txt",112,23.00,2.04,"25, 10, 61, 11, 55"
+"01-07v2 CYOA -- Cave of Time, The (115).txt",97,16.00,2.16,"6, 9, 50, 55, 64"
+01-14 CYOA -- By Balloon to the Sahara.txt,108,17.00,2.28,"32, 88, 3, 19, 22, 18, 34, 24, 27, 36, 44"
+01-16 CYOA -- Space and Beyond.txt,108,19.00,2.07,"2, 3"
+"01-20 CYOA -- Mystery of Chimney Rock, The.txt",106,16.00,2.21,"48, 8, 10, 25, 50, 69, 66, 71, 110"
+01-24 CYOA -- Your Code Name is Jonah.txt,96,21.00,2.27,"52, 53, 4, 6, 10, 29, 49, 38, 107"
+"01-27 CYOA -- Third Planet from Altair, The.txt",102,18.00,2.12,"6, 9, 10, 12, 34, 27, 101, 92"
+01-29 CYOA -- Deadwood City.txt,97,16.00,2.23,"15, 41, 3, 11, 12, 14, 16, 19, 34, 36, 38, 44"
+01-31 CYOA -- Who Killed Harlowe Thrombey.txt,102,15.00,2.92,"101, 89, 34, 44, 19, 95, 60, 119, 122, 10, 47, 48, 41, 36, 43, 62, 85, 79, 59, 78, 111, 114, 116, 118"
+01-32 CYOA -- Who Killed Harlowe Thrombey.txt,102,13.00,2.94,"101, 89, 34, 44, 19, 95, 85, 60, 114, 119, 122, 10, 47, 48, 41, 36, 43, 62, 79, 59, 78, 111, 116, 118"
+01-33 CYOA -- Who Killed Harlowe Thrombey.txt,95,15.00,2.97,"101, 89, 34, 44, 19, 95, 85, 119, 122, 47, 48, 41, 36, 43, 62, 79, 59, 60, 78, 111, 114, 116, 118"
+"01-35 CYOA -- Lost Jewels of Nabooti, The.txt",106,22.00,2.06,43
+01-37 CYOA -- Mystery of the Maya.txt,121,21.00,2.10,"11, 95"
+01-39 CYOA -- Inside UFO 54-40.txt,101,22.00,2.02,"3, 117, 39"
+01-39v2 CYOA -- Inside UFO 54-40 (labeled).txt,101,22.00,2.02,"3, 117, 39"
+"01-42 CYOA -- Abominable Snowman, The. (new edition from Jeremy collection).txt",92,23.00,2.04,82
+"01-42 CYOA -- Abominable Snowman, The. (old edition from Katz collection).txt",95,22.00,2.04,82
+"01-42b CYOA -- Abominable Snowman, The.txt",92,22.00,2.04,"73, 82"
+"01-43 CYOA -- Forbidden Castle, The.txt",94,35.00,2.04,"10, 72"
+01-45 CYOA -- House of Danger.txt,92,31.00,1.98,
+01-47 CYOA -- Survival at Sea.txt,90,31.00,1.98,"27, 17, 42, 68"
+"01-48 CYOA -- Race Forever, The.txt",98,15.00,2.29,"67, 4, 25"
+01-49 CYOA -- Underground Kingdom.txt,90,33.00,2.07,"10, 12, 83"
+01-50 CYOA -- Secret of the Pyramids.txt,91,39.00,2.00,
+01-51 CYOA -- Escape.txt,96,24.00,2.00,40
+01-52 CYOA -- Hyperspace.txt,95,23.00,2.13,"112, 3, 9, 14, 11"
+01-53 CYOA -- Space Patrol.txt,100,26.00,2.24,"36, 54, 3, 26, 46, 71, 52"
+"01-55 CYOA -- Lost Tribe, The.txt",93,25.00,1.98,
+01-56 CYOA -- Lost on the Amazon.txt,89,27.00,2.00,"7, 99"
+01-57 CYOA -- Prisoner of the Ant People.txt,105,31.00,1.98,"91, 9, 15"
+"01-58 CYOA -- Phantom Submarine, The.txt",92,40.00,1.98,
+"01-59 CYOA -- Horror of High Ridge, The.txt",90,23.00,2.04,"10, 11, 34, 64"
+01-60 CYOA -- Mountain Survival.txt,91,28.00,2.07,"35, 55, 71"
+01-61 CYOA -- Trouble on Planet Earth.txt,90,29.00,2.00,
+01-65 CYOA -- Vampire Express.txt,107,28.00,2.09,"7, 64, 71, 53"
+01-65v2 CYOA -- Vampire Express (printing-error).txt,107,26.00,2.09,"7, 64, 71, 53"
+01-65v3 CYOA -- Vampire Express (broken).txt,108,26.00,2.07,"7, 64, 71, 53"
+03-01 CYOA -- Inca Gold.txt,96,35.00,1.98,84
+03-02 CYOA -- Knights of the Round Table.txt,97,28.00,2.08,12
+03-03 CYOA -- Exiled to Earth.txt,88,27.00,2.07,"8, 25, 40"
+03-04 CYOA -- Master of Kung Fu.txt,89,36.00,2.00,
+03-05 CYOA -- South Pole Sabotage.txt,94,25.00,2.09,"39, 75"
+03-06 CYOA -- Mutiny in Space.txt,92,43.00,2.00,
+03-07 CYOA -- You Are a Superstar.txt,97,30.00,2.00,"23, 27"
+03-08 CYOA -- Return of the Ninja.txt,88,31.00,1.98,
+03-09 CYOA -- Captive.txt,97,32.00,2.14,"94, 18, 25, 82, 50"
+03-10 CYOA -- Blood on the Handle.txt,88,28.00,1.98,
+03-11 CYOA -- You Are a Genius.txt,89,55.00,1.98,56
+03-12 CYOA -- Stock Car Champion.txt,89,39.00,2.02,
+03-13 CYOA -- Through the Black Hole.txt,91,37.00,2.00,
+03-14 CYOA -- You Are a Millionaire.txt,95,34.00,2.02,20
+03-15 CYOA -- Revenge of the Russian Ghost.txt,93,39.00,1.98,37
+"03-16 CYOA -- Worst Day of Your Life, The.txt",90,42.00,2.09,"32, 38"
+"03-17 CYOA -- Alien, Go Home.txt",89,42.00,1.98,
+03-18 CYOA -- Master of Tae Kwon Do.txt,98,25.00,2.04,"42, 43"
+03-19 CYOA -- Grave Robbers.txt,89,44.00,2.00,
+03-20 CYOA -- Cobra Connection.txt,94,49.00,1.98,
+"03-21 CYOA -- Treasure of the Onyx Dragon, The.txt",93,32.00,1.98,8
+03-22 CYOA -- Hijacked.txt,94,37.00,1.98,
+03-23 CYOA -- Fight for Freedom.txt,95,42.00,2.02,
+03-24 CYOA -- Master of Karate.txt,92,52.00,2.00,
+03-25 CYOA -- Chinese Dragons.txt,90,46.00,1.98,
+03-26 CYOA -- Invaders from Within.txt,91,55.00,1.98,
+03-27 CYOA -- Smoke Jumper.txt,88,36.00,1.98,35
+03-28 CYOA -- Skateboard Champion.txt,89,38.00,2.02,36
+"03-29 CYOA -- Lost Ninja, The.txt",90,41.00,1.98,
+03-30 CYOA -- Daredevil Park.txt,89,52.00,2.00,
+03-31 CYOA -- Island of Time.txt,89,35.00,1.98,
+03-32 CYOA -- Kidnapped!.txt,91,48.00,2.00,
+03-33 CYOA -- Search for Aladdin's Lamp.txt,99,42.00,2.00,25
+03-34 CYOA -- Vampire Invaders.txt,89,31.00,2.04,"15, 51"
+03-35 CYOA -- Terrorist Trap.txt,89,30.00,2.07,"72, 9"
+03-36 CYOA -- Ghost Train.txt,92,48.00,1.98,73
+03-37 CYOA -- Behind the Wheel.txt,87,44.00,1.98,
+03-38 CYOA -- Magic Master.txt,92,51.00,2.02,"35, 84"
+03-39 CYOA -- Silver Wings.txt,86,40.00,2.00,14
+03-40 CYOA -- Superbike.txt,93,47.00,2.00,70
+03-41 CYOA -- Outlaw Gulch.txt,95,48.00,1.98,
+03-42 CYOA -- Master of Martial Arts.txt,90,48.00,2.02,
+03-43 CYOA -- Showdown.txt,88,34.00,1.98,
+03-44 CYOA -- Viking Raiders.txt,91,44.00,1.98,
+03-45 CYOA -- Earthquake.txt,89,44.00,1.98,
+03-46 CYOA -- You Are Microscopic.txt,92,47.00,2.00,
+03-47 CYOA -- Surf Monkeys.txt,97,47.00,1.98,
+"03-48 CYOA -- Luckiest Day of Your Life, The.txt",91,58.00,1.98,22
+"03-49 CYOA -- Forgotten Planet, The.txt",92,38.00,2.00,
+03-50 CYOA -- Secret of the Dolphins.txt,93,41.00,1.98,6
+03-51 CYOA -- Playoff Champion.txt,90,35.00,1.98,
+03-52 CYOA -- Roller Star.txt,95,57.00,2.04,"57, 27, 79, 78"
+03-53 CYOA -- Scene of the Crime.txt,91,38.00,2.02,47
+03-54 CYOA -- Dinosaur Island.txt,100,43.00,1.98,47
+03-55 CYOA -- Motocross Mania.txt,90,22.00,2.02,"16, 19"
+03-56 CYOA -- Horror House.txt,94,51.00,2.04,
+"03-57 CYOA -- Secret of Mystery Hill, The.txt",96,44.00,2.04,76
+"03-58 CYOA -- Reality Machine, The.txt",93,45.00,2.04,"100, 118"
+03-59--Project UFO.txt,90,34.00,2.02,57
+03-60--Comet Crash.txt,99,44.00,2.02,15
+03-61--Everest Adventure.txt,99,39.00,1.98,
+03-62--Soccer Star.txt,95,47.00,2.02,"51, 40, 39"
+03-63--The Antimatter Universe.txt,95,46.00,1.98,
+03-64--Master of Judo.txt,95,46.00,2.00,
+04-01 CYOA -- Search the Amazon.txt,100,56.00,2.00,94
+04-02 CYOA -- Who Are You.txt,95,48.00,1.98,"19, 98"
+04-03 CYOA -- Gunfire at Gettysburg.txt,93,58.00,2.00,
+04-04 CYOA -- War with the Mutant Spider Ants.txt,97,43.00,2.00,23
+04-05 CYOA -- Last Run.txt,92,23.00,2.17,"18, 36, 24, 32"
+04-06 CYOA -- Cyberspace Warrior.txt,93,43.00,1.98,"62, 42"
+04-07 CYOA -- Ninja Cyborg.txt,93,58.00,2.00,
+04-08 CYOA -- You Are an Alien.txt,95,43.00,2.02,44
+04-09 CYOA -- U.N. Adventure.txt,101,50.00,1.98,
+04-10 CYOA -- Sky Jam.txt,96,45.00,2.06,
+04-11 CYOA -- Tattoo of Death.txt,92,41.00,1.98,"10, 29, 75"
+04-12 CYOA -- Possessed.txt,96,35.00,1.98,"5, 88"
+04-13 CYOA -- Typhoon.txt,91,45.00,2.07,"52, 64, 69"
+04-14 CYOA -- Shadow of the Swastika.txt,97,51.00,1.98,
+04-15 CYOA -- Fright Night.txt,93,32.00,2.09,"77, 106"
+"05-01 CYOA-YR -- Circus, The.txt",39,10.00,2.15,"3, 6, 18"
+"05-04 CYOA-YR -- Haunted House, The.txt",49,13.00,1.96,40
+05-07 CYOA-YR -- Sunken Treasure.txt,39,19.00,2.00,"14, 20"
+05-10 CYOA-YR -- Your Very Own Robot.txt,37,17.00,1.95,
+"05-13 CYOA-YR -- Gorga, The Space Monster.txt",30,10.00,2.07,"2, 40"
+"05-14 CYOA-YR -- Search for Champ, The.txt",28,13.00,1.93,
+"05-17 CYOA-YR -- Green Slime, The.txt",29,11.00,2.00,
+05-20 CYOA-YR -- Help You're Shrinking.txt,38,15.00,2.05,"4, 22"
+05-21 CYOA-YR -- Indian Trail.txt,36,13.00,1.94,
+05-22 CYOA-YR -- Dream Trips (Go to any Page Version).txt,38,3.00,3.79,"3, 10, 7, 48, 4, 17, 19, 25, 30"
+05-22 CYOA-YR -- Dream Trips.txt,38,10.00,2.00,"10, 7, 48"
+"05-24 CYOA-YR -- Genie in the Bottle, The.txt",40,17.00,2.00,4
+"05-25 CYOA-YR -- Bigfoot Mystery, The.txt",31,14.00,2.06,
+"05-27 CYOA-YR -- Creature from Miller's Pond, The.txt",33,12.00,1.94,
+05-28 CYOA-YR -- Jungle Safari.txt,42,18.00,2.05,"3, 8, 13"
+"05-29 CYOA-YR -- Mummy's Tomb, The.txt",34,16.00,2.06,"10, 40"
+"05-30 CYOA-YR -- Three Wishes, The.txt",35,16.00,2.06,
+05-32 CYOA-YR -- Dragons.txt,35,16.00,1.94,
+05-33 CYOA-YR -- Wild Horse Country.txt,40,16.00,2.00,
+05-34 CYOA-YR -- Summer Camp.txt,35,16.00,1.94,19
+"05-36 CYOA-YR -- Tower of London, The.txt",40,18.00,2.00,
+05-37 CYOA-YR -- Trouble in Space.txt,38,19.00,1.95,
+05-39 CYOA-YR -- Mona is Missing.txt,34,16.00,1.94,
+"05-40 CYOA-YR -- Evil Wizard, The.txt",39,18.00,2.05,12
+"05-41 CYOA-YR -- Polar Bear Express, The.txt",29,11.00,2.00,31
+"05-44 CYOA-YR -- Flying Carpet, The.txt",33,19.00,1.94,
+"05-45 CYOA-YR -- Magic Path, The.txt",32,16.00,1.94,8
+05-46 CYOA-YR -- Ice Cave.txt,30,13.00,1.93,
+05-47 CYOA-YR -- Fire.txt,32,15.00,1.94,
+"05-49 CYOA-YR -- Fairy Kidnap, The.txt",42,22.00,2.00,
+05-50 CYOA-YR -- Runaway Spaceship.txt,36,19.00,1.94,
+05-51 CYOA-YR -- Lost Dog.txt,35,13.00,1.94,
+05-52 CYOA-YR -- Blizzard a Black Swan Inn.txt,33,15.00,1.94,
+05-53 CYOA-YR -- Haunted Harbor.txt,32,17.00,1.94,
+05-55 CYOA-YR -- Attack of The Monster Plants.txt,30,13.00,1.93,14
+"05-56 CYOA-YR -- Miss Liberty Caper, The.txt",35,16.00,1.94,
+"05-57 CYOA-YR -- Owl Tree, The.txt",30,11.00,2.00,"8, 12"
+05-58 CYOA-YR -- Haunted Halloween Party.txt,37,18.00,1.95,2
+05-59 CYOA-YR -- Sand Castle.txt,31,14.00,2.00,16
+05-60 CYOA-YR -- Caravan.txt,30,13.00,1.93,
+"05-61 CYOA-YR -- Great Easter Bunny Adventure, The.txt",32,16.00,1.94,
+05-62 CYOA-YR -- The Movie Mystery.txt,29,11.00,1.93,
+05-63 CYOA-YR -- Light on Burro Mountain.txt,34,19.00,1.94,
+05-64 CYOA-YR -- Home in Time for Christmas.txt,29,15.00,1.93,
+05-65 CYOA-YR -- You See the Future.txt,34,14.00,1.94,24
+05-66 CYOA-YR -- The Great Zopper Toothpaste Treasure.txt,37,17.00,1.95,
+05-68 CYOA-YR -- A Day With The Dinosaurs.txt,36,18.00,1.94,
+05-69  CYOA-YR -- Spooky Thanksgiving.txt,35,18.00,1.94,
+05-70 CYOA-YR -- You Are Invisible.txt,35,18.00,1.94,
+05-71 CYOA-YR -- Race of the Year.txt,30,17.00,1.93,
+05-72 CYOA-YR -- Stranded!.txt,30,12.00,1.93,
+05-73 CYOA-YR -- You Can Make a Difference The Story of Martin Luther King Jr..txt,33,19.00,2.00,24
+05-74 CYOA-YR -- The Enchanted Attic.txt,39,21.00,1.95,
+05-75 CYOA-SA -- Journey to the Year 3000.txt,139,30.00,2.09,"13, 161, 12, 23, 46, 69"
+05-76 CYOA-SA -- Danger Zones.txt,140,30.00,1.99,22
+05-77 CYOA-Space Hawks -- Faster Than Light.txt,110,67.00,2.09,18
+05-78 CYOA-Space Hawks -- Alien Invaders.txt,102,42.00,2.10,"14, 93"
+05-79 CYOA-Space Hawks -- Space Fortress.txt,104,59.00,2.04,20
+05-80 CYOA-Space Hawks -- The Comet Masters.txt,105,54.00,2.04,"47, 57"
+05-81 CYOA-Space Hawks -- The Fiber People.txt,108,62.00,2.04,
+05-82A CYOA-Space Hawks -- The Planet Eater.txt,104,60.00,2.08,"39, 28"
+05-84 CYOA-Passport -- Tour De France.txt,99,56.00,1.98,
+05-85 CYOA-Passport -- Forgotten Days.txt,97,46.00,1.98,
+05-86 CYOA-Passport -- On Tour.txt,88,43.00,2.05,58
+06-06 CYON 01 Night of the Werewolf.txt,78,38.00,1.97,
+06-07 CYON 02 Beware the Snake's Venom.txt,80,40.00,1.98,
+"06-10 CYON 05 Halloween Party, The.txt",77,35.00,2.00,
+06-11 CYON 06 Risk Your Life Arcade .txt,77,36.00,1.97,
+06-12 CYON 07 Biting for Blood .txt,77,29.00,1.97,6
+06-13 CYON 08 Bugged Out! .txt,80,34.00,2.00,
+"06-14 CYON 09 Mummy Who Wouldn't Die, The.txt",78,25.00,1.97,
+06-15 CYON 10 It Happened at Camp Pine Tree .txt,76,39.00,2.00,
+06-16 CYON 11 Watch Out for Room 13.txt,97,43.00,1.98,
+06-17 CYON 15 How I Became a Freak .txt,76,27.00,2.00,47
+06-18 CYON 16 Welcome to Horror Hospital.txt,79,34.00,2.00,68
+06-19 CYON 17 Attack of the Living Mask.txt,80,32.00,1.98,
+"06-20 CYON 18 Toy Shop of Terror, The.txt",80,34.00,1.98,15
+06-22  Goosebumps 05 Night in Werewolf Woods .txt,133,45.00,2.09,"68, 77"
+06-23 Goosebumps 06 Beware of the Purple Peanut Butter.txt,134,53.00,2.10,"108, 58, 41"
+06-24 Goosebumps 07 Under the Magician's Spell.txt,135,57.00,2.06,"87, 34"
+"06-25 Goosebumps 08 Curse of the Creeping Coffin, The.txt",133,49.00,2.21,"6, 8, 96, 48, 100"
+"06-26 Goosebumps 09 Knight in Screaming Armor, The.txt",136,37.00,2.18,"49, 70, 95, 93"
+06-27 Goosebumps 10 Diary of a Mad Mummy .txt,136,37.00,2.04,"15, 128"
+06-28 Goosebumps 11 Deep in the Jungle of Doom.txt,136,38.00,2.06,
+06-29 Goosebumps 12 Welcome to the Wicked Wax Museum.txt,136,38.00,2.15,"30, 39, 72, 89"
+06-30 Goosebumps 13 Scream of the Evil Genie.txt,137,51.00,2.01,"5, 77"
+"06-31 Goosebumps 14 Creepy Creations of Professor Shock, The.txt",135,62.00,2.07,79
+06-32 Goosebumps 15 Please Don't Feed the Vampire!.txt,137,50.00,2.07,116
+06-33 Goosebumps 16 Secret Agent Grandma .txt,131,42.00,2.02,127
+06-34 Goosebumps 17 Little Comic Shop of Horrors .txt,137,37.00,2.04,
+06-35 Goosebumps 18 Attack of the Beastly Baby-Sitter.txt,136,37.00,2.16,"82, 128, 65, 28, 51, 96, 105"
+06-36 Goosebumps 19 Escape From Camp Run-For-Your-Life.txt,137,57.00,2.04,"10, 118"
+06-37 Goosebumps 20 Toy Terror- Batteries Included.txt,137,60.00,2.04,
+06-38 Goosebumps 21 The Twisted Tale of Tiki Island .txt,138,52.00,2.06,"10, 121"
+06-39 Goosebumps 22 Return to the Carnival of Horrors .txt,137,21.00,2.18,"122, 77, 54, 62, 120"
+06-40 Goosebumps 23 Zapped in Space .txt,137,55.00,2.06,
+06-41 Goosebumps 24 Lost in Stinkeye Swamp .txt,134,53.00,2.00,"20, 127, 110"
+06-42 Goosebumps 25 Shop Till You Drop...Dead!.txt,133,42.00,2.14,"99, 37, 70"
+06-43 Goosebumps 26 Alone in Snakebite Canyon .txt,137,30.00,2.15,"58, 74"
+06-44 Goosebumps 27 Checkout Time at the Dead-End Hotel .txt,135,41.00,2.07,"128, 96"
+06-45 Goosebumps 28 Night of a Thousand Claws.txt,137,53.00,2.03,
+06-46 Goosebumps 29 Invaders from the Big Screen .txt,136,38.00,2.10,23
+06-47 Goosebumps 30 You're Plant Food! .txt,136,44.00,2.15,"100, 11, 31, 118"
+06-48 Goosebumps 31 The Werewolf of Twisted Tree Lodge .txt,137,48.00,2.01,"81, 78"
+06-49 Goosebumps 32 It's Only a Nightmare! .txt,136,36.00,2.01,111
+06-50 Goosebumps 33 It Came from the Internet .txt,135,46.00,2.07,
+06-51 Goosebumps 34 Elevator to Nowhere.txt,136,38.00,2.24,"40, 25, 13, 123, 132, 121, 53, 20, 78, 103"
+06-52 Goosebumps 35 Hocus-Pocus Horror.txt,137,46.00,2.03,"10, 16, 109"
+06-53 Goosebumps 36 Ship of Ghouls.txt,136,48.00,2.04,"7, 11, 108"
+06-54 Goosebumps 37 Escape from Horror House .txt,137,37.00,2.04,"11, 86"
+06-55 Goosebumps 38 Into the Twister of Terror .txt,133,38.00,2.02,
+06-56 Goosebumps 39 Scary Birthday to You! .txt,135,25.00,2.09,"85, 75, 114"
+06-57 Goosebumps 40 Zombie School .txt,135,27.00,2.27,"60, 28, 55, 27, 38"
+06-58 Goosebumps 41 Danger Time.txt,135,36.00,2.04,"6, 24, 28"
+06-59 Goosebumps 42 All-Day Nightmare .txt,137,37.00,2.10,"130, 67"
+06-8 CYON 03 Island of Doom.txt,78,36.00,1.97,
+06-9 CYON 04 Castle of Darkness .txt,80,36.00,1.98,
+07-01 Goosebumps S01 Into the Jaws of Doom (238).txt,238,30.00,2.87,"194, 161, 166, 75, 179, 187, 232, 236, 147, 4, 223, 131, 13, 14, 58, 176, 148, 99, 207, 190, 138, 6, 230, 100, 11, 74, 111, 136, 91, 104, 35, 41, 40, 103, 50, 127, 95, 56, 152, 60, 62, 218, 157, 70, 213, 154, 115, 98, 151, 202, 146, 132, 214, 159, 163, 231, 193"
+07-09 Nightmares -- Cave of Fear (126) --annotated.txt,121,26.00,2.00,"79, 24"
+07-09 Nightmares -- Cave of Fear (126) --corrected.txt,121,26.00,2.00,"79, 24"
+07-09 Nightmares -- Cave of Fear (126) --labeled.txt,121,26.00,2.00,"79, 24"
+07-09 Nightmares -- Cave of Fear (126).txt,120,26.00,1.98,"79, 24"
+07-10 Nightmares -- Valley of the Screaming Statues (126).txt,117,36.00,2.00,"43, 105"
+07-11 Nightmares -- Castle of Horror (126).txt,113,30.00,2.00,"32, 87, 16, 77"
+07-12 Nightmares -- Planet of Terror (126).txt,118,29.00,1.98,"48, 79"
+07-13 Lifegames 01 Woman Up the Corporate Ladder (192).txt,192,22.00,1.99,
+07-14 Lifegames 03 Starstruck (192).txt,192,22.00,1.99,
+07-15 Lifegames 04 Woman in Power Politics (192).txt,192,22.00,1.99,
+07-16 Lifegames 06 Matchpoint (192).txt,192,22.00,1.99,
+07-27 Endless Quest 06 Revenge of the Rainbow Dragons (157).txt,151,46.00,2.20,"48, 82, 138, 69, 30, 41, 46, 67, 70, 92, 134"
+07-29 Endless Quest 14 Raid on Nightmare Castle (157).txt,153,42.00,2.05,"25, 47, 82, 110"
+07-29B Endless Quest 14 Raid on Nightmare Castle (157).txt,153,42.00,2.05,"25, 47, 82, 110"
+07-30 Endless Quest 15 Under Dragon's Wing (157).txt,149,30.00,2.12,"46, 78, 87, 148"
+07-31 Endless Quest 16 The Dragon's Ransom (157).txt,149,38.00,2.24,"18, 62, 51, 57, 96, 85, 98, 113, 127"
+07-32 Endless Quest 17 Captive Planet (157).txt,148,36.00,2.18,"124, 9, 33, 62, 87, 108, 141"
+07-34 Endless Quest 18 Conan the Undaunted (157).txt,153,42.00,2.12,"19, 36, 106, 87"
+"07-34 Endless Quest 18 Undaunted (157), The.txt",153,42.00,2.12,"19, 36, 106, 87"
+07-35 Endless Quest 19 Conan and the Prophey (157).txt,149,35.00,2.07,"52, 46, 56"
+07-36 Endless Quest 21 Duel of the Masters (157).txt,144,37.00,2.18,"133, 34, 31, 33, 43, 99"
+07-37 Endless Quest 22 Endless Catacombs (157).txt,150,34.00,2.33,"23, 119, 28, 83, 140, 65, 93, 55, 60, 46, 62, 77, 130, 86, 100"
+07-40 Endless Quest 24 Trouble on Artule (157).txt,149,67.00,2.08,"49, 76, 135, 28"
+"07-41 Endless Quest 25 Outlaw, The (157).txt",151,41.00,2.08,"11, 45, 43"
+07-42 Endless Quest 26 Tarzan and the Well of Slaves (157).txt,152,38.00,2.17,"9, 55, 29, 72, 153, 98, 129"
+07-43 Endless Quest 27 Lair of the Lich (157).txt,153,30.00,2.10,"111, 19, 18, 47"
+07-44 Endless Quest 28 Mystery of the Ancients (157).txt,152,35.00,2.13,"20, 149, 39, 56, 65, 125"
+07-45 Endless Quest 29 Tower of Darkness (157).txt,150,75.00,2.13,"44, 40, 152, 103, 145"
+"07-46 Endless Quest 30 Fireseed (157), The.txt",153,79.00,2.13,"36, 66, 121"
+07-47 Endless Quest 31 Tarzan and the Tower of Diamonds (157).txt,152,60.00,2.16,"13, 81, 61, 20, 47, 127, 139"
+07-48 Endless Quest 32 Prisoner of Elderwood (157).txt,151,56.00,2.11,"38, 56, 104"
+07-49 Endless Quest 33 Knight of Illusion (159).txt,155,37.00,2.25,"15, 27, 86, 100, 124"
+07-50 Endless Quest 34 Claw of the Dragon.txt,155,49.00,2.13,"142, 93"
+07-51 Endless Quest 35 Vision of Doom (160).txt,155,58.00,2.18,"29, 75, 135, 21, 47, 22, 25, 54, 74, 155"
+07-52 Endless Quest 36 Song of the Dark Druid (160).txt,150,28.00,2.36,"139, 41, 99, 64, 11, 16, 14, 73, 121, 28, 83, 63, 76, 43, 47, 77, 152, 90, 111"
+07-53 Endless Quest Dungeon of Fear .txt,75,28.00,2.69,"25, 30, 11, 57, 21, 2, 46, 72, 28, 70, 37, 49, 26, 51, 52, 50"
+07-54 Endless Quest Castle of the Undead.txt,39,15.00,2.36,"4, 11, 19"
+07-55 Endless Quest Secret of Djinn .txt,67,29.00,2.54,"57, 24, 16, 49, 46, 23, 30, 39, 33, 37, 55, 43, 48, 63"
+07-56 Endless Quest Siege of the Tower.txt,42,12.00,2.33,"40, 37, 10"
+07-57 Endless Quest A Wild Ride.txt,47,20.00,2.30,"2, 7"
+07-58 Endless Quest Forest of Darkness.txt,56,17.00,2.43,"49, 32, 28"
+07-59 Endless Quest American Knights.txt,79,20.00,2.33,"54, 62, 9, 17, 55, 29, 44"
+07-60 Endless Quest Night of the Tiger.txt,41,16.00,2.39,"35, 33, 25, 14, 12"
+07-61 Endless Quest Galactic Challenge.txt,94,12.00,3.06,"45, 10, 71, 88, 58, 93, 6, 28, 46, 17, 32, 84, 39, 36, 80, 15, 2, 3, 55, 12, 85, 40, 37, 92, 73, 74"
+07-62 Endless Quest Bigby's Curse.txt,87,30.00,2.60,"30, 9, 38, 79, 2, 59, 21, 12, 28, 49, 53, 73, 75"
+07-63 Endless Quest 24-Hour War.txt,56,32.00,2.21,"31, 22, 39, 43"
+08-01--The Thundercats and the Ghost Warrior.txt,67,26.00,2.12,"13, 54"
+08-02--The Thundercats and the Snowmen of Hook Mountain.txt,68,25.00,2.06,"8, 28, 50"
+08-03--The Three Investigators in The Case of the Weeping Coffin.txt,112,49.00,2.23,"87, 47, 66, 80, 75"
+"08-04 The Three Investigators -- Case of the Dancing Dinosaur, The.txt",110,36.00,2.22,"31, 50, 15, 80"
+"08-05 The Three Investigators -- Case of the House of Horrors, The.txt",107,26.00,2.26,"14, 20, 57, 13, 49, 33, 47, 89, 116, 61"
+"08-06 The Three Investigators -- Case of the Savage Statue, The.txt",111,48.00,2.14,"8, 40, 11"
+09-01 Time Machine -- Blade of the Guillotine.txt,59,26.00,2.47,"25, 44, 36, 97, 80, 102"
+09-01v2 Time Machine -- Blade of the Guillotine (compressed).txt,31,16.00,2.90,"25, 33, 77, 44, 68, 97, 103"
+09-03 Time Machine 15 Flame of the Inquisition.txt,47,19.00,2.60,"1, 19, 74, 33, 51, 117"
+09-04 Time Machine 16 Quest for the Cities of Gold.txt,40,15.00,2.85,"89, 12, 6, 26, 29, 69, 81, 113"
+09-05 Time Machine 17 Scotland Yard Detective.txt,50,28.00,2.56,"99, 105, 41"
+09-06 Time Machine 18 Sword of Caesar.txt,43,17.00,2.74,"65, 90, 108, 18, 21, 52, 57, 84, 80"
+09-07 Time Machine 19 Death Mask of Pancho Villa.txt,44,23.00,2.73,"9, 14, 16, 24, 30, 47, 62, 69, 51, 79, 66, 86, 94, 113"
+09-08 Time Machine 20 Bound for Australia.txt,52,23.00,2.65,"92, 39, 28, 36, 55, 46, 64, 112"
+09-10 Time Machine 22 Last of the Dinosaurs.txt,35,19.00,2.74,"50, 63, 19, 32, 43, 59, 81, 107"
+09-12 Time Machine 23 Quest for King Arthur.txt,39,19.00,2.92,"13, 68, 63, 28, 83, 91, 74, 94, 116, 118"
+09-13 Time Machine 24 World War I Flying Ace.txt,39,10.00,2.82,"26, 30, 13, 69, 59, 103, 85, 93"
+09-14 Time Machine Special Edition World War II Code Breaker.txt,49,14.00,2.73,"19, 4, 57, 91, 125, 141"
+09-15 Time Traveler 01 Voyage With Columbus.txt,36,21.00,2.44,"12, 23, 56"
+"09-16 Time Traveler 02 Legend of Hiawatha, The.txt",32,15.00,2.75,"41, 46, 55, 3, 19, 16, 33"
+"09-17 Time Traveler 03 First Settlers, The.txt",29,13.00,2.97,"22, 25, 23, 44, 29, 31, 42, 58, 72, 51"
+"09-18 Time Traveler 04 Amazing Ben Franklin, The.txt",26,13.00,2.92,"58, 31, 34, 40, 55, 68, 76"
+09-19 Time Traveler 05 Paul Revere and the Boston Tea Party.txt,26,13.00,2.69,"26, 22, 44, 62"
+09-20 Time Traveler 06 George Washington and the Constitution.txt,25,15.00,2.64,"17, 38, 25, 70"
+09-21 Be An Interplanetary Spy 01 Find the Kirillian.txt,99,21.00,2.28,"121, 6, 10, 11, 24, 56, 28, 38, 44, 85"
+"09-23 Be An Interplanetary Spy 02 Galactic Pirate, The.txt",108,23.00,2.26,"87, 108, 114"
+09-24 Be An Interplanetary Spy 03 Robot World.txt,86,13.00,2.60,"88, 43, 11, 82, 14, 31, 53, 58, 74, 91, 104"
+09-25 Be An Interplanetary Spy 04 Space Olympics.txt,58,13.00,2.48,"11, 21, 60, 17, 66, 88, 115"
+09-26 Be An Interplanetary Spy 05 Monsters of Doorna.txt,83,39.00,2.27,"37, 26, 43, 44, 112"
+09-27 Be an Interplanetary Spy 06 The Star Crystal.txt,70,18.00,1.97,"64, 46, 71"
+09-28 Be an Interplanetary Spy 07 Rebel Spy.txt,95,37.00,2.15,"39, 48, 64, 57"
+09-29 Be an Interplanetary Spy 08 Mission to Microworld.txt,97,56.00,2.10,"81, 68"
+09-30 Be an Interplanetary Spy 09 Ultraheroes.txt,101,71.00,2.16,"26, 55, 74, 58, 66"
+09-31 Be an Interplanetary Spy 10 Planet Hunters.txt,106,58.00,2.06,"53, 90"
+09-32 Be an Interplanetary Spy 11 The Red Rocket.txt,100,43.00,2.00,12
+09-33 Be an Interplanetary Spy 12 Skystalker.txt,104,54.00,2.15,"24, 95, 91, 16, 82, 87"
+09-34 Which Way Books 01 The Castle of No Return.txt,98,15.00,2.39,"21, 23, 24, 27, 4, 9, 7, 11, 35, 36, 38, 41, 54, 72, 70"
+"09-35 Which Way Books 02 Vampires, Spies and Alien Beings.txt",100,17.00,2.28,"7, 4, 10, 11, 12, 14, 16, 18, 38, 65, 91"
+09-37 Which Way Books 03 The Spell of the Black Raven.txt,102,20.00,2.16,"5, 11, 17, 19, 67"
+09-38 Which Way Books 04 Famous and Rich.txt,114,19.00,2.12,"70, 76, 16, 43, 63"
+09-40 Which Way Books 05 Lost In A Strange Land.txt,114,22.00,2.05,"45, 48, 42, 82"
+09-41 Which Way Books 06 Sugarcane Island.txt,105,14.00,2.23,"5, 25, 6, 9, 12, 23, 29, 66"
+09-42 Which Way Books 07 Curse of the Sunken Treasure.txt,96,22.00,2.12,"110, 6, 22, 16, 64, 75, 74"
+"10-01 WWY 01 Forest of Twisted Dreams, The.txt",92,22.00,2.46,"50, 9, 34, 46, 13, 78, 17, 22, 47, 56, 82"
+"10-03 WWY 02 Siege of the Dragonriders, The.txt",92,24.00,2.30,"0, 26, 6, 36, 63, 46, 54, 87"
+10-04 WWY 03 Who Kidnapped Princess Saralinda.txt,96,21.00,2.46,"10, 11, 26, 18, 37, 23, 22"
+10-06 WWY 04 Ghost Knights of Camelot.txt,95,21.00,2.46,"41, 6, 17, 30, 52, 62, 21, 12, 14, 15, 27, 70, 28, 34, 37, 39, 61, 71"
+"10-08 WWY 05 Haunted Castle of Ravencurse, The.txt",91,23.00,2.37,"87, 68, 10, 9, 8, 24, 49, 69, 55, 58"
+10-23 Nintendo Adventures 01 Double Trouble.txt,118,35.00,2.39,"60, 81, 118, 12, 68, 90, 102, 5, 10, 39, 52, 84, 109"
+10-25 Nintendo Adventures 02 Leaping Lizards.txt,120,35.00,2.27,"57, 7, 12, 15, 37, 47, 17, 90, 113"
+"10-52 Zork 03 Cavern of Doom, The.txt",96,51.00,2.17,"12, 21, 112, 65, 66, 79"
+10-53 Zork 04 Conquest at Quendor.txt,91,38.00,2.20,"100, 40, 45, 53, 70, 79, 85, 95, 107"
+"10-54 TwistaPlot 01 Time Raider, The.txt",85,22.00,2.21,"33, 4, 14, 20, 30, 45, 76"
+"10-56 TwistaPlot 03 Formula for Trouble, The.txt",106,21.00,2.13,"2, 93, 6, 9, 36, 67, 82"
+10-60 TwistaPlot 07 Video Avenger.txt,88,15.00,2.27,"25, 5, 11, 34, 29, 48, 27, 56"
+10-68 TwistaPlot 15 Spellcaster--Endings.txt,87,24.00,2.14,"69, 44, 72, 4, 50, 32"
+10-68 TwistaPlot 15 Spellcaster--Illustrations.txt,92,24.00,2.15,"69, 44, 72, 4, 77, 50, 32"
+10-68 TwistaPlot 15 Spellcaster--Theme.txt,87,24.00,2.14,"69, 44, 72, 4, 50, 32"
+10-68 TwistaPlot 15 Spellcaster.txt,87,24.00,2.14,"69, 44, 72, 4, 50, 32"
+10-72 Explorer 01 Journey to the Center of the Atom.txt,95,55.00,2.21,"63, 23"
+10-72v2 Explorer 01 Journey to the Center of the Atom (compressed).txt,40,20.00,2.50,"23, 63, 19, 31, 53"
+10-73 Explorer 02 Destination Brain--compressed.txt,31,17.00,2.39,"35, 74, 88, 93"
+10-73 Explorer 02 Destination Brain.txt,94,55.00,2.13,40
+10-74 Explorer 03 In Search of a Shark.txt,93,62.00,2.15,
+10-75 Explorer 04 Escape from Jupiter.txt,97,53.00,2.04,"45, 83"
+11-01 Star Challenge 01 Planets in Peril.txt,107,15.00,2.39,115
+"11-02 Star Challenge 02 Android Invasion, The.txt",101,13.00,2.36,115
+"11-03 Star Challenge 03 Cosmic Funhouse, The.txt",107,12.00,2.49,115
+11-04 Star Challenge 05 Galactic Raiders.txt,107,12.00,2.43,"115, 91"
+"11-05 Star Challenge 06 Weird Zone, The.txt",107,12.00,2.37,"115, 47, 40"
+11-07 Star Challenge 07 Dimension of Doom.txt,107,16.00,2.32,"115, 88, 85"
+"11-08 Star Challenge 08 Lost Planet, The.txt",107,11.00,2.58,"115, 83, 59, 20, 114"
+11-09 Star Challenge 09 Moons of Mystery.txt,106,14.00,2.30,115
+"11-10 Star Challenge 10 Haunted Planet, The.txt",107,12.00,2.39,"115, 110, 11, 58"
+11-11 EFT 01 Tenopia Island.txt,108,12.00,5.83,"17, 21, 41, 63, 53, 7, 29, 55, 86, 82, 44, 47, 102, 94, 38, 50, 46, 75, 88, 109, 91, 28, 92, 52, 128, 62, 74, 95, 114, 125, 101, 20, 31, 24, 33, 68, 77, 34, 49, 40, 57, 61, 65, 69, 120, 90, 89, 97, 117, 106, 112, 12, 14, 19, 26, 25, 37, 27, 45, 43, 81, 84, 67, 78, 132, 99, 96, 16, 8, 9, 23, 15, 36, 51, 85, 71, 123, 124, 108, 104, 103, 133"
+11-11v2 EFT 01 Tenopia Island (no maps).txt,107,12.00,4.71,"17, 7, 21, 55, 86, 82, 53, 41, 63, 102, 44, 75, 88, 94, 38, 92, 50, 46, 109, 91, 28, 24, 33, 68, 52, 57, 128, 62, 74, 120, 95, 114, 125, 101, 20, 31, 29, 77, 34, 49, 40, 61, 65, 81, 69, 90, 89, 97, 99, 96, 117, 106, 112, 16, 9, 12, 14, 19, 26, 25, 37, 27, 45, 43, 47, 85, 84, 67, 78, 132"
+"11-11v3 EFT 01 Tenopia Island (no maps, simplified).txt",100,12.00,3.90,"7, 55, 102, 86, 82, 75, 88, 44, 92, 94, 24, 33, 68, 38, 50, 57, 46, 120, 109, 91, 114, 28, 52, 128, 62, 74, 81, 95, 125, 99, 96, 101, 20, 16, 9, 31, 77, 34, 49, 40, 61, 65, 85, 69, 78, 90, 89, 97, 117, 106, 112"
+11-12 EFT 02 Trapped in the Sea Kingdom.txt,105,15.00,3.35,"96, 66, 42, 115, 13, 62, 99, 17, 10, 73, 41, 28, 22, 38, 48, 128, 98, 89, 108, 102, 118, 100, 117, 9, 46, 84, 16, 105, 23, 61, 27, 30, 33, 34, 76, 123, 133"
+11-13 EFT 03 Terror on Kabran.txt,97,10.00,3.44,"60, 30, 50, 37, 105, 82, 26, 129, 81, 41, 13, 33, 112, 14, 98, 107, 24, 45, 117, 47, 69, 88, 91, 7, 20, 65, 40, 85, 34, 120, 62, 75, 96, 56, 76, 103, 114"
+11-14 EFT 04 Star System Tenopia.txt,101,18.00,3.01,"5, 58, 48, 26, 32, 127, 80, 88, 34, 40, 28, 60, 41, 74, 54, 122, 85, 29, 65, 59, 114, 91, 118, 95, 109, 115"
+"11-15 EFKF 01 Castle of Frome, The.txt",106,12.00,3.43,"106, 57, 74, 70, 99, 83, 96, 64, 86, 98, 111, 108, 33, 28, 71, 76, 109, 37, 45, 103, 59, 79, 104, 117, 16, 11, 19, 22, 20, 41, 29, 90, 80, 62, 50, 120, 66"
+11-16 EFKF 02 The Forest of the King.txt,109,14.00,3.16,"39, 83, 129, 115, 124, 88, 102, 34, 16, 19, 26, 31, 50, 84, 46, 108, 123, 82, 79, 97, 11, 15, 117, 53, 95, 89, 56, 65, 94, 77, 99, 122, 92, 116, 120"
+11-17 EFKF 02 The Caverns of Mornas.txt,101,20.00,2.93,"87, 27, 5, 12, 61, 20, 8, 57, 62, 47, 69, 4, 112, 100, 10, 72, 98, 28, 67, 48, 41, 64, 78, 95"
+11-19 EFKF 04 The Battle of Astar.txt,101,16.00,3.15,"85, 98, 99, 125, 114, 73, 13, 119, 92, 41, 84, 109, 67, 128, 106, 53, 40, 61, 86, 18, 23, 24, 126, 52, 32, 51, 68, 37, 77, 76, 66, 80, 122, 103"
+11-20 YAA 01 The Castle of Doom.txt,95,72.00,2.36,"20, 34, 50, 58, 78, 82, 10, 42, 70, 86, 92, 98"
+11-21 YAA 02 Island of Fear.txt,94,74.00,2.36,"12, 38, 50, 58, 76, 80, 20, 28, 70, 88, 92, 100"
+11-22 YAA 03 Terror Under the Earth.txt,99,78.00,2.34,"26, 46, 66, 70, 76, 82, 12, 36, 54, 88, 94, 102"
+11-23 YAA 04 The Dragonmaster.txt,103,83.00,2.33,"32, 42, 58, 66, 90, 96, 16, 24, 50, 74, 82, 104"
+11-24 YAA 05 Revenge of the Dragonmaster.txt,103,82.00,2.35,"32, 42, 58, 70, 78, 90, 96, 18, 26, 50, 84, 102"
+11-25 Scream Shop 01 Abracadanger.txt,138,33.00,2.04,137
+"11-26 Scream Shop 02 Now You See Me, Now You Don't!.txt",140,43.00,2.00,
+11-27 Scream Shop 03 Eye Spy Aliens.txt,140,52.00,1.99,
+11-28 Scream Shop 04 Revenge of the Gargoyle.txt,140,45.00,2.00,11
+13-01 PYOHS -- Craven House Horrors (116).txt,109,35.00,1.98,"6, 57, 65"
+13-09 PIYAS -- Staying Alive (152).txt,151,25.00,2.25,"70, 39, 38, 61, 69, 104, 81, 108, 140"
+13-10 PIYAS -- Star Trek III (117) one ending.txt,117,18.00,2.53,"116, 10, 26, 78"
+13-11 PIYAS -- Star Trek II (126).txt,126,25.00,2.11,"107, 9, 66"
+13-12 Storytrails -- Stone of Badda.txt,37,18.00,2.54,"22, 24, 11, 20, 26, 37"
+13-19 Rollercoaster Tycoon -- Sudden Turn.txt,118,47.00,1.98,"76, 105"
+13-25 IYC -- Serena's Secret (80).txt,80,31.00,2.08,53
+13-28 Powerpuff Girls -- Career-Day Blossom (64).txt,58,16.00,2.38,"56, 19, 24, 64, 33"
+13-56B Survivor -- Thailand.txt,142,69.00,2.42,"44, 11, 22, 24, 27, 40, 41, 48, 54, 77, 110"
+13-60 Troll AA -- Cosmic Kidnappers (116) remediates computer functions.txt,98,20.00,2.02,"88, 53"
+13-61 Troll AA -- Target Earth (116).txt,98,15.00,2.02,
+13-62 Troll AA -- Town in Terror (116).txt,98,17.00,2.04,
+13-63 Troll AA -- Thieves from Space (118).txt,100,19.00,2.00,"2, 19"
+13-66 Troll FA -- Secret of the Old Museum (99) interesting middle branch.txt,81,21.00,2.12,"7, 22, 63, 85, 65, 81"
+13-67 Troll FA -- Mystery at Loch Ness (99).txt,81,22.00,2.27,"22, 27, 21, 38, 51"
+13-70 Troll FF -- War of the Wizards.txt,118,24.00,2.14,"7, 16, 46"
+13-71 Troll FF -- Master of Mazes.txt,106,19.00,2.26,"31, 14, 8, 92, 42, 80, 39, 82"
+13-72 Troll FF -- Magician's Ring.txt,122,39.00,2.21,"24, 45, 9, 90, 43, 114, 75, 77, 91, 107"
+13-73 ** Troll FF -- Forbidden Towers (124).txt,111,15.00,2.74,"119, 95, 9, 40, 122, 12, 18, 52, 88, 102, 10, 110, 13, 14, 20, 106, 90, 78, 103"
+13-74 Troll SIY -- Mystery at the Bike Race (122).txt,115,34.00,2.00,6
+13-76 Troll SIY -- Missing Rock Star Caper (117).txt,113,37.00,2.00,"3, 87"
+14-01 What If Books 01 Ride the Blue Bazoo.txt,79,33.00,2.05,"29, 4, 8, 30, 48, 54, 59"
+14-02 What If Books 02 Follow the Lone Cry.txt,81,27.00,2.02,"37, 43, 49, 67"
+14-03 What If Books 03 Sneek Behind Enemy Lines.txt,116,65.00,1.98,"95, 26"
+14-04 What If Books 04 Accept the Royal Challenge.txt,102,61.00,1.98,"4, 40, 44"
+14-05 Turning Points 01 Friends Forever.txt,15,13.00,1.87,
+14-06 Turning Points 02 Kerry's Dance.txt,13,11.00,1.85,
+14-07 Turning Points 03 Valentine for Betsy.txt,19,17.00,1.89,
+14-08 Turning Points 04 Forget Me Not.txt,14,12.00,1.86,
+14-09 Turning Points 05 Keep Tomorrow for Me.txt,12,10.00,1.83,
+14-10 Follow Your Heart Romance 01 Summer in the Sun.txt,118,37.00,2.02,
+"14-11 Follow Your Heart Romance 04 Sun, Sea and Boys.txt",120,36.00,1.98,13
+14-12 Follow Your Heart Romance 08 Lots of Boys.txt,117,50.00,1.98,
+14-13 Follow Your Heart Romance 10 Seven Boy Vacation.txt,118,45.00,1.98,
+14-14 Dream Your Own Romance 02 Holiday Romance.txt,119,44.00,2.03,
+14-15 Make Your Dreams Come True -- Angie's Choice.txt,198,90.00,1.99,
+14-15 Make Your Dreams Come True 01 Angie's Choice.txt,198,90.00,1.99,
+14-16 Make Your Dreams Come True 02 Winning at Love.txt,181,107.00,1.99,
+14-17 Make Your Dreams Come True -- Worthy Opponents.txt,180,104.00,1.99,
+14-18 Make Your Dreams Come True -- Dream Date.txt,181,92.00,1.99,
+"14-21 Pick Your Own Dream Date -- Saturday Night Bash, The.txt",123,42.00,2.02,83
+14-22 Pick Your Own Dream Date -- Spring Break.txt,123,48.00,2.03,
+14-23 Confidentially Yours -- Confidentially Yours.txt,130,53.00,1.97,11
+14-24 Confidentially Yours -- Breaking Up is Hard to Do.txt,106,52.00,1.96,
+14-25 Date with Destiny Adventures -- Escape From Fire Island.txt,114,29.00,2.18,"83, 122, 124, 73, 45, 113"
+14-26 Date with Destiny Adventures -- Night of a Thousand Boyfriends.txt,114,36.00,2.23,"3, 27, 112, 119, 46, 50, 54, 95, 108, 121"
+14-27 Find Your Fate - Jem 01 Jewels in the Dark.txt,73,21.00,2.25,"29, 24, 55, 1000"
+"14-28 Find Your Fate - Jem -- Video Caper, The.txt",72,30.00,2.00,
+14-29 Find Your Fate - Jem -- Secret of Rainbow Island.txt,73,30.00,1.97,7
+14-32 Ghostwriter -- Match of Wills.txt,104,37.00,2.13,"19, 20, 79, 84"
+14-33 Ghostwriter -- Amazement Park Adventure.txt,13,5.00,2.77,6
+14-34 Sexuality Decision- Making Series -- Taking Chance with Sex.txt,152,47.00,2.07,118
+14-38 Thrilling Adventures in Space -- Space Pilot.txt,115,34.00,3.08,"100, 9, 8, 52, 80, 46, 16, 25, 55, 74, 65, 44, 50, 103, 2, 89, 94, 78, 53, 104, 21, 75, 27, 28, 49, 31, 98, 32, 58, 35, 38, 88, 57, 59, 61, 93, 96, 73, 108"
+14-40 Have Your Own Extra-Terrestrial Adventure.txt,85,31.00,1.98,
+14-41 You Can Be -- The Stainless Steel Rat.txt,340,68.00,2.90,"80, 335, 97, 260, 96, 65, 88, 84, 128, 211, 156, 226, 220, 94, 253, 27, 120, 255, 41, 193, 198, 53, 175, 181, 146, 93, 190, 328, 241, 281, 296, 227, 239, 229, 134, 5, 99, 113, 139, 25, 167, 205, 289, 28, 64, 118, 197, 254, 67, 51, 70, 288, 166, 137, 306, 174, 186, 104, 107, 119, 133, 157, 299, 257, 188, 225, 202, 297, 240, 234, 294, 244, 295, 316, 269, 290, 293, 273, 285"
+"14-43 Make Your Own Adventure With -- Doctor Who, The Garden of Evil.txt",37,14.00,2.81,"11, 2, 4, 30, 17, 8, 15, 19, 21, 27, 29, 33, 35"
+14-44 Micro Adventure -- Robot Race.txt,116,81.00,2.02,108
+14-45 Star Challenge -- The Exploding Suns.txt,108,12.00,2.48,"115, 44, 6, 87, 68"
+14-48 Find Your (Unfortunate) Fate --Tales from the Crypt-Name Your Nightmare.txt,121,56.00,2.10,"18, 88"
+"14-49 Animorphs Alternamorphs -- Next Passage, The.txt",26,12.00,2.54,"7, 3, 18, 12, 13, 20, 23"
+14-50 Animorphs Alternamorphs -- First Journey.txt,27,15.00,2.44,"3, 17, 22, 8, 19"
+14-51 Paths of Doom -- Sete-Ka's Dream Quest.txt,116,37.00,2.00,108
+14-54 Make It Happen -- Master of the Past.txt,118,43.00,2.05,"14, 21, 108, 49, 51, 86"
+14-58 Tracker Books -- Codebreaker.txt,40,16.00,2.80,"38, 14, 9, 8, 27, 23"
+14-59 Tracker Books -- Skyjacked.txt,41,11.00,3.90,"13, 11, 17, 15, 31, 29, 37, 10, 9, 8, 25, 7, 33, 39, 14, 16, 28"
+14-63 Storymaze -- The Golden Udder.txt,110,51.00,2.18,"44, 32, 50, 98, 66"
+"14-65 Storymaze -- Minaotaur's Maze, The.txt",148,136.00,2.00,
+14-66 You Are There -- Battle of the Alamo.txt,158,74.00,2.05,
+34-01 Planetas en peligro.txt,106,15.00,2.40,115
