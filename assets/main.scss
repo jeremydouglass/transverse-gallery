@@ -14,3 +14,62 @@ h3 {
 img {
 	margin: 10px;
 }
+iframe {
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	margin-width: 0;
+	margin-height: 0;
+    background-color: white;
+	height: 250px;
+}
+
+div.graphs {
+  margin: 20px;
+}
+
+div.graphs ul {
+  list-style-type: none;
+  // width: 500px;
+}
+ 
+div.graphs h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+div.graphs figure {
+  margin: 10px;
+}
+
+div.graphs figure.graph {
+  float: right;
+}
+
+div.graphs figure.data {
+	float: left;
+}
+
+div.graphs figure.graph img {
+  max-width: 95%;
+  margin: 0 15px 0 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 10px;
+  background-color: white;
+}
+ 
+div.graphs li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+div.graphs li {
+  background: #eee;
+  padding: 10px;
+  overflow: auto;
+}
+
+.quarter {
+	width: 20% !important;
+}
