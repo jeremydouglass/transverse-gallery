@@ -1,0 +1,39 @@
+{% assign book = site.data.book_data | where: "id", include.id | first %}
+<h2>{{ book.title }} </h2>
+
+<p><strong>{{ book.id }}</strong>: <em>{{ book.citation }} {{ book.box }}:{{ book.folder }}<em>
+
+<div class="graphs">
+{% assign graphs = site.data.graph_data | where: "id", include.id %}
+{% for graph in graphs %}
+  <ul>
+    <li>
+      <h3>{{ graph.name }}{{ site.data.exts.data }}</h3>
+
+      <figure class="graph">
+		<figcaption><a href="{{ site.baseurl }}/assets/gamebooks/{{ graph.name }}{{ site.data.exts.image }}">Graph</a></figcaption>
+        <a href="{{ site.baseurl }}/assets/gamebooks/{{ graph.name }}{{ site.data.exts.image }}"><img src="{{ site.baseurl }}/assets/gamebooks/{{ graph.name }}{{ site.data.exts.image }}" alt="image"/></a>
+      </figure>
+	  <figure class="data">
+        <figcaption><a href="{{ site.baseurl }}/assets/gamebooks/{{ graph.name }}{{ site.data.exts.data }}">Edge List Data</a></figcaption>
+        <iframe src="{{ site.baseurl }}/assets/gamebooks/{{ graph.name }}{{ site.data.exts.data }}"></iframe>
+      </figure>
+
+	  <figure class="data">
+		<figcaption><a href="{{ site.baseurl }}/assets/gamebooks/{{ graph.name }}{{ site.data.exts.data }}">Log</a></figcaption>
+        <iframe src="{{ site.baseurl }}/assets/gamebooks/{{ graph.name }}{{ site.data.exts.log }}"></iframe>
+      </figure>
+
+      <figure class="data">
+        <figcaption><a href="{{ site.baseurl }}/assets/gamebooks/{{ graph.name }}{{ site.data.exts.graphviz }}">Graphviz</a> (DOT/.gv)</figcaption>
+        <iframe src="{{ site.baseurl }}/assets/gamebooks/{{ graph.name }}{{ site.data.exts.graphviz }}"></iframe>
+      </figure>
+
+      <figure class="data">
+        <figcaption><a href="{{ site.baseurl }}/assets/gamebooks/{{ graph.name }}{{ site.data.exts.yed }}">Trivial Graph Format</a> (yEd/.tgf)</figcaption>
+        <iframe src="{{ site.baseurl }}/assets/gamebooks/{{ graph.name }}{{ site.data.exts.yed }}"></iframe>
+      </figure>
+    </li>
+  </ul>
+{% endfor %}
+</div>
