@@ -1,0 +1,51 @@
+---
+layout: default
+title:  "Boxes"
+date:   2017-09-04
+categories: gallery
+---
+
+{% assign boxes = site.data.book_data | group_by: "box" %}
+{% assign series_ids = site.data.book_data | sort: "series" | group_by: "series" %}
+
+<h1>Boxes and Series</h1>
+
+<p>A gallery of all works grouped up by Katz Collection box number and series title.</p>
+
+<p><a href="#index">[Index]</a></p>
+
+{% for box in boxes %}
+<a name="box{{ box.name }}"></a>
+<h2>Box {{ box.name }}</h2>
+  {% assign series_list = box.items | group_by: "series" %}
+  {% for series in series_list %}
+<a name="series{{ series.items[0].series_id }}"></a>
+<h3>{{ series.name }} {% if series.name == series_last %} [Continued]{% endif %}</h3>
+    {% assign series_last = series.name %}
+    {% for book in series.items %}
+      {% for image in site.static_files %}
+        {% if image.basename contains book.id %}
+          {% if image.name contains '.png' and image.path contains 'gamebooks/thumb' %}
+          <figure style="display: inline-block; text-align: center;">
+            <a href="{{ site.baseurl }}/gamebooks/{{ book.id }}.html#{{ image.basename }}" target="_blank"><img src="{{ site.baseurl }}/assets/gamebooks/thumb/{{ image.name }}" alt="image"/></a>
+            <figcaption>{{ book.id }}</figcapture>
+          </figure>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+
+<hr>
+<a name="index">
+<h1>Boxes Index</h1>
+
+<p>Boxes: {% for box in boxes %} | <a href="#box{{ box.name }}">{{ box.name }} </a>{% endfor %}</p>
+
+<p>Series IDs:</p>
+<ul>
+{% for this_series in series_ids %}
+	<li><a href="#series{{ this_series.items[0].series_id }}">{{ this_series.items[0].series }}</a> ({{ this_series.items[0].series_id }})</li>
+{% endfor %}
+</ul>
