@@ -29,7 +29,7 @@ categories: gallery
         {% if image.basename contains book.id %}
           {% if image.name contains '.png' and image.path contains 'gamebooks/thumb' %}
           <figure style="display: inline-block; text-align: center;">
-            <a href="{{ site.baseurl }}/gamebooks/{{ book.id }}.html#{{ image.basename }}" target="_blank"><img src="{{ site.baseurl }}/assets/gamebooks/thumb/{{ image.name }}" alt="image"/></a>
+            <a href="{{ site.baseurl }}/gamebooks/{{ book.id }}.html" target="_blank"><img src="{{ site.baseurl }}/assets/gamebooks/thumb/{{ image.name }}" alt="image"/></a>
             <figcaption>{{ book.id }}</figcapture>
           </figure>
           {% endif %}

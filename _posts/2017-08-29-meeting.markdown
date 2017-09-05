@@ -15,6 +15,6 @@ The agenda:
 
 Prepare before the meeting:
 
-1. Review the [gallery]({{ site.baseurl }}/galley.html) of interactive narrative graphs organized by Katz Collection box number and identified by series. You may wish to zoom out the browser to see more -- or click on individaul images and zoom into them to inspect details.
+1. Review the [gallery]({{ site.baseurl }}/gallery.html) of interactive narrative graphs organized by Katz Collection box number and identified by series. You may wish to zoom out the browser to see more -- or click on individaul images and zoom into them to inspect details.
 2. Review the [Concepts]({{ site.baseurl }}/concepts.html) page on classifications of narrative networks, feature identification, analysis and debugging.
 3. Fill out a short survey on the current state of your archival research, and your future interests <https://goo.gl/forms/t6itFh3xgYqIdAO52>
