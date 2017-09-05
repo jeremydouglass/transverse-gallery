@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Boxes"
+title:  "Gallery"
 date:   2017-09-04
 categories: gallery
 ---
@@ -8,9 +8,11 @@ categories: gallery
 {% assign boxes = site.data.book_data | group_by: "box" %}
 {% assign series_ids = site.data.book_data | sort: "series" | group_by: "series" %}
 
-<h1>Boxes and Series</h1>
+<h1>Gallery</h1>
 
 <p>A gallery of all works grouped up by Katz Collection box number and series title.</p>
+
+<p>Click on a story graph to view a book detail page with data, logs, images and graph files. Multiple graphs may be grouped under one book. If a book is listed as a duplicate in the Katz catalog (e.g. 01-02 is listed as a duplicate of 01-01) then its graph detail page appears without a catalog heading.</p>
 
 <p><a href="#index">[Index]</a></p>
 
