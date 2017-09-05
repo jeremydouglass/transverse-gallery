@@ -12,11 +12,11 @@ categories:
 
 :  **Sarah Cifranic**: In _Fight for Freedom_ by Jay Leibold (Jay Montgomery) I liked how this was a political genre aimed towards the audience of the "Choose Your Own Adventure" series. The book is about Apartheid in South Africa, and I found it educational as well as hands on. It was cool to be able to travel through someone else's footsteps as the reader and experience this narrative.
 
-   {% include graph.html graph="03-23 CYOA -- Fight for Freedom.txt.gv.png" scale="1.5" %}
+   {% include graph.html graph="03-23 CYOA -- Fight for Freedom.txt.gv.png" scale="1" %}
 
 :  **Juliet Way-Henthorne**: The web-like structure of the murder mystery "Who Killed Harlowe Thrombey?" was interesting. Some other books in Box #1 of the Katz Collection [early "Choose Your Own Adventure" series books] also had directed several loop-backs to one key page.
 
-   {% include graph.html graph="01-31 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png" scale="1.5" %}
+   {% include graph.html graph="01-31 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png" scale="1" %}
 
    At first, it was difficult to adapt to different styles of game books and shift gears accordingly. This was especially true of the variety of books in Box #9 after a pretty consistent structure throughout most of Box #1. 
 
@@ -24,34 +24,34 @@ categories:
 
    > _Try a sneaky maneuver to get away. Turn to PAGE 56, then 92, then 103, then 24, then back to 56 again. Don't read those pages, silly! Just turn to them. Maybe that will confuse whoever is following you. Then sneak over to page 52 and see if you've lost them.
 
-   {% include graph.html graph="06-27 Goosebumps 10 Diary of a Mad Mummy .txt.gv.png" scale="1.5" %}
+   {% include graph.html graph="06-27 Goosebumps 10 Diary of a Mad Mummy .txt.gv.png" scale="1" %}
 
 :  **Michael Loose**: _Dream Trips_ had one of the most unusual graphs I made. The book contains a choice for "nothing" and a choice for "any page in the book". Very worth looking at!
 
-   {% include graph.html graph="05-22 CYOA-YA -- Dream Trips (Go to any Page Version).txt.gv.png" scale="1.5" %}{% include graph.html graph="05-22 CYOA-YA -- Dream Trips.txt.gv.png" scale="1.5" %}
+   {% include graph.html graph="05-22 CYOA-YR -- Dream Trips (Go to any Page Version).txt.gv.png" scale="1" %}{% include graph.html graph="05-22 CYOA-YR -- Dream Trips.txt.gv.png" scale="1" %}
 
 :  **Annette Ding**: _The Codebreaker_ from the "Tracker Books" series was interesting since [mapping the text] required a deeper engagement with the text than just reading the options and recording the numbers. Instructions [on which page to go to next] were often hidden. A few other books were also unintentionally difficult due to printing errors. [Misprinted page instructions break the graph and make some pages unreachable]
 
-   {% include graph.html graph="14-58 Tracker Books -- Codebreaker.txt.gv.png" scale="1.5" %}
+   {% include graph.html graph="14-58 Tracker Books -- Codebreaker.txt.gv.png" scale="1" %}
 
 :  **Kylie McGregor**: I found the game book _Tenopia Island_ interesting in that it only had one ending. There were multiple ways to make it to that end, but it allowed so you would still read each page to reach the ending.
 
-   {% include graph.html graph="11-11v3 EFT 01 Tenopia Island (no maps, simplified).txt.gv.png" scale="1.5" %}
+   {% include graph.html graph="11-11v3 EFT 01 Tenopia Island (no maps, simplified).txt.gv.png" scale="1" %}
 
    I also found some difficulty in encoding _Tenopia Island_. Most pages would send the reader back to a lexia of a map page, and then tell you turn back to the page before making your choice as a point of reference, creating a very complicated and messy graph of the book in Edger [project graphing software].
 
 :  **Sarah Oxford**: I was working on the Choose Your Own Adventure book _Last Run_ by R.A. Montgomery, and it had a page that required the reader to turn to 5 other pages before ultimately landing on the page that gave options to continue the story. The graph looked really interesting as it fanned out but then came back in a bottle neck.
 
-   {% include graph.html graph="04-05 CYOA -- Last Run.txt.gv.png" scale="1.5" %}
+   {% include graph.html graph="04-05 CYOA -- Last Run.txt.gv.png" scale="1" %}
 
    One difficulty I encountered was that I actually found a book with an error in it: _Fright Night_. The story graph was broken at page 52, and after 30 minutes of trying to find my mistake, we searched online and found the page error and corrected it. Here was the comment on the community site gamebooks.org:
 
    > There is an error in the book. It's on page 20-something [22], in the story arc about the roller coaster. It says "Turn to page 57" but you actually need to turn to 52. Otherwise, you will be very confused!
 
-   {% include graph.html graph="04-15 CYOA -- Fright Night.txt.gv.png" scale="1.5" %}
+   {% include graph.html graph="04-15 CYOA -- Fright Night.txt.gv.png" scale="1" %}
 
 :  **Alanna B.**: _Quando Protagonista È il Lettore_ is the weirdest book I have ever seen - it's a playable index of gamebooks, written as gamebook: a metastructure of metadata. Brilliant! 
 
 :  **Rachael Grainger**: The "Life Games" series was interesting and stood out to me because the books were based on "everyday life," geared specifically towards women. The narrative structure of these books was also unusual in having many endings -- and an identical template of page numbers for every book!
 
-   {% include graph.html graph="07-15 Lifegames 04 Woman in Power Politics (192).txt.gv.png" scale="1.5" %}
+   {% include graph.html graph="07-15 Lifegames 04 Woman in Power Politics (192).txt.gv.png" scale="1" %}

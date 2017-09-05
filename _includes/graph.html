@@ -1,9 +1,9 @@
 {% assign nameparts = include.graph | split: ' ' %}
 <!-- figure style="float:left" -->
-	<a href="{{ site.baseurl }}/gamebooks/{{ nameparts[0] | slice: 0, 5 }}.html">
-		<img src="{{ site.baseurl }}/assets/thumbs/{{ include.graph }}" alt="image" onload="this.width/={{ include.scale | default=:2 }};this.onload=null;"/>
-		<!-- figcaption>{{ nameparts[0] | slice: 0, 5 }}</figcaption -->
-	</a>
-	<a href="{{ site.baseurl }}/assets/images/{{ include.graph }}"></a>
+<a href="{{ site.baseurl }}/gamebooks/{{ nameparts[0] | slice: 0, 5 }}.html">
+<img src="{{ site.baseurl }}/assets/gamebooks/thumb/{{ include.graph }}" alt="image" onload="this.width/={{ include.scale | default=:2 }};this.onload=null;"/>
+<!-- figcaption>{{ nameparts[0] | slice: 0, 5 }}</figcaption -->
+</a>
+<a href="{{ site.baseurl }}/assets/gamebooks/image/{{ include.graph }}"></a>
 <!-- /figure -->
 

@@ -31,31 +31,15 @@ Greetings, GameKatz!
 
 I'm currently developing a research group for interrogating the relevance of _genre_ to the narrative structures of gamebooks. As you may have already noticed, such relevance is not immediately apparent. In overviewing the graphs produced thus far, it's easy to spot recurrent and congruent narrative structures within a specific _series_ and sometimes even amongst a specific _author_. However, correlations between narrative structures of the same genre remain elusive. See, for example, the graphs below:
 
-<ul class="photo-gallery">
-  {% for image in page.topics.romance.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include graph-set.html imagelist=page.topics.romance.images scale="1" %}
 
 These series--- _Turning Points_, _Follow Your Heart_, and _Confidentially Yours_ ---all fall within the Romance genre, but the narrative structures appear to have nothing in common. If one were to review each series separately, it appears that structural congruence correlates much stronger with _series_ than _genre_.
 
-<ul class="photo-gallery">
-  {% for image in page.topics.turningpoints.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include graph-set.html imagelist=page.topics.turningpoints.images scale="1" %}
 
-<ul class="photo-gallery">
-  {% for image in page.topics.followheart.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include graph-set.html imagelist=page.topics.followheart.images scale="1" %}
 
-<ul class="photo-gallery">
-  {% for image in page.topics.confidentially.images %}
-    <a href="{{ site.baseurl }}/assets/images/{{ image.image_path }}"><img src="{{ site.baseurl }}/assets/thumbs/{{ image.image_path }}" alt="image" onload="this.width/=2;this.onload=null;"/></a>
-  {% endfor %}
-</ul>
+{% include graph-set.html imagelist=page.topics.confidentially.images scale="1" %}
 
 Each _Turning Points_ gamebook has an incredibly linear structure, ultimately culminating in a choice between two endings. Each _Follow Your Heart_ gamebook has a classical arboreal, or tree-like, structure, bearing much more in common with the prototypical CYOA series. Each _Confidentially Yours_ gamebook is split into two narratives (one for each letter), and each of these narratives remain fairly linear, diverging into two or three branches that never intersect or branch out any further. 
 

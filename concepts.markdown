@@ -18,7 +18,7 @@ topics:
     -  image_path: 07-11 Nightmares -- Castle of Horror (126).txt.gv.png
   rhizomatic:
     images:
-    -  image_path: 13-73 ** Troll FF Forbidden Towers (124).txt.gv.png
+    -  image_path: 13-73 ** Troll FF -- Forbidden Towers (124).txt.gv.png
     -  image_path: 07-01 Goosebumps S01 Into the Jaws of Doom (238).txt.gv.png
   branchnodes:
     images:
@@ -65,7 +65,7 @@ topics:
     -  image_path: 11-01 Star Challenge 01 Planets in Peril.txt.gv.png
     -  image_path: 10-03 WWY 02 Siege of the Dragonriders, The.txt.gv.png
     -  image_path: 13-28 Powerpuff Girls -- Career-Day Blossom (64).txt.gv.png
-    -  image_path: 13-10 PYOAS -- Star Trek III (117) one ending.txt.gv.png
+    -  image_path: 13-10 PIYAS -- Star Trek III (117) one ending.txt.gv.png
   choiceorder:
     images:
     -  image_path: 03-17 CYOA -- Alien, Go Home.txt.gv.png
@@ -115,8 +115,8 @@ topics:
     -  image_path: 01-39v2 CYOA -- Inside UFO 54-40 (labeled).txt.gv.png
   dreamtrips:
     images:
-    -  image_path: 05-22 CYOA-YA -- Dream Trips (Go to any Page Version).txt.gv.png
-    -  image_path: 05-22 CYOA-YA -- Dream Trips.txt.gv.png
+    -  image_path: 05-22 CYOA-YR -- Dream Trips (Go to any Page Version).txt.gv.png
+    -  image_path: 05-22 CYOA-YR -- Dream Trips.txt.gv.png
   tenopia:
     images:
     -  image_path: 11-11 EFT 01 Tenopia Island.txt.gv.png
@@ -136,13 +136,13 @@ Some works have lots of choices at almost every turn -- they are more game-like.
 
 #### Linear-heavy (wide)
 
-{% include graph-set.html imagelist=page.topics.linearheavy.images break=true %}
+{% include graph-set.html imagelist=page.topics.linearheavy.images break=true scale="1" %}
 
 #### Branch-heavy (tall)
 
 "Arboreal," or tree-like -- most of the nodes are choices, and there are many choices, generally leading to many endings.
 
-{% include graph-set.html imagelist=page.topics.branchheavy.images %}
+{% include graph-set.html imagelist=page.topics.branchheavy.images scale="1" %}
 
 ### Hierarchical vs. Web
 
@@ -154,7 +154,7 @@ Other works are more web-like. For example they may be organized narratively not
 
 When web-like story networks are laid out heirarchically they tend to produce large quantities of loops that move around the main network in every direction. Sometimes taking such networks into yEd and laying them out with another algorithm (e.g. Organic or Radial) can better reveal how the story network works.
 
-{% include graph-set.html imagelist=page.topics.rhizomatic.images %}
+{% include graph-set.html imagelist=page.topics.rhizomatic.images scale="1" %}
 
 (See [Exploring section](#exploring) for Yed representation below)
 
@@ -164,29 +164,29 @@ When web-like story networks are laid out heirarchically they tend to produce la
 
 branch node -- the elevator (7 buttons). Graph vocab: "outdegree"
 
-{% include graph-set.html imagelist=page.topics.branchnodes.images %}
+{% include graph-set.html imagelist=page.topics.branchnodes.images scale="1" %}
 
 Merge nodes -- a local funnel (see also convergent endings) Graph vocab: "indegree" 
 
-{% include graph-set.html imagelist=page.topics.mergenodes.images %}
+{% include graph-set.html imagelist=page.topics.mergenodes.images scale="1" %}
 
 Branch-merge -- Very high degree node. See log for "interesting" nodes listed from any given graph, they will be branches or merges.
 
-{% include graph-set.html imagelist=page.topics.branchmerge.images %}
+{% include graph-set.html imagelist=page.topics.branchmerge.images scale="1" %}
 
 ### Computing Fake Nodes
 
 #### Interactive Nodes
 
-{% include graph-set.html imagelist=page.topics.interactive.images %}
+{% include graph-set.html imagelist=page.topics.interactive.images scale="1" %}
 
 #### False Endings
 
-{% include graph-set.html imagelist=page.topics.falseendings.images %}
+{% include graph-set.html imagelist=page.topics.falseendings.images scale="1" %}
 
 ### Reference Page
 
-{% include graph-set.html imagelist=page.topics.reference.images %}
+{% include graph-set.html imagelist=page.topics.reference.images scale="1" %}
 
 ### Shortcuts and Loopbacks
 
@@ -200,7 +200,7 @@ Branch-merge -- Very high degree node. See log for "interesting" nodes listed fr
 
 Most noticible in linear works. Multiple shortcuts create an optimal shortest path to the end -- the work may have a story 50 lexias deep, but one can reach the finish by only reading 6 lexias. (see log: "diameter")
 
-{% include graph-set.html imagelist=page.topics.shortcuts.images %}
+{% include graph-set.html imagelist=page.topics.shortcuts.images scale="1" %}
 
 #### Loopbacks
 
@@ -214,7 +214,7 @@ Most noticible in linear works. Multiple shortcuts create an optimal shortest pa
 
 For the first example, see node 4. For the second example, see node sequence 88->18->1.
 
-{% include graph-set.html imagelist=page.topics.loopbacks.images %}
+{% include graph-set.html imagelist=page.topics.loopbacks.images scale="1" %}
 
 ### Convergent Endings
 
@@ -222,7 +222,7 @@ Some convergent ending patterns funnel together many "lose" endings, leaving a s
 
 Other stories only have a single end, often a scoring system or total assessment -- or a public service announcement / moral message.
 
-{% include graph-set.html imagelist=page.topics.convergent.images %}
+{% include graph-set.html imagelist=page.topics.convergent.images scale="1" %}
 
 ### Choice Ordering
 
@@ -230,7 +230,7 @@ Ordered vs. Disordered Choices
 
 Second Choice always moves the reader further into the narrative
 
-{% include graph-set.html imagelist=page.topics.choiceorder.images %}
+{% include graph-set.html imagelist=page.topics.choiceorder.images scale="1" %}
 
 ### Fragments and Floating Nodes
 
@@ -240,7 +240,7 @@ Second Choice always moves the reader further into the narrative
 
 What's the difference between these two graphs?
 
-{% include graph-set.html imagelist=page.topics.fragments.images %}
+{% include graph-set.html imagelist=page.topics.fragments.images scale="1" %}
 
 <!--add 14-41 "You Can Be the Stainless Steel Rat" graph (also includes disconnected return nodes)-->
 
@@ -248,43 +248,43 @@ What's the difference between these two graphs?
 
 ### Identical Graphs
 
-{% include graph-set.html imagelist=page.topics.identical.images %}
+{% include graph-set.html imagelist=page.topics.identical.images scale="1" %}
 
 ### Almost Identical Graphs
 
-{% include graph-set.html imagelist=page.topics.almostidentical.images %}
+{% include graph-set.html imagelist=page.topics.almostidentical.images scale="1" %}
 
 <h1>Comparative examples</h1>
 
 <h2>CYOA (The Cave of Time)</h2>
 
-{% include graph-set.html imagelist=page.topics.caveoftime.images %}
+{% include graph-set.html imagelist=page.topics.caveoftime.images scale="1" %}
 
 <h2>CYOA (Who Killed Harlowe Thrombey)</h2>
 
-{% include graph-set.html imagelist=page.topics.thrombey.images %}
+{% include graph-set.html imagelist=page.topics.thrombey.images scale="1" %}
 
 <h2>CYOA (Abominable Snowman)</h2>
 
-{% include graph-set.html imagelist=page.topics.snowman.images %}
+{% include graph-set.html imagelist=page.topics.snowman.images scale="1" %}
 
 <h2>CYOA (Vampire Express)</h2>
 
-{% include graph-set.html imagelist=page.topics.vampire.images %}
+{% include graph-set.html imagelist=page.topics.vampire.images scale="1" %}
 
 <h2>CYOA (Inside UFO 54-40)</h2>
 
 Node 117 choices are flipped
 
-{% include graph-set.html imagelist=page.topics.ufo.images %}
+{% include graph-set.html imagelist=page.topics.ufo.images scale="1" %}
 
 <h2>Dream Trips</h2>
 
-{% include graph-set.html imagelist=page.topics.dreamtrips.images %}
+{% include graph-set.html imagelist=page.topics.dreamtrips.images scale="1" %}
 
 <h2>EFT (Tenopia Island)</h2>
 
-{% include graph-set.html imagelist=page.topics.tenopia.images %}
+{% include graph-set.html imagelist=page.topics.tenopia.images scale="1" %}
 
 ## Inspecting and Exploring
 
