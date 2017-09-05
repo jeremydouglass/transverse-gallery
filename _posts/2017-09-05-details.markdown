@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "New Gallery Details"
+date:   2017-09-05
+categories: 
+---
+
+The project [gallery]({{ site.baseurl }}/gallery.html) now gives the ability to browse by box and series, and shows detail pages with the story graphs, data, log files, and graph source files for each work. Multiple graphs of the same work (for example, encoding it or annotating it in different ways) are compiled in a list under the work header.
+
+For example, see:
+
+*  [01-42 CYOA -- Abominable Snowman, The]({{ site.baseurl }}/gamebooks/01-42.html)
