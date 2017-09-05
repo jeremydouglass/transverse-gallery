@@ -466,9 +466,11 @@ Boxes {% for box in page.boxes %} | <a href="#box{{ box.box_number }}">{{ box.bo
   <h2>Box {{ box.box_number }}</h2>
     {% for series in box.series %}
     <h3>{{ series.series_name }}</h3>
+      <div style="overflow: auto;"> 
       {% for image in series.images %}
-        {% include graph.html graph=image.image_path scale="2" %}
+        {% include graph.html graph=image.image_path scale="4" %}
       {% endfor %}
+      </div>
     {% endfor %}
   {% endfor %}
 </ul>
