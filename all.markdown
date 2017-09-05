@@ -16,8 +16,7 @@ This gallery presents the complete collection of works mapped to-date in collect
 {% for image in site.static_files %}
   {% if image.name contains '.png' and image.path contains 'gamebooks/thumb' %}
     {% assign image_book_id = image.basename | truncate: 5, "" %}
-    <!-- look up site.collections.gamebooks by image_book_id -->
-    <a href="{{ site.baseurl }}/gamebooks/{{ image_book_id }}.html#{{ image.basename }}"><img src="{{ site.baseurl }}/assets/gamebooks/thumb/{{ image.name }}" alt="image"/></a>
+    <a href="{{ site.baseurl }}/gamebooks/{{ image_book_id }}.html#{{ image.basename }}"><img src="{{ site.baseurl }}/assets/gamebooks/thumb/{{ image.name }}" target="_blank" alt="image"/></a>
   {% endif %}
 {% endfor %}
 </ul>
