@@ -73,3 +73,17 @@ div.graphs li {
 .quarter {
 	width: 20% !important;
 }
+
+div.graphs div.figelement {
+	width: 280px;
+}
+
+div.graphs figure.element img {
+	max-width: 280px;
+    margin: 0 15px 0 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 10px;
+    background-color: white;
+}

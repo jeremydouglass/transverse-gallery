@@ -36,20 +36,18 @@
     </li>
   </ul>
 {% endfor %}
-</div>
 
 {% assign signatures = site.data.element_data | where: "id", include.id %}
-
-<div class="elements">
   <ul>
   {% for signature in signatures %}
+    {% unless signature.file contains "nocounts" %}
     <li>
-      <figure class="graph">
-         <figcaption><a href="{{ site.baseurl }}/assets/gamebooks/signature/{{ signature.file }}">Signature</a></figcaption>
-         <a href="{{ site.baseurl }}/assets/gamebooks/signature/{{ signature.file }}"><img src="{{ site.baseurl }}/assets/gamebooks/signature/{{ signature.file }}" alt="image"/></a>
+      <figure class="element">
+         <figcaption><a href="{{ site.baseurl }}/assets/gamebooks/signatures/{{ signature.file }}">Signature</a></figcaption>
+         <div class="figelement"><a href="{{ site.baseurl }}/assets/gamebooks/signatures/{{ signature.file }}"><img src="{{ site.baseurl }}/assets/gamebooks/signatures/{{ signature.file }}" alt="image"/></a></div>
       </figure>
     </li>
+	{% endunless %} 
   {% endfor %}
   </ul>
 </div>
-
