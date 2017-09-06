@@ -11,11 +11,11 @@
       <h3>{{ graph.name }}{{ site.data.exts.data }}</h3>
 
       <figure class="graph">
-		<figcaption><a href="{{ site.baseurl }}/assets/gamebooks/image/{{ graph.name }}{{ site.data.exts.image }}">Graph</a></figcaption>
+        <figcaption><a href="{{ site.baseurl }}/assets/gamebooks/image/{{ graph.name }}{{ site.data.exts.image }}">Graph</a></figcaption>
         <a href="{{ site.baseurl }}/assets/gamebooks/image/{{ graph.name }}{{ site.data.exts.image }}"><img src="{{ site.baseurl }}/assets/gamebooks/image/{{ graph.name }}{{ site.data.exts.image }}" alt="image"/></a>
       </figure>
 
-	  <figure class="data">
+      <figure class="data">
         <figcaption><a href="{{ site.baseurl }}/assets/gamebooks/edges/{{ graph.name }}{{ site.data.exts.data }}">Edge List Data</a></figcaption>
         <iframe src="{{ site.baseurl }}/assets/gamebooks/edges/{{ graph.name }}{{ site.data.exts.data }}"></iframe>
       </figure>
@@ -37,3 +37,19 @@
   </ul>
 {% endfor %}
 </div>
+
+{% assign signatures = site.data.element_data | where: "id", include.id %}
+
+<div class="elements">
+  <ul>
+  {% for signature in signatures %}
+    <li>
+      <figure class="graph">
+         <figcaption><a href="{{ site.baseurl }}/assets/gamebooks/signature/{{ signature.file }}">Signature</a></figcaption>
+         <a href="{{ site.baseurl }}/assets/gamebooks/signature/{{ signature.file }}"><img src="{{ site.baseurl }}/assets/gamebooks/signature/{{ signature.file }}" alt="image"/></a>
+      </figure>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+
