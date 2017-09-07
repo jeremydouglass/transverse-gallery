@@ -1,0 +1,152 @@
+# 10-06 WWY 04 Ghost Knights of Camelot
+# Jeremy Douglass
+# 2017-08-17
+
+1		S
+1	3
+3	4
+4	5
+5	7
+	8
+6	21
+	87
+7	97
+	11
+8	101
+	16
+9	36
+10	19
+	274
+11	12
+12	85
+	91
+	20
+14	15
+15	6
+	27
+	1500
+16	17
+17	6
+	14
+	27
+	10
+18	70
+19	64
+	60
+20	9
+	94
+21	14
+	27
+	2100
+22	38
+23	31
+	47
+24	41	!	# if the sun is out...
+	46	!	# if moon is out...
+25	26
+26	22
+27	28
+28	41
+	6
+	14
+29	30
+30	45
+	34
+	49
+31	80
+32	33
+33	79
+	55
+34	59
+	84
+36	37
+37	11
+	50
+	67
+38	70
+39	56
+	0
+	0
+	57
+	57
+	0
+40	72
+41	42
+42	66
+	43
+43	29
+44	22
+45	48
+46	64
+	54
+47	73
+	40
+48	39
+	0
+49	90
+	86
+50	51
+51	52
+52	25
+	58
+	32
+	44
+54	41
+55	88
+56	34
+	62
+57	61
+58	32
+	75
+59		E
+60	41
+61	86
+	92
+	62
+62	68
+	74
+64		E
+65	81
+66		E
+67		E
+68	69
+69	78
+	93
+70	77
+	23
+71	83
+	76
+72		E
+73		E
+74		E
+75		E
+76		E
+77		E
+78		E
+79		E
+80	95
+81	71
+82		E
+83	95
+84	62
+85		E
+86		E
+87	41
+88	18
+	82
+90	30	!	# Go to the bottom of PAGE 30....
+91	36
+92	65
+93	71
+94		E
+95		E
+# 95	8		If you choose to begin your new adventure now as the Warrior...
+# 95	7		If you choose to begin your new adventure now as the Wizard...
+
+# REFERENCES
+97		97 The Book of Spells	# reference
+101		101 The Book of Weapons	# reference
+
+# In-lexia endings on nodes with choices
+1500		15 E
+2100		21 E

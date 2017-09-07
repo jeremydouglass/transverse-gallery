@@ -1,0 +1,23 @@
+Node Count: 92
+
+Node List:  1, 114, 2, 9, 22, 3, 16, 4, 104, 6, 7, 52, 8, 106, 12, 10, 59, 11, 72, 46, 15, 25, 90, 18, 109, 19, 32, 21, 73, 23, 35, 27, 80, 28, 55, 29, 38, 77, 34, 84, 42, 112, 39, 58, 41, 69, 83, 43, 50, 56, 47, 51, 65, 94, 53, 64, 78, 74, 57, 67, 79, 68, 60, 95, 98, 62, 105, 70, 89, 86, 82, 75, 93, 87, 48, 45, 81, 30, 91, 36, 14, 96, 111, 116, 108, 26, 99, 33, 100, 101, 113, 103
+
+Average degree: 2.00
+
+Diameter (directed):   37.0
+Diameter (undirected): 43.0
+
+Degree Distribution (undirected): 
+   degree: 0 1 2 3 
+    nodes: 0 16 60 16 
+
+Degree Ranges: 
+    min max tot
+all [1, 3, 184]
+ in [0, 2, 92]
+out [0, 2, 92]
+
+Degree map: (high degree nodes)
+#   In  Out Total
+
+

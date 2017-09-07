@@ -1,0 +1,40 @@
+digraph g{
+  graph [ label="05-56 CYOA-YR -- Miss Liberty Caper, The.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  1 -> 2;
+  2 -> 6;
+  4 -> 13;
+  4 -> 24;
+  6 -> 9;
+  7 -> 33;
+  9 -> 14;
+  10 -> 36;
+  10 -> 30;
+  13 -> 32;
+  14 -> 18;
+  14 -> 26;
+  16 -> 50;
+  16 -> 29;
+  17 -> 22;
+  18 -> 10;
+  21 -> 4;
+  22 -> 38;
+  22 -> 16;
+  24 -> 45;
+  26 -> 27;
+  27 -> 17;
+  29 -> 41;
+  30 -> 31;
+  31 -> 47;
+  32 -> 43;
+  33 -> 35;
+  36 -> 7;
+  36 -> 21;
+  38 -> 39;
+  41 -> 52;
+  47 -> 49;
+  49 -> 46;
+  50 -> 51;
+}
+

@@ -1,0 +1,29 @@
+5		chapter 1
+5	14
+14		chapter 2
+14	24
+24		chapter 3
+24	35
+35		chapter 4
+35	44
+44		chapter 5
+44	54
+54		chapter 6
+54	63
+63		chapter 7
+63	74
+74		chapter 8
+74	83
+83		chapter 9
+83	90
+90		chapter 10
+90	101
+101		chapter 11
+101	108
+108		chapter 12
+108	119
+119		the choice
+119	121
+	141
+121		ending 1
+141		ending 2

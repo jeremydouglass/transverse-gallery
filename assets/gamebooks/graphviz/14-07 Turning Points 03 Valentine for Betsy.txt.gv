@@ -1,0 +1,44 @@
+digraph g{
+  graph [ label="14-07 Turning Points 03 Valentine for Betsy.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  5	[ xlabel="chapter 1" ];
+  5 -> 16;
+  16	[ xlabel="chapter 2" ];
+  16 -> 25;
+  25	[ xlabel="chapter 3" ];
+  25 -> 38;
+  38	[ xlabel="chapter 4" ];
+  38 -> 41;
+  41	[ xlabel="chapter 5" ];
+  41 -> 48;
+  48	[ xlabel="chapter 6" ];
+  48 -> 55;
+  55	[ xlabel="chapter 7" ];
+  55 -> 61;
+  61	[ xlabel="chapter 8" ];
+  61 -> 66;
+  66	[ xlabel="chapter 9" ];
+  66 -> 73;
+  73	[ xlabel="chapter 10" ];
+  73 -> 83;
+  83	[ xlabel="chapter 11" ];
+  83 -> 89;
+  89	[ xlabel="chapter 12" ];
+  89 -> 97;
+  97	[ xlabel="chapter 13" ];
+  97 -> 104;
+  104	[ xlabel="chapter 14" ];
+  104 -> 111;
+  111	[ xlabel="chapter 15" ];
+  111 -> 118;
+  118	[ xlabel="chapter 16" ];
+  118 -> 125;
+  125	[ xlabel="the choice" ];
+  125 -> 127;
+  125 -> 143;
+  127	[ xlabel="ending 1" ];
+  143	[ xlabel="ending 2" ];
+  
+}
+

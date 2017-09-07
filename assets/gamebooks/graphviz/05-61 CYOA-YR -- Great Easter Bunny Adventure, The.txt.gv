@@ -1,0 +1,37 @@
+digraph g{
+  graph [ label="05-61 CYOA-YR -- Great Easter Bunny Adventure, The.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  1 -> 2;
+  2 -> 10;
+  6 -> 13;
+  6 -> 50;
+  9 -> 30;
+  10 -> 6;
+  10 -> 27;
+  16 -> 17;
+  17 -> 18;
+  18 -> 22;
+  18 -> 25;
+  21 -> 28;
+  22 -> 36;
+  25 -> 26;
+  26 -> 5;
+  27 -> 40;
+  27 -> 37;
+  28 -> 19;
+  33 -> 21;
+  33 -> 39;
+  34 -> 43;
+  36 -> 9;
+  36 -> 33;
+  37 -> 44;
+  39 -> 46;
+  40 -> 53;
+  42 -> 16;
+  42 -> 34;
+  44 -> 14;
+  44 -> 48;
+  50 -> 42;
+}
+

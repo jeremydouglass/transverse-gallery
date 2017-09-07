@@ -1,0 +1,39 @@
+digraph g{
+  graph [ label="05-65 CYOA-YR -- You See the Future.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  1 -> 2;
+  2 -> 8;
+  3 -> 12;
+  5 -> 44;
+  6 -> 10;
+  7 -> 24;
+  8 -> 21;
+  8 -> 3;
+  10 -> 5;
+  10 -> 18;
+  12 -> 25;
+  12 -> 14;
+  14 -> 34;
+  17 -> 22;
+  17 -> 47;
+  21 -> 27;
+  22 -> 11;
+  24 -> 51;
+  24 -> 43;
+  24 -> 29;
+  25 -> 7;
+  27 -> 17;
+  27 -> 6;
+  29 -> 41;
+  30 -> 13;
+  33 -> 26;
+  34 -> 30;
+  34 -> 49;
+  39 -> 32;
+  43 -> 39;
+  47 -> 33;
+  49 -> 37;
+  51 -> 38;
+}
+

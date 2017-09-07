@@ -1,0 +1,38 @@
+digraph g{
+  graph [ label="05-25 CYOA-YR -- Bigfoot Mystery, The.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  1 -> 7;
+  3 -> 13;
+  3 -> 33;
+  5 -> 17;
+  5 -> 20;
+  7 -> 9;
+  7 -> 3;
+  9 -> 14;
+  9 -> 10;
+  10 -> 19;
+  10 -> 23;
+  13 -> 26;
+  13 -> 24;
+  14 -> 5;
+  17 -> 29;
+  17 -> 36;
+  19 -> 14;
+  20 -> 44;
+  20 -> 29;
+  23 -> 50;
+  24 -> 31;
+  24 -> 34;
+  26 -> 43;
+  31 -> 32;
+  33 -> 38;
+  36 -> 40;
+  38 -> 53;
+  40 -> 41;
+  42 -> 48;
+  43 -> 42;
+  43 -> 46;
+  48 -> 49;
+}
+

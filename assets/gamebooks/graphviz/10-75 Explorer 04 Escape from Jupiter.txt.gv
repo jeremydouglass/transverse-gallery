@@ -1,0 +1,123 @@
+digraph g{
+  graph [ label="10-75 Explorer 04 Escape from Jupiter.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  
+  
+  
+  
+  
+  
+  
+  
+  1	[ xlabel="S" ];
+  1 -> 2;
+  2 -> 3;
+  3 -> 5;
+  5 -> 12;
+  6 -> 7;
+  7 -> 8;
+  8 -> 28;
+  8 -> 32;
+  9 -> 10;
+  10 -> 11;
+  11 -> 18;
+  12 -> 14;
+  14 -> 15;
+  15 -> 16;
+  16 -> 17;
+  17 -> 19;
+  18 -> 6;
+  19 -> 20;
+  20 -> 21;
+  21 -> 22;
+  22 -> 24;
+  24 -> 9;
+  24 -> 18;
+  25 -> 26;
+  26 -> 27;
+  27 -> 40;
+  27 -> 37;
+  28 -> 30;
+  30 -> 31;
+  31	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  32 -> 33;
+  33 -> 34;
+  34 -> 36;
+  36 -> 25;
+  37 -> 39;
+  39 -> 44;
+  40 -> 42;
+  42 -> 43;
+  43 -> 56;
+  43 -> 49;
+  44 -> 45;
+  45 -> 46;
+  45 -> 53;
+  45 -> 83;
+  47 -> 48;
+  48 -> 83;
+  49 -> 50;
+  50 -> 51;
+  51 -> 52;
+  52	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  53 -> 54;
+  54 -> 58;
+  56 -> 57;
+  57 -> 49;
+  58 -> 59;
+  59 -> 61;
+  61 -> 69;
+  61 -> 47;
+  62 -> 63;
+  63 -> 64;
+  64 -> 84;
+  64 -> 93;
+  65 -> 66;
+  66 -> 68;
+  68 -> 71;
+  68 -> 74;
+  69 -> 70;
+  70	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  71 -> 72;
+  72 -> 73;
+  73	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  74 -> 76;
+  76	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  77 -> 78;
+  78 -> 79;
+  79 -> 80;
+  80 -> 82;
+  82 -> 62;
+  83 -> 95;
+  83 -> 77;
+  84 -> 85;
+  85 -> 86;
+  86 -> 87;
+  87	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  88 -> 89;
+  89 -> 92;
+  92 -> 111;
+  93 -> 94;
+  94 -> 102;
+  95 -> 96;
+  96 -> 97;
+  97 -> 65;
+  98 -> 99;
+  99 -> 101;
+  101 -> 104;
+  101 -> 88;
+  102 -> 103;
+  102 -> 106;
+  104 -> 105;
+  105	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  106 -> 108;
+  108 -> 109;
+  109 -> 110;
+  110 -> 98;
+  111 -> 112;
+  112 -> 113;
+  113	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  
+}
+

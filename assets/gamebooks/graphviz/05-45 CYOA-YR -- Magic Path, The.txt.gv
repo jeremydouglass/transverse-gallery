@@ -1,0 +1,37 @@
+digraph g{
+  graph [ label="05-45 CYOA-YR -- Magic Path, The.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  1 -> 2;
+  2 -> 12;
+  2 -> 8;
+  6 -> 22;
+  6 -> 10;
+  8 -> 15;
+  8 -> 25;
+  8 -> 37;
+  10 -> 11;
+  11 -> 14;
+  12 -> 6;
+  14 -> 5;
+  14 -> 33;
+  15 -> 17;
+  18 -> 19;
+  25 -> 35;
+  25 -> 43;
+  26 -> 28;
+  29 -> 31;
+  33 -> 41;
+  33 -> 49;
+  37 -> 46;
+  37 -> 20;
+  41 -> 42;
+  43 -> 45;
+  45 -> 53;
+  46 -> 51;
+  49 -> 18;
+  49 -> 26;
+  53 -> 38;
+  53 -> 29;
+}
+

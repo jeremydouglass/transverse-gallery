@@ -1,0 +1,35 @@
+digraph g{
+  graph [ label="14-05 Turning Points 01 Friends Forever.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  5	[ xlabel="chapter 1" ];
+  5 -> 14;
+  14	[ xlabel="chapter 2" ];
+  14 -> 24;
+  24	[ xlabel="chapter 3" ];
+  24 -> 35;
+  35	[ xlabel="chapter 4" ];
+  35 -> 44;
+  44	[ xlabel="chapter 5" ];
+  44 -> 54;
+  54	[ xlabel="chapter 6" ];
+  54 -> 63;
+  63	[ xlabel="chapter 7" ];
+  63 -> 74;
+  74	[ xlabel="chapter 8" ];
+  74 -> 83;
+  83	[ xlabel="chapter 9" ];
+  83 -> 90;
+  90	[ xlabel="chapter 10" ];
+  90 -> 101;
+  101	[ xlabel="chapter 11" ];
+  101 -> 108;
+  108	[ xlabel="chapter 12" ];
+  108 -> 119;
+  119	[ xlabel="the choice" ];
+  119 -> 121;
+  119 -> 141;
+  121	[ xlabel="ending 1" ];
+  141	[ xlabel="ending 2" ];
+}
+

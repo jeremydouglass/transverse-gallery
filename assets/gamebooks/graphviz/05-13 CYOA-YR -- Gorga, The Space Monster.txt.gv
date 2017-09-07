@@ -1,0 +1,37 @@
+digraph g{
+  graph [ label="05-13 CYOA-YR -- Gorga, The Space Monster.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  1 -> 2;
+  1 -> 4;
+  2 -> 6;
+  2 -> 9;
+  4 -> 11;
+  4 -> 13;
+  6 -> 15;
+  6 -> 18;
+  9 -> 40;
+  13 -> 2;
+  13 -> 21;
+  15 -> 17;
+  21 -> 22;
+  22 -> 25;
+  22 -> 26;
+  25 -> 29;
+  25 -> 31;
+  26 -> 32;
+  26 -> 37;
+  31 -> 40;
+  31 -> 34;
+  32 -> 33;
+  34 -> 35;
+  35 -> 42;
+  35 -> 46;
+  37 -> 39;
+  40 -> 45;
+  40 -> 52;
+  45 -> 48;
+  46 -> 47;
+  48 -> 51;
+}
+

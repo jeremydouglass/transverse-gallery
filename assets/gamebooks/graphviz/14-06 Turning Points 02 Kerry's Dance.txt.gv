@@ -1,0 +1,31 @@
+digraph g{
+  graph [ label="14-06 Turning Points 02 Kerry's Dance.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  5	[ xlabel="chapter 1" ];
+  5 -> 16;
+  16	[ xlabel="chapter 2" ];
+  16 -> 26;
+  26	[ xlabel="chapter 3" ];
+  26 -> 35;
+  35	[ xlabel="chapter 4" ];
+  35 -> 46;
+  46	[ xlabel="chapter 5" ];
+  46 -> 54;
+  54	[ xlabel="chapter 6" ];
+  54 -> 65;
+  65	[ xlabel="chapter 7" ];
+  65 -> 78;
+  78	[ xlabel="chapter 8" ];
+  78 -> 89;
+  89	[ xlabel="chapter 9" ];
+  89 -> 102;
+  102	[ xlabel="chapter 10" ];
+  102 -> 113;
+  113	[ xlabel="the choice" ];
+  113 -> 115;
+  113 -> 139;
+  115	[ xlabel="ending 1" ];
+  139	[ xlabel="ending 2" ];
+}
+

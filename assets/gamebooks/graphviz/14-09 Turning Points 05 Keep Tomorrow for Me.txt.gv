@@ -1,0 +1,29 @@
+digraph g{
+  graph [ label="14-09 Turning Points 05 Keep Tomorrow for Me.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  5	[ xlabel="chapter 1" ];
+  5 -> 13;
+  13	[ xlabel="chapter 2" ];
+  13 -> 23;
+  23	[ xlabel="chapter 3" ];
+  23 -> 33;
+  33	[ xlabel="chapter 4" ];
+  33 -> 44;
+  44	[ xlabel="chapter 5" ];
+  44 -> 52;
+  52	[ xlabel="chapter 6" ];
+  52 -> 62;
+  62	[ xlabel="chapter 7" ];
+  62 -> 71;
+  71	[ xlabel="chapter 8" ];
+  71 -> 81;
+  81	[ xlabel="chapter 9" ];
+  81 -> 91;
+  91	[ xlabel="the choice" ];
+  91 -> 93;
+  91 -> 125;
+  93	[ xlabel="ending 1" ];
+  125	[ xlabel="ending 2" ];
+}
+

@@ -1,0 +1,123 @@
+digraph g{
+  graph [ label="10-73 Explorer 02 Destination Brain.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  
+  
+  
+  
+  
+  
+  
+  
+  1	[ xlabel="S" ];
+  1 -> 2;
+  2 -> 3;
+  3 -> 4;
+  4 -> 5;
+  5 -> 11;
+  6 -> 7;
+  7 -> 8;
+  8 -> 10;
+  10 -> 18;
+  11 -> 12;
+  12 -> 13;
+  13 -> 14;
+  14 -> 6;
+  14 -> 18;
+  15 -> 16;
+  16 -> 17;
+  17 -> 23;
+  18 -> 19;
+  19 -> 21;
+  21 -> 22;
+  22 -> 27;
+  23 -> 24;
+  24 -> 26;
+  26 -> 31;
+  27 -> 28;
+  28 -> 29;
+  29 -> 30;
+  30 -> 15;
+  30 -> 23;
+  31 -> 32;
+  32 -> 33;
+  33 -> 34;
+  34 -> 41;
+  34 -> 44;
+  35 -> 36;
+  36 -> 38;
+  38 -> 39;
+  39 -> 40;
+  40 -> 66;
+  40 -> 57;
+  40 -> 60;
+  41 -> 42;
+  42 -> 43;
+  43	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  44 -> 45;
+  45 -> 46;
+  46 -> 48;
+  48 -> 35;
+  48 -> 54;
+  49 -> 50;
+  50 -> 52;
+  52 -> 53;
+  53 -> 35;
+  54 -> 55;
+  55 -> 56;
+  56 -> 49;
+  57 -> 58;
+  58 -> 59;
+  59	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  60 -> 61;
+  61 -> 62;
+  62 -> 63;
+  63 -> 64;
+  64 -> 68;
+  66 -> 67;
+  67	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  68 -> 70;
+  70 -> 76;
+  70 -> 74;
+  71 -> 72;
+  72 -> 73;
+  73	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  74 -> 75;
+  75 -> 80;
+  75 -> 90;
+  76 -> 78;
+  78 -> 79;
+  79 -> 74;
+  80 -> 82;
+  82 -> 71;
+  82 -> 88;
+  83 -> 84;
+  84 -> 86;
+  86 -> 87;
+  87 -> 93;
+  88 -> 89;
+  89 -> 83;
+  89 -> 93;
+  90 -> 92;
+  92 -> 71;
+  92 -> 88;
+  93 -> 94;
+  94 -> 95;
+  95 -> 96;
+  96 -> 103;
+  96 -> 99;
+  97 -> 98;
+  98	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  99 -> 102;
+  102 -> 97;
+  102 -> 105;
+  103 -> 104;
+  104	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  105 -> 106;
+  106 -> 108;
+  108 -> 109;
+  109	[ xlabel="WIN" ];
+  
+}
+

@@ -1,0 +1,37 @@
+digraph g{
+  graph [ label="05-47 CYOA-YR -- Fire.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  1 -> 2;
+  2 -> 10;
+  4 -> 25;
+  7 -> 11;
+  7 -> 29;
+  8 -> 31;
+  10 -> 35;
+  10 -> 15;
+  11 -> 32;
+  13 -> 52;
+  15 -> 7;
+  16 -> 43;
+  19 -> 34;
+  20 -> 49;
+  23 -> 46;
+  24 -> 38;
+  24 -> 41;
+  25 -> 26;
+  26 -> 51;
+  29 -> 8;
+  32 -> 13;
+  32 -> 24;
+  35 -> 36;
+  36 -> 42;
+  42 -> 16;
+  42 -> 20;
+  43 -> 44;
+  44 -> 19;
+  46 -> 50;
+  49 -> 4;
+  49 -> 23;
+}
+

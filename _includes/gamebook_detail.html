@@ -1,0 +1,53 @@
+{% assign book = site.data.book_data | where: "id", include.id | first %}
+<h2>{{ book.title }} </h2>
+
+<p><strong>{{ book.id }}</strong>: <em>{{ book.citation }} {{ book.box }}:{{ book.folder }}<em>
+
+<div class="graphs">
+{% assign graphs = site.data.graph_data | where: "id", include.id %}
+{% for graph in graphs %}
+  <ul>
+    <li>
+      <h3>{{ graph.name }}{{ site.data.exts.data }}</h3>
+
+      <figure class="graph">
+        <figcaption><a href="{{ site.baseurl }}/assets/gamebooks/image/{{ graph.name }}{{ site.data.exts.image }}">Graph</a></figcaption>
+        <a href="{{ site.baseurl }}/assets/gamebooks/image/{{ graph.name }}{{ site.data.exts.image }}"><img src="{{ site.baseurl }}/assets/gamebooks/image/{{ graph.name }}{{ site.data.exts.image }}" alt="image"/></a>
+      </figure>
+
+      <figure class="data">
+        <figcaption><a href="{{ site.baseurl }}/assets/gamebooks/edges/{{ graph.name }}{{ site.data.exts.data }}">Edge List Data</a></figcaption>
+        <iframe src="{{ site.baseurl }}/assets/gamebooks/edges/{{ graph.name }}{{ site.data.exts.data }}"></iframe>
+      </figure>
+
+	  <figure class="data">
+		<figcaption><a href="{{ site.baseurl }}/assets/gamebooks/log/{{ graph.name }}{{ site.data.exts.log }}">Log</a></figcaption>
+        <iframe src="{{ site.baseurl }}/assets/gamebooks/log/{{ graph.name }}{{ site.data.exts.log }}"></iframe>
+      </figure>
+
+      <figure class="data">
+        <figcaption><a href="{{ site.baseurl }}/assets/gamebooks/graphviz/{{ graph.name }}{{ site.data.exts.graphviz }}">Graphviz</a> (DOT/.gv)</figcaption>
+        <iframe src="{{ site.baseurl }}/assets/gamebooks/graphviz/{{ graph.name }}{{ site.data.exts.graphviz }}"></iframe>
+      </figure>
+
+      <figure class="data">
+        <figcaption><a href="{{ site.baseurl }}/assets/gamebooks/tgf/{{ graph.name }}{{ site.data.exts.yed }}">Trivial Graph Format</a> (yEd/.tgf)</figcaption>
+      </figure>
+    </li>
+  </ul>
+{% endfor %}
+
+{% assign signatures = site.data.element_data | where: "id", include.id %}
+  <ul>
+  {% for signature in signatures %}
+    {% unless signature.file contains "nocounts" %}
+    <li>
+      <figure class="element">
+         <figcaption><a href="{{ site.baseurl }}/assets/gamebooks/signatures/{{ signature.file }}">Signature</a></figcaption>
+         <div class="figelement"><a href="{{ site.baseurl }}/assets/gamebooks/signatures/{{ signature.file }}"><img src="{{ site.baseurl }}/assets/gamebooks/signatures/{{ signature.file }}" alt="image"/></a></div>
+      </figure>
+    </li>
+	{% endunless %} 
+  {% endfor %}
+  </ul>
+</div>

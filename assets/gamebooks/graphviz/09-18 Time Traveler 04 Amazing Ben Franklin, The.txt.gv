@@ -1,0 +1,44 @@
+digraph g{
+  graph [ label="09-18 Time Traveler 04 Amazing Ben Franklin, The.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  1 -> 7;
+  4 -> 11;
+  7 -> 13;
+  11 -> 17;
+  11 -> 24;
+  13 -> 4;
+  13 -> 31;
+  17 -> 31;
+  19 -> 27;
+  19 -> 34;
+  24 -> 31;
+  27 -> 34;
+  31 -> 19;
+  34 -> 40;
+  34 -> 43;
+  38 -> 40;
+  38 -> 58;
+  40 -> 47;
+  43 -> 38;
+  43 -> 40;
+  47 -> 51;
+  47 -> 58;
+  49 -> 55;
+  49 -> 58;
+  51 -> 49;
+  51 -> 58;
+  55 -> 60;
+  55 -> 63;
+  58 -> 55;
+  60 -> 67;
+  60 -> 68;
+  63 -> 72;
+  63 -> 68;
+  67 -> 76;
+  68 -> 76;
+  72 -> 68;
+  72 -> 76;
+  76 -> 80;
+}
+

@@ -1,0 +1,33 @@
+digraph g{
+  graph [ label="14-08 Turning Points 04 Forget Me Not.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  5	[ xlabel="chapter 1" ];
+  5 -> 17;
+  17	[ xlabel="chapter 2" ];
+  17 -> 27;
+  27	[ xlabel="chapter 3" ];
+  27 -> 37;
+  37	[ xlabel="chapter 4" ];
+  37 -> 51;
+  51	[ xlabel="chapter 5" ];
+  51 -> 63;
+  63	[ xlabel="chapter 6" ];
+  63 -> 73;
+  73	[ xlabel="chapter 7" ];
+  73 -> 81;
+  81	[ xlabel="chapter 8" ];
+  81 -> 95;
+  95	[ xlabel="chapter 9" ];
+  95 -> 107;
+  107	[ xlabel="chapter 10" ];
+  107 -> 117;
+  117	[ xlabel="chapter 11" ];
+  117 -> 127;
+  127	[ xlabel="the choice" ];
+  127 -> 129;
+  127 -> 143;
+  129	[ xlabel="ending 1" ];
+  143	[ xlabel="ending 2" ];
+}
+

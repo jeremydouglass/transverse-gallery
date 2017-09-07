@@ -1,6 +1,0 @@
-<ul class="photo-gallery">
-  {% for image in include.imagelist %}
-    {% include graph.html graph=image.image_path scale=include.scale %}
-	{% if include.break == true %}<br>{% endif %}
-  {% endfor %}
-</ul>

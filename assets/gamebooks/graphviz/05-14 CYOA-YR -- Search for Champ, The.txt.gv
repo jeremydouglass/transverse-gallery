@@ -1,0 +1,33 @@
+digraph g{
+  graph [ label="05-14 CYOA-YR -- Search for Champ, The.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  1 -> 2;
+  2 -> 3;
+  3 -> 4;
+  3 -> 18;
+  4 -> 24;
+  4 -> 21;
+  7 -> 11;
+  7 -> 8;
+  8 -> 30;
+  8 -> 33;
+  11 -> 13;
+  13 -> 14;
+  14 -> 35;
+  14 -> 17;
+  17 -> 42;
+  17 -> 46;
+  18 -> 7;
+  21 -> 39;
+  22 -> 43;
+  22 -> 27;
+  24 -> 22;
+  27 -> 50;
+  30 -> 40;
+  35 -> 36;
+  42 -> 44;
+  43 -> 28;
+  46 -> 49;
+}
+
