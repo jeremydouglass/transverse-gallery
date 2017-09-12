@@ -1,0 +1,24 @@
+graph	rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"
+node	shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true
+edge	labelfloat=true, penwidth=3, fontsize=12
+
+nodeLabeled	fontsize=12, fillcolor=grey70
+edgeLabeled	color=grey40, fontcolor=grey40, fillcolor=grey40
+
+E-BAD	shape=octagon, fontsize=20, fillcolor=grey70, fontcolor=white 
+E-OK	shape=doubleoctagon, fontsize=20, fillcolor=grey70, fontcolor=white 
+E-GOOD	shape=tripleoctagon, fontsize=20, fillcolor=grey70, fontcolor=white 
+REF	shape=folder, fontsize=20, fillcolor=grey80
+R	dir=both, arrowhead=tee, arrowtail=odot, style=dashed
+R*	dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false
+RETURN	dir=both, arrowhead=none, arrowtail=box, style=dashed, constraint=false
+RESTART*	dir=both, arrowhead=normal, arrowtail=none, style=dashed, constraint=false
+BC	shape=component, fontsize=20, fillcolor=grey80, fontcolor=white
+DS	color=red, fontcolor=red  		#domesticity
+AV	color=green, fontcolor=green		#adventure
+S1	color=blue, fontcolor=blue		#sig other 1
+S2	color=orange, fontcolor=orange		#sig other 2
+
+
+ILL	shape=note, fontsize=20, fillcolor=grey70, fontcolor=white 
+LOV	shape=diamond, fillcolor=red, fontcolor=white

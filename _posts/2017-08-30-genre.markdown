@@ -27,7 +27,7 @@ topics:
     - image_path: "14-24 Confidentially Yours -- Breaking Up is Hard to Do.txt.gv.png"
 ---
 
-Greetings, GameKatz!
+## Project Description
 
 I'm currently developing a research group for interrogating the relevance of _genre_ to the narrative structures of gamebooks. As you may have already noticed, such relevance is not immediately apparent. In overviewing the graphs produced thus far, it's easy to spot recurrent and congruent narrative structures within a specific _series_ and sometimes even amongst a specific _author_. However, correlations between narrative structures of the same genre remain elusive. See, for example, the graphs below:
 
@@ -65,3 +65,34 @@ All of you have mastered encoding page turns by now; this project will provide t
 2. a list or description of the main genre or genres that you would like to explore.
 
 [Ryan Leach](mailto:rkleach@umail.ucsb.edu)
+
+## Genres
+- Adventure
+- Sports
+- SciFi
+- Fantasy
+- Spy
+- Mystery
+- Detective
+- Horror
+- Romance
+- Religious
+- Superhero
+- Western
+- History
+- Educational/PSA
+- Myth
+
+## Project Examples
+### SciFi
+<br><a href="{{ site.baseurl }}/assets/illustrations/genre/02-07 CYOA -- War with the Evil Power Master (118) delay rush.txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/genre/02-07 CYOA -- War with the Evil Power Master (118) delay rush.txt.gv.png" width="1400" alt="02-07 CYOA -- War with the Evil Power Master (118) delay rush.txt.gv" onload="this.width/=2;this.onload=null;"/></a>
+
+
+
+<br><a href="{{ site.baseurl }}/assets/illustrations/genre/02-50 CYOA -- Space Vampire.txt.gv.png"><img src="{{ site.baseurl }}/assets/illustrations/genre/02-50 CYOA -- Space Vampire.txt.gv.png" width="900" alt="02-50 CYOA -- Space Vampire.txt.gv" onload="this.width/=2;this.onload=null;"/></a>
+
+
+
+
+
+
