@@ -1,0 +1,47 @@
+digraph g{
+  graph [ label="12-45 Mystic Nights of Tir na Nog -- Fire Within, Air Above.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  1 -> 28;
+  3 -> 93;
+  5 -> 66;
+  7 -> 68;
+  9 -> 59;
+  9 -> 76;
+  14 -> 22;
+  17 -> 48;
+  20 -> 64;
+  22 -> 30;
+  26 -> 80;
+  28 -> 42;
+  30 -> 82;
+  34 -> 53;
+  34 -> 3;
+  38 -> 5;
+  40 -> 95;
+  42 -> 34;
+  46 -> 56;
+  48 -> 26;
+  53 -> 3;
+  56 -> 20;
+  59 -> 76;
+  61 -> 17;
+  61 -> 48;
+  64 -> 7;
+  66 -> 61;
+  68 -> 74;
+  70 -> 88;
+  74 -> 78;
+  76 -> 14;
+  78 -> 84;
+  80 -> 99;
+  82 -> 40;
+  84 -> 91;
+  88 -> 9;
+  91 -> 38;
+  93 -> 70;
+  95 -> 46;
+  95 -> 56;
+  99	[ xlabel="E-GOOD" ];
+}
+

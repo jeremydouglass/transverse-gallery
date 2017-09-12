@@ -1,0 +1,48 @@
+digraph g{
+  graph [ label="12-34 Fantasy Forest 01 The Ring, the Sword, and the Unicorn.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  7 -> 29;
+  7 -> 39;
+  7 -> 58;
+  12	[ xlabel="E-OK" ];
+  14 -> 76;
+  17 -> 61;
+  17 -> 49;
+  19 -> 44;
+  20 -> 69;
+  24 -> 32;
+  24 -> 43;
+  28	[ xlabel="E-GOOD" ];
+  29 -> 35;
+  29 -> 46;
+  32 -> 12;
+  32 -> 19;
+  34 -> 14;
+  35 -> 66;
+  39 -> 54;
+  39 -> 65;
+  42	[ xlabel="E-GOOD" ];
+  43 -> 28;
+  46 -> 42;
+  49 -> 67;
+  49 -> 34;
+  49 -> 20;
+  53	[ xlabel="E-GOOD" ];
+  54 -> 72;
+  57	[ xlabel="E-GOOD" ];
+  58 -> 24;
+  58 -> 17;
+  61 -> 63;
+  63	[ xlabel="E-GOOD" ];
+  65 -> 57;
+  65 -> 55;
+  66	[ xlabel="E-GOOD" ];
+  67 -> 68;
+  68	[ xlabel="E-GOOD" ];
+  69 -> 73;
+  72	[ xlabel="E-GOOD" ];
+  73 -> 53;
+  76	[ xlabel="E-GOOD" ];
+}
+
