@@ -1,4 +1,5 @@
 id	name	description
+.DS_S	.DS_S
 01-01	01-01 CYOA -- Cave of Time, The
 01-05	01-05 CYOA -- Cave of Time, The
 01-07	01-07 CYOA -- Cave of Time, The (115)
@@ -38,6 +39,11 @@ id	name	description
 01-65	01-65 CYOA -- Vampire Express
 01-65	01-65v2 CYOA -- Vampire Express (printing-error)
 01-65	01-65v3 CYOA -- Vampire Express (broken)
+02-07	02-07 CYOA -- War with the Evil Power Master (118) no tags
+02-07	02-07 CYOA -- War with the Evil Power Master (118)
+02-23	02-23 CYOA 50 Return to the Cave of Time (115)
+02-50	02-50 CYOA -- Space Vampire
+02-50	02-50v2 CYOA 71 Space Vampire labels no tags
 03-01	03-01 CYOA -- Inca Gold
 03-02	03-02 CYOA -- Knights of the Round Table
 03-03	03-03 CYOA -- Exiled to Earth
@@ -96,12 +102,12 @@ id	name	description
 03-56	03-56 CYOA -- Horror House
 03-57	03-57 CYOA -- Secret of Mystery Hill, The
 03-58	03-58 CYOA -- Reality Machine, The
-03-59	03-59--Project UFO
-03-60	03-60--Comet Crash
-03-61	03-61--Everest Adventure
-03-62	03-62--Soccer Star
-03-63	03-63--The Antimatter Universe
-03-64	03-64--Master of Judo
+03-59	03-59 CYOA -- Project UFO
+03-60	03-60 CYOA -- Comet Crash
+03-61	03-61 CYOA -- Everest Adventure
+03-62	03-62 CYOA -- Soccer Star
+03-63	03-63 CYOA -- The Antimatter Universe
+03-64	03-64 CYOA -- Master of Judo
 04-01	04-01 CYOA -- Search the Amazon
 04-02	04-02 CYOA -- Who Are You
 04-03	04-03 CYOA -- Gunfire at Gettysburg
@@ -117,6 +123,47 @@ id	name	description
 04-13	04-13 CYOA -- Typhoon
 04-14	04-14 CYOA -- Shadow of the Swastika
 04-15	04-15 CYOA -- Fright Night
+04-16	04-16 CYOA -- Snowboard Racer
+04-17	04-17 CYOA -- Master of Aikido
+04-18	04-18 CYOA -- Moon Quest
+04-19	04-19 CYOA -- Hostage
+04-20	04-20 CYOA -- Terror on the Titanic
+04-21	04-21 CYOA -- Greed, Guns, and Gold
+04-22	04-22 CYOA -- Death in the Dorm
+04-23	04-23 CYOA -- Mountain Biker
+04-24	04-24 CYOA -- The Gold Medal Secret
+04-25	04-25 CYOA -- The Power Dome
+04-26	04-26 CYOA -- The Underground Railroad
+04-28	04-28 CYOA -- Master of Kendo
+04-29	04-29 CYOA -- Killer Virus
+04-30	04-30 CYOA -- River of No Return
+04-31	04-31 CYOA -- Ninja Avenger
+04-32	04-32 CYOA -- Stampede
+04-33	04-33 CYOA -- Fire on Ice
+04-34	04-34 CYOA -- Fugitive
+04-35	04-35 CYOA -- Cyberhacker
+04-36	04-36 CYOA -- Mayday
+04-37	04-37 CYOA -- The Abominable Snowman
+04-38	04-38 CYOA -- Journey Under the Sea
+04-39	04-39 CYOA -- Space and Beyond
+04-40	04-40 CYOA -- The Lost Jewels of Nabooti
+04-42	04-42 CYOA -- Mystery of the Maya
+04-43	04-43 CYOA -- Race Forever
+04-43	04-43v2 CYOA -- Race Forever (restarting)
+04-45	04-45 CYOA -- Escape
+04-46	04-46 CYOA -- Lost on the Amazon
+04-47	04-47 CYOA -- Trouble on Planet Earth
+04-48	04-48 CYOA -- War with the Evil Power Master
+04-49	04-49 CYOA -- The Mystery of Ura Senke
+04-50	04-50 CYOA -- Beyond Escape
+04-51	04-51 CYOA -- Secret of the Ninja
+04-52	04-52 CYOA -- The Brilliant Dr. Wogan
+04-53	04-53 CYOA -- Return to Atlantis
+04-54	04-54 CYOA -- Forecast from Stonehenge
+04-55	04-55 CYOA -- Inca Gold
+04-55	04-55b CYOA -- Inca Gold (corrected)
+04-56	04-56 CYOA -- Struggle Down Under
+04-56	04-56b CYOA -- Struggle Down Under (corrected)
 05-01	05-01 CYOA-YR -- Circus, The
 05-04	05-04 CYOA-YR -- Haunted House, The
 05-07	05-07 CYOA-YR -- Sunken Treasure
@@ -181,10 +228,16 @@ id	name	description
 05-84	05-84 CYOA-Passport -- Tour De France
 05-85	05-85 CYOA-Passport -- Forgotten Days
 05-86	05-86 CYOA-Passport -- On Tour
+05-88	05-88 Young Indiana Jones Chronicles -- The Valley of Kings
+05-89	05-89 Young Indiana Jones Chronicles -- South of the Border
+05-90	05-90 Young Indiana Jones Chronicles -- Revolution in Russia
+05-91	05-91 Young Indiana Jones Chronicles -- Masters of the Louvre
+05-92	05-92 Young Indiana Jones Chronicles -- African Safari
+05-93	05-93 Young Indiana Jones Chronicles -- Behind the Great Wall
+05-94	05-94 Young Indiana Jones Chronicles -- The Roaring Twenties
+05-95	05-95 Young Indiana Jones Chronicles -- The Irish Rebellion
 06-06	06-06 CYON 01 Night of the Werewolf
 06-07	06-07 CYON 02 Beware the Snake's Venom
-06-8 	06-8 CYON 03 Island of Doom
-06-9 	06-9 CYON 04 Castle of Darkness 
 06-10	06-10 CYON 05 Halloween Party, The
 06-11	06-11 CYON 06 Risk Your Life Arcade 
 06-12	06-12 CYON 07 Biting for Blood 
@@ -234,6 +287,8 @@ id	name	description
 06-57	06-57 Goosebumps 40 Zombie School 
 06-58	06-58 Goosebumps 41 Danger Time
 06-59	06-59 Goosebumps 42 All-Day Nightmare 
+06-8 	06-8 CYON 03 Island of Doom
+06-9 	06-9 CYON 04 Castle of Darkness 
 07-01	07-01 Goosebumps S01 Into the Jaws of Doom (238)
 07-09	07-09 Nightmares -- Cave of Fear (126) --annotated
 07-09	07-09 Nightmares -- Cave of Fear (126) --corrected
@@ -281,9 +336,9 @@ id	name	description
 07-61	07-61 Endless Quest Galactic Challenge
 07-62	07-62 Endless Quest Bigby's Curse
 07-63	07-63 Endless Quest 24-Hour War
-08-01	08-01--The Thundercats and the Ghost Warrior
-08-02	08-02--The Thundercats and the Snowmen of Hook Mountain
-08-03	08-03--The Three Investigators in The Case of the Weeping Coffin
+08-01	08-01 Thundercats -- The Thundercats and the Ghost Warrior
+08-02	08-02 Thundercats -- The Thundercats and the Snowmen of Hook Mountain
+08-03	08-03 The Three Investigators -- The Case of the Weeping Coffin
 08-04	08-04 The Three Investigators -- Case of the Dancing Dinosaur, The
 08-05	08-05 The Three Investigators -- Case of the House of Horrors, The
 08-06	08-06 The Three Investigators -- Case of the Savage Statue, The
@@ -324,11 +379,22 @@ id	name	description
 09-40	09-40 Which Way Books 05 Lost In A Strange Land
 09-41	09-41 Which Way Books 06 Sugarcane Island
 09-42	09-42 Which Way Books 07 Curse of the Sunken Treasure
+09-45	09-45 Which Way Books 08 Cosmic Encounters
+09-46	09-46 Which Way Books 09 Creatures of the Dark
+09-47	09-47 Which Way Books 10 Invasion of the Black Slime
+09-48	09-48 Which Way Books 11 Space Raiders and the Planet of Doom
+09-49	09-49 Which Way Books 12 Trapped in the Black Box
+09-50	09-50 Which Way Books 13 Starship Warrior
+09-51	09-51 Which Way Books 14 Poltergeists, Ghosts, and Psychic Encounters
+09-52	09-52 Which Way Books 15 Star Trek Voyage to Adventure
+09-54	09-54 Which Way Books 16 The Shadow Stealers
+09-55	09-55 Which Way Books 17 Invasion of the Mutants
 10-01	10-01 WWY 01 Forest of Twisted Dreams, The
 10-03	10-03 WWY 02 Siege of the Dragonriders, The
 10-04	10-04 WWY 03 Who Kidnapped Princess Saralinda
 10-06	10-06 WWY 04 Ghost Knights of Camelot
 10-08	10-08 WWY 05 Haunted Castle of Ravencurse, The
+10-10	10-10 WWY 06 The Revenge of the Falcon Knight--labeled
 10-23	10-23 Nintendo Adventures 01 Double Trouble
 10-25	10-25 Nintendo Adventures 02 Leaping Lizards
 10-52	10-52 Zork 03 Cavern of Doom, The
@@ -374,6 +440,53 @@ id	name	description
 11-26	11-26 Scream Shop 02 Now You See Me, Now You Don't!
 11-27	11-27 Scream Shop 03 Eye Spy Aliens
 11-28	11-28 Scream Shop 04 Revenge of the Gargoyle
+11-29	11-29 Scream Shop 05 Three Strikes and You're a Monster
+11-30	11-30 Scream Shop 06 Day of the Dead
+11-31	11-31 Scream Shop 07 Curse of Count Blood
+11-32	11-32 Scream Shop 08 War of the Trolls
+11-33	11-33 PAP 01 The Dandee Diamond Mystery
+11-34	11-34 PAP 02 The Roller Coaster Ghost
+11-35	11-35 PAP 03 The Great Baseball Championship
+11-36	11-36 PAP 04 The Amazing Bubble Gum Caper
+11-37	11-37 PAP 05 The Super Trail Bike Race
+11-38	11-38 PAP 06 Mystery at Mockingbird Manor
+11-39	11-39 PAP 07 The Fantastic Journey of the Space Shuttle Astra
+11-40	11-40 PAP 08 The Magic Top Mystery
+11-41	11-41 PAP 09 Jungle Adventure
+11-42	11-42 PAP 10 The Mystery of the Missing Mummy
+11-43	11-43 PAP 11 Dinosaur Adventure
+11-44	11-44 PAP 12 The Ballerina Mystery
+11-45	11-45 PAP 13 The Secret of 13
+11-46	11-46 PAP 14 RIM The Rebel Robot
+11-47	11-47 PAP 15 The Hot Dog Gang Caper
+11-48	11-48 PAP 16 Adventure at Camp Schoonover
+11-49	11-49 PAP 17 Murf the Monster
+11-50	11-50 MC The Cereal Box Adventures
+11-51	11-51 MC Professor Q's Mysterious Machine
+11-52	11-52 MC Flight into the Unknown
+11-53	11-53 MC Dr. Zarnof's Evil Plot
+11-54	11-54 MC Mr. X's Golden Scheme
+11-55	11-55 MC The President's Stuck in the Mud
+11-56	11-56 MC Trouble in Quartz Mountain
+12-01	12-01 HeartQuest 01 Ring of the Ruby Dragon
+12-02	12-02 HeartQuest 02 Talisman of Valdegarde
+12-03	12-03 HeartQuest 03 Secret Sorceress
+12-04	12-04 HeartQuest 04 Isle of Illusion 
+12-05	12-05 HeartQuest 05 Moon Dragon Summer 
+12-06	12-06 HeartQuest 06 Lady of the Winds
+12-19	12-19 Amazing Stories Book 04 Nightmare Universe
+12-22	12-22 Blackstone's Magic Adventure 01 The Case of the Mummy's Tomb
+12-26	12-26 Blackstone's Magic Adventure 02 Secrets of Stonehenge
+12-27	12-27 Endless Quest Books: Crimson Crystal Adventurs 01 Riddle of the Griffin
+12-31	12-31 Dungeons and Dragons Cartoon Show Books 01 Tower of Midnight Dreams
+12-34	12-34 Fantasy Forest 01 The Ring, the Sword, and the Unicorn
+12-45	12-45 Mystic Nights of Tir na Nog -- Fire Within, Air Above
+12-49	12-49 Find Your Fate Junior Golden Girl 01 Golden Girl and the Vanishing Unicorn
+12-50	12-50 Find Your Fate Junior - Golden Girl 02 Golden Girl in the Land of Dreams
+12-51	12-51 Find Your Fate Junior - Golden Girl 03 Golden Girl and the Crystal of Doom
+12-52	12-52 Which Way Secret Door Books 02 Giants, Elves & Scary Monsters
+12-53	12-53 Which Way Secret Door Books 03 The Haunted Castle
+12-61	12-61 Which Way Secret Door Books 11 Enchanted Forest
 13-01	13-01 PYOHS -- Craven House Horrors (116)
 13-09	13-09 PIYAS -- Staying Alive (152)
 13-10	13-10 PIYAS -- Star Trek III (117) one ending
@@ -442,3 +555,48 @@ id	name	description
 14-63	14-63 Storymaze -- The Golden Udder
 14-65	14-65 Storymaze -- Minaotaur's Maze, The
 14-66	14-66 You Are There -- Battle of the Alamo
+22-06	22-06 1 on 1 Adventure Gamebooks -- Challenge of Druid's Grove--Ar-kane
+22-06	22-06 1 on 1 Adventure Gamebooks -- Challenge of Druid's Grove--Renwood
+22-07	22-07 1 on 1 Adventure Gamebooks -- The Amber Sword of World's End - Garth
+22-07	22-07 1 on 1 Adventure Gamebooks -- The Amber Sword of World's End- Uthrac
+22-13	22-13 Marvel Superheroes Adventure Gamebook 03 Wolverine
+22-19	22-19 Marvel Super Heroes Adventure Gamebook -- Daredevil
+22-21	22-21 Knightmare -- The Labryinths of Fear
+22-22	22-22 Knightmare -- Fortress of Assasins
+22-29	22-29 SwordQuest -- Quest of the Unicorn's Horn
+22-30	22-30 SwordQuest -- Quest for the Elf King
+22-34	22-34 Demonspawn 01 Fire-Wolf
+22-35	22-35 Demonspawn02 -- The Crypts of Terror
+32-34	32-34 Scegli la tua avventura -- Sopravvivere in mare (Italian)
+32-35	32-35 Scegli la tua avventura -- Oltre lo spazio (Italian)
+34-01	34-01 Reto de las galaxias, El -- Planetas en peligro
+34-02	34-02 Reto de las galaxias, El -- La Invasion Androide
+34-03	34-03 Vidaventura -- En Busca Del Yeti
+34-04	34-04 Vidaventura -- Un Caballero De La Mesa Redonda
+34-05	34-05 Vidaventura -- Tesoro De Moctezuma, El
+34-06	34-06 Vidaventura -- monstruo de Loch Ness, El
+34-07	34-07 Vidaventura -- Encuentros extragalácticos
+34-08	34-08 Elige tu propio escalofrío -- castillo de la oscuridad, El
+34-09	34-09 Elige tu propio escalofrío -- bosque tenebroso, El
+34-11	34-11 Tú resuelves el caso -- Polvorín en el Caribe
+34-12	34-12 Elige tu aventura -- anillo del mago, El
+34-13	34-13 Elige tu aventura -- misterio de Loch Ness, El
+34-14	34-14--naufrago de la isla misteriosa
+34-15	34-15--misterio de la desaparicion del cantante de rock, El
+41-11	41-11 Fiaba game -- Tu Sei il Califfo del Deserto (Italian)
+41-12	41-12 Fiaba game -- Tu sei la Fata dei Folletti (Italian)
+41-13	41-13 Straniero, Lo -- In Cerca di Fortuna (Italian)
+41-14	41-14 Libri di Mondo Erre, I -- Avventure al Campo (Italian)
+41-15	41-15 Libri di Mondo Erre, I -- I Misteri delle Catacombe (Italian)
+41-16	41-16 Novecento Giochi -- Il Gobbo Maledetto (Italian)
+41-34	41-34 Costruire i Libri-Gioco -- Chapter: il labirinto di certa
+41-34	41-34 Costruire i Libri-Gioco -- Chapter: Lavorare in classe con i racconti-gioco? Io ho fatto cosi
+42-42	42-42 CYOA - Dragonlarks -- Always Picked Last
+42-43	42-43 CYOA - Dragonlarks -- Your Very Own Robot Goes Cuckoo-Bananas!
+42-44	42-44 CYOA - Dragonlarks -- Return to Haunted House
+42-45	42-45 CYOA - Dragonlarks -- The Owl Tree
+42-46	42-46 CYOA - Dragonlarks -- The Lake Monster Mystery
+42-47	42-47 CYOA - Dragonlarks -- Ghost Island
+42-48	42-48 You are There Bible Adventures
+42-49	42-49 Creating Adventure Games on Your Computer
+42-50	42-50 ( v.5) Back Brain Recluse -- Angel Body and Other Magic for the Soul
