@@ -1,0 +1,31 @@
+digraph g{
+  graph [ label="12-19 Amazing Stories Book 04 Nightmare Universe.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  5 -> 37;
+  5 -> 85;
+  37 -> 77;
+  37 -> 55;
+  55 -> 79;
+  55 -> 81;
+  77 -> 78;
+  77 -> 78	[ xlabel="E-BAD" ];
+  79 -> 80;
+  79 -> 80	[ xlabel="E-BAD" ];
+  81 -> 83;
+  81 -> 83	[ xlabel="E-OK" ];
+  85 -> 89;
+  85 -> 151;
+  89 -> 131;
+  89 -> 137;
+  131 -> 136;
+  131 -> 136	[ xlabel="E-BAD" ];
+  137 -> 150;
+  137 -> 150	[ xlabel="E-GOOD" ];
+  151 -> 211;
+  151 -> 215;
+  211	[ xlabel="E-GOOD" ];
+  215 -> 223;
+  215 -> 223	[ xlabel="E-GOOD" ];
+}
+

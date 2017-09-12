@@ -1,0 +1,49 @@
+digraph g{
+  graph [ label="42-47 CYOA - Dragonlarks -- Ghost Island.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  
+  
+  1 -> 2;
+  2 -> 3;
+  3 -> 5;
+  5 -> 6;
+  5 -> 9;
+  6 -> 7;
+  7 -> 16;
+  7 -> 28;
+  9 -> 10;
+  10 -> 13;
+  13 -> 20;
+  13 -> 14;
+  16 -> 19;
+  19 -> 31;
+  19 -> 32;
+  20 -> 54;
+  20 -> 23;
+  23 -> 24;
+  24 -> 25;
+  25 -> 26;
+  26 -> 27;
+  28 -> 42;
+  28 -> 48;
+  31 -> 36;
+  32 -> 35;
+  35 -> 44;
+  37 -> 40;
+  38 -> 37;
+  44 -> 45;
+  45 -> 46;
+  45 -> 38;
+  46 -> 47;
+  47 -> 43;
+  48 -> 49;
+  50 -> 51;
+  52 -> 53;
+  53 -> 15;
+  54 -> 55;
+  55 -> 56;
+  56 -> 50;
+  56 -> 52;
+}
+

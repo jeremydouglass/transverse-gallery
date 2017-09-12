@@ -1,0 +1,132 @@
+# ??-?? Series ?? Title
+# Encoder name
+# 2017-MM-DD
+# !style=Ryan.stylesheet.txt
+
+# COMMENTS:
+# 
+# 
+
+#ID	TARGET	TAGS,	LABEL
+	
+1		START	Start
+1	39
+2	3
+3	13
+4	42		jump in escape capsule
+	32		attempt to outwit space vampire
+6	44  	
+7	26  	
+9	117		take nap
+	100		stay awake and vigilant
+10	11  	
+11	48  	
+12	18  	
+13	14  		
+14	31		accept space vampire mission
+	9		accept mission to Barnard's star instead
+16	24  	
+17	85  	
+18	7		start private mission to catch SV
+	25		play it safe, follow rules
+20	37		suggest boarding Petra in space
+	16		wait til it's on Earth
+21	22
+22	23
+23		E-BAD	stranded in space
+24	56
+25		E-OK	stationed on Pluto
+26	30	
+27		E-BAD	arrested by Space Force
+28	111		explore newly discovered planet
+	110		fly Nimbus, stay in familiar solar system
+30	6		immediately intercept Petra
+	35		recruit Steve first
+31	12		fight
+	20		run
+32	72		try to convince SV to not make you a vampire
+	17		fire a jet at SV
+33	79
+35	43		surrender
+	27		try to escape
+	71		think of something else to do
+36	65		pretend to comply, but head to sun
+	109		comply and head toward Akbar
+37	10		volunteer to pose as SV's victim
+	28		don't volunteer
+38		E-GOOD	successfully kill SV
+39	2
+40	57
+42		E-OK	kill SV but you also die
+43		E-BAD	Imprisoned on Uranus
+44		E-BAD	killed by SV; horror
+45		E-BAD	killed by many vampires; horror
+46	47
+47	102
+48	108
+50	51
+51	61
+52	75
+53		E-OK	Kill SV but you're sad about it
+54		E-BAD	SV kills you and the others; horror
+56	50		recommend continuing search
+	66		recommend waiting until morning
+57	4
+59		E-BAD	SV comes for your blood; SF
+60		E-OK	Kill SV, but heading for the Sun
+61		E-BAD	SV loose on Earth
+62	101
+65		E-GOOD	Kill SV, head home
+66		E-GOOD	Kill SV
+68	59		lure SV closer
+	52		bluff SV; order surrender
+69	73
+71	104
+72	81
+73	60
+74		E-OK	You escape but the fate of the vampires is unclear
+75	94		Accelerate before detaching
+	82		try to detach first
+76	118
+78	95
+79	87		volunteer to go to vampire planet
+	84		request to stay on ship
+81	105
+82		E-BAD	You suffocate
+83	113		"try to take the ship"
+	91		threaten vampires with destruction
+84	90
+85		E-BAD	SV makes you a vampire
+86	45
+87	99
+89		E-BAD	Caught by SV
+90	74		follow orders; return to earth
+	46		attempt unauthorized rescue mission
+91	92
+92	93
+93	78
+94	112
+95		E-OK	vampires go away
+96		E-BAD
+99	86		try to capture vampire
+	114		try to sneak aboard rocketship
+100	107
+101	54		lean closer to hear SV
+	69		go to tell captain what SV said
+	38		continue to stand guard
+102	76
+104	21		head for asteroid M-33
+	40		head for the Petya
+105		E-GOOD	rescued from imminent death
+107		E-GOOD	kill SV and wait for rescue
+108	62		talk to vampire
+	53		avoid talking to him
+109	89
+110	68
+111	33
+112		E-BAD	Die and SV gets away
+113	96
+114	115
+115	83
+117	36
+118		E-GOOD	Vampires flee; head home
