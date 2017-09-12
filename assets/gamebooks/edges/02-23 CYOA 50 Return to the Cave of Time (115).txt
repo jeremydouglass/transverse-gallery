@@ -1,0 +1,106 @@
+1	3
+3	11			see the beginning of time
+	17			see the end of time
+4	10  		
+5	8   		
+6	47			choose the future
+	66			choose the past
+7	19
+8	92
+10	99
+11	6
+12	18
+14	26
+15		E-GOOD	Tahiti
+17	6
+18	110
+19		E-BAD	War
+20	5
+21	81
+22		E-GOOD	Return home with caveman
+25	12			escape through porthole and swim
+	53			stay on ship
+26	78
+27	35
+29	32
+30	33
+32	54			shuttle to Alpha Alpha (advanced civ)
+	95			shuttle to Earth
+33	89
+35	48
+36	77
+37	42
+38	45
+40	41
+41	59			walk south for warmth
+	27			stay in camp through winter
+	49			return to Cave of Time; take chances with giant cave bear
+42	70			jump back into space capsule
+	115			watch what happens
+44	55			(on Atlantic slave ship) try to free the slaves
+	76			try to talk to the captain
+45		E-OK	Changed Captain's views on slavery but without changing history
+47	52
+48		E-OK	Survive winter; promise of becoming chief
+49	36
+50	93
+52	68
+53	61
+54	62
+55	63
+56	57
+57	107			risk eating mushrooms
+	30			don't risk it
+58				live forever as space commander
+59	73
+61		E-OK	Simple life on remote island
+62		E-OK
+63		E-BAD	Cast Overboard for trying to free the slaves (upheld principles (good), but died (bad))
+65	21			keep moving
+	40			turn back
+66	67  		
+67	50			climb up wall of cave
+	56			exit cave
+68	80
+70	74
+71	82
+73		E-BAD	ravaged by wolves and saber-toothed tiger
+74	84
+76	91
+77	97
+78		E-OK	safely land in Sintra (new Earth), but humans are now crickets
+80	108
+81		E-OK	become shaman of the tribe
+82		E-BAD	death at sea
+84	85
+85	20			seek out the Cave of Time
+	58			stay in the distant future
+86	90
+89	96
+90	102
+91	38
+92	100
+93	22
+94	95
+95	37			land on uninhabitable Earth c.2303
+	14			redirect to Sintra
+96	65			go with tribe
+	4			go on raft
+97	112
+99	103
+100	105			risk crossing to catch bus
+	86			do not risk
+101	104 		
+102	113
+103	44
+104	25
+105	66
+107		E-BAD	death from poisonous mushrooms
+108	109
+109	7			accept a life of perpetual pleasure
+	29			refuse
+110	15
+112	101			join mutiny, risk hanging
+	71			join capt bligh, risk starving
+113		E-OK
+115		E-BAD	strangled by wires
