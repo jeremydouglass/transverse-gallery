@@ -1,0 +1,5 @@
+---
+layout: default
+---
+{% include gamebook_detail.html id=page.slug %}
+
