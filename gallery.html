@@ -7,6 +7,7 @@ categories: gallery
 
 {% assign boxes = site.data.book_data | group_by: "box" %}
 {% assign series_ids = site.data.book_data | sort: "series" | group_by: "series" %}
+{% assign boxes_images = site.data.image_list | group_by: "box" %}
 
 <h1>Gallery</h1>
 
@@ -17,27 +18,26 @@ categories: gallery
 <p><a href="#index">[Index]</a></p>
 
 {% for box in boxes %}
-<a name="box{{ box.name }}"></a>
-<h2>Box {{ box.name }}</h2>
-  {% assign series_list = box.items | group_by: "series" %}
-  {% for series in series_list %}
-<a name="series{{ series.items[0].series_id }}"></a>
-<h3>{{ series.name }} {% if series.name == series_last %} [Continued]{% endif %}</h3>
-    {% assign series_last = series.name %}
-    {% for book in series.items %}
-      {% for image in site.static_files %}
-        {% if image.basename contains book.id %}
-          {% if image.name contains '.png' and image.path contains 'gamebooks/thumb' %}
-          <figure style="display: inline-block; text-align: center;">
-            <a href="{{ site.baseurl }}/gamebooks/{{ book.id }}.html" target="_blank"><img src="{{ site.baseurl }}/assets/gamebooks/thumb/{{ image.name }}" alt="image"/></a>
-            <figcaption>{{ book.id }}</figcapture>
-          </figure>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-  {% endfor %}
-{% endfor %}
+  <a name="box{{ box.name }}"></a>
+  <h2>Box {{ box.name }}</h2>{%
+  assign box_images = boxes_images | where: "name", box.name %}{%
+  assign box_images = box_images[0] %}{%
+  assign series_list = box.items | group_by: "series" %}{%
+  for series in series_list %}
+    <a name="series{{ series.items[0].series_id }}"></a>
+    <h3>{{ series.name }}{% if series.name == series_last %} [Continued]{% endif %}</h3>{%
+    assign series_last = series.name %}{%
+    for book in series.items %}{%
+      assign book_images = box_images.items | where: "box_folder", book.id %}{%
+      for image in book_images %}
+        <figure style="display: inline-block; text-align: center;">
+          <a href="{{ site.baseurl }}/gamebooks/{{ book.id }}.html" target="_blank"><img src="{{ site.baseurl }}/assets/gamebooks/thumb/{{ image.image }}" alt="{{ image.image | remove: ".txt.gv.png" }}"/></a>
+          <figcaption>{{ book.id }}</figcapture>
+        </figure>{%
+      endfor %}{%
+    endfor %}{%
+  endfor %}{%
+endfor %}
 
 <hr>
 <a name="index">
@@ -46,8 +46,8 @@ categories: gallery
 <p>Boxes: {% for box in boxes %} | <a href="#box{{ box.name }}">{{ box.name }} </a>{% endfor %}</p>
 
 <p>Series IDs:</p>
-<ul>
-{% for this_series in series_ids %}
-	<li><a href="#series{{ this_series.items[0].series_id }}">{{ this_series.items[0].series }}</a> ({{ this_series.items[0].series_id }})</li>
-{% endfor %}
+<ul>{% 
+for this_series in series_ids %}
+  <li><a href="#series{{ this_series.items[0].series_id }}">{{ this_series.items[0].series }}</a> ({{ this_series.items[0].series_id }})</li>{%
+endfor %}
 </ul>
