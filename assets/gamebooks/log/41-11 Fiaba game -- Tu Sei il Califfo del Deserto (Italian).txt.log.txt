@@ -1,0 +1,25 @@
+Node Count: 22
+
+Node List:  1, 2, 3, 6, 7, 4, 10, 11, 5, 9, 12, 8, 13, 14, 16, 17, 15, 18, 19, 20, 21, 22
+
+Average degree: 2.45
+
+Diameter (directed):   6.0
+Diameter (undirected): 7.0
+
+Degree Distribution (undirected): 
+   degree: 0 1 2 3 4 5 6 7 
+    nodes: 0 5 8 7 1 0 0 1 
+
+Degree Ranges: 
+    min max tot
+all [1, 7, 53]
+ in [0, 4, 27]
+out [0, 3, 27]
+
+Degree map: (high degree nodes)
+#   In  Out Total
+16:  4   3   7
+14:  2   2   4
+
+
