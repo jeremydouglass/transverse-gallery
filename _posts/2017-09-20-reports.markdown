@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Research Reports"
+date:   2017-09-20
+categories: 
+---
+
+Researchers are currently compiling brief research reports on [individual topics]({{ site.baseurl }}{% post_url 2017-09-10-topics %}) of 2+ pages (at least 600 words) with one or more illustrations (e.g. an Edger graph).
+
+This is not a paper -- you are not bringing in extensive outside secondary sources. Rather, the intention is to document your engagement with a specific portion of the colleciton, highlight a few interesting works / lexias / choices that you discovered, and explain something you learned about the material.
+
+Reports may take many forms, but here is an example outline -- try addressing each area in a few sentences or a short paragraph.
+
+----------
+
+-  **Descriptive Title**  
+   What is your topic? what did you find?
+
+-  **Topic overview**  
+   Define your topic. Briefly, what exactly do you mean by "romance" or "fantasy"? What does that mean in the context of game books
+
+-  **Materials**  
+   How did you select your works? What did you choose to focus on -- and why? Were there only a few works in the collection that met your criteria? -- if so, how did you find them? Were there far too many works that fit your criteria? -- if so, how did you choose which to sample, or where to start?
+
+-  **Method**  
+   If you chose to annotate selected choices or endings using custom tags, explain what those were and why. If you were using a different method -- for comparison of translations / adaptations, or for exploring the catalog -- again, explain briefly what your research method was.
+
+-  **Examples**  
+   What is a work that is _typical_ of your topic -- typical size, length, structure, subject matter or tone, etc.? What are one or more works that are unusual? How are they unusual?
+
+-  **Illustration**  
+   Share an image -- or more than one. Below the image add a caption that explains what the image is, and what part of it is worth of special attention.
+
+-  **Finding**  
+   Share one thing that you have learned. This could involve the close consideration of a single unusual lexia or weirdly-shaped work... or it could involve a general pattern or a relationship between some language / genre / author and a group of works. What do we now know that we didn't before? Perhpas more importantly, what do we not know -- what is still left to discover?
+
+----------

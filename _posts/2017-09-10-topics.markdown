@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Research Topics"
+date:   2017-09-10
+excerpt: "For the remainder of the research assistantships, each undergraduate researcher will focus on a specific research topic, identify and further annotate works of interest, and produce a short research report."
+categories: 
+---
+
+Together our team has encoded over 700 gamebooks and built the first portion of a world atlas of interactive, branching story structures.
+
+For the remainder of the research assistantships, each undergraduate researcher will focus on a specific research topic, identify and further annotate works of interest, and produce a short research report.
+
+Select a topic before our Tuesday meeting, and be prepared to discuss  ideas with the group. Your goal is to move beyond encoding assigned works and delve deeper, identifying your own works of interest and chooseing your own research methods for studying them.
+
+1. choose a topic
+
+2. select a small sample of worksfrom the collection that have already been encoded -- based on series, genre, author, theme, or some other rubric
+
+3. collect data and record observations -- for example, keeping a record of endings that are happy / unhappy, or lexias that have illustrations of choices / outcomes, in the form of a separate commented data file of selected node or edge labels.
+
+4. your data may be combined with the story graph to create an annotated story graph
+
+5. present your findings in a brief ~2+page research report.
+
+There are already two group initiatives being led by our Graduate Research Advisors: **Foreign Languages**, led by Alanna Bartolini, and **Genre**, led by Ryan Leach. If you have already joined either the Genre or Foreign Language groups, that is your topic -- but think about what _specific_ aspect of that general topic you are focusing on within group.
+
+If you wish to pursue an individual topic, some suggested topics included:
+
+**Endings** -- what are the types of endings, and how do endings change across different series, authors, time periods, etc.? You might consider endings that are good or bad outcomes -- or that tell you to stop, or ask you to start over -- or that are called endings, yet the story continues -- etc.  "simple vs complex" or "many endings vs. few."
+
+**Choices** -- what are the types of choices, and how do the kind of available choices and/or their structure change across different genres, languages, etc.? You might consider false or misleading choices, parallel choices ("Turn to 3 or else Turn to 3"), massively multiple choices, or works that have very few choices, or the narrative context of choices ("Do you trust him?" "Hurry!" etc.). 
+
+**Illustrations** -- Where do illustrations occur in interactive narratives -- at key decision points? At endings? At random? Are objects primarily depicted, or situations? Do illustrations generally depict the setup for a choice, or the outcome of one? Which books, authors, series, or genres use many illustrations, which use few or none, and what do they choose to illustrate?
+
+**Randomness and Chance** -- "Advanced" / "Comples" gamebooks often incorporate the use of dice, much like table-top role playing games. When and how do simple and intermediate level works incorporate the use of chance? Some authors / series might use such methods extensively -- while others never do. "Randomized" choices might involve identifying requests to toss a coin, checking the reader's calendar date or time of day. This survey could involve interviewing other researchers for anecdotes and suggestions of where to start -- and reviewing encoding files to find notes in the files about unusual choices.
+
+**Adaptations** -- How are works based on historical events (the Titanic), television (Survivor), film (Indiana Jones), video games (Super Mario Brothers) etc. adapted into interactive narrative form? Are adaptations set in the past or future from the canonical story? Do they feature minor characters, or inconsequential choices? Or do the explore counter-factual or counter-canon outcomes?
+
+**Contemporary Gamebooks** -- in the past decade there have been a number of experiments with the interactive narrative that post-date the Katz collection. These are often parodic or metafictional, and include celebrity autobiography and memoir, interactive versions of works by Jane Austin and Shakespeare, avante garde surrealism etc. What do we learn about this new work in relation to the old when we map the contents of this imaginary "Box 99"?
+
+**Video Games** -- how are the methods that we have applied to the Katz gamebook collection relevant to interactive electronic narratives -- such as hypertext fiction, platformers, dating sims, Twine, etc. This will involve working with a collection of game maps -- such as [VGMaps](http://vgmaps.com).
