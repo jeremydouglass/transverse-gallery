@@ -3,6 +3,7 @@ layout: post
 title:  "Edger update"
 date:   2017-08-27
 categories: tools
+excerpt: "A new version of the Edger software is available for download."
 ---
 
 (/ˈɛdɡɚ/) 
