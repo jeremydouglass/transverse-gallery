@@ -1,0 +1,36 @@
+#42-39 is a reprint of 05-60 "Caravan"
+#the first intruction,"turn to page..." is unique in that it says "go to page 2 and then onto 4"
+1	2
+2	4
+4	10
+	20
+5	22
+	27
+6	7
+7	33
+8	28
+10	44
+11	25
+12	13
+13	19
+	49
+15	30
+19	6
+	37
+20	12
+22	40
+27	43
+28	34
+	38
+30	31
+31	47
+	36
+34	53
+37	39
+38	29
+39	11
+43	16
+	50
+44	8
+	15
+49	5
