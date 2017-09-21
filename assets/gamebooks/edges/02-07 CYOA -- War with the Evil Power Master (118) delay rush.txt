@@ -1,0 +1,139 @@
+# 02-07 CYOA -- War with the Evil Power Master
+# Ryan Leach
+# 2017-09-08
+
+1	2
+2	3
+3	6	RUSH	check out Sector 31-47-89 immediately
+	8	DELAY	call in unit commanders for meeting w/ Congress
+4	46		wait where you are in case someone returns
+	49		check Central Computer Service to locate EPM
+5		E-BAD 	Defeated by EPM	
+6	11
+8	9
+9	18	SOLO	go mission alone
+	15	TEAM	join forces with Tara
+10	12		pretend you're a marine biologist
+	23		approach by stealth
+11	16		go to the Void of Niro
+	21		go to Follop
+12	13
+13	42	SOLO	leave room, say you're tired
+	75	TEAM	stay close to Jose and Louise and wait for Marc
+15	20
+16	17
+17	24	SOLO	Split up
+	29	TEAM	Stay together
+18	10
+20	4
+21	25	DELAY	answer SOS
+	33	RUSH	land on Follop; deal with SOS later
+23	30		back away from Pwasonn and the creeping feeling of dread
+	39		go on, ignore the feeling
+24	27
+25	28
+27	36		join the Evil Power Master; bide time
+	91		refuse to join
+28	55	DELAY	wait; analyze message
+	52	RUSH	go in right now
+29	32
+30		E-GOOD	EPM Vanquished
+32	48		try to land on porthole side
+	60		reconnoiter the area
+33	34
+34	35
+35	38
+36		E-OK	Join EPM and feel powerful, but evil
+37		E-BAD	Destroyed by EPM
+38	61		Leave ship, search for survivors
+	43		Leave Follop, search for SOS
+39	40
+40	41
+41	44
+42	79		investigate where Marc went
+	82		ask Flppto for help
+43	74
+44		E-OK	Ambiguous ending waiting for backup
+45	63
+46	5		surrender
+	77		refuse to surrender
+48	92		enter hangar
+	94		reverse course
+49	50
+50	51	
+51	54
+52	53
+53	70		appoint Tonto
+	72		appoint Flppto
+54	68		talk to the Congress
+	45		return to the computer
+55	37		ask for further ID
+	57		believe it is Colin
+57	62
+58	59
+59	66
+60	95	RUSH	use max destructive force
+	98	DELAY	wait and see what happens
+61	65
+62	117		stay where you are and search
+	67		go on to Follop
+63	86	DELAY	take F's advice, talk to congress
+	89	RUSH	follow your instinct, head to Follop
+65		E-OK	You live but EPM gets away
+66		E-GOOD	Capture EPM in gravity-free chamber
+67		E-BAD 	marooned on strange planet
+68	69	
+69	73
+70	71	
+71	76
+72	100
+73	114	RUSH	launch immediate attack
+	83	DELAY	inform Congress and obtain attack approval
+74		E-BAD	swallowed whole
+75	84		follow Jose
+	104		sense danger, delay
+76	88
+77		E-GOOD	EPM base destroyed
+78		E-OK	You live but EPM gets away
+79	80
+80	81
+81	87
+82	107	RUSH	fire at the noise
+	101	DELAY	remain quiet, hope it's F.
+83		E-BAD	Very Bad. 60% of life destroyed. EPM reigns supreme.
+84		E-BAD	Imprisoned by alien thugs
+86	112
+87		E-BAD	"helpless, you will now and forever be a witness to the power of true evil"
+88		E-OK	You recover and can potentially catch EPM in the future
+89	109		follow light track to the Void thinking it's an EPM escape beam
+	110		ignore light track, go to Follop
+90	93
+91		E-BAD	You refuse to join EPM. "An intense pain binds you in its deadly grasp, and that is all you ever know."
+92	90		decide to arm yourself
+	58		hold firm to pacificism 
+93		E-OK	Ambiguous, but promising
+94	97
+95		E-BAD	Vaporized by EPM
+97		E-GOOD	EPM imprisoned
+98		E-BAD	locked in cavernous room to perish
+100		E-OK	Ambiguous, but success remains possible
+101	108
+102		E-BAD	Imprisoned by EPM; refuse to join him.
+104	105
+105	111		try to escape via boat
+	118		hide under the dock
+107	78		take F to medical attn
+	102		give F first aid and continue search for EPM
+108		E-BAD	EPM triumphs
+109		E-BAD	EPM kills you with instant old age
+110		E-OK	Ambiguous; moral relativist; left wondering if EPM is evil after all
+111		E-OK	EPM escapes, but there's still potential
+112	113
+113		E-GOOD	EPM destroyed
+114	115	
+115		E-GOOD	EPM destroyed
+117		E-BAD	EPM announces your demise; "LONG LIVE EVIL"
+118		E-BAD	"You are long since dead. But a pile of old, musty bones in a forgotten research facility still tells the tale of one who fought in vain against the Evil Power Master"
+119	25	DELAY	answer the SOS at once
+	33	RUSH	proceed fullspeed against EPM
+119		BC	
