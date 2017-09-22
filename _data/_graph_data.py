@@ -12,7 +12,8 @@ def write_file_list(directory_path, data_file_path, out_dir):
         wr = csv.writer(resultFile, delimiter='\t')
         wr.writerow(['id','name','description'])
         for txt in arr_txt:
-            wr.writerow([txt[0:5],txt[0:-4]])
+            if not txt.startswith("."):
+                wr.writerow([txt[0:5],txt[0:-4]])
 
 #------------------------------------------------
 if __name__ == "__main__":
