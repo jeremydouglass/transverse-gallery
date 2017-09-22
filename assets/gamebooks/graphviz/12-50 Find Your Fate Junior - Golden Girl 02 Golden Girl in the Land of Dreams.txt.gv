@@ -4,7 +4,8 @@ digraph g{
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   1 -> 10;
   1 -> 19;
-  3 -> 8;
+  3 -> 4;
+  4 -> 8;
   5 -> 12;
   5 -> 40;
   6 -> 61;

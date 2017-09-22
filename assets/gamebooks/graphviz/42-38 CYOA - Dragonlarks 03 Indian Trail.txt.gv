@@ -1,0 +1,40 @@
+digraph g{
+  graph [ label="42-38 CYOA - Dragonlarks 03 Indian Trail.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  
+  1 -> 2;
+  2 -> 3;
+  3 -> 5;
+  5 -> 6;
+  5 -> 8;
+  6 -> 7;
+  7 -> 12;
+  7 -> 14;
+  8 -> 9;
+  9 -> 17;
+  9 -> 10;
+  10 -> 26;
+  12 -> 24;
+  12 -> 31;
+  14 -> 28;
+  14 -> 23;
+  17 -> 20;
+  23 -> 38;
+  23 -> 44;
+  24 -> 25;
+  25 -> 32;
+  26 -> 27;
+  28 -> 35;
+  28 -> 36;
+  31 -> 40;
+  35 -> 42;
+  35 -> 18;
+  36 -> 46;
+  38 -> 50;
+  40 -> 41;
+  44 -> 45;
+  45 -> 48;
+  50 -> 51;
+}
+

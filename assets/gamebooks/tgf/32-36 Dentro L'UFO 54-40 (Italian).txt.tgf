@@ -1,0 +1,94 @@
+#
+1	2	
+2	6	
+3	5	sleep
+3	14	wake up yourself and the others
+3	8	explore elsewhere
+4	20	help U-TY masters find Ultima
+4	23	ask U-TY how Earth leads to Ultima
+5	12	try to take band off head
+5	11	leave band on, see what happens
+6	7
+7	3	demand to be returned to Earth
+7	4	find out more about the U-TY
+8	10	(turn diff. than Engl.)
+10	18	take the idol
+10	16	leave the idol
+12	103	
+14	15
+15	28	head to next chamber
+15	30	try to wake girl
+16	17
+17	32	go to forbidden chamber
+17	34	find another way to escape
+18	50
+20	21
+21	35	talk to old man
+21	107	talk to Kim Lee
+22	53	ask to notify Coast Guard
+22	56	keep news quiet til you reach Seattle
+23	105
+26	101
+28	29
+29	45	risk it
+29	46	don’t risk being sent to Somo
+30	107
+32	33
+33	38	risk escape
+33	52	wait for better opportunity
+34	48	try to control thoughts, help U-TY
+34	60	look for another escape
+35	55	wait
+35	57	ask old man to tell everything
+36	37
+37	69	PUT ME BACK ON EARTH
+37	71	laugh
+37	76	quote nursery rhyme to confuse
+40	25	continue to Alara
+40	91	order U-TY to head for Earth
+41	42	let computer land ship on Island of the Gods
+41	44	insist on landing in US
+42	73
+45	104
+48	49
+49	79	couldn’t stop thinking of escape
+49	81	could
+50	51
+51	25	order U-TY to Alara
+51	26	order U-TY to Earth
+53	85
+57	59	pretend to be crazy
+57	98	don’t
+60	61
+61	88	ask for return to Earth
+61	108	announce your unwillingness to obey
+63	64
+64	82	agree to Coleman’s plan
+64	92	tell Bru TV crews are coming
+67	68
+71	72
+72	74	yes
+72	77	no
+74	75
+75	90	ask to be saved
+75	84	threaten with destruction
+77	86
+79	80
+80	67
+82	83
+86	106
+93	94
+94	96
+97	100
+98	97
+98	89
+101	40
+101	41
+103	22	tell Mopo to trust Earthlings
+103	19	tell Mopo not to
+104	63	take Bru along
+104	65	tell Bru to wait
+105	39	<new function: 50/50 chance. pick one of two pages>
+105	47	<new function: 50/50 chance. pick one of two pages>
+107	36	meet U-TY face-to-face
+107	8	leave Kim Lee, explore elsewhere

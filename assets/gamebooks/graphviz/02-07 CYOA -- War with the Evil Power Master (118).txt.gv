@@ -2,144 +2,144 @@ digraph g{
   graph [ label="02-07 CYOA -- War with the Evil Power Master (118).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-  
-  
-  
+  // 02-07 CYOA -- War with the Evil Power Master;
+  // Ryan Leach;
+  // 2017-09-08;
   
   1 -> 2;
   2 -> 3;
-  3 -> 6;
-  3 -> 8;
-  4 -> 46;
-  4 -> 49;
-  5	[ xlabel="E-BAD" ];
+  3 -> 6;	// check out Sector 31-47-89 immediately
+  3 -> 8;	// call in unit commanders for meeting w/ Congress
+  4 -> 46;	// wait where you are in case someone returns
+  4 -> 49;	// check Central Computer Service to locate EPM
+  5	[ xlabel="E-BAD" ];	// Defeated by EPM
   6 -> 11;
   8 -> 9;
-  9 -> 18	[ xlabel="SOLO" ];
-  9 -> 15	[ xlabel="TEAM" ];
-  10 -> 12;
-  10 -> 23;
-  11 -> 16;
-  11 -> 21;
+  9 -> 18	[ xlabel="SOLO" ];	// go mission alone
+  9 -> 15	[ xlabel="TEAM" ];	// join forces with Tara
+  10 -> 12;	// pretend you're a marine biologist
+  10 -> 23;	// approach by stealth
+  11 -> 16;	// go to the Void of Niro
+  11 -> 21;	// go to Follop
   12 -> 13;
-  13 -> 42	[ xlabel="SOLO" ];
-  13 -> 75	[ xlabel="TEAM" ];
+  13 -> 42	[ xlabel="SOLO" ];	// leave room, say you're tired
+  13 -> 75	[ xlabel="TEAM" ];	// stay close to Jose and Louise and wait for Marc
   15 -> 20;
   16 -> 17;
-  17 -> 24	[ xlabel="SOLO" ];
-  17 -> 29	[ xlabel="TEAM" ];
+  17 -> 24	[ xlabel="SOLO" ];	// Split up
+  17 -> 29	[ xlabel="TEAM" ];	// Stay together
   18 -> 10;
   20 -> 4;
-  21 -> 25;
-  21 -> 33;
-  23 -> 30;
-  23 -> 39;
+  21 -> 25;	// answer SOS
+  21 -> 33;	// land on Follop; deal with SOS later
+  23 -> 30;	// back away from Pwasonn and the creeping feeling of dread
+  23 -> 39;	// go on, ignore the feeling
   24 -> 27;
   25 -> 28;
-  27 -> 36;
-  27 -> 91;
-  28 -> 55;
-  28 -> 52;
+  27 -> 36;	// join the Evil Power Master; bide time
+  27 -> 91;	// refuse to join
+  28 -> 55;	// wait; analyze message
+  28 -> 52;	// go in right now
   29 -> 32;
-  30	[ xlabel="E-GOOD" ];
-  32 -> 48;
-  32 -> 60;
+  30	[ xlabel="E-GOOD" ];	// EPM Vanquished
+  32 -> 48;	// try to land on porthole side
+  32 -> 60;	// reconnoiter the area
   33 -> 34;
   34 -> 35;
   35 -> 38;
-  36	[ xlabel="E-OK" ];
-  37	[ xlabel="E-BAD" ];
-  38 -> 61;
-  38 -> 43;
+  36	[ xlabel="E-OK" ];	// Join EPM and feel powerful, but evil
+  37	[ xlabel="E-BAD" ];	// Destroyed by EPM
+  38 -> 61;	// Leave ship, search for survivors
+  38 -> 43;	// Leave Follop, search for SOS
   39 -> 40;
   40 -> 41;
   41 -> 44;
-  42 -> 79;
-  42 -> 82;
+  42 -> 79;	// investigate where Marc went
+  42 -> 82;	// ask Flppto for help
   43 -> 74;
-  44	[ xlabel="E-OK" ];
+  44	[ xlabel="E-OK" ];	// Ambiguous ending waiting for backup
   45 -> 63;
-  46 -> 5;
-  46 -> 77;
-  48 -> 92;
-  48 -> 94;
+  46 -> 5;	// surrender
+  46 -> 77;	// refuse to surrender
+  48 -> 92;	// enter hangar
+  48 -> 94;	// reverse course
   49 -> 50;
   50 -> 51;
   51 -> 54;
   52 -> 53;
-  53 -> 70;
-  53 -> 72;
-  54 -> 68;
-  54 -> 45;
-  55 -> 37;
-  55 -> 57;
+  53 -> 70;	// appoint Tonto
+  53 -> 72;	// appoint Flppto
+  54 -> 68;	// talk to the Congress
+  54 -> 45;	// return to the computer
+  55 -> 37;	// ask for further ID
+  55 -> 57;	// believe it is Colin
   57 -> 62;
   58 -> 59;
   59 -> 66;
-  60 -> 95;
-  60 -> 98;
+  60 -> 95;	// use max destructive force
+  60 -> 98;	// wait and see what happens
   61 -> 65;
-  62 -> 117;
-  62 -> 67;
-  63 -> 86;
-  63 -> 89;
-  65	[ xlabel="E-OK" ];
-  66	[ xlabel="E-GOOD" ];
-  67	[ xlabel="E-BAD" ];
+  62 -> 117;	// stay where you are and search
+  62 -> 67;	// go on to Follop
+  63 -> 86;	// take F's advice, talk to congress
+  63 -> 89;	// follow your instinct, head to Follop
+  65	[ xlabel="E-OK" ];	// You live but EPM gets away
+  66	[ xlabel="E-GOOD" ];	// Capture EPM in gravity-free chamber
+  67	[ xlabel="E-BAD" ];	// marooned on strange planet
   68 -> 69;
   69 -> 73;
   70 -> 71;
   71 -> 76;
   72 -> 100;
-  73 -> 114;
-  73 -> 83;
-  74	[ xlabel="E-BAD" ];
-  75 -> 84;
-  75 -> 104;
+  73 -> 114;	// launch immediate attack
+  73 -> 83;	// inform Congress and obtain attack approval
+  74	[ xlabel="E-BAD" ];	// swallowed whole
+  75 -> 84;	// follow Jose
+  75 -> 104;	// sense danger, delay
   76 -> 88;
-  77	[ xlabel="E-GOOD" ];
-  78	[ xlabel="E-OK" ];
+  77	[ xlabel="E-GOOD" ];	// EPM base destroyed
+  78	[ xlabel="E-OK" ];	// You live but EPM gets away
   79 -> 80;
   80 -> 81;
   81 -> 87;
-  82 -> 107;
-  82 -> 101;
-  83	[ xlabel="E-BAD" ];
-  84	[ xlabel="E-BAD" ];
+  82 -> 107;	// fire at the noise
+  82 -> 101;	// remain quiet, hope it's F.
+  83	[ xlabel="E-BAD" ];	// Very Bad. 60% of life destroyed. EPM reigns supreme.
+  84	[ xlabel="E-BAD" ];	// Imprisoned by alien thugs
   86 -> 112;
-  87	[ xlabel="E-BAD" ];
-  88	[ xlabel="E-OK" ];
-  89 -> 109;
-  89 -> 110;
+  87	[ xlabel="E-BAD" ];	// "helpless, you will now and forever be a witness to the power of true evil"
+  88	[ xlabel="E-OK" ];	// You recover and can potentially catch EPM in the future
+  89 -> 109;	// follow light track to the Void thinking it's an EPM escape beam
+  89 -> 110;	// ignore light track, go to Follop
   90 -> 93;
-  91	[ xlabel="E-BAD" ];
-  92 -> 90;
-  92 -> 58;
-  93	[ xlabel="E-OK" ];
+  91	[ xlabel="E-BAD" ];	// You refuse to join EPM. "An intense pain binds you in its deadly grasp, and that is all you ever know."
+  92 -> 90;	// decide to arm yourself
+  92 -> 58;	// hold firm to pacificism
+  93	[ xlabel="E-OK" ];	// Ambiguous, but promising
   94 -> 97;
-  95	[ xlabel="E-BAD" ];
-  97	[ xlabel="E-GOOD" ];
-  98	[ xlabel="E-BAD" ];
-  100	[ xlabel="E-OK" ];
+  95	[ xlabel="E-BAD" ];	// Vaporized by EPM
+  97	[ xlabel="E-GOOD" ];	// EPM imprisoned
+  98	[ xlabel="E-BAD" ];	// locked in cavernous room to perish
+  100	[ xlabel="E-OK" ];	// Ambiguous, but success remains possible
   101 -> 108;
-  102	[ xlabel="E-BAD" ];
+  102	[ xlabel="E-BAD" ];	// Imprisoned by EPM; refuse to join him.
   104 -> 105;
-  105 -> 111;
-  105 -> 118;
-  107 -> 78;
-  107 -> 102;
-  108	[ xlabel="E-BAD" ];
-  109	[ xlabel="E-BAD" ];
-  110	[ xlabel="E-OK" ];
-  111	[ xlabel="E-OK" ];
+  105 -> 111;	// try to escape via boat
+  105 -> 118;	// hide under the dock
+  107 -> 78;	// take F to medical attn
+  107 -> 102;	// give F first aid and continue search for EPM
+  108	[ xlabel="E-BAD" ];	// EPM triumphs
+  109	[ xlabel="E-BAD" ];	// EPM kills you with instant old age
+  110	[ xlabel="E-OK" ];	// Ambiguous; moral relativist; left wondering if EPM is evil after all
+  111	[ xlabel="E-OK" ];	// EPM escapes, but there's still potential
   112 -> 113;
-  113	[ xlabel="E-GOOD" ];
+  113	[ xlabel="E-GOOD" ];	// EPM destroyed
   114 -> 115;
-  115	[ xlabel="E-GOOD" ];
-  117	[ xlabel="E-BAD" ];
-  118	[ xlabel="E-BAD" ];
-  119 -> 25;
-  119 -> 33;
+  115	[ xlabel="E-GOOD" ];	// EPM destroyed
+  117	[ xlabel="E-BAD" ];	// EPM announces your demise; "LONG LIVE EVIL"
+  118	[ xlabel="E-BAD" ];	// "You are long since dead. But a pile of old, musty bones in a forgotten research facility still tells the tale of one who fought in vain against the Evil Power Master"
+  119 -> 25;	// answer the SOS at once
+  119 -> 33;	// proceed fullspeed against EPM
   119	[ xlabel="BC" ];
 }
 

@@ -64,7 +64,7 @@ digraph g{
   28 -> 52;
   29 -> 136;
   30 -> 66;
-  30 -> 0;
+  30 -> E;
   31 -> 55;
   32	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
   33 -> 57;
