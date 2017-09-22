@@ -8,7 +8,7 @@
 	8		call in unit commanders for meeting w/ Congress
 4	46		wait where you are in case someone returns
 	49		check Central Computer Service to locate EPM
-5		E-BAD	Defeated by EPM
+5		E-BAD 	Defeated by EPM	
 6	11
 8	9
 9	18	SOLO	go mission alone

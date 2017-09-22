@@ -1,0 +1,58 @@
+1	2
+	10
+2	22
+	4	#if coming from 22, go directly to 4
+3	4
+4	30
+	3
+5	17
+	19
+6	8
+7	30
+	6
+8	12
+	9
+9	14
+	11
+10	1
+11	13
+	16
+12	8
+13	15
+14	11
+15	18
+	17
+	37	#reference— word scramble answer
+16	11
+	3
+17	19
+	5
+18	15
+19	20
+	21
+20	19
+21	26
+	23	
+22	2	#go to 2 then 4 
+23	34
+	25
+24	27
+25	27
+	37	#refernce—puzzle answer
+26	21	#go back to 21, then 23 after completing chance requirement
+27	24
+	29
+28	29	#go back and take the other path
+29	28
+	31
+30	6
+	7
+31	33
+32	33	#try again
+33	32
+	35
+34	23	#go back and go to 25
+35	36
+	37
+36	35	#try again, choose 37
+37		#reference at end, answers to lexia puzzles	
