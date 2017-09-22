@@ -37,6 +37,7 @@ box_folder	box	folder	image
 01-61	01	61	01-61 CYOA -- Trouble on Planet Earth.txt.gv.png
 01-65	01	65	01-65 CYOA -- Vampire Express.txt.gv.png
 01-65	01	65	01-65v2 CYOA -- Vampire Express (printing-error).txt.gv.png
+01-65	01	65	01-65v3 CYOA -- Vampire Express (broken).txt.gv.png
 02-07	02	07	02-07 CYOA -- War with the Evil Power Master (118) delay rush.txt.gv.png
 02-07	02	07	02-07 CYOA -- War with the Evil Power Master (118) no tags.txt.gv.png
 02-07	02	07	02-07 CYOA -- War with the Evil Power Master (118).txt.gv.png
@@ -389,6 +390,7 @@ box_folder	box	folder	image
 09-51	09	51	09-51 Which Way Books 14 Poltergeists, Ghosts, and Psychic Encounters.txt.gv.png
 09-52	09	52	09-52 Which Way Books 15 Star Trek Voyage to Adventure.txt.gv.png
 09-54	09	54	09-54 Which Way Books 16 The Shadow Stealers.txt.gv.png
+09-55	09	55	09-55 Which Way Books 17 Invasion of the Mutants.txt.gv.png
 10-01	10	01	10-01 WWY 01 Forest of Twisted Dreams, The.txt.gv.png
 10-03	10	03	10-03 WWY 02 Siege of the Dragonriders, The.txt.gv.png
 10-04	10	04	10-04 WWY 03 Who Kidnapped Princess Saralinda.txt.gv.png
@@ -575,6 +577,7 @@ box_folder	box	folder	image
 14-58	14	58	14-58 Tracker Books -- Codebreaker.txt.gv.png
 14-59	14	59	14-59 Tracker Books -- Skyjacked.txt.gv.png
 14-63	14	63	14-63 Storymaze -- The Golden Udder.txt.gv.png
+14-65	14	65	14-65 Storymaze -- Minaotaur's Maze, The.txt.gv.png
 14-66	14	66	14-66 You Are There -- Battle of the Alamo.txt.gv.png
 22-06	22	06	22-06A 1 on 1 Adventure Gamebooks -- Challenge of Druid's Grove - Renwood.txt.gv.png
 22-06	22	06	22-06B 1 on 1 Adventure Gamebooks -- Challenge of Druid's Grove - Ar-kane.txt.gv.png
@@ -624,6 +627,8 @@ box_folder	box	folder	image
 39-05	39	05	39-05 You Be the Jury - Courtroom III.txt.gv.png
 39-06	39	06	39-06 You Be the Jury - Courtroom IV.txt.gv.png
 39-07	39	07	39-07 You Be the Jury - Courtroom IV (REMAKE).txt.gv.png
+39-08	39	08	39-08 Solo Boxes.txt.gv.png
+39-09	39	09	39-09 Solo Noughts and Crosses.txt.gv.png
 39-10	39	10	39-10 Sleep and the City Trembles.txt.gv.png
 39-11	39	11	39-11 Clue 11 The Picture-Perfect Crime.txt.gv.png
 39-12	39	12	39-12 Clue 10 The Screaming Skeleton.txt.gv.png
@@ -638,6 +643,7 @@ box_folder	box	folder	image
 41-13	41	13	41-13 Straniero, Lo -- In Cerca di Fortuna (Italian).txt.gv.png
 41-14	41	14	41-14 Libri di Mondo Erre, I -- Avventure al Campo (Italian).txt.gv.png
 41-15	41	15	41-15 Libri di Mondo Erre, I -- I Misteri delle Catacombe (Italian).txt.gv.png
+41-16	41	16	41-16 Novecento Giochi -- Il Gobbo Maledetto (Italian).txt.gv.png
 41-34	41	34	41-34 Costruire i Libri-Gioco -- Chapter - il labirinto di certa.txt.gv.png
 41-34	41	34	41-34 Costruire i Libri-Gioco -- Chapter - Lavorare in classe con i racconti-gioco Io ho fatto cosi.txt.gv.png
 41-34	41	34	41-34 Costruire i libri-gioco --Prologo (Italian).txt.gv.png

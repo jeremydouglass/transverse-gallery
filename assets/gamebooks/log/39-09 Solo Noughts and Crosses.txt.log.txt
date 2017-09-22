@@ -1,6 +1,6 @@
-Node Count: 2
+Node Count: 0
 
-Node List:  X=O, Hours of enjoyment. You play as you would play ordinary nought and crosses [tic-tac-toe]—-but the book its your opponent.
+Node List:  
 
 Average degree: 0.00
 
@@ -8,14 +8,14 @@ Diameter (directed):   0.0
 Diameter (undirected): 0.0
 
 Degree Distribution (undirected): 
-   degree: 0 
-    nodes: 2 
+   degree: 
+    nodes: 
 
 Degree Ranges: 
     min max tot
-all [0, 0, 0]
- in [0, 0, 0]
-out [0, 0, 0]
+all [2147483647, 0, 0]
+ in [2147483647, 0, 0]
+out [2147483647, 0, 0]
 
 Degree map: (high degree nodes)
 #   In  Out Total
