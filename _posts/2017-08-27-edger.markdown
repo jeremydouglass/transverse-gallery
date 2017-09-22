@@ -20,7 +20,8 @@ A new version of the Edger software is available for download. Improvements:
 Installation:
 
 1. delete your old version of Edger
-2. download zip of the latest edger from GitHub: <https://github.com/jeremydouglass/edger/archive/master.zip>
+2. download zip of the latest edger from GitHub: <https://github.com/jeremydouglass/edger/>  
+   (Click on `Download > Download Zip`)
 3. Unzip / Extract All
 4. move the "Edger" folder to where you want to keep the application
 4. run Edger.pde using Processing
