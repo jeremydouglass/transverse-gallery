@@ -24,12 +24,12 @@ if __name__ == "__main__":
     # input is of type 'unicode'
     unidecode_filename(u'../assets/gamebooks/edges/')
     unidecode_filename(u'../assets/gamebooks/graphviz/')
-    unidecode_filename(u'../assets/gamebooks/image/')
-    unidecode_filename(u'../assets/gamebooks/log/')
-    unidecode_filename(u'../assets/gamebooks/signatures/counts/')
-    unidecode_filename(u'../assets/gamebooks/signatures/nocounts/')
-    unidecode_filename(u'../assets/gamebooks/signatures/thumbs/')
+    unidecode_filename(u'../assets/gamebooks/images/')
+    unidecode_filename(u'../assets/gamebooks/images-thumbs/')
+    unidecode_filename(u'../assets/gamebooks/logs/')
+    unidecode_filename(u'../assets/gamebooks/signatures/')
+    unidecode_filename(u'../assets/gamebooks/signatures-thumbs/')
+    unidecode_filename(u'../assets/gamebooks/styles/')
     unidecode_filename(u'../assets/gamebooks/tgf/')
-    unidecode_filename(u'../assets/gamebooks/thumb/')
 
 # https://stackoverflow.com/a/2633310/7207622

@@ -16,7 +16,7 @@ def write_file_list(directory_path, data_file_path, out_dir):
 
 #------------------------------------------------
 if __name__ == "__main__":
-    directory_path = '../assets/gamebooks/signatures/counts/'
+    directory_path = '../assets/gamebooks/signatures/'
     data_file_path = 'signatures_list.tsv'
     out_dir = ''
     write_file_list(directory_path, data_file_path, out_dir)

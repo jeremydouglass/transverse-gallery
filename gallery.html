@@ -39,7 +39,7 @@ categories: gallery
       assign book_images = box_images.items | where: "box_folder", book.id %}{%
       for image in book_images %}
         <figure style="display: inline-block; text-align: center;">
-          <a href="{{ site.baseurl }}/gamebooks/{{ book.id }}.html" target="_blank"><img src="{{ site.baseurl }}/assets/gamebooks/thumb/{{ image.image }}" alt="{{ image.image | remove: ".txt.gv.png" }}"/></a>
+          <a href="{{ site.baseurl }}/gamebooks/{{ book.id }}.html" target="_blank"><img src="{{ site.baseurl }}/assets/gamebooks/images-thumbs/{{ image.image }}" alt="{{ image.image | remove: ".txt.gv.png" }}"/></a>
           <figcaption>{{ book.id }}</figcapture>
         </figure>{%
       endfor %}{%
