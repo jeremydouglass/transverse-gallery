@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Survey"
+title:  "One Interesting Work"
 date:   2017-08-29
 categories: 
 ---
 
+Researchers share details about one interesting interactive narrative that they have encountered.
 
 ---------
 

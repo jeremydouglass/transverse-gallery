@@ -5,6 +5,8 @@ date:   2017-08-25
 categories: tools
 ---
 
+A collection of resources and links of interest.
+
 ### For Research Assistants:
 
 -  [Shared cloud folder]() (GDrive) -- for uploading completed network encodings and sharing materials

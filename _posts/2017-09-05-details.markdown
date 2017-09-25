@@ -5,7 +5,9 @@ date:   2017-09-05
 categories: 
 ---
 
-The project [gallery]({{ site.baseurl }}/gallery.html) now gives the ability to browse by box and series, and shows detail pages with the story graphs, data, log files, and graph source files for each work. Multiple graphs of the same work (for example, encoding it or annotating it in different ways) are compiled in a list under the work header.
+The project [gallery]({{ site.baseurl }}/gallery.html) now gives the ability to browse by box and series, and shows detail pages with the story graphs, data, log files, and graph source files for each work.
+
+Multiple graphs of the same work (for example, encoding it or annotating it in different ways) are compiled in a list under the work header.
 
 For example, see:
 

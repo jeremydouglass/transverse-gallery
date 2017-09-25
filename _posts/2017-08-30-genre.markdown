@@ -25,6 +25,7 @@ topics:
     images:
     - image_path: "14-23 Confidentially Yours -- Confidentially Yours.txt.gv.png"
     - image_path: "14-24 Confidentially Yours -- Breaking Up is Hard to Do.txt.gv.png"
+excerpt: "Developing a research group for interrogating the relevance of _genre_ to the narrative structures of gamebooks."
 ---
 
 ## Project Description

@@ -6,7 +6,9 @@ date:  2017-08-31
 
 # Research Team
 
-## Faculty Project Leader
+Our team working on interactive narrative consists of a faculty lead, two graduate research advisors, and a group of talented undergraduate researchers.
+
+## Faculty Project Lead
 
 <br>
 __Jeremy Douglass__ (Assistant Professor of English, UCSB)
