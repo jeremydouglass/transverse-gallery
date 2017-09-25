@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "New Gallery Details"
+author: Jeremy Douglass
 date:   2017-09-05
 categories: 
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Resources"
+author: Jeremy Douglass
 date:   2017-08-25
 categories: tools
 ---

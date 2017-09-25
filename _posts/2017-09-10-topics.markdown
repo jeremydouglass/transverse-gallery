@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Research Topics"
+author: Jeremy Douglass
 date:   2017-09-10
 excerpt: "For the remainder of the research assistantships, each undergraduate researcher will focus on a specific research topic, identify and further annotate works of interest, and produce a short research report."
 categories: 

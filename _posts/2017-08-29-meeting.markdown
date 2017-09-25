@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Meeting 8-29"
+author: Jeremy Douglass
 date:   2017-08-29
 categories: events
 ---

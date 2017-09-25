@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "One Interesting Work"
+author: Ryan Leach
 date:   2017-08-29
 categories: 
 ---

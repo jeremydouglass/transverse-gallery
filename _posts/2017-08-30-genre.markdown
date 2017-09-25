@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Genre Research Group"
+author: Ryan Leach
 date:   2017-08-30
 categories: research
 topics:
