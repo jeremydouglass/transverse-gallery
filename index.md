@@ -21,3 +21,5 @@ An overview of project background and methods:
 ----------
 
 The Transverse Reading Project is studying the media structures in comic page layouts, poetic rhyme schemes, and video game plots.
+
+Research for this portion of the project was conducted with the generous support of the John Arnhold Summer Undergraduate Research Fund.
