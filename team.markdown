@@ -20,6 +20,8 @@ Jeremy Douglass is an Assistant Professor of English at University of California
 
 <br>
 __Alanna Bartolini__ (English Ph.D. Student, UCSB)
+
+Alanna, one of the Graduate Research Advisors of the Transverse Reading project, hails from Montreal, Canada. With research interests including the digital humanities, archive theory, and Victorian Gothic epistolary novels, she is largely interested in databases' potential to serve as digital editions and to perform narrativity. She loves languages, speaking English, French, and Italian fluently, Spanish and Mandarin poorly, and reading German, Latin, and the other romance languages (Portuguese, Catalan, and Romanian). For this reason, Alanna leads the Foreign Language Research Team, fondly nicknamed "i stranieri," - a playful double entendre on "strangers" in Italian, meaning both "the foreigners" but also "the odd ones" - and of whom she is proud to be head straniera.
 <br>
 <br>
 <hr>
