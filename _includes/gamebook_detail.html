@@ -1,7 +1,9 @@
 {% assign book = site.data.book_data | where: "id", include.id | first %}
 <h2>{{ book.title }} </h2>
 
-<p><strong>{{ book.id }}</strong>: <em>{{ book.citation }} {{ book.box }}:{{ book.folder }}<em>
+<p><strong>{{ book.id }}</strong>: <em>{{ book.citation }} {{ book.box }}:{{ book.folder }}</em></p>
+
+<p>{% if book.book_id != nil %} <a href="https://gamebooks.org/Item/{{ book.book_id }}">Book {{ book.book_id }}</a> on gamebooks.org<br>{% endif %}{% if book.series_id != nil %} <a href="https://gamebooks.org/Series/{{ book.series_id }}">Series {{ book.series_id }}</a> on gamebooks.org<br>{% endif %}</p>
 
 <div class="graphs">
 {% assign graphs = site.data.graph_data | where: "id", include.id %}
