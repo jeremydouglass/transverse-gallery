@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "Foreign Language Research Group"
+author: Alanna Bartolini
+date:   2017-09-01
+categories: research
+excerpt: "An initiative to look into the foreign language portion of the Katz Collection."
+---
+
+## Project Description
+
+I am leading an initiative to look into the foreign language portion of the Katz Collection, and seeking contributing researchers.
+
+This effort is _not at all_ limited to bilingual students - remember that our numbers aren't even English. They are Arabic.  This means that every single one of you is qualified to contribute to the work project will do, and you would be a help and an asset. You can all encode the graphs for simple gamebooks in _any_ language as long as you can read the symbols for 0-9. 
+
+Just about everything that we are examining (for now anyway) is in a Romance language. The collection has works in other alphabets - Japanese, Cyrillic, etc - but we are going to leave those aside for now. If you have a passion for doing work in non-Romance language (for instance, Japanese fiction) then we could consider including it.
+
+Our team will investigate a series of interlocking questions:
+
+* What is the influence of language and translation on the narrative structures of gamebooks?
+* Do translations of simple gamebooks have the same narrative graph structure as in the original?
+* Will changing the language of the gamebook's content deform the shape of the lexias? Sometimes? Never? Always?
+* What happens if the graphs of translations of one genre changes a lot, but those of another genre do not? What if everything looks the same in every language except, say, Italian?  
+
+We know that most "normal" books change when they are translated into different languages, but we don't know how this is true for gamebooks, and I believe that if we can encode them and visualize these differences we will gain valuable insights.
+
+These are valuable questions because they give us the opportunity to determine if there are certain essential or elemental features that are always (or even a statistically significant majority of the time) true for a given genre, style, language, medium, or format. Now, when we see the demarcation lines between these concepts emerging in other languages, our new perspective means we can see our own more clearly. After all, other languages are really just information structures alternate to our own. If you ask me, that's as 'transverse' as reading gets!
+
+And so I wonder: If translations consistently replicate graph structures that are identical to those of the original language, or even translations into other languages, then does that suggest that there is something essential to the nature of the text, its genre, its media format, or something we haven't even considered yet? As an example:
+
+1. Do the graphs of the encoded structures of, say, romances look the same in different languages?
+2. If so, does that mean that we have discovered some DNA-like component that all romances share? Or all gamebooks romances share? How will this discovery affect our perspectives? 
+
+The (evolving) methodology looks like this: 
+
+#### 1. Becoming Pandora 
+
+The very first thing we must do is to open the boxes and handle the pieces with our own hands and eyes in order to get acquainted with what we really have. Reading the catalog may seem like a reasonable place to start but, to be honest, here be dragons: there's some really unusual stuff in those boxes, and yet the metadata used to describe them doesn't look like anything special. Some of the most amazing things in this collection have been here in front of us this whole time, so we must be attentive - sometimes our chameleon pieces are hiding in plain sight. 
+
+#### 2. Safer, Stranger, Wild Card
+
+We have to identify which are simple (safer) and which are complex (stranger) and which are the mega-outliers that defy classification (the wild cards!) which will permit us to:
+
+1. Compile a list, a sample really, of the simple ones, and check if we have them in the collection in any other languages. We will need to keep track of if we can compare them to their original versions, or if we are comparing two translations. We will need to check it against author name, most reliably, because the titles are usually completely different in other languages.
+   
+   > Side note: The fact that a book's title changes so much from language to language is a very interesting topic that would make for a great undergraduate researcher report. It will be incredibly cool to examine that aspect, especially if it's the only thing that changes and the gamebook's structure stays identical to its original. It would also be incredibly cool if it isn't. 
+   
+   Then, because they are simple gamebooks, we can encode and graph them, along with their other-language counterparts. And who knows, some of the originals may have already been encoded! And then we will compare, and try to conceptualize what the changes (or their absences) signify and how we can use these findings to deepen our understanding of the findings the Genre team is making, and that you as individuals have been making this whole time. 
+   
+   In other words, pay careful attention to what takes you by surprise! And pay attention to when things fail to do what you expected. Note those expectations, frustrations, and surprises - sometimes, they are where some of your best ideas can come from. 
+   
+2. Keep track of the wild cards and examine them as a micro-corpus. What might they have in common? How do they fit into their respective cultural and linguistic landscapes? What kinds of light do they shed on how those cultures/languages write and/or translate gamebooks? 
+
+If this sounds cool and you are interested in joining the Gamebooks in Foreign Languages Research Group, please let me know which aspects of this project sound the most interesting, which ones you'd like to investigate, and if you have a particular language area you'd like to start with.
+
+Looking forward to hearing from you! 

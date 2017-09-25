@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Research Reports"
+author: Jeremy Douglass
 date:   2017-09-20
 categories: 
 ---

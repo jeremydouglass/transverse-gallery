@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Look up on Gamebooks.org"
+author: Jeremy Douglass
+date:   2017-09-25
+categories: 
+---
+
+{% assign book = site.data.book_data | where: "id", "01-01" | first %}
+
+All gamebook detail pages now feature links to the official [gamebooks.org](http://gamebooks.org) listing for that book, as well as to the series (when available).
+
+This will facilitate researchers looking the background of specific gamebooks -- other works by the same author, other works in the series, genres, known translations, cover art, et cetera. Links appear at the top of the page under the citation, like this:
+
+<blockquote>
+  <p><strong>{{ book.id }}</strong>: <em>{{ book.citation }} {{ book.box }}:{{ book.folder }}</em></p>
+
+  <p>{% if book.book_id != nil %} <a href="https://gamebooks.org/Item/{{ book.book_id }}">Book {{ book.book_id }}</a> on gamebooks.org<br>{% endif %}{% if book.series_id != nil %} <a href="https://gamebooks.org/Series/{{ book.series_id }}">Series {{ book.series_id }}</a> on gamebooks.org<br>{% endif %}</p>
+</blockquote>
+
+----------
