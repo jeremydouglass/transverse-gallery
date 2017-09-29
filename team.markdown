@@ -85,7 +85,4 @@ Juliet's primary interests include speculative fiction, intersectional & sociali
 <br>
 __Yee-Ann Wong__ 
 
-
-
-
-
+Yee-Ann is interested in the unique process of writing gamebooks. She is almost always found studying (read: procrastinating), SCUBA diving, writing her own short stories, or traveling across southern California to visit her friends and family. While doing research with the Transverse Reading project, she has become particularly interested in the different localizations of gamebooks to and from foreign regions.
