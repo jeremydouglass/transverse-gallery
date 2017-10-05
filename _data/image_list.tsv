@@ -164,6 +164,20 @@ box_folder	box	folder	image
 04-55	04	55	04-55b CYOA -- Inca Gold (corrected).txt.gv.png
 04-56	04	56	04-56 CYOA -- Struggle Down Under.txt.gv.png
 04-56	04	56	04-56b CYOA -- Struggle Down Under (corrected).txt.gv.png
+04-57	04	57	04-57 Tattoo of Death (reprint).txt.gv.png
+04-58	04	58	04-58 Silver Wings.txt.gv.png
+04-59	04	59	04-59 Terror on the Titanic (reprint).txt.gv.png
+04-60	04	60	04-60 Search for the Mountain Gorillas.txt.gv.png
+04-61	04	61	04-61 Moon Quest (reprint).txt.gv.png
+04-62	04	62	04-62 Project UFO.txt.gv.png
+04-63	04	63	04-63 The Island of Time.txt.gv.png
+04-64	04	64	04-64 Smoke Jumpers.txt.gv.png
+04-65	04	65	04-65 Chinese Dragons.txt.gv.png
+04-66	04	66	04-66 Track Star.txt.gv.png
+04-67	04	67	04-67 U.N. Adventure Mission to Molowa (reprint).txt.gv.png
+04-68	04	68	04-68 Blood on the Handle.txt.gv.png
+04-69	04	69	04-69 Zombie Penpal.txt.gv.png
+04-70	04	70	04-70 The Computer Takeover.txt.gv.png
 05-01	05	01	05-01 CYOA-YR -- Circus, The.txt.gv.png
 05-04	05	04	05-04 CYOA-YR -- Haunted House, The.txt.gv.png
 05-07	05	07	05-07 CYOA-YR -- Sunken Treasure.txt.gv.png
@@ -301,6 +315,7 @@ box_folder	box	folder	image
 07-14	07	14	07-14 Lifegames 03 Starstruck (192).txt.gv.png
 07-15	07	15	07-15 Lifegames 04 Woman in Power Politics (192).txt.gv.png
 07-16	07	16	07-16 Lifegames 06 Matchpoint (192).txt.gv.png
+07-26	07	26	07-26 Endless Quest 05 Revolt of the Dwarves (157).txt.gv.png
 07-27	07	27	07-27 Endless Quest 06 Revenge of the Rainbow Dragons (157).txt.gv.png
 07-29	07	29	07-29 Endless Quest 14 Raid on Nightmare Castle (157).txt.gv.png
 07-29	07	29	07-29B Endless Quest 14 Raid on Nightmare Castle (157).txt.gv.png
@@ -481,12 +496,12 @@ box_folder	box	folder	image
 11-66	11	66	11-66 Lazer Tag 01 High Spy.txt.gv.png
 11-67	11	67	11-67 Lazer Tag 02 Danger, Second Hand.txt.gv.png
 11-68	11	68	11-68 Lazer Tag 03 Invisible Rival.txt.gv.png
-12-01	12	01	12-01 HeartQuest Book 01 Ring of the Ruby Dragon (GENRE).txt.gv.png
+12-01	12	01	12-01 HeartQuest 01 Ring of the Ruby Dragon G .txt.gv.png
 12-01	12	01	12-01 HeartQuest Book 01 Ring of the Ruby Dragon.txt.gv.png
+12-02	12	02	12-02 HeartQuest 02 Talisman of Valdegarde G .txt.gv.png
 12-02	12	02	12-02 HeartQuest 02 Talisman of Valdegarde.txt.gv.png
-12-02	12	02	12-02 HeartQuest Book 02 Talisman of Valdegarde (GENRE).txt.gv.png
+12-03	12	03	12-03 Heart Quest Book 03 Secret Sorceress G.txt.gv.png
 12-03	12	03	12-03 HeartQuest 03 Secret Sorceress.txt.gv.png
-12-03	12	03	12-03 HeartQuest Book 03 Secret Sorceress (GENRE).txt.gv.png
 12-04	12	04	12-04 HeartQuest 04 Isle of Illusion (GENRE).txt.gv.png
 12-04	12	04	12-04 HeartQuest 04 Isle of Illusion .txt.gv.png
 12-05	12	05	12-05 HeartQuest 05 Moon Dragon Summer (GENRE).txt.gv.png
@@ -579,6 +594,7 @@ box_folder	box	folder	image
 14-63	14	63	14-63 Storymaze -- The Golden Udder.txt.gv.png
 14-65	14	65	14-65 Storymaze -- Minaotaur's Maze, The.txt.gv.png
 14-66	14	66	14-66 You Are There -- Battle of the Alamo.txt.gv.png
+19-19	19	19	19-19 The Crown of the Kings.txt.gv.png
 22-06	22	06	22-06A 1 on 1 Adventure Gamebooks -- Challenge of Druid's Grove - Renwood.txt.gv.png
 22-06	22	06	22-06B 1 on 1 Adventure Gamebooks -- Challenge of Druid's Grove - Ar-kane.txt.gv.png
 22-07	22	07	22-07A 1 on 1 Adventure Gamebooks -- The Amber Sword of World's End - Uthrac.txt.gv.png
@@ -620,7 +636,7 @@ box_folder	box	folder	image
 34-16	34	16	34-16 Terrores fuera del tiempo.txt.gv.png
 34-46	34	46	34-46 Time Machine--Le Sorgenti Del Nino (Italian).txt.gv.png
 34-47	34	47	34-47 Time Machine-- le fiamme dell'inquisizione (Italian).txt.gv.png
-39-01	39	01	39-01 The Adventures of You -- Sugarcane Island .txt.gv.png
+39-01	39	01	39-01 The Adventures of You -- Sugarcane Island.txt.gv.png
 39-03	39	03	39-03 Lone Wolf 19 Wolf's Bane (NO REFS).txt.gv.png
 39-03	39	03	39-03 Lone Wolf 19 Wolf's Bane.txt.gv.png
 39-04	39	04	39-04 Lone Wolf 25 Trail of the Wolf (NO REFS).txt.gv.png
@@ -639,12 +655,24 @@ box_folder	box	folder	image
 39-16	39	16	39-16 Star Wars-The Clone Wars Decide Your Destiny 01 The Way of the Jedi.txt.gv.png
 39-17	39	17	39-17 You-Solve-It Mysteries 02 Dead Asleep.txt.gv.png
 39-18	39	18	39-18 Find Your Fate Dr. Who 03 Garden of Evil.txt.gv.png
+39-37	39	37	39-37 Hopscotch (codex order).txt.gv.png
+39-37	39	37	39-37 Hopscotch (TOC 1).txt.gv.png
+39-37	39	37	39-37 Hopscotch (TOC 1-2 combined).txt.gv.png
+39-37	39	37	39-37 Hopscotch (TOC 2).txt.gv.png
+39-40	39	40	39-40 Maps-The Uncollected John Sladek (combined).txt.gv.png
+39-40	39	40	39-40 Maps-The Uncollected John Sladek - Alien Territory.txt.gv.png
+39-40	39	40	39-40 Maps-The Uncollected John Sladek - The Lost Nose.txt.gv.png
+39-41	39	41	39-41 The Last Book (crop endings).txt.gv.png
+39-41	39	41	39-41 The Last Book.txt.gv.png
 41-11	41	11	41-11 Fiaba game -- Tu Sei il Califfo del Deserto (Italian).txt.gv.png
 41-12	41	12	41-12 Fiaba game -- Tu sei la Fata dei Folletti (Italian).txt.gv.png
 41-13	41	13	41-13 Straniero, Lo -- In Cerca di Fortuna (Italian).txt.gv.png
 41-14	41	14	41-14 Libri di Mondo Erre, I -- Avventure al Campo (Italian).txt.gv.png
 41-15	41	15	41-15 Libri di Mondo Erre, I -- I Misteri delle Catacombe (Italian).txt.gv.png
 41-16	41	16	41-16 Novecento Giochi -- Il Gobbo Maledetto (Italian).txt.gv.png
+41-17	41	17	41-17 Big Night Out.txt.gv.png
+41-33	41	33	41-33 American Girls - The Two Month Itch (no readorder).txt.gv.png
+41-33	41	33	41-33 American Girls - The Two Month Itch.txt.gv.png
 41-34	41	34	41-34 Costruire i Libri-Gioco -- Chapter - il labirinto di certa.txt.gv.png
 41-34	41	34	41-34 Costruire i Libri-Gioco -- Chapter - Lavorare in classe con i racconti-gioco Io ho fatto cosi.txt.gv.png
 41-34	41	34	41-34 Costruire i libri-gioco --Prologo (Italian).txt.gv.png
@@ -668,6 +696,21 @@ box_folder	box	folder	image
 42-45	42	45	42-45 CYOA - Dragonlarks 12 The Owl Tree.txt.gv.png
 42-46	42	46	42-46 CYOA - Dragonlarks -- The Lake Monster Mystery.txt.gv.png
 42-47	42	47	42-47 CYOA - Dragonlarks -- Ghost Island.txt.gv.png
+42-48	42	48	42-48 You are There Bible Adventures (Chapter 1).txt.gv.png
+42-48	42	48	42-48 You are There Bible Adventures (Chapter 2).txt.gv.png
+42-48	42	48	42-48 You are There Bible Adventures (Chapter 3).txt.gv.png
+42-48	42	48	42-48 You are There Bible Adventures (Chapter 4).txt.gv.png
+42-48	42	48	42-48 You are There Bible Adventures (Chapter 5).txt.gv.png
+42-48	42	48	42-48 You are There Bible Adventures (Chapter 6).txt.gv.png
+42-48	42	48	42-48 You are There Bible Adventures (Chapter 7).txt.gv.png
+42-48	42	48	42-48 You are There Bible Adventures (Chapter 8).txt.gv.png
 42-48	42	48	42-48 You are There Bible Adventures.txt.gv.png
+42-49	42	49	42-49 Creating Adventure Games on Your Computer - Ex1 - a simple five-room environment.txt.gv.png
+42-49	42	49	42-49 Creating Adventure Games on Your Computer - Ex2 - Werewolves and Wanderer (paper).txt.gv.png
+42-49	42	49	42-49 Creating Adventure Games on Your Computer - Ex3 - Werewolves and Wanderer (computer).txt.gv.png
+42-49	42	49	42-49 Creating Adventure Games on Your Computer - Ex4 - The Asimovian Disaster.txt.gv.png
+42-49	42	49	42-49 Creating Adventure Games on Your Computer - Ex5 - The Citidel of Pershu.txt.gv.png
+42-49	42	49	42-49 Creating Adventure Games on Your Computer - Ex6 - Chateau Gaillard.txt.gv.png
 42-49	42	49	42-49 Creating Adventure Games on Your Computer.txt.gv.png
 42-50	42	50	42-50 (v.5) Back Brain Recluse -- Angel Body and Other Magic for the Soul.txt.gv.png
+43-20	43	20	43-20 Whatever You Want.txt.gv.png
