@@ -1,0 +1,35 @@
+211	
+218	
+220	
+222	
+223	
+225	
+226	
+226.2	
+229	
+230	
+231	
+232	
+#
+211	218	read
+218	220	read
+222	223	read
+223	225	read
+225	226	read
+226	226.2	read
+226.2	229	read
+229	230	read
+230	231	read
+231	232	read
+211	218	cheat
+218	220	cheated
+220	223	cheated
+223	226	cheated
+226	229	cheated
+229	231	cheated
+231	232	cheated
+211	222	don't
+222	225	didn't
+225	226.2	didn't
+226.2	230	didn't
+230	232	didn't

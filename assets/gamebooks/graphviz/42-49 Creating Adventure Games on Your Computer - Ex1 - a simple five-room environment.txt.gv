@@ -1,0 +1,25 @@
+digraph g{
+  graph [ label="42-49 Creating Adventure Games on Your Computer - Ex1 - a simple five-room environment.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  1 -> 2	[ xlabel="S" ];
+  1 -> 3	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  2 -> 1	[ xlabel="N" ];
+  2 -> 5	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  3 -> 4	[ xlabel="S" ];
+  3 -> 1	[ xlabel="W" ];
+  4 -> 3	[ xlabel="N" ];
+  4 -> 5	[ xlabel="S" ];
+  5 -> 4	[ xlabel="N" ];
+  5 -> 2	[ xlabel="W" ];
+}
+

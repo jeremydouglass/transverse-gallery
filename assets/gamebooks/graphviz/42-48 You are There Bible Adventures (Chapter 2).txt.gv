@@ -1,0 +1,57 @@
+digraph g{
+  graph [ label="42-48 You are There Bible Adventures (Chapter 2).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  
+  
+  
+  
+  
+  
+  
+  32 -> 55;
+  33 -> 39;
+  34 -> 58;
+  34 -> 49;
+  35 -> 47;
+  36 -> 38;
+  36 -> 46;
+  37 -> 45;
+  37 -> 66;
+  38 -> 53;
+  39 -> 44;
+  40 -> 35;
+  41 -> 62;
+  42 -> 47;
+  43 -> 34;
+  44 -> 61;
+  44 -> 40;
+  45 -> 54;
+  46 -> 65;
+  47 -> 36;
+  48	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  49 -> 67;
+  50	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  51 -> 56;
+  52 -> 39;
+  52 -> 61;
+  53 -> 57;
+  54 -> 48;
+  55 -> 43;
+  56 -> 64;
+  57 -> 64;
+  58 -> 67;
+  59 -> 50;
+  60 -> 52;
+  61 -> 42;
+  62 -> 37;
+  63 -> 59;
+  64 -> 60;
+  64 -> 33;
+  65 -> 41;
+  66 -> 63;
+  67 -> 60;
+  67 -> 51;
+  67 -> 33;
+}
+

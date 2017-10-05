@@ -1,0 +1,85 @@
+27	E
+#
+1	11	heads
+1	5	tails
+1	25	leave
+2	33	N (peek)
+2	39	D (look)
+2	13	tails
+2	30	N
+2	21	D
+3	21
+4	9
+5	1
+6	43	heads
+6	28	look out
+6	29	N
+6	21	East
+6	29	W
+7	40
+8	37	heads
+8	35	tails
+9	31	look under
+9	4	look inside
+9	42	S
+9	35	N
+10	21
+11	1
+12	42
+13	42
+14	27
+15	12	quickly
+15	24	slowly
+16	30
+17	21	heads (S)
+17	21	tails (S)
+18	22	see out the window
+18	32	use the door (S)
+19	23
+20	30
+21	3	look down
+21	10	look up
+21	17	N
+21	6	W
+21	2	U
+21	25	D
+22	18
+23	19	listen at north door
+23	32	N
+23	36	East
+24	42
+25	1	East
+25	21	U
+26	42
+28	6
+29	40	N
+29	6	S
+29	6	East
+30	20	heads
+30	16	tails
+30	2	S
+30	32	East
+31	9
+32	18	N
+32	30	W
+32	23	S
+33	2
+34	2	
+35	8
+35	9
+36	41	heads
+36	15	N
+36	23	W
+37	27
+38	14
+39	2
+39	37	heads
+39	2
+40	7
+40	29
+41	36
+42	26	look S
+42	13	heads
+42	9	N
+42	38	East
+43	6

@@ -1,0 +1,36 @@
+# 42-48: You Are There Bible Adventures. Author: Paul J. Loth. Publisher: Thomas Nelson Publishers, 1993. ISBN: 0840792522. Publisher series no: 559. Book ID: 3833. 320 pages. 42:48
+
+# Chapter 1
+# Your Adventure with Jonah
+# --Jonah 1:1-3:10
+# pp.8-31
+
+8	15
+9	16
+10	12
+11	26
+12	11
+	20
+13	26
+14	10
+	9
+15	24
+	17
+16	30
+17	12
+18	21
+19	27
+20	23
+21	18
+	29
+22	21
+23	13
+	25
+24	14
+25	26
+26	30
+27		E
+28	19
+29	28
+30	22
+31	19

@@ -1,0 +1,57 @@
+digraph g{
+  graph [ label="41-33 American Girls - The Two Month Itch.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  
+  
+  
+  
+  
+  
+  
+  
+  211;
+  218;
+  220;
+  222;
+  223;
+  225;
+  226;
+  226.2;
+  229;
+  230;
+  231;
+  232;
+  
+  
+  
+  211 -> 218	[ xlabel="read" ];
+  218 -> 220	[ xlabel="read" ];
+  222 -> 223	[ xlabel="read" ];
+  223 -> 225	[ xlabel="read" ];
+  225 -> 226	[ xlabel="read" ];
+  226 -> 226.2	[ xlabel="read" ];
+  226.2 -> 229	[ xlabel="read" ];
+  229 -> 230	[ xlabel="read" ];
+  230 -> 231	[ xlabel="read" ];
+  231 -> 232	[ xlabel="read" ];
+  
+  
+  
+  211 -> 218	[ xlabel="cheat" ];
+  218 -> 220	[ xlabel="cheated" ];
+  220 -> 223	[ xlabel="cheated" ];
+  223 -> 226	[ xlabel="cheated" ];
+  226 -> 229	[ xlabel="cheated" ];
+  229 -> 231	[ xlabel="cheated" ];
+  231 -> 232	[ xlabel="cheated" ];
+  
+  
+  
+  211 -> 222	[ xlabel="don't" ];
+  222 -> 225	[ xlabel="didn't" ];
+  225 -> 226.2	[ xlabel="didn't" ];
+  226.2 -> 230	[ xlabel="didn't" ];
+  230 -> 232	[ xlabel="didn't" ];
+}
+

@@ -1,0 +1,191 @@
+# 39-40 Maps-The Uncollected John Sladek (combined).txt
+# Jeremy Douglass 2017-09-28
+
+# From gamebooks.org: "This science fiction short story collection contains two short interactive tales, both written in the late 1960s. The first, The Lost Nose, is a previously unpublished humor piece written for the author’s then-girlfriend. The second, Alien Territory, is reprinted from issue 195 of the New Worlds science fiction magazine."
+
+# The Lost Nose: A Programmed Book (pp3-18)
+# "There are 21 endings. A diagram of the routes is at the end of the book."
+
+1	2
+	3
+	4
+2	5
+	6
+	7
+3	8
+	9
+4	10
+	11
+5	12
+	13
+6	5
+	3
+	14
+7	15
+	16
+	17
+8	18
+	19
+9	20
+	15
+10	21
+	22
+11	23
+	24
+12	25
+	26
+13	20
+14	27
+	28
+15	29
+	30
+16		The End
+17	20
+	31
+18	32
+	33
+	34
+19		The End
+20	35
+	23
+21		The End
+22	20
+	15
+	18
+23		The End
+24	14
+	15
+	36
+25	37
+	38
+26		The End
+27	39
+	40
+28	41
+	42
+	43
+29		The End	
+30		The End	
+31	44
+	45
+	46
+32		The End
+33		The End
+34		The End
+35		The End
+36		The End
+37		The End
+38		The End
+39		The End
+40		The End
+41	42
+	43
+42		The End
+43		The End
+44		The End
+45		The End
+46		The End
+
+
+
+# Alien Territory (pp21-23)
+# p21 is a "how to read" explanation -- the work is two pages
+# with an unusual spatial arrow system connecting a grid of small paragraphs with no lexia names -- resembles a J.Sayers comic
+
+A1		START
+
+# Right arrows
+
+A1	B1
+B1	C1
+C1	D1
+
+A2	B2
+B2	C2
+C2	D2
+
+A3	B3
+B3	C3
+C3	D3
+
+A4	B4
+B4	C4
+C4	D4
+
+A5	B5
+B5	C5
+C5	D5
+
+A6	B6
+B6	C6
+C6	D6
+
+A7	B7
+B7	C7
+C7	D7
+
+A8	B8
+B8	C8
+C8	D8
+
+A9	B9
+B9	C9
+C9	D9
+
+# Right wrap-around
+
+D1	A2	R*
+D2	A3	R*
+D3	A4	R*
+D4	A5	R*
+D5	A6	R*
+D6	A7	R*
+D7	A8	R*
+D8	A9	R*
+
+
+# Down arrows
+
+A1	A2
+A2	A3
+A3	A4
+A4	A5
+A5	A6
+A6	A7
+A7	A8
+A8	A9
+
+B1	B2
+B2	B3
+B3	B4
+B4	B5
+B5	B6
+B6	B7
+B7	B8
+B8	B9
+
+C1	C2
+C2	C3
+C3	C4
+C4	C5
+C5	C6
+C6	C7
+C7	C8
+C8	C9
+
+D1	D2
+D2	D3
+D3	D4
+D4	D5
+D5	D6
+D6	D7
+D7	D8
+D8	D9
+
+# Down wrap-around
+
+A9	B1	R*
+B9	C1	R*
+C9	D1	R*
+
+D9		END

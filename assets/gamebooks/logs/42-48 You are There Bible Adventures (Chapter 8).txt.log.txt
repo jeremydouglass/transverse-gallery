@@ -1,0 +1,24 @@
+Node Count: 41
+
+Node List:  280, 294, 281, 298, 282, 295, 283, 285, 284, 299, 314, 286, 287, 303, 288, 307, 292, 289, 302, 290, 313, 291, 300, 293, 315, 311, 296, 308, 297, 306, 301, 317, 304, 305, 312, 320, 309, 310, 318, 319, 316
+
+Average degree: 2.24
+
+Diameter (directed):   25.0
+Diameter (undirected): 25.0
+
+Degree Distribution (undirected): 
+   degree: 0 1 2 3 4 5 
+    nodes: 0 2 29 9 0 1 
+
+Degree Ranges: 
+    min max tot
+all [1, 5, 92]
+ in [0, 4, 46]
+out [0, 2, 46]
+
+Degree map: (high degree nodes)
+#   In  Out Total
+285:  4   1   5
+
+

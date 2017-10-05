@@ -1,0 +1,105 @@
+# 39-40 Maps-The Uncollected John Sladek - Alien Territory.txt
+# Jeremy Douglass 2017-09-28
+
+# Alien Territory (pp21-23)
+# p21 is a "how to read" explanation -- the work is two pages
+# with an unusual spatial arrow system connecting a grid of small paragraphs with no lexia names -- resembles a J.Sayers comic
+# From gamebooks.org: "written in the late 1960s ... a previously unpublished humor piece written for the author’s then-girlfriend."
+
+A1		START
+
+# Right arrows
+
+A1	B1
+B1	C1
+C1	D1
+
+A2	B2
+B2	C2
+C2	D2
+
+A3	B3
+B3	C3
+C3	D3
+
+A4	B4
+B4	C4
+C4	D4
+
+A5	B5
+B5	C5
+C5	D5
+
+A6	B6
+B6	C6
+C6	D6
+
+A7	B7
+B7	C7
+C7	D7
+
+A8	B8
+B8	C8
+C8	D8
+
+A9	B9
+B9	C9
+C9	D9
+
+# Right wrap-around
+
+D1	A2	R*
+D2	A3	R*
+D3	A4	R*
+D4	A5	R*
+D5	A6	R*
+D6	A7	R*
+D7	A8	R*
+D8	A9	R*
+
+
+# Down arrows
+
+A1	A2
+A2	A3
+A3	A4
+A4	A5
+A5	A6
+A6	A7
+A7	A8
+A8	A9
+
+B1	B2
+B2	B3
+B3	B4
+B4	B5
+B5	B6
+B6	B7
+B7	B8
+B8	B9
+
+C1	C2
+C2	C3
+C3	C4
+C4	C5
+C5	C6
+C6	C7
+C7	C8
+C8	C9
+
+D1	D2
+D2	D3
+D3	D4
+D4	D5
+D5	D6
+D6	D7
+D7	D8
+D8	D9
+
+# Down wrap-around
+
+A9	B1	R*
+B9	C1	R*
+C9	D1	R*
+
+D9		END

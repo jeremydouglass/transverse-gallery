@@ -1,3 +1,10 @@
+# 42-48: You Are There Bible Adventures. Author: Paul J. Loth. Publisher: Thomas Nelson Publishers, 1993. ISBN: 0840792522. Publisher series no: 559. Book ID: 3833. 320 pages. 42:48
+
+# Chapter 1
+# Your Adventure with Jonah
+# --Jonah 1:1-3:10
+# pp.8-31
+
 8	15
 9	16
 10	12
@@ -27,6 +34,12 @@
 29	28
 30	22
 31	19
+
+# Chapter 2
+# Your Adventure with Joseph
+# --Genesis 37-50
+# pp.32-67
+
 32	55
 33	39
 34	58
@@ -71,6 +84,12 @@
 67	60
 	51
 	33
+
+# Chapter 3
+# Your Adventure with Mary and Joseph
+# --Luke 2:1-21
+# pp.68-105
+
 68	75
 69	83
 	71
@@ -114,6 +133,12 @@
 104	87
 	98
 105	84
+
+# Chapter 4
+# Your Adventure with David and Goliath
+# --1 Samuel 17
+# pp.106-143
+
 106	123
 107	120
 108	119
@@ -159,6 +184,12 @@
 141	138
 142	118
 143	141
+
+# Chapter 5
+# Your Adventure with Paul
+# --Acts 23
+# pp.144-189
+
 144	159
 145	174
 146	166
@@ -210,6 +241,12 @@
 188	156
 	154
 189	166
+
+# Chapter 6
+# Your Adventure with Baby Moses
+# --Exodus 1:15-2:10
+# pp.190-235
+
 190	202
 191	228
 192	225
@@ -265,6 +302,12 @@
 233	198
 234	212
 235	204
+
+# Chapter 7
+# Your Adventure with Jesus and the Disciples
+# --Matthew 8:23-27; Mark 4:35-41; Luke 8:22-25
+# pp.236-279
+
 236	248
 237	253
 238	256
@@ -316,6 +359,12 @@
 277	257
 278	238
 279	239
+
+# Chapter 8
+# Your Adventure with Jesus and the Paralyzed Man
+# --Mark 2:1-12
+# pp.280-
+
 280	294
 281	298
 282	295

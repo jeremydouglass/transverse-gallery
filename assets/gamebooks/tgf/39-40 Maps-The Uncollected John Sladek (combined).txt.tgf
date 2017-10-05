@@ -1,0 +1,152 @@
+16	The End
+19	The End
+21	The End
+23	The End
+26	The End
+29	The End
+30	The End
+32	The End
+33	The End
+34	The End
+35	The End
+36	The End
+37	The End
+38	The End
+39	The End
+40	The End
+42	The End
+43	The End
+44	The End
+45	The End
+46	The End
+A1	START
+D9	END
+#
+1	2
+1	3
+1	4
+2	5
+2	6
+2	7
+3	8
+3	9
+4	10
+4	11
+5	12
+5	13
+6	5
+6	3
+6	14
+7	15
+7	16
+7	17
+8	18
+8	19
+9	20
+9	15
+10	21
+10	22
+11	23
+11	24
+12	25
+12	26
+13	20
+14	27
+14	28
+15	29
+15	30
+17	20
+17	31
+18	32
+18	33
+18	34
+20	35
+20	23
+22	20
+22	15
+22	18
+24	14
+24	15
+24	36
+25	37
+25	38
+27	39
+27	40
+28	41
+28	42
+28	43
+31	44
+31	45
+31	46
+41	42
+41	43
+A1	B1
+B1	C1
+C1	D1
+A2	B2
+B2	C2
+C2	D2
+A3	B3
+B3	C3
+C3	D3
+A4	B4
+B4	C4
+C4	D4
+A5	B5
+B5	C5
+C5	D5
+A6	B6
+B6	C6
+C6	D6
+A7	B7
+B7	C7
+C7	D7
+A8	B8
+B8	C8
+C8	D8
+A9	B9
+B9	C9
+C9	D9
+D1	A2	R*
+D2	A3	R*
+D3	A4	R*
+D4	A5	R*
+D5	A6	R*
+D6	A7	R*
+D7	A8	R*
+D8	A9	R*
+A1	A2
+A2	A3
+A3	A4
+A4	A5
+A5	A6
+A6	A7
+A7	A8
+A8	A9
+B1	B2
+B2	B3
+B3	B4
+B4	B5
+B5	B6
+B6	B7
+B7	B8
+B8	B9
+C1	C2
+C2	C3
+C3	C4
+C4	C5
+C5	C6
+C6	C7
+C7	C8
+C8	C9
+D1	D2
+D2	D3
+D3	D4
+D4	D5
+D5	D6
+D6	D7
+D7	D8
+D8	D9
+A9	B1	R*
+B9	C1	R*
+C9	D1	R*

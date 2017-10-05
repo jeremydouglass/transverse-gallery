@@ -2,6 +2,13 @@ digraph g{
   graph [ label="42-48 You are There Bible Adventures.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+  
+  
+  
+  
+  
+  
+  
   8 -> 15;
   9 -> 16;
   10 -> 12;
@@ -31,6 +38,12 @@ digraph g{
   29 -> 28;
   30 -> 22;
   31 -> 19;
+  
+  
+  
+  
+  
+  
   32 -> 55;
   33 -> 39;
   34 -> 58;
@@ -75,6 +88,12 @@ digraph g{
   67 -> 60;
   67 -> 51;
   67 -> 33;
+  
+  
+  
+  
+  
+  
   68 -> 75;
   69 -> 83;
   69 -> 71;
@@ -118,6 +137,12 @@ digraph g{
   104 -> 87;
   104 -> 98;
   105 -> 84;
+  
+  
+  
+  
+  
+  
   106 -> 123;
   107 -> 120;
   108 -> 119;
@@ -163,6 +188,12 @@ digraph g{
   141 -> 138;
   142 -> 118;
   143 -> 141;
+  
+  
+  
+  
+  
+  
   144 -> 159;
   145 -> 174;
   146 -> 166;
@@ -214,6 +245,12 @@ digraph g{
   188 -> 156;
   188 -> 154;
   189 -> 166;
+  
+  
+  
+  
+  
+  
   190 -> 202;
   191 -> 228;
   192 -> 225;
@@ -269,6 +306,12 @@ digraph g{
   233 -> 198;
   234 -> 212;
   235 -> 204;
+  
+  
+  
+  
+  
+  
   236 -> 248;
   237 -> 253;
   238 -> 256;
@@ -320,6 +363,12 @@ digraph g{
   277 -> 257;
   278 -> 238;
   279 -> 239;
+  
+  
+  
+  
+  
+  
   280 -> 294;
   281 -> 298;
   282 -> 295;

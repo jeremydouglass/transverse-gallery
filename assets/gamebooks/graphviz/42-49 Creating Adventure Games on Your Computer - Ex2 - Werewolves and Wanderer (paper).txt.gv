@@ -1,0 +1,101 @@
+digraph g{
+  graph [ label="42-49 Creating Adventure Games on Your Computer - Ex2 - Werewolves and Wanderer (paper).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  1 -> 11	[ xlabel="heads" ];
+  1 -> 5	[ xlabel="tails" ];
+  1 -> 25	[ xlabel="leave" ];
+  2 -> 33	[ xlabel="N (peek)" ];
+  2 -> 39	[ xlabel="D (look)" ];
+  2 -> 13	[ xlabel="tails" ];
+  2 -> 30	[ xlabel="N" ];
+  2 -> 21	[ xlabel="D" ];
+  3 -> 21;
+  4 -> 9;
+  5 -> 1;
+  6 -> 43	[ xlabel="heads" ];
+  6 -> 28	[ xlabel="look out" ];
+  6 -> 29	[ xlabel="N" ];
+  6 -> 21	[ xlabel="East" ];
+  6 -> 29	[ xlabel="W" ];
+  7 -> 40;
+  8 -> 37	[ xlabel="heads" ];
+  8 -> 35	[ xlabel="tails" ];
+  9 -> 31	[ xlabel="look under" ];
+  9 -> 4	[ xlabel="look inside" ];
+  9 -> 42	[ xlabel="S" ];
+  9 -> 35	[ xlabel="N" ];
+  10 -> 21;
+  11 -> 1;
+  12 -> 42;
+  13 -> 42;
+  14 -> 27;
+  15 -> 12	[ xlabel="quickly" ];
+  15 -> 24	[ xlabel="slowly" ];
+  16 -> 30;
+  17 -> 21	[ xlabel="heads (S)" ];
+  17 -> 21	[ xlabel="tails (S)" ];
+  18 -> 22	[ xlabel="see out the window" ];
+  18 -> 32	[ xlabel="use the door (S)" ];
+  19 -> 23;
+  20 -> 30;
+  21 -> 3	[ xlabel="look down" ];
+  21 -> 10	[ xlabel="look up" ];
+  21 -> 17	[ xlabel="N" ];
+  21 -> 6	[ xlabel="W" ];
+  21 -> 2	[ xlabel="U" ];
+  21 -> 25	[ xlabel="D" ];
+  22 -> 18;
+  23 -> 19	[ xlabel="listen at north door" ];
+  23 -> 32	[ xlabel="N" ];
+  23 -> 36	[ xlabel="East" ];
+  24 -> 42;
+  25 -> 1	[ xlabel="East" ];
+  25 -> 21	[ xlabel="U" ];
+  26 -> 42;
+  27	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  28 -> 6;
+  29 -> 40	[ xlabel="N" ];
+  29 -> 6	[ xlabel="S" ];
+  29 -> 6	[ xlabel="East" ];
+  30 -> 20	[ xlabel="heads" ];
+  30 -> 16	[ xlabel="tails" ];
+  30 -> 2	[ xlabel="S" ];
+  30 -> 32	[ xlabel="East" ];
+  31 -> 9;
+  32 -> 18	[ xlabel="N" ];
+  32 -> 30	[ xlabel="W" ];
+  32 -> 23	[ xlabel="S" ];
+  33 -> 2;
+  34 -> 2;
+  35 -> 8;
+  35 -> 9;
+  36 -> 41	[ xlabel="heads" ];
+  36 -> 15	[ xlabel="N" ];
+  36 -> 23	[ xlabel="W" ];
+  37 -> 27;
+  38 -> 14;
+  39 -> 2;
+  39 -> 37	[ xlabel="heads" ];
+  39 -> 2;
+  40 -> 7;
+  40 -> 29;
+  41 -> 36;
+  42 -> 26	[ xlabel="look S" ];
+  42 -> 13	[ xlabel="heads" ];
+  42 -> 9	[ xlabel="N" ];
+  42 -> 38	[ xlabel="East" ];
+  43 -> 6;
+}
+

@@ -1,0 +1,38 @@
+# 41-33 American Girls - The Two-Month Itch
+
+# Collection contains the short story "The Two Month Itch" (2004) by Sarah Mlynowski,
+# which is written to be read in a linear style, but with an alternating-timelines
+# conceit and a punchline (you would have dumped him whether you cheated or not).
+# The final section is titled "How it Ends Either Way" and the ends with the line
+# "Some things are inevitable."
+
+211			Intro
+218			Option A: You Cheat
+220			Bath to Option A, Not Long After You Cheated and Were Bitterly Disappointed
+222			Back to Option B, Not Long After You Didn't Cheat, and Now You Are Feeling Martyrish
+223			Back to Option A, The One Where You Cheated, but Now It's the Next Day and the Seed of Guilt is Beginning to Blossom Deep in Your Abdomen
+225			Back to Option B, The One Where You Didn't Cheat, You Virgin Mary You, but Now It's the Next Day and You're Kicking Yourself for Letting the Probably Love of Your Life Slip Through Your French-Manicured Fingernails
+226			Back to Option A, The One Where You Cheated, You Whorebag
+226.2			Back to Option B, The One Where You Didn't Kiss Him, You Pathetic Coward
+229			Back to Option A, The One Where You Cheated, and Now You (Sigh) Must Come Clean
+230			Back to Option B, The One Where You Didn't Cheat, but Now You Hate Your Boyfriend
+231			Back to Option A, The One Where You Cheated, and Now You REALLY Must Come Clean
+232			How It Ends Either Way
+
+# Cheat
+
+211	218	cheat
+218	220	cheated
+220	223	cheated
+223	226	cheated
+226	229	cheated
+229	231	cheated
+231	232	cheated
+
+# Don't Cheat
+
+211	222	don't
+222	225	didn't
+225	226.2	didn't
+226.2	230	didn't
+230	232	didn't

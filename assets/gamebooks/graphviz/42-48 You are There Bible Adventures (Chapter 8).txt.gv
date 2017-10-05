@@ -1,0 +1,60 @@
+digraph g{
+  graph [ label="42-48 You are There Bible Adventures (Chapter 8).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  
+  
+  
+  
+  
+  
+  
+  280 -> 294;
+  281 -> 298;
+  282 -> 295;
+  283 -> 285;
+  284 -> 299;
+  285 -> 314;
+  286 -> 281;
+  287 -> 303;
+  288 -> 307;
+  288 -> 292;
+  289 -> 302;
+  290 -> 313;
+  291 -> 282;
+  292 -> 300;
+  293 -> 299;
+  294 -> 315;
+  295 -> 311;
+  296 -> 308;
+  296 -> 286;
+  297 -> 285;
+  298 -> 306;
+  298 -> 289;
+  299 -> 288;
+  300 -> 287;
+  301 -> 284;
+  302 -> 317;
+  303 -> 297;
+  303 -> 283;
+  304 -> 290;
+  305 -> 312;
+  306 -> 317;
+  307 -> 291;
+  308 -> 320;
+  309 -> 285;
+  310 -> 318;
+  310 -> 293;
+  311 -> 309;
+  311 -> 319;
+  312	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  313 -> 310;
+  314 -> 316;
+  315 -> 296;
+  316 -> 305;
+  317 -> 304;
+  318 -> 301;
+  319 -> 285;
+  320 -> 281;
+}
+

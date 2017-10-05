@@ -1,0 +1,46 @@
+# 42-49 Werewolves and Wanderer (computer) - Creating Adventure Games on Your Computer
+
+# WEREWOLVES AND WANDERER
+# p34 code
+# p35 map 1
+# p36 map 2
+# p77 code
+# p96 code (same)
+
+1	2
+2	1
+	3
+	3
+3	2
+	5
+	2
+4	5
+5	4
+	3
+	15
+	13
+6	1
+7	8
+8	7
+	10
+9	19
+	8
+	8
+10	8
+	11
+11	10
+12	13
+13	12
+	5
+14	15
+	17
+15	14
+	5
+16	17
+	19
+17	18
+	16
+	14
+18	17
+19	9
+	16

@@ -1,0 +1,95 @@
+# 42-49 Werewolves and Wanderer (paper) - Creating Adventure Games on Your Computer
+
+# WEREWOLVES AND WANDERER (paper) pp6-15
+
+# A gamebook preview-implementation of the BASIC computer program
+# to be presented in the following chapters.
+# Features coin tosses, some of which force a choice,
+# as well as tracked statistics: "Strength" "Wealth" "Monster Tally"
+
+# Roughly corresponds to maps on pp35-6
+
+1	11	heads
+	5	tails
+	25	leave
+2	33	N (peek)
+	39	D (look)
+	13	tails
+	30	N
+	21	D
+3	21
+4	9
+5	1
+6	43	heads
+	28	look out
+	29	N
+	21	East
+	29	W
+7	40
+8	37	heads
+	35	tails
+9	31	look under
+	4	look inside
+	42	S
+	35	N
+10	21
+11	1
+12	42
+13	42
+14	27
+15	12	quickly
+	24	slowly
+16	30
+17	21	heads (S)	stateful choice (wealth up or down)
+	21	tails (S)
+18	22	see out the window
+	32	use the door (S)
+19	23
+20	30
+21	3	look down
+	10	look up
+	17	N
+	6	W
+	2	U
+	25	D
+22	18
+23	19	listen at north door
+	32	N
+	36	East
+24	42
+25	1	East
+	21	U
+26	42
+27		E	The End (score)
+28	6
+29	40	N
+	6	S
+	6	East
+30	20	heads
+	16	tails
+	2	S	but how is this possible if you flipped a coin?
+	32	East
+31	9
+32	18	N
+	30	W
+	23	S
+33	2
+34	2		34 is an orphan, and this appears to be an error in the original text -- perhaps from 6?
+35	8
+	9
+36	41	heads
+	15	N
+	23	W
+37	27
+38	14
+39	2
+	37	heads
+	2
+40	7
+	29
+41	36
+42	26	look S
+	13	heads	
+	9	N
+	38	East
+43	6

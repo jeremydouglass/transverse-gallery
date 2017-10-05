@@ -1,0 +1,19 @@
+# 42-49 a simple five-room environment - Creating Adventure Games on Your Computer
+
+# a simple five-room environment (untitled)
+# p25 map
+# p25 travel table
+# p26 code
+
+# This code is drawn in 
+
+1	2	S
+	3	E
+2	1	N
+	5	E
+3	4	S
+	1	W
+4	3	N
+	5	S
+5	4	N
+	2	W
