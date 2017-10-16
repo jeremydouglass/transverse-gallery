@@ -1,0 +1,44 @@
+graph	rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"
+node	shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true
+edge	labelfloat=true, penwidth=3, fontsize=12
+
+nodeLabeled	fontsize=12, fillcolor=grey70
+edgeLabeled	color=grey40, fontcolor=grey40, fillcolor=grey40
+
+E-BAD	shape=octagon, fontsize=20, fillcolor=grey70, fontcolor=white
+EBD	shape=octagon, fontsize=20, fillcolor=black, fontcolor=white   				#Death-ending
+EBE	shape=octagon, fontsize=20, fillcolor=purple, fontcolor=white 				#empowerment
+EBSB	shape=octagon, fontsize=20, fillcolor=blue, fontcolor=white				#submission
+EBSD	shape=octagon, fontsize=20, fillcolor=red, fontcolor=white 				#seduction		 
+E-OK	shape=doubleoctagon, fontsize=20, fillcolor=grey70, fontcolor=white 
+EOE	shape=doubleoctagon, fontsize=20, fillcolor=purple, fontcolor=white 			#empowerment
+EOSB	shape=doubleoctagon, fontsize=20, fillcolor=blue, fontcolor=white			#submission
+EOSD	shape=doubleoctagon, fontsize=20, fillcolor=red, fontcolor=white			#seduction
+E-GOOD	shape=tripleoctagon, fontsize=20, fillcolor=grey70, fontcolor=white
+EGR	shape=tripleoctagon, fontsize=20, fillcolor=white, fontcolor=white 			#Romance-ending 
+EGE	shape=tripleoctagon, fontsize=20, fillcolor=purple, fontcolor=white			#empowerment	
+EGSB	shape=tripleoctagon, fontsize=20, fillcolor=blue, fontcolor=white			#submission
+EGSD	shape=tripleoctagon, fontsize=20, fillcolor=red, fontcolor=white			#seduction
+REF	shape=folder, fontsize=20, fillcolor=grey80
+R	dir=both, arrowhead=tee, arrowtail=odot, style=dashed
+R*	dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false
+RETURN	dir=both, arrowhead=none, arrowtail=box, style=dashed, constraint=false
+RESTART*	dir=both, arrowhead=normal, arrowtail=none, style=dashed, constraint=false
+BC	shape=component, fontsize=20, fillcolor=grey80, fontcolor=white				#Backcover
+
+DS	color=magenta, fontcolor=magenta 							#Domesticity
+AV	color=yellow, fontcolor=yellow								#Adventure
+S1	color=lightcyan, fontcolor=lightcyan							#sig-other-1
+S2	color=orange, fontcolor=orange								#sig-other-2
+JOIN-M	color=lightblue1, fontcolor=lightblue1							#join-man/men
+JOIN-W	color=lightpink, fontcolor=lightpink							#join-woman/women
+FIGHT	color=firebrick3, fontcolor=firebrick3
+FLIGHT	color=green, fontcolor=green
+NEGO	color=goldenrod2, fontcolor=goldenrod2							#negotiate
+FJC	color=green4, fontcolor=green4								#female-jealousy/covetousness
+FEMP	color=purple, fontcolor=purple								#female-empowerment
+FSUB	color=blue, fontcolor=blue								#female-submission
+FSED	color=red, fontcolor=red								#female-seduction
+
+ILL	shape=note, fontsize=20, fillcolor=grey70, fontcolor=white 				#illustration
+LOV	shape=diamond, fillcolor=red, fontcolor=white						#love-choice
