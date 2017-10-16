@@ -3,7 +3,7 @@ layout: post
 title:  "Authorship in Gamebooks"
 author: Sarah Oxford
 categories: 
-excerpt: ""
+excerpt: "In comparing the works of two authors across several series, I found it very interesting that the structures used [by series] somewhat overshadowed the individual books’ authorship. Both Edward Packard and R.A. Montgomery were able to adjust their writing style and narrative structure according to the gamebook series they were writing in."
 topics:
   packard-cyoa:
     images:
