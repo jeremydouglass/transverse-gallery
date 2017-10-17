@@ -315,6 +315,7 @@ id	name	description
 07-14	07-14 Lifegames 03 Starstruck (192)
 07-15	07-15 Lifegames 04 Woman in Power Politics (192)
 07-16	07-16 Lifegames 06 Matchpoint (192)
+07-22	07-22 Endless Quest 03 Pillars of Pentegarn
 07-26	07-26 Endless Quest 05 Revolt of the Dwarves (157)
 07-27	07-27 Endless Quest 06 Revenge of the Rainbow Dragons (157)
 07-29	07-29 Endless Quest 14 Raid on Nightmare Castle (157)
@@ -406,6 +407,8 @@ id	name	description
 09-52	09-52 Which Way Books 15 Star Trek Voyage to Adventure
 09-54	09-54 Which Way Books 16 The Shadow Stealers
 09-55	09-55 Which Way Books 17 Invasion of the Mutants
+09-56	09-56 Which Way Books 18 Islands of Terror
+09-57	09-57 Which Way Books 19 Nightmare Planet
 10-01	10-01 WWY 01 Forest of Twisted Dreams, The
 10-03	10-03 WWY 02 Siege of the Dragonriders, The
 10-04	10-04 WWY 03 Who Kidnapped Princess Saralinda
@@ -500,7 +503,7 @@ id	name	description
 12-01	12-01 HeartQuest Book 01 Ring of the Ruby Dragon
 12-02	12-02 HeartQuest 02 Talisman of Valdegarde G 
 12-02	12-02 HeartQuest 02 Talisman of Valdegarde
-12-03	12-03 Heart Quest Book 03 Secret Sorceress G
+12-03	12-03 HeartQuest 03 Secret Sorceress G
 12-03	12-03 HeartQuest 03 Secret Sorceress
 12-04	12-04 HeartQuest 04 Isle of Illusion (GENRE)
 12-04	12-04 HeartQuest 04 Isle of Illusion 
@@ -659,6 +662,7 @@ id	name	description
 39-37	39-37 Hopscotch (TOC 1)
 39-37	39-37 Hopscotch (TOC 1-2 combined)
 39-37	39-37 Hopscotch (TOC 2)
+39-39	39-39 Choose by Carey Wallace
 39-40	39-40 Maps-The Uncollected John Sladek (combined)
 39-40	39-40 Maps-The Uncollected John Sladek - Alien Territory
 39-40	39-40 Maps-The Uncollected John Sladek - The Lost Nose
@@ -679,6 +683,7 @@ id	name	description
 42-01	42-01 Giocare a dadi col drago (Italian)
 42-01	42-01 Giocare A Dadi Col Drago
 42-02	42-02 Warhammer 40K-Hive of the Dead
+42-10	42-10 Demian Katz -- The Bum's Rush
 42-31	42-31 Sports Illustrated for Kids Play Book! -- Baseball - You Are the Manager, You Call the Shots
 42-32	42-32 Sports Illustrated for Kids Play Book! -- Football - You Are the Quarterback, You Call The Shots
 42-33	42-33 Je Bouquine (April 1998, issue 50)
@@ -713,4 +718,10 @@ id	name	description
 42-49	42-49 Creating Adventure Games on Your Computer - Ex6 - Chateau Gaillard
 42-49	42-49 Creating Adventure Games on Your Computer
 42-50	42-50 (v.5) Back Brain Recluse -- Angel Body and Other Magic for the Soul
+43-01	43-01 The Adventures of You Series -- Sugercane Island
 43-20	43-20 Whatever You Want
+43-21	43-21 Pretty Little Mistakes
+43-22	43-22 CYOA Walt Disney -- Snow White in the Enchanted Forest
+43-23	43-23 CYOA Walt Disney -- Pinocchio's Adventures
+43-24	43-24 CYOA Walt Disney -- Dumbo's Circus
+43-25	43-25 CYOA Walt Disney -- Cinderella's Magic Adventures
