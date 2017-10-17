@@ -1,14 +1,36 @@
+# ---
+# group:    Katz
+# id:       12-50
+# series:   Find Your Fate Junior - Golden Girl
+# seriesno: 02
+# title:    Golden Girl in the Land of Dreams
+# author:   Alice Storey
+# credits:
+#   - credit:  Juliet Way-Henthorne
+#     role:    encoder
+#     date:    2017-10-01
+#   - credit:  Jeremy Douglass
+#     role:    editor
+#     date:    2017-10-16
+# renders:
+#   - render:  fantasy
+#     engine:  dot
+#     styles:  gvStyles-fantasy.txt
+# gbid:     1142
+# gburl:    https://gamebooks.org/Item/1142
+# ---
+
 1	10
 1	19
 3	4
 4	8
-5	12
+5	12	FEMP
 5	40	AV
 6	61
-8		EGR
+8		EGR	KROMA
 9		EBD
 10	25	AV
-10	31		NO AV
+10	31
 12	57
 14	65
 16	17
@@ -16,15 +38,15 @@
 17	9
 18	20
 19	58
-20	30
-20	53
+20	30	JOIN-M
+20	53	FLIGHT
 21		EBD
 22	38
 24		E-BAD
 25	28
 26		E-OK
 27	45	LOV
-27	37		GROUP
+27	37	FEMP	GROUP
 28	27
 30	32
 30	52
@@ -33,7 +55,7 @@
 33		E-GOOD
 34	64
 36	72
-37	22
+37	22	JOIN-W
 37	3	AV
 38	39
 39	59
@@ -45,26 +67,26 @@
 46	50
 46	67
 47	48
-48	71	AV
+48	71	NEGO
 48	21
 50	24
 51	54
-52		E-GOOD
+52		EGR
 53	56
 54	66
 56		EBD
-57	46
+57	46	JOIN-M
 57	6
 58	14
 58	62
 59		EBD
 60		EBD
 61		EBD
-62	47	AV
+62	47	NEGO
 62	18	AV
 64	36
 65	42
-66	34
+66	34	JOIN-W
 66	41	AV
 67	44
 68	70

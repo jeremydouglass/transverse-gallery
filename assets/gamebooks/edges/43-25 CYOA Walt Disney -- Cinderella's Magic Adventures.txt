@@ -1,0 +1,52 @@
+# 43-25 CYOA Walt Disney -- Cinderella's Magic Adventures
+# Walt Disney and Choose Your Own Adventure
+# 2017-10-16 encoded by Jeremy Douglass
+
+I		Read This First!!!
+I	0
+0	1
+1	2
+2	3
+3	4
+3	6
+4	5
+5	11
+6	7
+7	8
+8	12
+	16
+11	20
+	22
+12	13
+13	14
+14	15
+15	18
+16	17
+17		End
+18	19
+19	24
+	32
+20	21
+21	28
+	40
+22	23
+23		End
+24	25
+25	26
+26	27
+27	35
+	37
+28	29
+29	30
+30		End
+32	33
+33		End
+35	36
+36		End
+37	38
+38	39
+39	42
+40	41
+41		End
+42	43
+43		End

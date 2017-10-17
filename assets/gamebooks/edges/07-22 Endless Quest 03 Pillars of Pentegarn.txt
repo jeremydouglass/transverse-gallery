@@ -1,0 +1,102 @@
+# ---
+# group:    Katz
+# id:       07-22
+# series:   Endless Quest
+# seriesno: 03
+# title:    Pillars of Pentegarn
+# author:   Rose Estes
+# credits:
+#   - credit:  Juliet Way-Henthorne
+#     role:    encoder
+#     date:    2017-10-01
+#   - credit:  Jeremy Douglass
+#     role:    editor
+#     date:    2017-10-16
+# renders:
+#   - render:  fantasy
+#     engine:  dot
+#     styles:  gvStyles-fantasy.txt
+# gbid:     901
+# gburl:    https://gamebooks.org/Item/901
+# ---
+
+2	100
+2	9	DS
+7	12
+9		E-OK
+10	114
+10	126
+12	102	FJC
+12	72
+15	10	FIGHT
+15	56	FLIGHT
+20		EBD
+21	36
+21	32
+23	84
+24	108
+24	40	JOIN-W
+24	7	JOIN-M
+24	21
+32	36
+32	31
+34	142
+34	69
+36	70
+36	88
+40	15
+40	76
+43		E-GOOD
+	46	EBD
+47	58
+50	46	FLIGHT
+50	128	FIGHT
+53	15
+53	86
+54	12
+56	54	JOIN-W
+56	107	JOIN-M
+57	137
+58	66	E-GOOD
+68	95
+69	95
+70	82
+70	88
+72	20
+72	34
+75	12
+76	57
+76	86
+82	88
+82	98
+84	31
+84	43
+86	126
+86	114
+88	82
+88	98
+90	84
+93	94	EBD
+95	97	E-GOOD
+97		FJC
+98	90	JOIN-W
+98	23
+100	24
+102	142
+102	69
+107		EBD
+108	137
+108	50
+114	122
+123	47
+123	53
+126	56
+126	75
+128	56	JOIN-W
+128	146	JOIN-M
+137	123	JOIN-W
+137	150
+142	93
+142	68
+146	58
+150		E-OK

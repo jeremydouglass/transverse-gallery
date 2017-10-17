@@ -2,6 +2,14 @@
 # 2015-08-03
 # Text from CYOA gamebook graph database data [GDrive sheet/.xlsx]
 
+# This book has multiple errors -- they seem to be manuscript errors
+# rather than wrong choice numbers.
+#
+# -  There are a pair of related orphan endings in Barbarella's story
+# connected to the character Harvey (99,100).
+# -  There is an orphan storyline that begins at 180.
+# -  There is an orphaned ending 258 (the Bloody End).
+
 0		Prologue
 0	202		4-5
 0	204		4-5
@@ -341,6 +349,7 @@
 254	63		511
 254	107		511
 255		The (Julie Andrews) End, 221	end		512-513
+255	221		...another ending that continues after the ending
 256	187		514
 257	203		515
 258		The (Bloody) End	end		516

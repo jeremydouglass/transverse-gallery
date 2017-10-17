@@ -1,0 +1,57 @@
+digraph g{
+  graph [ label="43-24 CYOA Walt Disney -- Dumbo's Circus.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  
+  
+  
+  
+  I	[ xlabel="Read This First!!!" ];
+  I -> 0;
+  0 -> 1;
+  1 -> 2;
+  2 -> 3;
+  3 -> 4;
+  3 -> 16;
+  4 -> 5;
+  5 -> 7;
+  5 -> 10;
+  7 -> 8;
+  8 -> 9;
+  9 -> 14;
+  10 -> 12;
+  12 -> 13;
+  13	[ xlabel="End" ];
+  14 -> 15;
+  15 -> 20;
+  15 -> 26;
+  16 -> 17;
+  17 -> 18;
+  18 -> 24;
+  18 -> 28;
+  20 -> 21;
+  21 -> 22;
+  22 -> 23;
+  23	[ xlabel="End" ];
+  24 -> 25;
+  25	[ xlabel="End" ];
+  26 -> 27;
+  27 -> 30;
+  27 -> 38;
+  28 -> 29;
+  29 -> 34;
+  29 -> 40;
+  30 -> 31;
+  31 -> 32;
+  32 -> 33;
+  33	[ xlabel="End" ];
+  34 -> 35;
+  35 -> 36;
+  36 -> 37;
+  37	[ xlabel="End" ];
+  38 -> 39;
+  39	[ xlabel="End" ];
+  40 -> 41;
+  41	[ xlabel="End" ];
+}
+
