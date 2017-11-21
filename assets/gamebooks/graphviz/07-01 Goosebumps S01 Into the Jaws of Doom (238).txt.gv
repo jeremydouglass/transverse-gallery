@@ -2,6 +2,7 @@ digraph g{
   graph [ label="07-01 Goosebumps S01 Into the Jaws of Doom (238).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+
   1 -> 131;
   1 -> 89;
   3 -> 212;
@@ -187,8 +188,8 @@ digraph g{
   141 -> 194;
   143 -> 57;
   145 -> 199;
-  146 -> 50;
-  146 -> 230;
+  145 -> 50;
+  145 -> 230;
   147 -> 85;
   147 -> 94;
   147 -> 187;

@@ -4,8 +4,8 @@ Node List:  1, 131, 89, 3, 212, 4, 194, 138, 75, 5, 105, 6, 230, 100, 9, 137, 11
 
 Average degree: 2.87
 
-Diameter (directed):   50.0
-Diameter (undirected): 30.0
+Diameter (directed):   39.0
+Diameter (undirected): 28.0
 
 Degree Distribution (undirected): 
    degree: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 
@@ -69,8 +69,8 @@ Degree map: (high degree nodes)
 98:  1   3   4
 151:  1   3   4
 202:  2   2   4
-146:  2   2   4
 132:  1   3   4
+145:  1   3   4
 214:  2   2   4
 159:  1   3   4
 163:  1   3   4
