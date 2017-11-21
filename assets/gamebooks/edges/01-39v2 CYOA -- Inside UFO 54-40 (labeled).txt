@@ -1,3 +1,28 @@
+# ---
+# group  : Katz
+# id     : 01-39
+# gbid   : 
+# series : CYOA
+# title  : 
+# author : 
+# credit: 
+#   - name : Ryan Leach
+#     role : encoder
+#     date : 2017-08-24
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-10-19
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: > This work is perhaps the most famous example
+#            of an orphan node / hidden sequence, not due
+#            to a misprint or as bonus content, but as the
+#            ultimate end of the work: Ultima.
+#     
+# ---
+
 1	2	
 2	6	
 3	5	sleep

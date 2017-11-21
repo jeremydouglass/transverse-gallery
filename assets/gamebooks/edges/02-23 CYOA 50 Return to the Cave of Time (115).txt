@@ -1,3 +1,25 @@
+# ---
+# group  : Katz
+# id     : 02-23
+# gbid   : 
+# series : CYOA
+# title  : Return to the Cave of Time
+# author : 
+# credit: 
+#   - name : Ryan Leach
+#     role : encoder
+#     date : 2017-09-01
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-10-19
+# render:
+#   - name   : ?
+#     styles : ?
+#     engine : dot
+# comment: >
+#     
+# ---
+
 1	3
 3	11			see the beginning of time
 	17			see the end of time

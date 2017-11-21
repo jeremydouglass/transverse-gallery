@@ -1,14 +1,27 @@
-# ??-?? Series ?? Title
-# Encoder name
-# 2017-MM-DD
-# !style=Ryan.stylesheet.txt
+# ---
+# group  : Katz
+# id     : 02-50
+# gbid   : 
+# series : CYOA
+# title  : Space Vampire
+# author : 
+# credit: 
+#   - name : Ryan Leach
+#     role : encoder
+#     date : 2017-09-11
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-10-19
+# render:
+#   - name   : ?
+#     styles : ? Ryan.stylesheet.txt
+#     engine : dot
+# comment: >
+#     
+# ---
 
-# COMMENTS:
-# 
-# 
+#ID	TARGET	TAGS	LABEL
 
-#ID	TARGET	TAGS,	LABEL
-	
 1		START	Start
 1	39
 2	3

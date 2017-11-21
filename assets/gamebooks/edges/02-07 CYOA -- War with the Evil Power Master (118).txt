@@ -1,6 +1,24 @@
-# 02-07 CYOA -- War with the Evil Power Master
-# Ryan Leach
-# 2017-09-08
+# ---
+# group  : Katz
+# id     : 02-07
+# gbid   : 
+# series : CYOA
+# title  : War with the Evil Power Master
+# author : 
+# credit: 
+#   - name : Ryan Leach
+#     role : encoder
+#     date : 2017-09-08
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-10-19
+# render:
+#   - name   : ?
+#     styles : ?
+#     engine : dot
+# comment: >
+#     
+# ---
 
 1	2
 2	3
@@ -136,4 +154,4 @@
 118		E-BAD	"You are long since dead. But a pile of old, musty bones in a forgotten research facility still tells the tale of one who fought in vain against the Evil Power Master"
 119	25		answer the SOS at once
 	33		proceed fullspeed against EPM
-119		BC	
+119		BC

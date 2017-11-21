@@ -1,3 +1,25 @@
+# ---
+# group  : Katz
+# id     : 01-20
+# gbid   : 561
+# series : CYOA
+# title  : Mystery of Chimney Rock
+# author : Edward Packard
+# credit: 
+#   - name : Juliet Way-Henthorn
+#     role : encoder
+#     date : 2017-08-17
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-10-19
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
 2	3
 3	4
 3	6

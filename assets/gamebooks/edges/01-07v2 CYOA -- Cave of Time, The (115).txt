@@ -1,3 +1,22 @@
+# ---
+# group  : Katz
+# id     : 01-07
+# gbid   : 518
+# series : CYOA
+# title  : Cave of Time, The
+# author : Edward Packard
+# credit: 
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-10-19
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
 2	3
 3	6
 3	5

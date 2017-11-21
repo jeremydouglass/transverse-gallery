@@ -1,11 +1,30 @@
+# ---
+# group  : Katz
+# id     : 
+# gbid   : 
+# series : CYOA
+# title  : 
+# author : 
+# credit: 
+#   - name : Michael Loose
+#     role : encoder
+#     date : 2017-08-23
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-10-19
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
 1	2
 2	4
 3	52
 	1000
 3		E	# if you decide to close the book...
-
-
-
 
 3	1
 	2
@@ -42,8 +61,6 @@
 	50
 	51
 	52
-
-
 
 4	50
 	8

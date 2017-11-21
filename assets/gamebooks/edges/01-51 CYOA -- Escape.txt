@@ -1,3 +1,25 @@
+# ---
+# group  : Katz
+# id     : 
+# gbid   : 
+# series : CYOA
+# title  : 
+# author : 
+# credit: 
+#   - name : 
+#     role : encoder
+#     date : 2017-08-18
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-10-19
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
 1	2
 2	3
 3	5
