@@ -1,3 +1,25 @@
+# ---
+# group  : Katz
+# id     : 
+# gbid   : 
+# series : 
+# title  : 
+# author : 
+# credit: 
+#   - name : Juliet Way-Henthorne
+#     role : encoder
+#     date : 2017-09-01
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-10-19
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
 1	6
 1	4
 4	13

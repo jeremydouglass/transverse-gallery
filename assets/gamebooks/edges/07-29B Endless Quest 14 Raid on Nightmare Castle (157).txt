@@ -1,3 +1,25 @@
+# ---
+# group  : Katz
+# id     : 
+# gbid   : 
+# series : 
+# title  : 
+# author : 
+# credit: 
+#   - name : Rachael Grainger
+#     role : encoder
+#     date : 2017-08-23
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-10-19
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
 5		S
 5	6
 6	7

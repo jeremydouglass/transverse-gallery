@@ -1,3 +1,25 @@
+# ---
+# group  : Katz
+# id     : 
+# gbid   : 
+# series : 
+# title  : 
+# author : 
+# credit: 
+#   - name : Kylie McGregor
+#     role : encoder
+#     date : 2017-08-24
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-10-19
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
 1	4
 4	10
 7	17	To Check Map
@@ -314,5 +336,3 @@
 133	63	To Check Map
 	85
 	55
-
-

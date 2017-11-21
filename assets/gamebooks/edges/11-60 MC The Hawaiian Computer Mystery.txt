@@ -1,3 +1,25 @@
+# ---
+# group  : Katz
+# id     : 
+# gbid   : 
+# series : 
+# title  : 
+# author : 
+# credit: 
+#   - name : Kylie McGregor
+#     role : encoder
+#     date : 2017-09-13
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-10-19
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
 1	2
 2	3
 3	4
@@ -128,7 +150,7 @@
 	104
 98	102
 	130
-100	125	misprint
+100	125	originally orphaned (by a misprint?)
 102	106
 	130
 103	108
@@ -149,3 +171,4 @@
 115	117
 116	152
 137	121
+142	100	misprint? Printed as "The End" but should continue to 100
