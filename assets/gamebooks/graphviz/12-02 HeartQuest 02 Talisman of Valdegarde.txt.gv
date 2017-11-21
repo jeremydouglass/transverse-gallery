@@ -2,6 +2,7 @@ digraph g{
   graph [ label="12-02 HeartQuest 02 Talisman of Valdegarde.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+
   6 -> 47;
   6 -> 124;
   10 -> 127;

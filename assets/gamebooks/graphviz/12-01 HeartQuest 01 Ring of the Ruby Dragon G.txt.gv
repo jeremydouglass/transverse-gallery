@@ -1,7 +1,29 @@
 digraph g{
-  graph [ label="12-01 HeartQuest 01 Ring of the Ruby Dragon G .txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="12-01 HeartQuest 01 Ring of the Ruby Dragon G.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Juliet Way-Henthorne;
+  // role : encoder;
+  // date : 2017-09-29;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : ?;
+  // styles : ?;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
   0 -> 78	[ xlabel="BC" ];
   0 -> 94	[ xlabel="BC" ];
   6 -> 110	[ xlabel="LOV" ];
