@@ -1,23 +1,23 @@
 # ---
-# group:    Katz
-# id:       12-50
-# series:   Find Your Fate Junior - Golden Girl
-# seriesno: 02
-# title:    Golden Girl in the Land of Dreams
-# author:   Alice Storey
-# credits:
-#   - credit:  Juliet Way-Henthorne
-#     role:    encoder
-#     date:    2017-10-01
-#   - credit:  Jeremy Douglass
-#     role:    editor
-#     date:    2017-10-16
-# renders:
+# group  : Katz
+# id     : 12-50
+# gbid   : 1142
+# series : Find Your Fate Junior - Golden Girl
+# title  : Golden Girl in the Land of Dreams
+# author : Alice Storey
+# credit: 
+#   - name : Juliet Way-Henthorne
+#     role : encoder
+#     date : 2017-10-16
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-10-19
+# render:
 #   - render:  fantasy
 #     engine:  dot
 #     styles:  gvStyles-fantasy.txt
-# gbid:     1142
-# gburl:    https://gamebooks.org/Item/1142
+# comment: >
+#     
 # ---
 
 1	10

@@ -1,23 +1,23 @@
 # ---
-# group:    Katz
-# id:       07-22
-# series:   Endless Quest
-# seriesno: 03
-# title:    Pillars of Pentegarn
-# author:   Rose Estes
-# credits:
-#   - credit:  Juliet Way-Henthorne
-#     role:    encoder
-#     date:    2017-10-01
-#   - credit:  Jeremy Douglass
-#     role:    editor
-#     date:    2017-10-16
-# renders:
-#   - render:  fantasy
-#     engine:  dot
-#     styles:  gvStyles-fantasy.txt
-# gbid:     901
-# gburl:    https://gamebooks.org/Item/901
+# group  : Katz
+# id     : 07-22
+# gbid   : 901
+# series : Endless Quest
+# title  : Pillars of Pentegarn
+# author : Rose Estes
+# credit: 
+#   - name : Juliet Way-Henthorne
+#     role : encoder
+#     date : 2017-10-18
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-10-19
+# render:
+#   - name   : fantasy
+#     styles : gvStyles-fantasy.txt
+#     engine : dot
+# comment: >
+#     
 # ---
 
 2	100
