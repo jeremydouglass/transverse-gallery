@@ -2,19 +2,7 @@ digraph g{
   graph [ label="10-25 Nintendo Adventures 02 Leaping Lizards.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   1	[ xlabel="1 L1 S" ];
   5	[ xlabel="2 L2" ];
   7	[ xlabel="3 L3" ];
@@ -74,9 +62,7 @@ digraph g{
   116	[ xlabel="56 L56" ];
   117	[ xlabel="57 L57" ];
   118	[ xlabel="58 L58" ];
-  
-  
-  
+
   1 -> 2;
   2 -> 3;
   3 -> 5;
@@ -141,11 +127,7 @@ digraph g{
   55 -> 56;
   56 -> 35;
   56 -> 89;
-  
-  
-  
-  
-  
+
   57 -> 72;
   57 -> 66;
   57 -> 13;
@@ -226,11 +208,7 @@ digraph g{
   118 -> 58;
   119 -> 120;
   120	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  
-  
-  
-  
-  
+
   121	[ xlabel="121 Drip by Drip Scorecard" ];
 }
 

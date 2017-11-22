@@ -2,6 +2,7 @@ digraph g{
   graph [ label="01-39v2 CYOA -- Inside UFO 54-40 (labeled).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+
   1 -> 2;
   2 -> 6;
   3 -> 5	[ xlabel="sleep" ];
@@ -87,7 +88,7 @@ digraph g{
   91 -> 92;
   94 -> 96;
   96 -> 116;
-  101 -> 102;
+  101 -> 102	[ xlabel="Ultima -- the hidden sequence" ];
   102 -> 103;
   103 -> 104;
   105 -> 106;

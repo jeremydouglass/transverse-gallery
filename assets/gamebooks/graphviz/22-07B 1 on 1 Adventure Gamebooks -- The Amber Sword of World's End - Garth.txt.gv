@@ -560,11 +560,6 @@ digraph g{
   149 -> 156;
   149 -> 91;
   156	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  
-  
-  
-  
-  
-  
+
 }
 

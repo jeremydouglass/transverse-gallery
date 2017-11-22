@@ -2,6 +2,7 @@ digraph g{
   graph [ label="04-49 CYOA -- The Mystery of Ura Senke.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+
   1 -> 2;
   2 -> 4;
   4 -> 7;
@@ -101,7 +102,5 @@ digraph g{
   114 -> 115;
   117 -> 118;
   119 -> 65;
-  
-  
 }
 

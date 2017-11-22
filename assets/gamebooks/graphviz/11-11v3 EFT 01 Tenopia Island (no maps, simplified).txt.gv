@@ -2,6 +2,7 @@ digraph g{
   graph [ label="11-11v3 EFT 01 Tenopia Island (no maps, simplified).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+
   1 -> 4;
   4 -> 10;
   7	[ xlabel="17" ];
@@ -262,7 +263,5 @@ digraph g{
   133	[ xlabel="63" ];
   133 -> 85;
   133 -> 55;
-  
-  
 }
 

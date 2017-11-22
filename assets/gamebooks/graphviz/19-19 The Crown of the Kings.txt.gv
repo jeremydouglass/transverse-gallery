@@ -1571,10 +1571,6 @@ digraph g{
   798 -> 540;
   799 -> 764;
   800	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  
-  
-  
-  
-  
+
 }
 

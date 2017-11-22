@@ -2,6 +2,7 @@ digraph g{
   graph [ label="09-35 Which Way Books 02 Vampires, Spies and Alien Beings.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+
   1 -> 4;
   1 -> 6;
   1 -> 7;
@@ -148,6 +149,5 @@ digraph g{
   118	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
   119 -> 120;
   120	[ xlabel="WIN" ];
-  
 }
 

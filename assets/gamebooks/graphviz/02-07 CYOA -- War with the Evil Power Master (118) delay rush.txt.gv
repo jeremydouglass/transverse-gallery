@@ -2,9 +2,27 @@ digraph g{
   graph [ label="02-07 CYOA -- War with the Evil Power Master (118) delay rush.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-  // 02-07 CYOA -- War with the Evil Power Master;
-  // Ryan Leach;
-  // 2017-09-08;
+  // ---;
+  // group  : Katz;
+  // id     : 02-07;
+  // gbid   :;
+  // series : CYOA;
+  // title  : War with the Evil Power Master;
+  // author :;
+  // credit:;
+  // - name : Ryan Leach;
+  // role : encoder;
+  // date : 2017-09-11;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : ?;
+  // styles : ?;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
   
   1 -> 2;
   2 -> 3;

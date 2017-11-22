@@ -2,6 +2,7 @@ digraph g{
   graph [ label="04-03 CYOA -- Gunfire at Gettysburg.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+
   1 -> 42;
   2 -> 25;
   2 -> 10;
@@ -95,7 +96,5 @@ digraph g{
   113 -> 97;
   114 -> 2;
   116 -> 117;
-  
-  
 }
 

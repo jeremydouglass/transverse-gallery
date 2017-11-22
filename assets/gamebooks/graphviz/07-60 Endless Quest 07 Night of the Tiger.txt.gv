@@ -2,8 +2,9 @@ digraph g{
   graph [ label="07-60 Endless Quest 07 Night of the Tiger.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-  0 -> 20;
-  0 -> 33;
+
+  0 -> 20	[ xlabel="DESCRIPTION" ];
+  0 -> 33	[ xlabel="DESCRIPTION" ];
   1	[ xlabel="S" ];
   1 -> 10;
   1 -> 25;

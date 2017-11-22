@@ -2,6 +2,7 @@ digraph g{
   graph [ label="03-05 CYOA -- South Pole Sabotage.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+
   1 -> 4;
   4 -> 8;
   5 -> 40;
@@ -100,7 +101,6 @@ digraph g{
   110 -> 95;
   110 -> 105;
   112 -> 106;
-  
-  
+
 }
 

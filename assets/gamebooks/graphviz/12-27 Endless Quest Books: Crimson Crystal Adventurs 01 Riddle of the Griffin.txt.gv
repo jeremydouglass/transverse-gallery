@@ -2,18 +2,17 @@ digraph g{
   graph [ label="12-27 Endless Quest Books: Crimson Crystal Adventurs 01 Riddle of the Griffin.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-  
-  
-  5 -> 7	[ xlabel="LOOK AT PAGE W RED CRYSTAL" ];
+
+  5 -> 7	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
   5 -> 53;
-  11 -> 12	[ xlabel="LOOK AT PAGE W RED CRYSTAL" ];
+  11 -> 12	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
   11 -> 136;
   11 -> 43;
-  14 -> 15	[ xlabel="LOOK AT PAGE W RED CRYSTAL" ];
+  14 -> 15	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
   14 -> 94;
   14 -> 42;
   14 -> 74;
-  17 -> 16	[ xlabel="LOOK AT PAGE W RED CRYSTAL" ];
+  17 -> 16	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
   17 -> 41;
   17 -> 26;
   20 -> 69;
@@ -28,13 +27,12 @@ digraph g{
   32 -> 20;
   34 -> 130;
   34 -> 52;
-  36 -> 142	[ xlabel="LOOK AT PAGE W RED CRYSTAL" ];
-  40 -> 117;
+  36 -> 142	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  36 -> 117;
   41 -> 14;
   42	[ xlabel="E-BAD CREATURE", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  43 -> 135;
-  43 -> 44	[ xlabel="LOOK AT PAGE W RED CRYSTAL" ];
-  44 -> 45	[ xlabel="E-GOOD" ];
+  43 -> 135	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  43	[ xlabel="E-GOOD" ];
   46 -> 113;
   46 -> 110;
   48 -> 51;
@@ -42,15 +40,15 @@ digraph g{
   52	[ xlabel="E-BAD CREATURE", shape=Msquare, fontsize=20, fillcolor=grey70 ];
   53 -> 103;
   53 -> 32;
-  58 -> 138;
-  60	[ xlabel="E-BAD" ];
-  61 -> 142	[ xlabel="LOOK AT PAGE W RED CRYSTAL" ];
+  58 -> 138	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  58	[ xlabel="E-BAD" ];
+  61 -> 142	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
   61 -> 117;
   64 -> 32;
   66 -> 64;
   66 -> 97;
   68	[ xlabel="E-BAD MAGIC" ];
-  69 -> 9	[ xlabel="LOOK AT PAGE W RED CRYSTAL" ];
+  69 -> 9	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
   69 -> 34;
   74 -> 32;
   74 -> 94;
@@ -64,11 +62,11 @@ digraph g{
   90 -> 91	[ xlabel="E-BAD" ];
   92 -> 132;
   94 -> 36;
-  96 -> 61;
-  97 -> 7	[ xlabel="LOOK AT PAGE W RED CRYSTAL" ];
-  98 -> 143	[ xlabel="LOOK AT PAGE W RED CRYSTAL" ];
-  98 -> 75;
-  98 -> 90;
+  94 -> 61;
+  97 -> 7	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  97 -> 143	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  97 -> 75;
+  97 -> 90;
   103 -> 20;
   103 -> 66;
   109 -> 92;
@@ -84,19 +82,18 @@ digraph g{
   120 -> 11;
   120 -> 124;
   124	[ xlabel="E-BAD" ];
-  125 -> 129	[ xlabel="LOOK AT PAGE W RED CRYSTAL" ];
+  125 -> 129	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
   128 -> 27;
   128 -> 68;
-  130 -> 131	[ xlabel="LOOK AT PAGE W RED CRYSTAL" ];
+  130 -> 131	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
   130 -> 125;
-  132 -> 133	[ xlabel="LOOK AT PAGE W RED CRYSTAL" ];
+  132 -> 133	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
   132 -> 58;
   132 -> 112;
-  137 -> 136	[ xlabel="LOOK AT PAGE W RED CRYSTAL" ];
+  137 -> 136	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
   137	[ xlabel="E-BAD" ];
-  139 -> 129	[ xlabel="LOOK AT PAGE W RED CRYSTAL" ];
+  139 -> 129	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
   139 -> 68;
   139 -> 116;
-  
 }
 

@@ -2,15 +2,8 @@ digraph g{
   graph [ label="10-60 TwistaPlot 07 Video Avenger.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-  
-  
-  
-  
-  
-  
-  
-  
-  1	[ xlabel="Beware" ];
+
+  1 -> 2	[ xlabel="Beware" ];
   2 -> 4;
   4 -> 5;
   5 -> 11;

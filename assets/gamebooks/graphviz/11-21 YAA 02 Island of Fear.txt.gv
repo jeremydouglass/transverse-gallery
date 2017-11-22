@@ -2,6 +2,7 @@ digraph g{
   graph [ label="11-21 YAA 02 Island of Fear.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+
   7 -> 9;
   9 -> 10;
   10 -> 11;
@@ -131,7 +132,5 @@ digraph g{
   126 -> 76	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
   127	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
   127 -> 88	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
-  
-  
 }
 

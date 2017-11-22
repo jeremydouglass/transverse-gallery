@@ -144,8 +144,7 @@ digraph g{
   93	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
   94 -> 95;
   95	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  
-  
+
   // REFERENCES;
   97	[ xlabel="REF", shape=folder, fontsize=20, fillcolor=grey80 ];	// The Book of Spells
   101	[ xlabel="REF", shape=folder, fontsize=20, fillcolor=grey80 ];	// The Book of Weapons

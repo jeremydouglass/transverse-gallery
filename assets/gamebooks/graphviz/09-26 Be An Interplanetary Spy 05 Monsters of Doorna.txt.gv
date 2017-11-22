@@ -2,6 +2,7 @@ digraph g{
   graph [ label="09-26 Be An Interplanetary Spy 05 Monsters of Doorna.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+
   1 -> 11;
   1 -> 13;
   7 -> 12;

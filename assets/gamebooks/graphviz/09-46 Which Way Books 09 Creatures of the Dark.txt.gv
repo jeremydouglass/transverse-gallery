@@ -2,6 +2,7 @@ digraph g{
   graph [ label="09-46 Which Way Books 09 Creatures of the Dark.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+
   1 -> 3;
   1 -> 8;
   3 -> 4;
@@ -142,6 +143,5 @@ digraph g{
   117 -> 113;
   117 -> 116;
   118	[ xlabel="E-GOOD" ];
-  
 }
 

@@ -2,10 +2,7 @@ digraph g{
   graph [ label="02-07 CYOA -- War with the Evil Power Master (118) no tags.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-  
-  
-  
-  
+
   1 -> 2;
   2 -> 3;
   3 -> 6	[ xlabel="check out Sector 31-47-89 immediately" ];

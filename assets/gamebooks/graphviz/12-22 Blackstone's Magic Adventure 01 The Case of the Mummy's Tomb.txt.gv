@@ -2,6 +2,7 @@ digraph g{
   graph [ label="12-22 Blackstone's Magic Adventure 01 The Case of the Mummy's Tomb.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+
   5 -> 10;
   5 -> 8;
   8 -> 28;
@@ -83,6 +84,5 @@ digraph g{
   118 -> 120;
   120	[ xlabel="E-GOOD" ];
   121 -> 122	[ xlabel="E-OK" ];
-  
 }
 

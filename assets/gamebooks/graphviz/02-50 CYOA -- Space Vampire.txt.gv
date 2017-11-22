@@ -2,16 +2,29 @@ digraph g{
   graph [ label="02-50 CYOA -- Space Vampire.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-  // ??-?? Series ?? Title;
-  // Encoder name;
-  // 2017-MM-DD;
-  // !style=Ryan.stylesheet.txt;
+  // ---;
+  // group  : Katz;
+  // id     : 02-50;
+  // gbid   :;
+  // series : CYOA;
+  // title  : Space Vampire;
+  // author :;
+  // credit:;
+  // - name : Ryan Leach;
+  // role : encoder;
+  // date : 2017-09-11;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : ?;
+  // styles : ? Ryan.stylesheet.txt;
+  // engine : dot;
+  // comment: >;
   
-  // COMMENTS:;
+  // ---;
   
-  
-  
-  // ID | TARGET | TAGS,;
+  // ID | TARGET | TAGS;
   
   1	[ xlabel="START" ];	// Start
   1 -> 39;

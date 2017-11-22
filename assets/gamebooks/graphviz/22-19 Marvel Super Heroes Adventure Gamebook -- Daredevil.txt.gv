@@ -268,7 +268,6 @@ digraph g{
   180 -> 123;
   180 -> 173;
   181	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  
-  
+
 }
 

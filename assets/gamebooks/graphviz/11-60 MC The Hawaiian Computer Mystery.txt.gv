@@ -2,6 +2,7 @@ digraph g{
   graph [ label="11-60 MC The Hawaiian Computer Mystery.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+
   1 -> 2;
   2 -> 3;
   3 -> 4;
@@ -132,7 +133,7 @@ digraph g{
   97 -> 104;
   98 -> 102;
   98 -> 130;
-  100 -> 125	[ xlabel="misprint" ];
+  100 -> 125	[ xlabel="originally orphaned (by a misprint?)" ];
   102 -> 106;
   102 -> 130;
   103 -> 108;
@@ -153,5 +154,6 @@ digraph g{
   115 -> 117;
   116 -> 152;
   137 -> 121;
+  142 -> 100	[ xlabel="misprint? Printed as The End but should continue to 100" ];
 }
 
