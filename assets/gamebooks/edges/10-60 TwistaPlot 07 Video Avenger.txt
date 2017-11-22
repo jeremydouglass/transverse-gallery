@@ -6,7 +6,7 @@
 # -  page numbers for references
 # -  current reading time/day for random events
 
-1		Beware
+1	2	Beware
 2	4
 4	5
 5	11
