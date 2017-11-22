@@ -7,6 +7,12 @@
 # is done entirely using page numbers, with lexia numbers
 # added as labels to the first page of each multi-page lexia.
 
+# The book contains a score page, but it is an inventory and score
+# tracking page, like a character sheet. Unlike some other series
+# the ending pages do not explicitly forward the player to the
+# score sheet. From the introduction: "Use page 121 to keep track
+# of the things you collect and to keep score." 
+
 # Lexia Names (Mushroom Icon)
 
 1		1 L1 S
