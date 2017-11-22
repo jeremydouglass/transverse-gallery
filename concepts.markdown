@@ -103,7 +103,7 @@ topics:
     images:
     -  image_path: 01-42 CYOA -- Abominable Snowman, The. (new edition from Jeremy collection).txt.gv.png
     -  image_path: 01-42 CYOA -- Abominable Snowman, The. (old edition from Katz collection).txt.gv.png
-    -  image_path: 01-42b CYOA -- Abominable Snowman, The.txt.gv.png
+    -  image_path: 01-42 CYOA -- Abominable Snowman, The (corrected).txt.gv.png
   vampire:
     images:
     -  image_path: 01-65 CYOA -- Vampire Express.txt.gv.png

@@ -26,7 +26,7 @@ Researchers share details about one interesting interactive narrative that they 
 
    > _Try a sneaky maneuver to get away. Turn to PAGE 56, then 92, then 103, then 24, then back to 56 again. Don't read those pages, silly! Just turn to them. Maybe that will confuse whoever is following you. Then sneak over to page 52 and see if you've lost them.
 
-   {% include graph.html graph="06-27 Goosebumps 10 Diary of a Mad Mummy .txt.gv.png" scale="1" %}
+   {% include graph.html graph="06-27 Goosebumps 10 Diary of a Mad Mummy.txt.gv.png" scale="1" %}
 
 :  **Michael Loose**: _Dream Trips_ had one of the most unusual graphs I made. The book contains a choice for "nothing" and a choice for "any page in the book". Very worth looking at!
 
