@@ -1,5 +1,29 @@
 0	20
 0	33
+# ---
+# group  : Katz
+# id     : 
+# gbid   : 
+# series : 
+# title  : 
+# author : 
+# credit: 
+#   - name : Rachael Grainger
+#     role : encoder
+#     date : 2017-08-30
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-10-19
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+0	20	DESCRIPTION
+0	33	DESCRIPTION
 1		S
 1	10
 	25
