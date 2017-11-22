@@ -4,12 +4,12 @@ Node List:  0, 135, 50, 5, 32, 35, 9, 106, 118, 10, 42, 85, 12, 13, 21, 16, 15, 
 
 Average degree: 2.07
 
-Diameter (directed):   12.0
-Diameter (undirected): 16.0
+Diameter (directed):   15.0
+Diameter (undirected): 18.0
 
 Degree Distribution (undirected): 
    degree: 0 1 2 3 4 
-    nodes: 0 28 25 22 6 
+    nodes: 0 29 23 23 6 
 
 Degree Ranges: 
     min max tot
