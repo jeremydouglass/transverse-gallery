@@ -1,3 +1,27 @@
+# ---
+# group  : Katz
+# id     : 14-41
+# gbid   : 3601
+# series : You Can Be
+# title  : The Stainless Steel Rat
+# author : Harry Harrison
+# credit: 
+#   - name : Annette Ding
+#     role : encoder
+#     date : 2017-10-19
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2017-11-29
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# tags : broken
+# tags-examples: broken, in-lexia-links, end-continuations, head-encoding / tail-encoding / every-page-encoding, introduction, cover-links, orphans, chapters, short stories,   puzzles, missing-number-choices, computed-choice, illustrations, references, references-maps, references-character-sheet, references-backstory
+# comment: >
+#     
+# ---
+
 0	30
 1	229
 	298

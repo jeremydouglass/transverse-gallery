@@ -1,3 +1,27 @@
+# ---
+# group  : Katz
+# id     : 39-17
+# gbid   : 
+# series : 
+# title  : 
+# author : 
+# credit: 
+#   - name : Yee-Ann Wong
+#     role : encoder
+#     date : 2017-09-16
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-28
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+#From	To	Label	Comment
+
 5	6
 6	7
 7	8
@@ -201,8 +225,8 @@
 205	206
 206	207
 207	208
-208	209	#reader attempts solution 
-209	210	#Solution; Reader must physically cut open sealed pages 
+208	209		#reader attempts solution 
+209	210		#Solution; Reader must physically cut open sealed pages 
 210	211
 211	212
 212	213

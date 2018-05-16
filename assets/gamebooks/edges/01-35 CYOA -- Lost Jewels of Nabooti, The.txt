@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
 # id     : 01-35
-# gbid   : 
+# gbid   : 556
 # series : CYOA
-# title  : 
-# author : 
+# title  : Lost Jewels of Nabooti, The
+# author : R.A. Montgomery
 # credit: 
 #   - name : Juliet Way-Henthorn
 #     role : encoder
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 2	3
 3	4

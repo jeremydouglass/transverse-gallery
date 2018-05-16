@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
-# id     : 
-# gbid   : 
+# id     : 01-61
+# gbid   : 543
 # series : CYOA
-# title  : 
-# author : 
+# title  : Trouble on Planet Earth
+# author : R.A. Montgomery
 # credit: 
 #   - name : 
 #     role : encoder
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 1	3
 3	5

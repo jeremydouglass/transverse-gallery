@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
 # id     : 01-24
-# gbid   : 
+# gbid   : 560
 # series : CYOA
-# title  : 
-# author : 
+# title  : Your Code Name is Jonah
+# author : Edward Packard
 # credit: 
 #   - name : Juliet Way-Henthorn
 #     role : encoder
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 2	3
 3	4

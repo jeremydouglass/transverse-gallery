@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
 # id     : 01-42
-# gbid   : 
+# gbid   : 553
 # series : CYOA
-# title  : 
-# author : 
+# title  : Abominable Snowman, The
+# author : R.A. Montgomery
 # credit: 
 #   - name : Sarah Cifranic
 #     role : encoder
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 1	2
 2	3

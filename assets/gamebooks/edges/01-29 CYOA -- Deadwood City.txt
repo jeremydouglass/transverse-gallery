@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
 # id     : 01-29
-# gbid   : 
+# gbid   : 333
 # series : CYOA
-# title  : 
-# author : 
+# title  : Deadwood City
+# author : Edward Packard
 # credit: 
 #   - name : Juliet Way-Henthorn
 #     role : encoder
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 2	3
 3	5

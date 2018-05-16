@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
-# id     : 
-# gbid   : 
+# id     : 01-59
+# gbid   : 545
 # series : CYOA
-# title  : 
-# author : 
+# title  : Horror of High Ridge, The
+# author : Julius Goodman
 # credit: 
 #   - name : 
 #     role : encoder
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 1	2
 2	3

@@ -1,4 +1,26 @@
-# Jeremy Douglass 2017-09-28
+# ---
+# group  : Katz
+# id     : 39-37
+# gbid   : 9161
+# series : Miscellaneous Works by Julio Cortazar
+# title  : Hopscotch
+# author : Julio Cortazar
+# credit: 
+#   - name : Jeremy Douglass
+#     role : encoder
+#     date : 2017-09-28
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-28
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+#From	To	Label	Comment
 
 1	2
 2	3

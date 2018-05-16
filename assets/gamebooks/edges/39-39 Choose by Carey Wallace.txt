@@ -1,6 +1,26 @@
-# 39-39 Choose by Carey Wallace
-# https://gamebooks.org/Item/4740
-# encoded by Jeremy Douglass 2017-10-12
+# ---
+# group  : Katz
+# id     : 39-39
+# gbid   : 4740
+# series : Miscellaneous Works by Julio Cortazar
+# title  : Choose
+# author : Carey Wallace
+# credit: 
+#   - name : Jeremy Douglass
+#     role : encoder
+#     date : 2017-10-12
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-28
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+# 
+# ---
+
+#From	To	Label	Comment
 
 1	2
 	3
@@ -324,4 +344,4 @@
 209	212
 210	212
 211	212
-212		END
+212		E

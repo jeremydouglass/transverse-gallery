@@ -1,3 +1,27 @@
+# ---
+# group  : Katz
+# id     : 07-03
+# gbid   : 1244
+# series : Give Yourself Goosebumps Special Edition
+# title  : Trapped in the Circus of Fear
+# author : R.L. Stine
+# credit: 
+#   - name : Juliet Way-Henthorne
+#     role : encoder
+#     date : 2017-11-17
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-11
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+#From	To	Label	Comment
+
 1	2
 2	3
 2	4
@@ -161,5 +185,3 @@
 129		E
 130	12
 131	108
-
-

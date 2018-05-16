@@ -1,4 +1,30 @@
-#interestingly, and not at all implied by the title, Cosmic Kidnappers remediates using a computer within the format of the gamebook. especially see p.88, which remediates the computational functions ESC, DELETE, PAUSE, and RESET as page-turn options. DELETE and PAUSE end the game. ESC leads to another structural branch. RESET takes the reader back to page 1. See graph.
+# ---
+# group  : Katz
+# id     : 13-60
+# gbid   : 169
+# series : Troll Alien Adventures
+# title  : Cosmic Kidnappers
+# author : E.T. Randall
+# credit: 
+#   - name : Ryan Leach
+#     role : encoder
+#     date : 2017-08-18
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-28
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#            interestingly, and not at all implied by the title, Cosmic Kidnappers
+             remediates using a computer within the format of the gamebook. especially see
+             p.88, which remediates the computational functions ESC, DELETE, PAUSE, and
+             RESET as page-turn options. DELETE and PAUSE end the game. ESC leads to another
+             structural branch. RESET takes the reader back to page 1. See graph.
+# ---
+
+#From	To	Label	Comment
 
 1	2
 2	3

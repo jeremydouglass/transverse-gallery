@@ -1,9 +1,33 @@
-# 39-40 Maps-The Uncollected John Sladek - The Lost Nose.txt
-# Jeremy Douglass 2017-09-28
+# ---
+# group  : Katz
+# id     : 39-40
+# gbid   : 4740
+# series : Maps-The Uncollected John Sladek
+# title  : Maps-The Uncollected John Sladek
+# chapter: The Lost Nose: A Programmed Book (pp3-18)
+# author : John Sladek 
+# credit: 
+#   - name : Jeremy Douglass
+#     role : encoder
+#     date : 2017-09-28
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-28
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#           "There are 21 endings. A diagram of the routes is at the end of the book."
+#           From gamebooks.org:
+#           "written in the late 1960s ... a previously unpublished humor piece
+#           written for the author’s then-girlfriend."
+# 
+# ---
 
 # The Lost Nose: A Programmed Book (pp3-18)
-# "There are 21 endings. A diagram of the routes is at the end of the book."
-# From gamebooks.org: "written in the late 1960s ... a previously unpublished humor piece written for the author’s then-girlfriend"
+
+#From	To	Label	Comment
 
 1	2
 	3
@@ -38,49 +62,49 @@
 	28
 15	29
 	30
-16		The End
+16		END
 17	20
 	31
 18	32
 	33
 	34
-19		The End
+19		END
 20	35
 	23
-21		The End
+21		END
 22	20
 	15
 	18
-23		The End
+23		END
 24	14
 	15
 	36
 25	37
 	38
-26		The End
+26		END
 27	39
 	40
 28	41
 	42
 	43
-29		The End	
-30		The End	
+29		END	
+30		END	
 31	44
 	45
 	46
-32		The End
-33		The End
-34		The End
-35		The End
-36		The End
-37		The End
-38		The End
-39		The End
-40		The End
+32		END
+33		END
+34		END
+35		END
+36		END
+37		END
+38		END
+39		END
+40		END
 41	42
 	43
-42		The End
-43		The End
-44		The End
-45		The End
-46		The End
+42		END
+43		END
+44		END
+45		END
+46		END

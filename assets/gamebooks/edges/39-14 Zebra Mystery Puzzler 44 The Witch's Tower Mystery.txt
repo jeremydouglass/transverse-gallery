@@ -1,4 +1,28 @@
-0		#cover, illustration clue 
+# ---
+# group  : Katz
+# id     : 39-14
+# gbid   : 
+# series : 
+# title  : 
+# author : 
+# credit: 
+#   - name : Yee-Ann Wong
+#     role : encoder
+#     date : 2017-09-16
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-28
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+#From	To	Label	Comment
+
+0			#cover, illustration clue 
 5	6
 6	7
 7	8
@@ -28,7 +52,7 @@
 31	32
 32	33
 33	34
-34	35	#illustration clue
+34	35		#illustration clue
 35	36
 36	37
 37	38
@@ -63,7 +87,7 @@
 66	67
 67	68
 68	69
-69	70	#illustration clue
+69	70		#illustration clue
 70	71
 71	72
 72	73
@@ -93,7 +117,7 @@
 96	97
 97	98
 98	99
-99	100	#illustration clue
+99	100		#illustration clue
 100	101
 101	102
 102	103
@@ -103,14 +127,14 @@
 106	107
 107	108
 108	109
-109	110	#illustration clue 
+109	110		#illustration clue 
 110	111
 111	112
 112	113
 113	114
 114	115
 115	116
-116	117	#illustration clue 
+116	117		#illustration clue 
 117	118
 118	119
 119	120
@@ -135,11 +159,11 @@
 138	139
 139	140
 140	141
-141	142	#illustration clue 
+141	142		#illustration clue 
 142	143
 143	144
-144	145	#Reader attempts solution
-145	146	#Solution; Reader must physically cut open sealed pages 
+144	145		#Reader attempts solution
+145	146		#Solution; Reader must physically cut open sealed pages 
 146	147
 147	148
 148	149
@@ -152,5 +176,4 @@
 155	156
 156	157
 157	158
-158	159	#Illustration clue solutions page
-
+158	159		#Illustration clue solutions page

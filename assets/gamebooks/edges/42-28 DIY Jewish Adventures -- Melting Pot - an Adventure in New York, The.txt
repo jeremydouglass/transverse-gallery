@@ -20,7 +20,7 @@
 #     
 # ---
 
-#in	out	label	comment
+#From	To	Label	Comment
 
 1			(directions)
 2			(this is historical fiction)
@@ -188,6 +188,3 @@
 111		E
 112	42
 113	10
-
-
-

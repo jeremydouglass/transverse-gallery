@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
 # id     : 02-50
-# gbid   : 
+# gbid   : 485
 # series : CYOA
 # title  : Space Vampire
-# author : 
+# author : Edward Packard
 # credit: 
 #   - name : Ryan Leach
 #     role : encoder
@@ -17,10 +17,10 @@
 #     styles : ? Ryan.stylesheet.txt
 #     engine : dot
 # comment: >
-#     
+#
 # ---
 
-#ID	TARGET	TAGS	LABEL
+#From	To	Label	Comment
 
 1		START	Start
 1	39

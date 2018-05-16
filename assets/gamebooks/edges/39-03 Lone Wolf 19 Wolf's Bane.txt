@@ -1,3 +1,27 @@
+# ---
+# group  : Katz
+# id     : 39-03
+# gbid   : 
+# series : 
+# title  : 
+# author : 
+# credit: 
+#   - name : Yee-Ann Wong
+#     role : encoder
+#     date : 2017-09-16
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-28
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+#From	To	Label	Comment
+
 600	700
 700	800
 800	900
@@ -30,6 +54,7 @@
 3600	3700
 3700	3800
 3800	1
+
 1	195
 	302
 2	348
@@ -560,6 +585,6 @@
 	137
 348	115
 349	21
-350		#to the next book 
-35100		#reference
 
+350			#to the next book 
+35100		REF	#reference

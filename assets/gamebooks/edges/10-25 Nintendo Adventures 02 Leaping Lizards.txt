@@ -14,7 +14,7 @@
 # of the things you collect and to keep score." 
 
 # 9:35
-	
+
 # Lexia Names (Mushroom Icon)
 
 1		1 L1 S

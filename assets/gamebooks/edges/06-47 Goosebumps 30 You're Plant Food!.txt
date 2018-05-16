@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
-# id     : 
-# gbid   : 
-# series : 
-# title  : 
-# author : 
+# id     : 06-47
+# gbid   : 1228
+# series : Give Yourself Goosebumps
+# title  : You're Plant Food!
+# author : R.L. Stine
 # credit: 
 #   - name : Yee-Ann Wong
 #     role : encoder
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 1	2
 2	3

@@ -20,6 +20,8 @@
 #     
 # ---
 
+#From	To	Label	Comment
+
 0	44	BC
 0	122	BC
 6	47	FIGHT

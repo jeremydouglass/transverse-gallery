@@ -1,3 +1,27 @@
+# ---
+# group  : Katz
+# id     : 13-71
+# gbid   : 25
+# series : Troll Forgotten Forest
+# title  : Master of Mazes
+# author : Carol Gaskin
+# credit: 
+#   - name : Ryan Leach
+#     role : encoder
+#     date : 2017-08-21
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-28
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+#From	To	Label	Comment
+
 1	2
 2	3
 3	4

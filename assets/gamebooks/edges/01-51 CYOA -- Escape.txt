@@ -1,12 +1,12 @@
 # ---
 # group  : Katz
-# id     : 
-# gbid   : 
+# id     : 01-51
+# gbid   : 500
 # series : CYOA
-# title  : 
-# author : 
+# title  : Escape
+# author : R.A. Montgomery
 # credit: 
-#   - name : 
+#   - name : Juliet Way-Henthorn
 #     role : encoder
 #     date : 2017-08-18
 #   - name : Jeremy Douglass
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 1	2
 2	3

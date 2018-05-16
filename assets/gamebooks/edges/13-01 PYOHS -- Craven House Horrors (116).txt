@@ -1,3 +1,27 @@
+# ---
+# group  : Katz
+# id     : 13-01
+# gbid   : 1910
+# series : Plot-Your-Own Horror Stories
+# title  : Craven House Horrors
+# author : Hilary Milton
+# credit: 
+#   - name : Ryan Leach
+#     role : encoder
+#     date : 2017-08-15
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-28
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+#From	To	Label	Comment
+
 1	2
 2	3
 3	4

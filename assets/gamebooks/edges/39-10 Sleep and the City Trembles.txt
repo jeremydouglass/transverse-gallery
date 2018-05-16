@@ -1,3 +1,27 @@
+# ---
+# group  : Katz
+# id     : 39-10
+# gbid   : 
+# series : 
+# title  : 
+# author : 
+# credit: 
+#   - name : Yee-Ann Wong
+#     role : encoder
+#     date : 2017-09-16
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-28
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+#From	To	Label	Comment
+
 9	10
 10	11
 11	12
@@ -32,7 +56,7 @@
 40	41
 41	53
 	46
-42		#sassy ‘quit reading like a normal person and make a decision’ page
+42			#sassy ‘quit reading like a normal person and make a decision’ page
 43	44
 44	45
 45	46
@@ -63,7 +87,7 @@
 66	67
 67	68
 68	69
-69	22	#ref
+69	22		#ref
 	70
 70	71
 71	72
@@ -81,7 +105,7 @@
 82	83
 83	84
 84	85
-85	86	#youcheatedandI’mproudofyou
+85	86		#youcheatedandI’mproudofyou
 86	87
 87	88
 88	89
@@ -91,12 +115,12 @@
 92	93
 93	94
 94	95
-95	216	#ref
-	108	#ref
+95	216		#ref
+	108		#ref
 	96
 96	110
 	98
-216	108	#ref
+216	108		#ref
 98	99
 99	100
 100	101
@@ -118,7 +142,7 @@
 115	98
 	117
 	97
-	116	#ref
+	116		#ref
 117	118
 118	119
 119	120
@@ -128,7 +152,7 @@
 123	124
 124	125
 125	126
-126	219	#ref
+126	219		#ref
 	132
 	129
 	127
@@ -193,18 +217,18 @@
 183	184
 184	187
 185	186
-186	897	#this is
-	978	#the sassiest book
-	987	#i have ever read 
-	879	#these 4 answers are fake theres only 1 real choice 
-	176	#the only real choice
+186	897		#this is
+	978		#the sassiest book
+	987		#i have ever read 
+	879		#these 4 answers are fake theres only 1 real choice 
+	176		#the only real choice
 187	188
 188	189
 189	190
 190	191
-191	132	#reread 
+191	132		#reread 
 	192
-132	191	#sent back to reread if from 191
+132	191		#sent back to reread if from 191
 192	195
 	198
 	193
@@ -237,10 +261,3 @@
 220	221
 221	126
 	213
-
-	
-
-
-
-
-

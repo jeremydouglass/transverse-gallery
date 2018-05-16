@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
-# id     : 
-# gbid   : 
-# series : 
-# title  : 
-# author : 
+# id     : 06-15
+# gbid   : 663
+# series : Choose Your Own Nightmare
+# title  : It Happened at Camp Pine Tree
+# author : Janet Hubbard-Brown, R.A. Montgomery
 # credit: 
 #   - name : Yee-Ann Wong
 #     role : encoder
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 1	2
 2	3
@@ -96,4 +98,3 @@
 78	19
 83	35
 84	81
-

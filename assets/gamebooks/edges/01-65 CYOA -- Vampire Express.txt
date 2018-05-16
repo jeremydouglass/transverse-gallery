@@ -1,12 +1,12 @@
 # ---
 # group  : Katz
-# id     : 
-# gbid   : 
+# id     : 01-65
+# gbid   : 541
 # series : CYOA
-# title  : 
-# author : 
+# title  : Vampire Express
+# author : Tony Koltz
 # credit: 
-#   - name : 
+#   - name : Alanna Bartolini
 #     role : encoder
 #     date : 2017-08-25
 #   - name : Jeremy Douglass
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 1	2	
 2	3

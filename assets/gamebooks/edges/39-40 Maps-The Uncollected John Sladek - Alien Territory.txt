@@ -1,10 +1,35 @@
-# 39-40 Maps-The Uncollected John Sladek - Alien Territory.txt
-# Jeremy Douglass 2017-09-28
+# ---
+# group  : Katz
+# id     : 39-40
+# gbid   : 4740
+# series : Maps-The Uncollected John Sladek
+# title  : Maps-The Uncollected John Sladek
+# chapter: Alien Territory (pp21-23)
+# author : John Sladek 
+# credit: 
+#   - name : Jeremy Douglass
+#     role : encoder
+#     date : 2017-09-28
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-28
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#           p21 is a "how to read" explanation -- the actual work is two pages
+#           with an unusual spatial arrow system connecting a grid of small
+#           paragraphs with no lexia names -- resembles a J.Sayers comic.
+#           From gamebooks.org:
+#           "written in the late 1960s ... a previously unpublished humor piece
+#           written for the author’s then-girlfriend."
+# 
+# ---
 
 # Alien Territory (pp21-23)
-# p21 is a "how to read" explanation -- the work is two pages
-# with an unusual spatial arrow system connecting a grid of small paragraphs with no lexia names -- resembles a J.Sayers comic
-# From gamebooks.org: "written in the late 1960s ... a previously unpublished humor piece written for the author’s then-girlfriend."
+
+#From	To	Label	Comment
 
 A1		START
 
@@ -56,7 +81,6 @@ D5	A6	R*
 D6	A7	R*
 D7	A8	R*
 D8	A9	R*
-
 
 # Down arrows
 

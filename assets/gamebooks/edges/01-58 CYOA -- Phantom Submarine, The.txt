@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
-# id     : 
-# gbid   : 
+# id     : 01-58
+# gbid   : 547
 # series : CYOA
-# title  : 
-# author : 
+# title  : Phantom Submarine, The
+# author : Richard Brightfield
 # credit: 
 #   - name : 
 #     role : encoder
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 1	4
 2	5

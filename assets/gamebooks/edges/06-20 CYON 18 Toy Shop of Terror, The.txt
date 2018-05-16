@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
-# id     : 
-# gbid   : 
-# series : 
-# title  : 
-# author : 
+# id     : 06-20
+# gbid   : 671
+# series : Choose Your Own Nightmare
+# title  : Toy Shop of Terror, The
+# author : Laban Carrick Hill
 # credit: 
 #   - name : Yee-Ann Wong
 #     role : encoder
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 1	2
 2	3

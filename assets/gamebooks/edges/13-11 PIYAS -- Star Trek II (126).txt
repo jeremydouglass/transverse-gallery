@@ -1,3 +1,27 @@
+# ---
+# group  : Katz
+# id     : 13-11
+# gbid   : 1908
+# series : Plot-It-Yourself Adventure Stories
+# title  : Star Trek II
+# author : William Rotsler
+# credit: 
+#   - name : Ryan Leach
+#     role : encoder
+#     date : 2017-08-16
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-28
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+#From	To	Label	Comment
+
 1	2
 2	3
 	4
@@ -130,4 +154,5 @@
 116	117
 118	119
 120	121
-122	123	
+122	123
+	

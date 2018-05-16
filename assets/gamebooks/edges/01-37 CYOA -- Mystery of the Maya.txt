@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
 # id     : 01-37
-# gbid   : 
+# gbid   : 555
 # series : CYOA
-# title  : 
-# author : 
+# title  : Mystery of the Maya
+# author : R.A. Montgomery
 # credit: 
 #   - name : Juliet Way-Henthorn
 #     role : encoder
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 1	2
 2	3

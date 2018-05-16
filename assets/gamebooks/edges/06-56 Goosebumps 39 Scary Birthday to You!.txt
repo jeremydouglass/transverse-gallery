@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
-# id     : 
-# gbid   : 
-# series : 
-# title  : 
-# author : 
+# id     : 06-56
+# gbid   : 1237
+# series : Give Yourself Goosebumps
+# title  : Scary Birthday to You!
+# author : R.L. Stine
 # credit: 
 #   - name : Yee-Ann Wong
 #     role : encoder
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 1	2
 2	3

@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
 # id     : 01-27
-# gbid   : 
+# gbid   : 332
 # series : CYOA
-# title  : 
-# author : 
+# title  : Third Planet from Altair, The
+# author : Edward Packard
 # credit: 
 #   - name : Juliet Way-Henthorn
 #     role : encoder
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 1	2
 2	4

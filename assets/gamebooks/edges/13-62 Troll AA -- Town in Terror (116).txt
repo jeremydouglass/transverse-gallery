@@ -1,3 +1,27 @@
+# ---
+# group  : Katz
+# id     : 13-62
+# gbid   : 16171
+# series : Troll Alien Adventures
+# title  : Town in Terror
+# author : E.T. Randall
+# credit: 
+#   - name : Ryan Leach
+#     role : encoder
+#     date : 2017-08-18
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-28
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+#From	To	Label	Comment
+
 1	48
 	4
 2	15

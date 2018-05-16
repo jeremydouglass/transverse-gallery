@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
 # id     : 01-39
-# gbid   : 
+# gbid   : 554
 # series : CYOA
-# title  : 
-# author : 
+# title  : Inside UFO 54-40
+# author : Edward Packard
 # credit: 
 #   - name : Ryan Leach
 #     role : encoder
@@ -19,6 +19,8 @@
 # comment: >
 #     
 # ---
+
+#From	To	Label	Comment
 
 1	2
 2	6
