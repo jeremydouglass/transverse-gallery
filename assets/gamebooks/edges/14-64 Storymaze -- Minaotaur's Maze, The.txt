@@ -1,0 +1,73 @@
+# ---
+# group  : Katz
+# id     : 14-64
+# gbid   : 3870
+# series : StoryMaze
+# title  : Minotaur's Maze, The
+# author : Terry Denton
+# credit: 
+#   - name : Jeremy Douglass
+#     role : encoder
+#     date : 2017-04-16
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+#From	To	Label	Comment
+
+1	2
+2	3
+3	P3A
+	P3B
+P3A		E		"this story continues in another dimension"
+P3B	4
+4	5
+5	P5½
+P5½	6
+6	7
+7	8
+8	P8C1
+	P8C2
+	9
+9	P9A
+	P9B
+P9A	10
+10	123
+123	11
+11	12
+12	13
+13	14
+14	P14A
+	P14B
+P14A	15
+P14B	15
+15	16
+16	17
+17	P17Another
+P17Another	18
+18	19
+19	20
+20	21
+21	22
+22	23
+23	24
+24	25
+25	26
+26	27
+27	28
+28	29
+29	30
+30	31
+31	32
+32	33
+33	34
+34	35
+35	36
+36	37
+37	38
+38	39
+39	40

@@ -1,0 +1,92 @@
+# ---
+# group  : Katz
+# id     : 41-31
+# chapter: 1
+# gbid   : 7789
+# series : Storytrails
+# title  : Storytrails Book of Science Fiction, The
+# author : Allen Sharp
+# credit: 
+#   - name : Jeremy Douglass
+#     role : encoder
+#     date : 2018-04-04
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-04
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#          This compendium of four previously published books in the series.
+#          They have other entries in the Katz Collection
+#          A weird aspect of how this was reprinted is that the stories work
+#          by lexia number, and that each story uses the same range of lexias,
+#          from 1~40ish. You could accidentally turn from one story into
+#          another if you aren't careful. That also means the chaptered
+#          graph data can't co-exist easily in one graph  without qualifying
+#          the lexia names.
+#          See Storytrails #2: https://gamebooks.org/Item/2483
+#
+# ---
+
+# Ch.1 Terror in the Fourth Dimension
+
+#From	To	Label	Comment
+
+1	2
+2	15
+	8
+	11
+3	7
+	5
+4	10
+5	4
+6	3
+7	14
+8	15		Image of interface (with encoded instructions?)
+	12
+9	13
+10	17
+	16
+	19
+11	12		Image of interface (with encoded instructions?)
+	9
+12	15		Image of interface (with encoded instructions?)
+	8
+	6
+13	8
+	15
+14	18
+15	8		Image of interface (with encoded instructions?)
+	12
+16	23
+17	25
+18	22
+	16
+	20
+19	24
+20	24
+21	29
+22	25
+23	25
+24	26
+	28
+25	21
+	31
+26	32
+27		E	Ending? Unmarked
+28	25
+29	32
+30	35
+	37
+31	34
+32	30
+	36
+33		E	Ending? Unmarked
+34	30
+	36
+35	27
+36	33
+	30
+37		E	Ending? Unmarked

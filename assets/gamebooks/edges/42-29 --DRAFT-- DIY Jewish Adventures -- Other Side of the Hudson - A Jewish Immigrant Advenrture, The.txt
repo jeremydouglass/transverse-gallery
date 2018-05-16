@@ -1,0 +1,204 @@
+# ---
+# group  : Katz
+# id     : 42-29
+# gbid   : 
+# series : DIY Jewish Adventure
+# title  : The Other Side of the Hudson - A Jewish Immigrant Adventure
+# author : Kenneth Roseman
+# credit: 
+#   - name : Jeremy Douglass
+#     role : encoder
+#     date : 2017-10-25
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+#From	To	Label	Comment
+
+1	2
+2	3
+3	4
+4	5
+5	6
+6	8
+	9
+7	57
+	64
+8	10
+	11
+9	12
+	13
+	14
+10	40
+	41
+11	36
+	37
+12	45
+	46
+13	43
+	44
+14	38
+	39
+15	47		ERROR: offers only one choice
+	16		...but there is a silent continuation to the next lexia
+16	48		...which contains the second choice.
+17	51
+	52
+18	55
+	61
+19	54
+	60
+20	53
+	59
+21	49
+	50
+22	65
+	96
+23	66
+	97
+24	72
+	103
+25	73
+	104
+26	79
+	110
+27	84
+	116
+28	7
+29	56
+	63
+30	67
+	98
+31	71
+	102
+32	77
+	108
+33	78
+	109
+34	85
+	117
+35	86
+	118
+36	18
+	19
+37	20
+	21
+38	26
+	27
+39	34
+	35
+40	15
+	17
+41	28		ERROR: offers only one choice
+	42		...but there is a silent continuation to the next lexia
+42	29		...which contains the second choice.
+43	24
+	25
+44	32
+	33
+45	22
+	23
+46	30
+	31
+47	123
+48	69
+	100
+49	93
+	121
+50	94
+	122
+51	70
+	101
+52	74
+	105
+53	91
+	119
+54	88
+	114
+55	82
+56	80
+	111
+57	75		ERROR: offers only one choice
+	58		...but there is a silent continuation to the next lexia
+58	106		...which contains the second choice.
+59	92
+	120
+60	89
+	115
+61	87		ERROR: offers only one choice
+	62		...but there is a silent continuation to the next lexia
+62	113		...which contains the second choice.
+63	81
+	112
+64	76
+	107
+65	
+66	33
+67
+68	124
+69	
+70
+71
+72
+73
+74	125
+75	
+76
+77
+78
+79
+80	126
+81	83
+	90
+	95
+82
+83
+84
+85
+86
+87
+88
+89
+90	15
+91	
+92
+93	18
+94
+95	120
+96
+97	
+98
+99
+100
+101
+102
+103
+104	35
+105	
+106
+107	127
+108	25
+109	
+110
+111
+112	37
+113	
+114
+115
+116
+117
+118
+119
+120	32
+121	
+122
+123	68
+	99
+124
+125
+126
+127

@@ -1,0 +1,184 @@
+# ---
+# group  : Katz
+# id     : 02-03
+# gbid   : 539
+# series : CYOA
+# title  : Dragon's Den, The
+# author : Richard Brightfield
+# credit: 
+#   - name : Cindy Lam
+#     role : encoder
+#     date : 2018-03-16
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-05-04
+# render:
+#   - name   : small
+#     styles : gvStyles.txt
+#     engine : dot
+# comment: >
+#
+# ---
+
+#From	To	Label	Comment
+
+1	2
+2	3
+3	10
+3	58
+4	8
+5	20
+7	48
+7	5
+8	74
+8	9
+9	13
+10	15
+11	12
+12	4
+13	101
+13	24
+14	17
+15	26
+16	25
+17	88
+17	106
+18	32
+18	11
+19	83
+19	76
+20	21
+21	31
+21	112
+22	34
+22	108
+23	28
+24	30
+25	19
+26	33
+28	29
+29	38
+30	7
+31	37
+32	46
+32	89
+33	18
+33	86
+34	40
+37	39
+38	42
+38	109
+39	59
+40	53
+41	42
+42	47
+43	110
+44	52
+45	44
+45	78
+46	50
+47	99
+47	65
+48	56
+49		E
+50	16
+52	14
+53	116
+55		E
+56	79
+57	80
+57	73
+58	71
+59	45
+60	72
+61	66
+62	63
+63	98
+63	115
+65	62
+66	49
+66	43
+67	97
+67	81
+68		E
+71	68
+71	23
+72	114
+73	87
+74		E
+75		E
+76	77
+77		E
+78		E
+79		E
+80		E
+81		E
+83	57
+85	103
+85	92
+86	94
+87	85
+88	91
+89		E
+90	95
+91	100
+92	22
+94	61
+95	67
+96		E
+97		E
+98	90
+98	104 
+99		E
+100		E
+101	55
+103		E
+104		E
+106	113
+108		E
+109		E
+110		E
+112	60
+113	96
+114		E
+115	75
+116		E
+
+
+#################
+#Illustrations
+
+7		ILL
+26		ILL
+34		ILL
+37		ILL
+50		ILL
+55		ILL
+65		ILL
+68		ILL
+71		ILL
+83		ILL
+85		ILL
+92		ILL
+103		ILL
+104		ILL
+106		ILL
+110		ILL
+
+1		IBEFORE
+5		IAFTER
+12		IBEFORE
+40		IBEFORE
+42		IBEFORE
+49		IAFTER
+63		IAFTER
+75		IBEFORE
+77		IBEFORE
+78		IBEFORE
+81		IAFTER
+87		IBEFORE
+88		IBEFORE
+95		IAFTER
+97		IAFTER
+99		IAFTER
+109		IAFTER

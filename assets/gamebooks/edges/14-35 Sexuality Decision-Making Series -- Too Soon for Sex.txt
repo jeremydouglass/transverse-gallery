@@ -1,0 +1,56 @@
+# ---
+# group  : Katz
+# id     : 14-35
+# gbid   : 2177
+# series : Sexuality Decision-Making Series for Teens
+# title  : Too Soon for Sex?
+# author : Christine DeVault
+# credit: 
+#   - name : Jeremy Douglass
+#     role : encoder
+#     date : 2017-04-16
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+#From	To	Label	Comment
+
+0	1
+1	12	1A
+	19	1B
+12	29
+19	28	2A
+	24	2B
+24	42	3A
+	26	3B
+26	45	4A
+	53	4B
+28	37
+29	36	5A
+	56	5B
+36	37			"Turn to the next page."
+37	89
+42	50
+45	50			"Turn to the next page."
+50	116
+53	58
+56	58
+58	60	6A
+	64	6B
+60	116
+64	74	7A
+	81	7B
+74	99	8A
+	101	8B
+81	89			"Turn to the next page."
+89		E
+99		E
+101	112	9A
+	114	9B
+112		E
+114	116			"Turn to the next page."
+116		E

@@ -1,0 +1,61 @@
+# ---
+# group  : Katz
+# id     : 42-19
+# gbid   : 7581
+# series : Choose Your Own Adventure - The Golden Path
+# title  : Burned by the Inner Sun
+# author : Anson Montgomery
+# credit: 
+#   - name : Jeremy Douglass
+#     role : encoder
+#     date : 2017-04-16
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+x	33		recap
+	52
+	1		recap
+	29
+1	154
+	83
+5		E
+7		E
+10	5
+11	VIII		"Continues in The Golder Path, Volume III"
+13	103
+29	179
+	177
+33	35
+35	13
+	44
+41		E
+44		E
+47	143
+52	54
+54	62
+	181
+62	10
+	146
+79		E
+83	132
+	41
+103	79
+	107
+107	163
+	157
+129	47
+132	VIII		"Continues in The Golder Path, Volume III"
+143	11
+146	7
+	129
+154		E
+157		E
+163	VIII		"Continues in The Golder Path, Volume III"
+177		E
+179		E
+181		E

@@ -1,0 +1,62 @@
+# ---
+# group  : Katz
+# id     : 14-36
+# gbid   : 2177
+# series : Sexuality Decision-Making Series for Teens
+# title  : Don't Let It Get Around
+# author : Christine DeVault
+# credit: 
+#   - name : Jeremy Douglass
+#     role : encoder
+#     date : 2017-04-16
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+#From	To	Label	Comment
+
+0	1
+1	22	1A
+	24	1B
+22	43
+24	38	2
+	39	2
+38	41	3
+	50	3
+39	42
+41	42			"Turn to the next page."
+42	43			"Go to the next page."
+43	52	4
+	58	4
+50	94	5
+	124	5
+52	67
+58	70	6
+	76	6
+67		E
+70	102
+76	106	7
+	116	7
+94	118	8
+	124	8
+102		E
+106				Printing error - no pg heading number
+106	145
+116	133	9
+	138	9
+118	162
+124	137
+133	143
+137		E
+138	143			"Go to the next page."
+143	145			"Go to the next page."
+145	152	10
+	157	10
+152	162
+157	159			"Go to the next page."
+159		E
+162		E

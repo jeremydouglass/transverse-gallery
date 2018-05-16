@@ -1,0 +1,37 @@
+# ---
+# group  : Katz
+# id     : 14-19
+# gbid   : 1678
+# series : Make Your Dreams Come True
+# title  : What Money Can't Buy
+# author : Kristi Russell
+# credit: 
+#   - name : Jeremy Douglass
+#     role : encoder
+#     date : 2017-04-16
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
+#From	To	Label	Comment
+
+9	16
+	34
+16	51
+	69
+34	87
+	104
+51	117
+	134
+69		E
+87		E
+104	149
+	167
+117		E
+134		E
+149		E
+167		E

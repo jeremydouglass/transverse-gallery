@@ -1,0 +1,185 @@
+# ---
+# group  : Katz
+# id     : 02-07
+# gbid   : 534
+# series : CYOA
+# title  : War with the Evil Power Master
+# author : R.A. Montgomery
+# credit: 
+#   - name : Cindy Lam
+#     role : encoder
+#     date : 2018-03-16
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-05-04
+# render:
+#   - name   : small
+#     styles : gvStyles.txt
+#     engine : dot
+# comment: >
+#
+# ---
+
+#From	To	Label	Comment
+
+1	2
+2	3
+3	6
+3	8
+4	46
+4	49
+5		E
+6	11
+8	9
+9	18
+9	15
+10 	12
+10 	23
+11 	16
+11 	21
+12 	13
+13 	42
+13 	75
+15 	20
+16	17
+17	24
+17	29
+18	10
+20	4
+21	25
+21	33
+23	30
+23	39
+24	27
+25	28
+27	36
+27	91
+28	55
+28	52
+29	32
+30		E
+32	48
+32	60
+33	35
+35	38
+36		E
+37		E
+38	61
+38	43
+39	41
+41	44
+42	79
+42	82
+43	74
+44		E
+45	63
+46	5
+46	77
+48	92
+48	94
+49	51
+51	54
+52	53
+53	70
+53	72
+54	68
+54	45
+55	37
+55	57
+57	62
+58	59
+59	66
+60	95
+60	98
+61	65
+62	117
+62	67
+63	86
+63	89
+65		E
+66		E
+67		E
+68	69
+69	73
+70	71
+71	76
+72	100
+73	114
+73	83
+74		E
+75	84
+75	104
+76	88
+77		E
+78		E
+79	80
+80	87
+81	87
+82	107
+82	101
+83		E
+84		E
+86	112
+87		E
+88		E
+89	109
+89	110
+90	93
+91		E
+92	90
+92	58
+93		E
+94	97
+95		E
+97		E
+98		E
+100		E
+101	108
+102		E
+104	105
+105	111
+105	118
+107	78
+107	102
+108		E
+109		E
+110		E
+111		E
+112	113
+113		E
+114	115
+115		E
+117		E
+118		E
+
+#################
+#Illustrations
+
+6		ILL
+15		ILL
+18		ILL
+23		ILL
+27		ILL
+30		ILL
+46		ILL
+57		ILL
+65		ILL
+84		ILL
+97		ILL
+98		ILL
+102		ILL
+107		ILL
+117		ILL
+
+34		IAFTER	2PG
+37		IBEFORE	
+39		IMID	CONTINUE 2PG TOP
+43		IAFTER	
+49		IMID	CONTINUE 2PG TOP
+68		IBEFORE	2PG
+70		IBEFORE	2PG
+79		IMID	CONTINUE 2PG TOP
+93		IBEFORE	
+105		IBEFORE	
+112		IAFTER	2PG TOP
+114		IAFTER	

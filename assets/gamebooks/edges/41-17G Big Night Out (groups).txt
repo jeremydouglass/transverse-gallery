@@ -1,0 +1,412 @@
+# ---
+# group  : Katz
+# id     : 41-17
+# gbid   : 1140
+# series : Big Night Out
+# title  : Big Night Out
+# author : Lorraine Freeney, Tara McCarthy
+# credit: 
+#   - name : Jeremy Douglass
+#     role : encoder
+#     date : 2017-10-04
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-16
+# render:
+#   - name   : small
+#     styles : gvStyles.txt
+#     engine : dot
+# comment: >
+#          The first choice on page two is a subtle
+#          protagonist selection -- "To go to the Pub"
+#          chooses the male roomate as avatar / protagonist,
+#          "To go to Suzy's house" chooses the female roommate.
+#     
+# ---
+
+1	2
+2	6
+2	3
+3	8
+	16
+	10
+6	9
+	45
+8	19
+	21
+9	11
+	50
+10	14
+	13
+11	15
+	53
+13	16
+14	32
+	29
+15	18
+	57
+16	24
+	26
+18	60
+	20
+19	36
+	41
+20	22
+	63
+21	44
+	47
+22	25
+	66
+24	51
+	55
+25	28
+	68
+26	59
+	62
+28	30
+	72
+29	65
+30	34
+	76
+32	67
+	65
+34	38
+36	70
+	74
+38	40
+	79
+40	42
+	83
+41	78
+	81
+42		E
+		WIN
+		Mark
+44		E
+45	85
+	87
+47	84
+	302
+	86
+50	18
+51	88
+	92
+53	89
+	91
+55		E
+		Kristy
+57	93
+	96
+59	90
+	92
+60	98
+	100
+62	92
+63	102
+	106
+65	95	Christopher	Sexual orientation choice - homosexual
+	99	Christine	Sexual orientation choice - heretosexual
+66	109
+	111
+67	65
+68		E
+		Peter
+70	101
+	104
+72		E	McCormick's
+74		E	hangover
+76		E	mugged
+78	183
+79		E	side with his ex-girlfriend
+81	107
+	110
+83		E	fight hostess
+84		E	sex club
+85	114
+	116
+86	49
+87	119
+	123
+88		E	drunk tank
+89		E	help heart attack
+90	92
+91	18
+92	308
+	113
+93		E	Hollywood hookups
+95	121
+	144
+96		E	help mugging
+98	20
+	126
+99	299
+100	129
+	131
+101	124
+	191
+102	133
+	137
+104		E	police witness
+106	137
+107	128
+	130
+109	30
+110	299
+111	140
+	143
+113	322
+	118
+114	146
+	149
+116	153
+	158
+118	132
+	135
+119	161
+	165
+121	139
+	142
+123	167
+	170
+124	160
+	163
+126	174
+	177
+128		E	Howard Stern party
+129	179
+	182
+130	302
+131	179
+	182
+132		E	missed Sadie
+133	184
+	186
+135	341
+	353
+137		E	wrong apartment
+139		E	gay bar
+140	189
+	192
+142	148
+	144
+143	195
+	199
+144	155
+	151
+146	167
+	170
+148		E	drank a mickey
+149	202
+	355
+151	176
+	178
+153	204
+	207
+155	181
+	183
+158	210
+	214
+160	168
+	172
+161		E	Mark's roommate
+163	185
+	187
+165	22
+167	218
+168	191
+	194
+170	221
+	218
+172		E	psych eval
+174		E	Nick's kiss
+176	197
+	201
+177		E	Nick
+178	203
+179		E	
+181		E	embarrassed at home
+182	225
+	228
+183		E	drunk cab ride
+184		E	Jane romance
+185	206
+186		E	Jane raincheck
+187	208
+	212
+189		E	Mark crossdressing
+191	216
+	220
+192	232
+	179
+194	223
+	191
+195	234
+	236
+197	227
+	230
+199	240
+	245
+201	235
+	242
+202	179
+	249
+203		E	no Sadie at party
+204	253
+	256
+206	233
+	304
+207	258
+	260
+208		E	blackout drunk
+210	263
+	267
+212	247
+	251
+214		E	care for drunk Suzy
+216	255		same next -- but rolling / not rolling the joint is checked at 335
+	255
+218		E	stopped by ex
+220	265
+	269
+221	218
+223	273
+	276
+225	271
+	274
+227		E	report taxi accident
+228	278
+	282
+230		E	support friend coming out
+232	286
+	288
+233		E	drunk
+234		E	no cocaine, no Mark
+235	238
+	332
+236		E	bad cocaine, no Mark
+238		E	Sadie snores
+240		E	with Mark in ER
+242	277
+	280
+245		E	Peter
+247		E	Sadie unimpressed
+249	291
+	294
+	179
+251	284
+253	297
+	300
+255	259
+	262
+256	311
+	319
+258		E	Las Vegas for Hayley's wedding
+259	287
+	290
+260		E	fly away with Hayley
+262	299
+263		E	drunken swing dance fall
+265		E	Lisa says leave
+267		E	dancing with Jeff
+269		E	Lisa has a boyfriend
+271	339
+	346
+273		E	Dave leaves
+274		E	Suzy's lipstick
+276	302
+277	326
+	328
+	333
+278		E	Alex is sixteen
+280	329
+	330
+282		E	Meg chases Mark home
+284		E	forgetting Sadie's apartment no.
+286		E	Peter hookup and regret
+287	335
+	337
+288		E	Peter's pornography
+290	293
+	296
+291		E	Bryan loses a bet
+293		E	jail for drug possession
+294		E	roommates together
+296		E	questioned by cops
+297		E	throwing up on Mark
+299		E	roommates hook up
+300		E	ditch Mark with Hayley
+302	309
+	313
+304	306
+	307
+306		E	ruining the party
+307		E	home with Sadie
+308		E	Sadie hates smoking
+309	314
+	316
+311		E	sick Hayley interrupts Mark moment
+313		E	Dave and Sadie, apartment break-in
+314		E	Lisa and unprotected sex
+316	318
+	321
+318	322
+	324
+319		E	Mark smell misunderstanding
+321		E	Sadie leaves a fake number
+322		E	roommates together
+324		E	Sadie bad hookup
+326		E	Hookup with Elizabeth and Mike
+328		E	Non-hookup with Elizabeth and Mike
+329	332
+	334
+330		E	Hookup with Elizabeth and not Mike
+332		E	Home with Elizabeth
+333		E	Sadie thinks you are uptight
+334		E	Bound and filmed
+335	344		State check: "If you didn't roll a joint at Lisa's"
+	343		State check: "If you did"
+337		E	Missed meeting Sadie
+339		E	Playing with Nick and Suzy
+341	351
+	352
+343		E	Sadie throws up
+344	345
+	347
+345	360
+	349
+346		E	Mark says call me
+347	356
+	357
+	358
+349		E	Sadie says never again
+351		E	Amanda realizes she is late
+353		E	Sadie is a stalker
+355	179
+356		E	Sadie hates the horror story
+357		E	Sadie is triggered by the horror story
+358		E	Sadie loves the gross story, marriage
+360		E	
+
+
+179		WIN
+		roommate(m)
+294		WIN
+		roommate(m)
+299		WIN
+		roommate(f)
+322		WIN
+		roommate(f)
+307		WIN
+		Sadie
+346		WIN
+		Mark
+358		WIN
+		Sadie
+360		WIN
+		Sadie
+
+## Groups
+
++female	100,  102,  106,  109,  11,  111,  114,  116,  119,  123,  126,  129,  131,  133,  137,  140,  143,  146,  149,  15,  153,  158,  161,  165,  167,  170,  174,  177,  179,  18,  182,  184,  186,  189,  192,  195,  199,  20,  202,  204,  207,  210,  214,  218,  22,  221,  225,  228,  232,  234,  236,  240,  245,  249,  25,  253,  256,  258,  260,  263,  267,  271,  274,  278,  28,  282,  286,  288,  291,  294,  297,  30,  300,  311,  319,  339,  34,  346,  355,  38,  40,  42, 45, 50,  53,  57,  6,  60,  63,  66,  68,  72,  76,  79, 83,  85,  87,  89,  9,  91, 93,  96,  98
+
++male	10,  101,  104,  107,  110,  113,  118,  121,  124,  128,  13,  130,  132,  135,  139,  14,  142,  144,  148,  151,  155,  16,  160,  163,  168,  172,  176,  178,  181,  183,  185,  187,  19,  191,  194,  197,  201,  203,  206,  208,  21,  212,  216,  220,  223,  227,  230,  233,  235,  238,  24,  242,  247,  251,  255,  259,  26,  262,  265,  269,  273,  276,  277,  280,  284,  287,  29,  290,  293,  296,  299,  3,  302,  304,  306,  307,  308,  309,  313,  314,  316,  318,  32,  321,  322,  324,  326,  328,  329,  330,  332,  333,  334,  335,  337,  341,  343,  344,  345,  347,  349,  351,  352,  353,  356,  357,  358,  36,  360,  41,  44,  47,  49,  51,  55,  59,  62,  65,  67,  70, 74,  78,  8,  81,  84,  86,  88,  90,  92,  95,  99

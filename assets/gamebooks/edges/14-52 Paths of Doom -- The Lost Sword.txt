@@ -1,0 +1,134 @@
+# ---
+# group  : Katz
+# id     : 14-52
+# gbid   : 7408
+# series : Paths of Doom
+# title  : Lost Sword, The
+# author : Nancy Virginia Varian
+# credit: 
+#   - name : Jeremy Douglass
+#     role : encoder
+#     date : 2018-04-16
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#   Unusually, lexia beginnings are totally unmarked --
+#   pages begin with no page/lexia number or other heading
+#   whether mid-passage or the beginning of a new lexia.
+#   
+# ---
+
+#From	To	Label	Comment
+
+3	8
+	48
+8	22
+	16
+9	117
+	93
+10	79
+	117
+11	14
+	8
+14	16
+	51
+16		E
+17		E
+18	92
+	79
+19	10
+	46
+22	17
+	23
+23	40
+	105
+26	42
+	116
+27	17
+	33
+28	42
+	29
+29	34
+	41
+32	17
+	11
+33	28
+	117
+34	88
+	66
+37	8
+	28
+40	113
+	91
+41		E
+42		E
+43	64
+	94
+46	50
+	70
+48	67
+	32
+50	117
+	43
+51	33
+	110
+52	41
+	76
+53	91
+	114
+58	88
+	51
+61	40
+	101
+64	16
+	17
+66		E
+67	82
+	112
+70	26
+	123
+73	95
+	85
+76	108
+	91
+79	116
+82	33
+	58
+84	19
+	91
+85	116
+	98
+88	61
+	18
+91		E
+92		E
+93	84
+	37
+94	116
+	73
+95	52
+98	92
+101	104			"Turn the page to learn the choice offered by the phoenix"
+104	9
+	19
+105	116
+	40
+108	117
+	92
+110	42
+	66
+112	27
+	52
+113	91
+	118
+114	121
+	66
+116		E
+117		E
+118	92
+	117
+121	19
+	61
+123		E
