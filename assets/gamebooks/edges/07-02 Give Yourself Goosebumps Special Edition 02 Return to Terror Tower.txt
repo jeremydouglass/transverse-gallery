@@ -1,3 +1,25 @@
+# ---
+# group  : Katz
+# id     : 07-02
+# gbid   : 1243
+# series : Give Yourself Goosebumps Special Edition
+# title  : Return to Terror Tower
+# author : R.L. Stine
+# credit: 
+#   - name : Juliet Way-Henthorne
+#     role : encoder
+#     date : 2017-11-17
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2018-04-11
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+# comment: >
+#     
+# ---
+
 1	2
 2	3
 3	53

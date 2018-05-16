@@ -1,10 +1,10 @@
 # ---
 # group  : Katz
 # id     : 02-50
-# gbid   : 
+# gbid   : 485
 # series : CYOA
 # title  : Space Vampire
-# author : 
+# author : Edward Packard
 # credit: 
 #   - name : Ryan Leach
 #     role : encoder
@@ -20,23 +20,25 @@
 #     
 # ---
 
+#From	To	Label	Comment
+
 1	39
 2	3
 3	13
 4	42	jump in escape capsule
 	32	attempt to outwit space vampire
-6	44  	
-7	26  	
+6	44	
+7	26	
 9	117	take nap
 	100	stay awake and vigilant
-10	11  	
-11	48  	
-12	18  	
-13	14  	
+10	11	
+11	48	
+12	18	
+13	14	
 14	31	accept space vampire mission
 	9	accept miision to Barnard's star instead
-16	24  	
-17	85  	
+16	24	
+17	85	
 18	7	start private mission to catch SV
 	25	play it safe, follow rules
 20	37	suggest boarding Petra in space
