@@ -18,10 +18,10 @@
 #     engine : dot
 # comment: >
 #            interestingly, and not at all implied by the title, Cosmic Kidnappers
-             remediates using a computer within the format of the gamebook. especially see
-             p.88, which remediates the computational functions ESC, DELETE, PAUSE, and
-             RESET as page-turn options. DELETE and PAUSE end the game. ESC leads to another
-             structural branch. RESET takes the reader back to page 1. See graph.
+#            remediates using a computer within the format of the gamebook. especially see
+#            p.88, which remediates the computational functions ESC, DELETE, PAUSE, and
+#            RESET as page-turn options. DELETE and PAUSE end the game. ESC leads to another
+#            structural branch. RESET takes the reader back to page 1. See graph.
 # ---
 
 #From	To	Label	Comment
