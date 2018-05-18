@@ -18,8 +18,8 @@ topics:
     -  image_path: 07-11 Nightmares -- Castle of Horror (126).txt.gv.png
   rhizomatic:
     images:
-    -  image_path: 13-73 ** Troll FF -- Forbidden Towers (124).txt.gv.png
-    -  image_path: 07-01 Goosebumps S01 Into the Jaws of Doom (238).txt.gv.png
+    -  image_path: 13-73 Troll FF -- Forbidden Towers (124).txt.gv.png
+    -  image_path: 07-01 Give Yourself Goosebumps Special Edition 01 Into the Jaws of Doom (238).txt.gv.png
   branchnodes:
     images:
     -  image_path: 07-09 Nightmares -- Cave of Fear (126) --labeled.txt.gv.png
@@ -77,7 +77,7 @@ topics:
   falseendings:
     images:
      -  image_path: 13-70 Troll FF -- War of the Wizards.txt.gv.png
-     -  image_path: 13-72 Troll FF -- Magician's Ring.txt.gv.png
+     -  image_path: 13-72 Troll FF -- Magicians Ring.txt.gv.png
   fragments:
     images:
     -  image_path: 01-65v3 CYOA -- Vampire Express (broken).txt.gv.png
@@ -94,11 +94,6 @@ topics:
     -  image_path: 01-05 CYOA -- Cave of Time, The.txt.gv.png
     -  image_path: 01-07 CYOA -- Cave of Time, The (115).txt.gv.png
     -  image_path: 01-07v2 CYOA -- Cave of Time, The (115).txt.gv.png
-  thrombey:
-    images:
-    -  image_path: 01-31 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png
-    -  image_path: 01-32 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png
-    -  image_path: 01-33 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png
   snowman:
     images:
     -  image_path: 01-42 CYOA -- Abominable Snowman, The. (new edition from Jeremy collection).txt.gv.png
@@ -259,10 +254,6 @@ What's the difference between these two graphs?
 <h2>CYOA (The Cave of Time)</h2>
 
 {% include graph-set.html imagelist=page.topics.caveoftime.images scale="1" %}
-
-<h2>CYOA (Who Killed Harlowe Thrombey)</h2>
-
-{% include graph-set.html imagelist=page.topics.thrombey.images scale="1" %}
 
 <h2>CYOA (Abominable Snowman)</h2>
 
