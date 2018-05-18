@@ -1,0 +1,49 @@
+digraph g{
+  graph [ label="42-19 Choose Your Own Adventure - The Golden Path 02 Burned by the Inner Sun" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+
+  x -> 33;
+  x -> 52;
+  x -> 1;
+  x -> 29;
+  1 -> 154;
+  1 -> 83;
+  5	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  7	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  10 -> 5;
+  11 -> VIII;
+  13 -> 103;
+  29 -> 179;
+  29 -> 177;
+  33 -> 35;
+  35 -> 13;
+  35 -> 44;
+  41	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  44	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  47 -> 143;
+  52 -> 54;
+  54 -> 62;
+  54 -> 181;
+  62 -> 10;
+  62 -> 146;
+  79	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  83 -> 132;
+  83 -> 41;
+  103 -> 79;
+  103 -> 107;
+  107 -> 163;
+  107 -> 157;
+  129 -> 47;
+  132 -> VIII;
+  143 -> 11;
+  146 -> 7;
+  146 -> 129;
+  154	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  157	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  163 -> VIII;
+  177	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  179	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  181	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+}
+

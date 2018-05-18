@@ -1,0 +1,62 @@
+digraph g{
+  graph [ label="14-35 Sexuality Decision-Making Series -- Too Soon for Sex" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 14-35;
+  // gbid   : 2177;
+  // series : Sexuality Decision-Making Series for Teens;
+  // title  : Too Soon for Sex?;
+  // author : Christine DeVault;
+  // credit:;
+  // - name : Jeremy Douglass;
+  // role : encoder;
+  // date : 2017-04-16;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
+  0 -> 1;
+  1 -> 12	[ xlabel="1A" ];
+  1 -> 19	[ xlabel="1B" ];
+  12 -> 29;
+  19 -> 28	[ xlabel="2A" ];
+  19 -> 24	[ xlabel="2B" ];
+  24 -> 42	[ xlabel="3A" ];
+  24 -> 26	[ xlabel="3B" ];
+  26 -> 45	[ xlabel="4A" ];
+  26 -> 53	[ xlabel="4B" ];
+  28 -> 37;
+  29 -> 36	[ xlabel="5A" ];
+  29 -> 56	[ xlabel="5B" ];
+  36 -> 37;	// "Turn to the next page."
+  37 -> 89;
+  42 -> 50;
+  45 -> 50;	// "Turn to the next page."
+  50 -> 116;
+  53 -> 58;
+  56 -> 58;
+  58 -> 60	[ xlabel="6A" ];
+  58 -> 64	[ xlabel="6B" ];
+  60 -> 116;
+  64 -> 74	[ xlabel="7A" ];
+  64 -> 81	[ xlabel="7B" ];
+  74 -> 99	[ xlabel="8A" ];
+  74 -> 101	[ xlabel="8B" ];
+  81 -> 89;	// "Turn to the next page."
+  89	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  99	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  101 -> 112	[ xlabel="9A" ];
+  101 -> 114	[ xlabel="9B" ];
+  112	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  114 -> 116;	// "Turn to the next page."
+  116	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+}
+

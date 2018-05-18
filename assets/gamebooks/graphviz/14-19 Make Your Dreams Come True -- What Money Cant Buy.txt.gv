@@ -1,0 +1,43 @@
+digraph g{
+  graph [ label="14-19 Make Your Dreams Come True -- What Money Cant Buy" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 14-19;
+  // gbid   : 1678;
+  // series : Make Your Dreams Come True;
+  // title  : What Money Can't Buy;
+  // author : Kristi Russell;
+  // credit:;
+  // - name : Jeremy Douglass;
+  // role : encoder;
+  // date : 2017-04-16;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
+  9 -> 16;
+  9 -> 34;
+  16 -> 51;
+  16 -> 69;
+  34 -> 87;
+  34 -> 104;
+  51 -> 117;
+  51 -> 134;
+  69	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  87	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  104 -> 149;
+  104 -> 167;
+  117	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  134	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  149	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  167	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+}
+

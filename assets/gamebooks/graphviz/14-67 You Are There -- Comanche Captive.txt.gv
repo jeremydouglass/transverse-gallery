@@ -1,0 +1,78 @@
+digraph g{
+  graph [ label="14-67 You Are There -- Comanche Captive" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 14-67;
+  // gbid   : 3832;
+  // series : You Are There;
+  // title  : Comanche Captive;
+  // author : Bryce Milligan;
+  // credit:;
+  // - name : Jeremy Douglass;
+  // role : encoder;
+  // date : 2017-04-16;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
+  1 -> 3;
+  3 -> 35;
+  3 -> 47;
+  11 -> 57;
+  17 -> 129;
+  17 -> 55;
+  23 -> 97;
+  23 -> 31;	// go on to the next page
+  31 -> 67;
+  33	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  35 -> 79;
+  39	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  43 -> 61;
+  47 -> 57;
+  55 -> 147;
+  57 -> 43;
+  57 -> 33;
+  61 -> 83;
+  67 -> 113;
+  75 -> 93;
+  79 -> 11;
+  79 -> 39;
+  83 -> 23;
+  93 -> 147;
+  95	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  97 -> 103;	// go on to the next page
+  97 -> 127;
+  103 -> 153;
+  103 -> 137;
+  105 -> 108;	// go on to the next page
+  108	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  113 -> 17;
+  113 -> 75;
+  123 -> 131;
+  127 -> 133;
+  129	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  131 -> 135;
+  133 -> 95;
+  133 -> 105;
+  135 -> 141;
+  135 -> 159;
+  137 -> 143;
+  137 -> 139;	// go on to the next page
+  139 -> 108;
+  141	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  143	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  147 -> 155;
+  153	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  155 -> 123;
+  159 -> 165;
+  165	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+}
+

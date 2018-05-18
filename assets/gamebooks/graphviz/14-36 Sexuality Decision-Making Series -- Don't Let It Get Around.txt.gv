@@ -1,0 +1,68 @@
+digraph g{
+  graph [ label="14-36 Sexuality Decision-Making Series -- Don't Let It Get Around" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 14-36;
+  // gbid   : 2177;
+  // series : Sexuality Decision-Making Series for Teens;
+  // title  : Don't Let It Get Around;
+  // author : Christine DeVault;
+  // credit:;
+  // - name : Jeremy Douglass;
+  // role : encoder;
+  // date : 2017-04-16;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
+  0 -> 1;
+  1 -> 22	[ xlabel="1A" ];
+  1 -> 24	[ xlabel="1B" ];
+  22 -> 43;
+  24 -> 38	[ xlabel="2" ];
+  24 -> 39	[ xlabel="2" ];
+  38 -> 41	[ xlabel="3" ];
+  38 -> 50	[ xlabel="3" ];
+  39 -> 42;
+  41 -> 42;	// "Turn to the next page."
+  42 -> 43;	// "Go to the next page."
+  43 -> 52	[ xlabel="4" ];
+  43 -> 58	[ xlabel="4" ];
+  50 -> 94	[ xlabel="5" ];
+  50 -> 124	[ xlabel="5" ];
+  52 -> 67;
+  58 -> 70	[ xlabel="6" ];
+  58 -> 76	[ xlabel="6" ];
+  67	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  70 -> 102;
+  76 -> 106	[ xlabel="7" ];
+  76 -> 116	[ xlabel="7" ];
+  94 -> 118	[ xlabel="8" ];
+  94 -> 124	[ xlabel="8" ];
+  102	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  106;	// Printing error - no pg heading number
+  106 -> 145;
+  116 -> 133	[ xlabel="9" ];
+  116 -> 138	[ xlabel="9" ];
+  118 -> 162;
+  124 -> 137;
+  133 -> 143;
+  137	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  138 -> 143;	// "Go to the next page."
+  143 -> 145;	// "Go to the next page."
+  145 -> 152	[ xlabel="10" ];
+  145 -> 157	[ xlabel="10" ];
+  152 -> 162;
+  157 -> 159;	// "Go to the next page."
+  159	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  162	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+}
+

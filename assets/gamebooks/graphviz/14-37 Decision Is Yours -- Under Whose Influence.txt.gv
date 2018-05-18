@@ -1,0 +1,69 @@
+digraph g{
+  graph [ label="14-37 Decision Is Yours -- Under Whose Influence" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 14-37;
+  // gbid   : 740;
+  // series : Decision Is Yours, The;
+  // title  : Under Whose Influence?;
+  // author : Judy Laik;
+  // credit:;
+  // - name : Jeremy Douglass;
+  // role : encoder;
+  // date : 2017-04-16;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
+  0 -> 1;
+  1 -> 3;
+  1 -> 5;
+  3 -> 5;
+  3 -> 7;
+  5 -> 9;
+  5 -> 11;
+  7 -> 13;
+  7 -> 15;
+  7 -> 19;
+  9 -> 21;
+  9 -> 23;
+  11 -> 25;
+  11 -> 29;
+  13 -> 47;
+  13 -> 53;
+  15 -> 17;
+  17	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  19	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  21	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  23 -> 35;
+  23 -> 37;
+  25 -> 27;
+  27 -> 45;
+  29 -> 31;
+  31 -> 33;
+  33 -> 57;
+  33 -> 59;
+  35 -> 55;
+  35 -> 37;
+  37 -> 39;
+  39 -> 41;
+  41 -> 43;
+  43	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  45	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  47 -> 49;
+  49 -> 51;
+  51	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  53	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  55	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  57 -> 59;
+  59	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+}
+

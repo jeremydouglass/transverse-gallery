@@ -1,0 +1,98 @@
+digraph g{
+  graph [ label="41-31-1 Storytrails Book of Science Fiction, The" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 41-31;
+  // chapter: 1;
+  // gbid   : 7789;
+  // series : Storytrails;
+  // title  : Storytrails Book of Science Fiction, The;
+  // author : Allen Sharp;
+  // credit:;
+  // - name : Jeremy Douglass;
+  // role : encoder;
+  // date : 2018-04-04;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-04-04;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  // This compendium of four previously published books in the series.;
+  // They have other entries in the Katz Collection;
+  // A weird aspect of how this was reprinted is that the stories work;
+  // by lexia number, and that each story uses the same range of lexias,;
+  // from 1~40ish. You could accidentally turn from one story into;
+  // another if you aren't careful. That also means the chaptered;
+  // graph data can't co-exist easily in one graph  without qualifying;
+  // the lexia names.;
+  // See Storytrails #2: https://gamebooks.org/Item/2483;
+  
+  // ---;
+  
+  // Ch.1 Terror in the Fourth Dimension;
+  
+  // From | To | Label;
+  
+  1 -> 2;
+  2 -> 15;
+  2 -> 8;
+  2 -> 11;
+  3 -> 7;
+  3 -> 5;
+  4 -> 10;
+  5 -> 4;
+  6 -> 3;
+  7 -> 14;
+  8 -> 15;	// Image of interface (with encoded instructions?)
+  8 -> 12;
+  9 -> 13;
+  10 -> 17;
+  10 -> 16;
+  10 -> 19;
+  11 -> 12;	// Image of interface (with encoded instructions?)
+  11 -> 9;
+  12 -> 15;	// Image of interface (with encoded instructions?)
+  12 -> 8;
+  12 -> 6;
+  13 -> 8;
+  13 -> 15;
+  14 -> 18;
+  15 -> 8;	// Image of interface (with encoded instructions?)
+  15 -> 12;
+  16 -> 23;
+  17 -> 25;
+  18 -> 22;
+  18 -> 16;
+  18 -> 20;
+  19 -> 24;
+  20 -> 24;
+  21 -> 29;
+  22 -> 25;
+  23 -> 25;
+  24 -> 26;
+  24 -> 28;
+  25 -> 21;
+  25 -> 31;
+  26 -> 32;
+  27	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// Ending? Unmarked
+  28 -> 25;
+  29 -> 32;
+  30 -> 35;
+  30 -> 37;
+  31 -> 34;
+  32 -> 30;
+  32 -> 36;
+  33	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// Ending? Unmarked
+  34 -> 30;
+  34 -> 36;
+  35 -> 27;
+  36 -> 33;
+  36 -> 30;
+  37	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// Ending? Unmarked
+}
+

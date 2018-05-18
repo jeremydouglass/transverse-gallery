@@ -1,0 +1,136 @@
+digraph g{
+  graph [ label="02-23E CYOA -- Return to the Cave of Time (endings)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 02-23;
+  // gbid   : 521;
+  // series : CYOA;
+  // title  : Return to the Cave of Time;
+  // author : Edward Packard;
+  // credit:;
+  // - name : Ryan Leach;
+  // role : encoder;
+  // date : 2017-09-01;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : ?;
+  // styles : ?;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
+  1 -> 3;
+  3 -> 11;	// see the beginning of time
+  3 -> 17;	// see the end of time
+  4 -> 10;
+  5 -> 8;
+  6 -> 47;	// choose the future
+  6 -> 66;	// choose the past
+  7 -> 19;
+  8 -> 92;
+  10 -> 99;
+  11 -> 6;
+  12 -> 18;
+  14 -> 26;
+  15	[ xlabel="E-GOOD" ];	// Tahiti
+  17 -> 6;
+  18 -> 110;
+  19	[ xlabel="E-BAD" ];	// War
+  20 -> 5;
+  21 -> 81;
+  22	[ xlabel="E-GOOD" ];	// Return home with caveman
+  25 -> 12;	// escape through porthole and swim
+  25 -> 53;	// stay on ship
+  26 -> 78;
+  27 -> 35;
+  29 -> 32;
+  30 -> 33;
+  32 -> 54;	// shuttle to Alpha Alpha (advanced civ)
+  32 -> 95;	// shuttle to Earth
+  33 -> 89;
+  35 -> 48;
+  36 -> 77;
+  37 -> 42;
+  38 -> 45;
+  40 -> 41;
+  41 -> 59;	// walk south for warmth
+  41 -> 27;	// stay in camp through winter
+  41 -> 49;	// return to Cave of Time; take chances with giant cave bear
+  42 -> 70;	// jump back into space capsule
+  42 -> 115;	// watch what happens
+  44 -> 55;	// (on Atlantic slave ship) try to free the slaves
+  44 -> 76;	// try to talk to the captain
+  45	[ xlabel="E-OK" ];	// Changed Captain's views on slavery but without changing history
+  47 -> 52;
+  48	[ xlabel="E-OK" ];	// Survive winter; promise of becoming chief
+  49 -> 36;
+  50 -> 93;
+  52 -> 68;
+  53 -> 61;
+  54 -> 62;
+  55 -> 63;
+  56 -> 57;
+  57 -> 107;	// risk eating mushrooms
+  57 -> 30;	// don't risk it
+  58;	// live forever as space commander
+  59 -> 73;
+  61	[ xlabel="E-OK" ];	// Simple life on remote island
+  62	[ xlabel="E-OK" ];
+  63	[ xlabel="E-BAD" ];	// Cast Overboard for trying to free the slaves (upheld principles (good), but died (bad))
+  65 -> 21;	// keep moving
+  65 -> 40;	// turn back
+  66 -> 67;
+  67 -> 50;	// climb up wall of cave
+  67 -> 56;	// exit cave
+  68 -> 80;
+  70 -> 74;
+  71 -> 82;
+  73	[ xlabel="E-BAD" ];	// ravaged by wolves and saber-toothed tiger
+  74 -> 84;
+  76 -> 91;
+  77 -> 97;
+  78	[ xlabel="E-OK" ];	// safely land in Sintra (new Earth), but humans are now crickets
+  80 -> 108;
+  81	[ xlabel="E-OK" ];	// become shaman of the tribe
+  82	[ xlabel="E-BAD" ];	// death at sea
+  84 -> 85;
+  85 -> 20;	// seek out the Cave of Time
+  85 -> 58;	// stay in the distant future
+  86 -> 90;
+  89 -> 96;
+  90 -> 102;
+  91 -> 38;
+  92 -> 100;
+  93 -> 22;
+  94 -> 95;
+  95 -> 37;	// land on uninhabitable Earth c.2303
+  95 -> 14;	// redirect to Sintra
+  96 -> 65;	// go with tribe
+  96 -> 4;	// go on raft
+  97 -> 112;
+  99 -> 103;
+  100 -> 105;	// risk crossing to catch bus
+  100 -> 86;	// do not risk
+  101 -> 104;
+  102 -> 113;
+  103 -> 44;
+  104 -> 25;
+  105 -> 66;
+  107	[ xlabel="E-BAD" ];	// death from poisonous mushrooms
+  108 -> 109;
+  109 -> 7;	// accept a life of perpetual pleasure
+  109 -> 29;	// refuse
+  110 -> 15;
+  112 -> 101;	// join mutiny, risk hanging
+  112 -> 71;	// join capt bligh, risk starving
+  113	[ xlabel="E-OK" ];
+  115	[ xlabel="E-BAD" ];	// strangled by wires
+}
+

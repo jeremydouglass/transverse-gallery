@@ -11,7 +11,6 @@ box_folder	box	folder	image
 01-27	01	27	01-27 CYOA -- Third Planet from Altair, The.txt.gv.png
 01-29	01	29	01-29 CYOA -- Deadwood City.txt.gv.png
 01-31	01	31	01-31 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png
-01-32	01	32	01-32 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png
 01-33	01	33	01-33 CYOA -- Who Killed Harlowe Thrombey.txt.gv.png
 01-35	01	35	01-35 CYOA -- Lost Jewels of Nabooti, The.txt.gv.png
 01-37	01	37	01-37 CYOA -- Mystery of the Maya.txt.gv.png
@@ -39,14 +38,53 @@ box_folder	box	folder	image
 01-65	01	65	01-65 CYOA -- Vampire Express.txt.gv.png
 01-65	01	65	01-65v2 CYOA -- Vampire Express (printing-error).txt.gv.png
 01-65	01	65	01-65v3 CYOA -- Vampire Express (broken).txt.gv.png
+02-01	02	01	02-01 CYOA -- Vampire Express.txt.gv.png
+02-02	02	02	02-02 CYOA -- Treasure Diver.txt.gv.png
+02-03	02	03	02-03 CYOA -- Dragon's Den, The.txt.gv.png
+02-04	02	04	02-04 CYOA -- Mystery of Highland Crest, The.txt.gv.png
+02-05	02	05	02-05 CYOA -- Journey to Stonehenge.txt.gv.png
+02-06	02	06	02-06 CYOA -- Secret Treasure of Tibet, The.txt.gv.png
 02-07	02	07	02-07 CYOA -- War with the Evil Power Master (118) delay rush.txt.gv.png
 02-07	02	07	02-07 CYOA -- War with the Evil Power Master (118) no tags.txt.gv.png
 02-07	02	07	02-07 CYOA -- War with the Evil Power Master (118).txt.gv.png
-02-23	02	23	02-23 CYOA 50 Return to the Cave of Time (115).txt.gv.png
+02-07	02	07	02-07 CYOA -- War with the Evil Power Master.txt.gv.png
+02-08	02	08	02-08 CYOA -- Sabotage.txt.gv.png
+02-09	02	09	02-09 CYOA -- Supercomputer.txt.gv.png
+02-11	02	11	02-11 CYOA -- Throne of Zeus, The.txt.gv.png
+02-12	02	12	02-12 CYOA -- Search for the Mountain Gorillas.txt.gv.png
+02-13	02	13	02-13 CYOA -- The Mystery of Echo Lodge.txt.gv.png
+02-14	02	14	02-14 CYOA -- Grand Canyon Odyssey.txt.gv.png
+02-15	02	15	02-15 CYOA -- Mystery of Ura Senke, The.txt.gv.png
+02-16	02	16	02-16 CYOA -- You are a Shark.txt.gv.png
+02-17	02	17	02-17 CYOA -- Deadly Shadow, The.txt.gv.png
+02-18	02	18	02-18 CYOA -- Outlaws of Sherwood Forest, The.txt.gv.png
+02-19	02	19	02-19 CYOA -- Spy for George Washington.txt.gv.png
+02-21	02	21	02-21 CYOA -- Danger at Anchor Time.txt.gv.png
+02-23	02	23	02-23 CYOA -- Return to the Cave of Time.txt.gv.png
+02-23	02	23	02-23E CYOA -- Return to the Cave of Time (endings).txt.gv.png
+02-24	02	24	02-24 CYOA -- Magic of the Unicorn, The.txt.gv.png
+02-26	02	26	02-26 CYOA -- Ghost Hunter.txt.gv.png
+02-28	02	28	02-28 CYOA -- Case of the Silk King, The.txt.gv.png
+02-29	02	29	02-29 CYOA -- Forest of Fear.txt.gv.png
+02-30	02	30	02-30 CYOA -- Trumpet of Terror, The.txt.gv.png
+02-31	02	31	02-31 CYOA -- Enchanted Kingdom, The.txt.gv.png
+02-32	02	32	02-32 CYOA -- Antimatter Formula, The.txt.gv.png
+02-33	02	33	02-33 CYOA -- Statue of Liberty Adventure.txt.gv.png
+02-34	02	34	02-34 CYOA -- Terror Island.txt.gv.png
+02-35	02	35	02-35 CYOA -- Vanished.txt.gv.png
+02-36	02	36	02-36 CYOA -- Beyond Escape!.txt.gv.png
+02-37	02	37	02-37 CYOA -- Sugarcane Island.txt.gv.png
+02-38	02	38	02-38 CYOA -- Mystery of the Secret Room.txt.gv.png
+02-41	02	41	02-41 CYOA -- Volcano.txt.gv.png
+02-42	02	42	02-42 CYOA -- Mardi Gras Mystery, The.txt.gv.png
+02-43	02	43	02-43 CYOA -- Secret of the Ninja.txt.gv.png
+02-45	02	45	02-45 CYOA -- Seaside Mystery.txt.gv.png
 02-50	02	50	02-50 CYOA -- Space Vampire.txt.gv.png
-02-50	02	50	02-50v2 CYOA 71 Space Vampire labels no tags.txt.gv.png
+02-50	02	50	02-50E1 CYOA -- Space Vampire (endings tagged).txt.gv.png
+02-50	02	50	02-50E2 CYOA -- Space Vampire (endings no tags).txt.gv.png
+02-51	02	51	02-51 CYOA -- The Brilliant Dr. Wogan.txt.gv.png
+02-52	02	52	02-52 CYOA -- Beyond the Great Wall.txt.gv.png
 03-01	03	01	03-01 CYOA -- Inca Gold.txt.gv.png
-03-02	03	02	03-02 CYOA -- Knights of the Round Table.txt.gv.png
 03-03	03	03	03-03 CYOA -- Exiled to Earth.txt.gv.png
 03-04	03	04	03-04 CYOA -- Master of Kung Fu.txt.gv.png
 03-05	03	05	03-05 CYOA -- South Pole Sabotage.txt.gv.png
@@ -283,7 +321,7 @@ box_folder	box	folder	image
 06-35	06	35	06-35 Goosebumps 18 Attack of the Beastly Baby-Sitter.txt.gv.png
 06-36	06	36	06-36 Goosebumps 19 Escape From Camp Run-For-Your-Life.txt.gv.png
 06-37	06	37	06-37 Goosebumps 20 Toy Terror- Batteries Included.txt.gv.png
-06-38	06	38	06-38 Goosebumps 21 The Twisted Tale of Tiki Island.txt.gv.png
+06-38	06	38	06-38 Goosebumps 21 Twisted Tale of Tiki Island, The.txt.gv.png
 06-39	06	39	06-39 Goosebumps 22 Return to the Carnival of Horrors.txt.gv.png
 06-40	06	40	06-40 Goosebumps 23 Zapped in Space.txt.gv.png
 06-41	06	41	06-41 Goosebumps 24 Lost in Stinkeye Swamp.txt.gv.png
@@ -293,7 +331,7 @@ box_folder	box	folder	image
 06-45	06	45	06-45 Goosebumps 28 Night of a Thousand Claws.txt.gv.png
 06-46	06	46	06-46 Goosebumps 29 Invaders from the Big Screen.txt.gv.png
 06-47	06	47	06-47 Goosebumps 30 You're Plant Food!.txt.gv.png
-06-48	06	48	06-48 Goosebumps 31 The Werewolf of Twisted Tree Lodge.txt.gv.png
+06-48	06	48	06-48 Goosebumps 31 Werewolf of Twisted Tree Lodge, The.txt.gv.png
 06-49	06	49	06-49 Goosebumps 32 It's Only a Nightmare!.txt.gv.png
 06-50	06	50	06-50 Goosebumps 33 It Came from the Internet.txt.gv.png
 06-51	06	51	06-51 Goosebumps 34 Elevator to Nowhere.txt.gv.png
@@ -305,13 +343,14 @@ box_folder	box	folder	image
 06-57	06	57	06-57 Goosebumps 40 Zombie School.txt.gv.png
 06-58	06	58	06-58 Goosebumps 41 Danger Time.txt.gv.png
 06-59	06	59	06-59 Goosebumps 42 All-Day Nightmare.txt.gv.png
-07-01	07	01	07-01 Goosebumps S01 Into the Jaws of Doom (238).txt.gv.png
-07-02	07	02	07-02 Give Yourself Goosebumps Special Edition 02 Return to Terrow Tower.txt.gv.png
+07-01	07	01	07-01 Give Yourself Goosebumps Special Edition 01 Into the Jaws of Doom (238).txt.gv.png
+07-02	07	02	07-02 Give Yourself Goosebumps Special Edition 02 Return to Terror Tower.txt.gv.png
 07-03	07	03	07-03 Give Yourself Goosebumps Special Edition 3 Trapped in the Circus of Fear.txt.gv.png
 07-04	07	04	07-04 Give Yourself Goosebumps Special Edition 04 One Night in Payne House.txt.gv.png
 07-05	07	05	07-05 Give Yourself Goosebumps Special Edition 05 The Curse of the Cave Creatures.txt.gv.png
 07-06	07	06	07-06 Give Yourself Goosebumps Special Edition 06 Revenge of the Body Squeezers.txt.gv.png
 07-07	07	07	07-07 Give Yourself Goosebumps Special Edition 07 Trick or...Trapped.txt.gv.png
+07-08	07	08	07-08 Give Yourself Goosebumps Special Edition 08 Weekend at Poison Lake.txt.gv.png
 07-09	07	09	07-09 Nightmares -- Cave of Fear (126) --annotated.txt.gv.png
 07-09	07	09	07-09 Nightmares -- Cave of Fear (126) --corrected.txt.gv.png
 07-09	07	09	07-09 Nightmares -- Cave of Fear (126) --labeled.txt.gv.png
@@ -422,6 +461,17 @@ box_folder	box	folder	image
 09-55	09	55	09-55 Which Way Books 17 Invasion of the Mutants.txt.gv.png
 09-56	09	56	09-56 Which Way Books 18 Islands of Terror.txt.gv.png
 09-57	09	57	09-57 Which Way Books 19 Nightmare Planet.txt.gv.png
+09-58	09	58	09-58 Which Way Books 20 Mind Bandits.txt.gv.png
+09-59	09	59	09-59 Which Way Books 21 Ten-Ton Monster.txt.gv.png
+09-60	09	60	09-60 Which Way Books 22 The Champ of TV Wrestling.txt.gv.png
+09-61	09	61	09-61 Which Way Books 23 Monster Express.txt.gv.png
+09-62	09	62	09-62 Which Way Books 24 Star Trek: Phaser Fight.txt.gv.png
+09-63	09	63	09-63 Play-It-Your-Way Sports Books 01 Can You Win the Pennant.txt.gv.png
+09-64	09	64	09-64 Play-It-Your-Way Sports Books 02 Pro Football Showdown.txt.gv.png
+09-65	09	65	09-65 Play-It-Your-Way Sports Books 03 World Series Pressure.txt.gv.png
+09-66	09	66	09-66 Play-It-Your-Way Sports Books 04 Super Bowl Sunday.txt.gv.png
+09-67	09	67	09-67 Play-It-Your-Way Sports Books 05 Opening Day.txt.gv.png
+09-68	09	68	09-68 Play-It-Your-Way Sports Books 06 .txt.gv.png
 10-01	10	01	10-01 WWY 01 Forest of Twisted Dreams, The.txt.gv.png
 10-03	10	03	10-03 WWY 02 Siege of the Dragonriders, The.txt.gv.png
 10-04	10	04	10-04 WWY 03 Who Kidnapped Princess Saralinda.txt.gv.png
@@ -551,7 +601,7 @@ box_folder	box	folder	image
 13-11	13	11	13-11 PIYAS -- Star Trek II (126).txt.gv.png
 13-12	13	12	13-12 Storytrails -- Stone of Badda.txt.gv.png
 13-19	13	19	13-19 Rollercoaster Tycoon -- Sudden Turn.txt.gv.png
-13-25	13	25	13-25 IYC -- Serena's Secret (80).txt.gv.png
+13-25	13	25	13-25 IYC -- Serenas Secret (80).txt.gv.png
 13-28	13	28	13-28 Powerpuff Girls -- Career-Day Blossom (64).txt.gv.png
 13-56	13	56	13-56B Survivor -- Thailand.txt.gv.png
 13-60	13	60	13-60 Troll AA -- Cosmic Kidnappers (116) remediates computer functions.txt.gv.png
@@ -563,8 +613,8 @@ box_folder	box	folder	image
 13-67	13	67	13-67 Troll FA -- Mystery at Loch Ness (99).txt.gv.png
 13-70	13	70	13-70 Troll FF -- War of the Wizards.txt.gv.png
 13-71	13	71	13-71 Troll FF -- Master of Mazes.txt.gv.png
-13-72	13	72	13-72 Troll FF -- Magician's Ring.txt.gv.png
-13-73	13	73	13-73 ** Troll FF -- Forbidden Towers (124).txt.gv.png
+13-72	13	72	13-72 Troll FF -- Magicians Ring.txt.gv.png
+13-73	13	73	13-73 Troll FF -- Forbidden Towers (124).txt.gv.png
 13-74	13	74	13-74 Troll SIY -- Mystery at the Bike Race (122).txt.gv.png
 13-76	13	76	13-76 Troll SIY -- Missing Rock Star Caper (117).txt.gv.png
 14-01	14	01	14-01 What If Books 01 Ride the Blue Bazoo.txt.gv.png
@@ -586,6 +636,7 @@ box_folder	box	folder	image
 14-16	14	16	14-16 Make Your Dreams Come True 02 Winning at Love.txt.gv.png
 14-17	14	17	14-17 Make Your Dreams Come True -- Worthy Opponents.txt.gv.png
 14-18	14	18	14-18 Make Your Dreams Come True -- Dream Date.txt.gv.png
+14-19	14	19	14-19 Make Your Dreams Come True -- What Money Cant Buy.txt.gv.png
 14-21	14	21	14-21 Pick Your Own Dream Date -- Saturday Night Bash, The.txt.gv.png
 14-22	14	22	14-22 Pick Your Own Dream Date -- Spring Break.txt.gv.png
 14-23	14	23	14-23 Confidentially Yours -- Confidentially Yours.txt.gv.png
@@ -596,38 +647,56 @@ box_folder	box	folder	image
 14-28	14	28	14-28 Find Your Fate - Jem -- Video Caper, The.txt.gv.png
 14-29	14	29	14-29 Find Your Fate - Jem -- Secret of Rainbow Island.txt.gv.png
 14-30	14	30	14-30 Miss Adventure 01 Tangle in Tijuana.txt.gv.png
+14-31	14	31	14-31 Miss Adventure 02 Beauty Queen Blowout.txt.gv.png
 14-32	14	32	14-32 Ghostwriter -- Match of Wills.txt.gv.png
 14-33	14	33	14-33 Ghostwriter -- Amazement Park Adventure.txt.gv.png
-14-34	14	34	14-34 Sexuality Decision- Making Series -- Taking Chance with Sex.txt.gv.png
+14-34	14	34	14-34 Sexuality Decision-Making Series -- Taking Chance with Sex.txt.gv.png
+14-35	14	35	14-35 Sexuality Decision-Making Series -- Too Soon for Sex.txt.gv.png
+14-36	14	36	14-36 Sexuality Decision-Making Series -- Don't Let It Get Around.txt.gv.png
+14-37	14	37	14-37 Decision Is Yours -- Under Whose Influence.txt.gv.png
 14-38	14	38	14-38 Thrilling Adventures in Space -- Space Pilot.txt.gv.png
 14-40	14	40	14-40 Have Your Own Extra-Terrestrial Adventure.txt.gv.png
 14-41	14	41	14-41 You Can Be -- The Stainless Steel Rat.txt.gv.png
 14-43	14	43	14-43 Make Your Own Adventure With -- Doctor Who, The Garden of Evil.txt.gv.png
 14-44	14	44	14-44 Micro Adventure -- Robot Race.txt.gv.png
 14-45	14	45	14-45 Star Challenge -- The Exploding Suns.txt.gv.png
+14-47	14	47	14-47 Plot-Your-Own Horror Stories -- Escape from High Doom.txt.gv.png
 14-48	14	48	14-48 Find Your (Unfortunate) Fate -- Tales from the Crypt-Name Your Nightmare.txt.gv.png
 14-49	14	49	14-49 Animorphs Alternamorphs -- Next Passage, The.txt.gv.png
 14-50	14	50	14-50 Animorphs Alternamorphs -- First Journey.txt.gv.png
 14-51	14	51	14-51 Paths of Doom -- Sete-Ka's Dream Quest.txt.gv.png
+14-52	14	52	14-52 Paths of Doom -- The Lost Sword.txt.gv.png
 14-54	14	54	14-54 Make It Happen -- Master of the Past.txt.gv.png
 14-58	14	58	14-58 Tracker Books -- Codebreaker.txt.gv.png
 14-59	14	59	14-59 Tracker Books -- Skyjacked.txt.gv.png
 14-63	14	63	14-63 Storymaze -- The Golden Udder.txt.gv.png
-14-65	14	65	14-65 Storymaze -- Minaotaur's Maze, The.txt.gv.png
+14-64	14	64	14-64 Storymaze -- Minaotaur's Maze, The.txt.gv.png
 14-66	14	66	14-66 You Are There -- Battle of the Alamo.txt.gv.png
-22-06	22	06	22-06A 1 on 1 Adventure Gamebooks -- Challenge of Druid's Grove - Renwood.txt.gv.png
-22-06	22	06	22-06B 1 on 1 Adventure Gamebooks -- Challenge of Druid's Grove - Ar-kane.txt.gv.png
-22-09	22	09	22-09A 1 on 1 Marvel Super Heroes -- The King Takes a Dare - Daredevil.txt.gv.png
-22-09	22	09	22-09B 1 on 1 Marvel Super Heroes -- The King Takes A Dare - Kingpin.txt.gv.png
-22-13	22	13	22-13 Marvel Superheroes Adventure Gamebook 03 Wolverine.txt.gv.png
+14-67	14	67	14-67 You Are There -- Comanche Captive.txt.gv.png
+19-19	19	19	19-19 The Crown of the Kings.txt.gv.png
+22-03	22	03	22-03A 1 on 1 Adventure Gamebooks -- The Battle for the Ancient Robot - You are Mikael.txt.gv.png
+22-03	22	03	22-03B 1 on 1 Adventure Gamebooks --Battle of the Ancient Robot - E-Ben.txt.gv.png
+22-06	22	06	22-06A 1 on 1 Adventure Gamebooks -- Challenge of Druids Grove - Renwood.txt.gv.png
+22-06	22	06	22-06B 1 on 1 Adventure Gamebooks -- Challenge of Druids Grove - Ar-kane.txt.gv.png
+22-07	22	07	22-07A 1 on 1 Adventure Gamebooks -- The Amber Sword of Worlds End - Uthrac.txt.gv.png
+22-07	22	07	22-07B 1 on 1 Adventure Gamebooks -- The Amber Sword of Worlds End - Garth.txt.gv.png
+22-09	22	09	22-09A 1 on 1 Adventure Gamebooks -- The King Takes a Dare - Daredevil.txt.gv.png
+22-09	22	09	22-09B 1 on 1 Adventure Gamebooks -- The King Takes A Dare - Kingpin.txt.gv.png
+22-13	22	13	22-13 Marvel Super Heroes 03 Wolverine.txt.gv.png
+22-14	22	14	22-14 Marvel Super Heroes -- Doctor Strange.txt.gv.png
 22-17	22	17	22-17 Marvel Super Heroes -- Uncanny X-Men - An X-cellent Death.txt.gv.png
-22-19	22	19	22-19 Marvel Super Heroes Adventure Gamebook -- Daredevil.txt.gv.png
+22-19	22	19	22-19 Marvel Super Heroes -- Daredevil.txt.gv.png
 22-21	22	21	22-21 Knightmare -- The Labryinths of Fear.txt.gv.png
 22-22	22	22	22-22 Knightmare -- Fortress of Assasins.txt.gv.png
 22-29	22	29	22-29 SwordQuest -- Quest of the Unicorn's Horn.txt.gv.png
 22-30	22	30	22-30 SwordQuest -- Quest for the Elf King.txt.gv.png
+22-34	22	34	22-34 Demonspawn 01 Fire-Wolf.txt.gv.png
 22-35	22	35	22-35 Demonspawn 02 The Crypts of Terror.txt.gv.png
+22-37	22	37	22-37 Sagas of the Demonspawn 04 Ancient Evil.txt.gv.png
 22-38	22	38	22-38 Sagard the Barbarian -- The Ice Dragon.txt.gv.png
+27-16	27	16	27-16 Way of the Tiger 01 Avenger.txt.gv.png
+27-16	27	16	27-16G Way of the Tiger 01 Avenger (groups).txt.gv.png
+27-16	27	16	27-16J Way of the Tiger 01 Avenger (Ropeable JSON edition).txt.gv.png
 32-34	32	34	32-34 Scegli la tua avventura -- Sopravvivere in mare (Italian).txt.gv.png
 32-35	32	35	32-35 Scegli la tua avventura -- Oltre lo spazio (Italian).txt.gv.png
 32-43	32	43	32-43 La Corona Del Re Sole (Italian).txt.gv.png
@@ -659,12 +728,10 @@ box_folder	box	folder	image
 39-05	39	05	39-05 You Be the Jury - Courtroom III.txt.gv.png
 39-06	39	06	39-06 You Be the Jury - Courtroom IV.txt.gv.png
 39-07	39	07	39-07 You Be the Jury - Courtroom IV (REMAKE).txt.gv.png
-39-08	39	08	39-08 Solo Boxes.txt.gv.png
-39-09	39	09	39-09 Solo Noughts and Crosses.txt.gv.png
 39-10	39	10	39-10 Sleep and the City Trembles.txt.gv.png
 39-11	39	11	39-11 Clue 11 The Picture-Perfect Crime.txt.gv.png
 39-12	39	12	39-12 Clue 10 The Screaming Skeleton.txt.gv.png
-39-13	39	13	39-13 Clue Jr. 11 The Case of the Barking Dog.txt.gv.png
+39-13	39	13	39-13 Clue Jr. 11 Case of the Barking Dog, The.txt.gv.png
 39-14	39	14	39-14 Zebra Mystery Puzzler 44 The Witch's Tower Mystery.txt.gv.png
 39-15	39	15	39-15 A Solve-It-Yourself Mystery 58 The Laughing Dragon Mystery.txt.gv.png
 39-16	39	16	39-16 Star Wars-The Clone Wars Decide Your Destiny 01 The Way of the Jedi.txt.gv.png
@@ -682,10 +749,14 @@ box_folder	box	folder	image
 39-41	39	41	39-41 The Last Book.txt.gv.png
 41-11	41	11	41-11 Fiaba game -- Tu Sei il Califfo del Deserto (Italian).txt.gv.png
 41-12	41	12	41-12 Fiaba game -- Tu sei la Fata dei Folletti (Italian).txt.gv.png
+41-13	41	13	41-13 Straniero, Lo -- In Cerca di Fortuna (Italian).txt.gv.png
 41-14	41	14	41-14 Libri di Mondo Erre, I -- Avventure al Campo (Italian).txt.gv.png
 41-15	41	15	41-15 Libri di Mondo Erre, I -- I Misteri delle Catacombe (Italian).txt.gv.png
 41-16	41	16	41-16 Novecento Giochi -- Il Gobbo Maledetto (Italian).txt.gv.png
 41-17	41	17	41-17 Big Night Out.txt.gv.png
+41-17	41	17	41-17G Big Night Out (groups).txt.gv.png
+41-31	41	31	41-31-1 Storytrails Book of Science Fiction, The.txt.gv.png
+41-31	41	31	41-31-2 Storytrails Book of Science Fiction, The.txt.gv.png
 41-33	41	33	41-33 American Girls - The Two Month Itch (no readorder).txt.gv.png
 41-33	41	33	41-33 American Girls - The Two Month Itch.txt.gv.png
 41-34	41	34	41-34 Costruire i Libri-Gioco -- Chapter - il labirinto di certa.txt.gv.png
@@ -693,8 +764,12 @@ box_folder	box	folder	image
 41-34	41	34	41-34 Costruire i libri-gioco --Prologo (Italian).txt.gv.png
 42-01	42	01	42-01 Giocare a dadi col drago (Italian).txt.gv.png
 42-01	42	01	42-01 Giocare A Dadi Col Drago.txt.gv.png
+42-02	42	02	42-02 Warhammer 40K-Hive of the Dead.txt.gv.png
 42-10	42	10	42-10 Demian Katz -- The Bum's Rush.txt.gv.png
+42-19	42	19	42-19 Choose Your Own Adventure - The Golden Path 02 Burned by the Inner Sun.txt.gv.png
 42-28	42	28	42-28 DIY Jewish Adventures -- Melting Pot - an Adventure in New York, The.txt.gv.png
+42-29	42	29	42-29 --DRAFT-- DIY Jewish Adventures -- Other Side of the Hudson - A Jewish Immigrant Advenrture, The.txt.gv.png
+42-30	42	30	42-30--Until the Messiah Comes-DIY Jewish Adventures.txt.gv.png
 42-31	42	31	42-31 Sports Illustrated for Kids Play Book! -- Baseball - You Are the Manager, You Call the Shots.txt.gv.png
 42-32	42	32	42-32 Sports Illustrated for Kids Play Book! -- Football - You Are the Quarterback, You Call The Shots.txt.gv.png
 42-33	42	33	42-33 Je Bouquine (April 1998, issue 50).txt.gv.png
@@ -731,6 +806,7 @@ box_folder	box	folder	image
 42-50	42	50	42-50 (v.5) Back Brain Recluse -- Angel Body and Other Magic for the Soul.txt.gv.png
 43-01	43	01	43-01 The Adventures of You Series -- Sugercane Island.txt.gv.png
 43-20	43	20	43-20 Whatever You Want.txt.gv.png
+43-20	43	20	43-20G Whatever You Want (groups).txt.gv.png
 43-21	43	21	43-21 Pretty Little Mistakes.txt.gv.png
 43-22	43	22	43-22 CYOA Walt Disney -- Snow White in the Enchanted Forest.txt.gv.png
 43-23	43	23	43-23 CYOA Walt Disney -- Pinocchio's Adventures.txt.gv.png
