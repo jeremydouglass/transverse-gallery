@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="34-47 Time Machine-- le fiamme dell'inquisizione (Italian).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="34-47 Time Machine-- le fiamme dell'inquisizione (Italian)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   1 -> 2;
@@ -131,6 +131,6 @@ digraph g{
   121 -> 117;
   122 -> 123;
   123 -> 124;
-  124	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  124	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
 }
 

@@ -1,8 +1,35 @@
 digraph g{
-  graph [ label="13-60G Troll AA -- Cosmic Kidnappers (116) remediates computer functions (GENRE).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="13-60G Troll AA -- Cosmic Kidnappers (116) remediates computer functions (GENRE)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     : 13-60;
+  // gbid   : 169;
+  // series : Troll Alien Adventures;
+  // title  : Cosmic Kidnappers;
+  // author : E.T. Randall;
+  // credit:;
+  // - name : Ryan Leach;
+  // role : encoder;
+  // date : 2017-08-18;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-04-28;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  // interestingly, and not at all implied by the title, Cosmic Kidnappers;
+  // remediates using a computer within the format of the gamebook. especially see;
+  // p.88, which remediates the computational functions ESC, DELETE, PAUSE, and;
+  // RESET as page-turn options. DELETE and PAUSE end the game. ESC leads to another;
+  // structural branch. RESET takes the reader back to page 1. See graph.;
+  // ---;
+  
+  // From | To | Label;
+  
   1 -> 2;
   2 -> 3;
   3 -> 7;
@@ -14,8 +41,8 @@ digraph g{
   9 -> 99;
   11 -> 104;
   14 -> 31;
-  15 -> 101	[ xlabel="OBEY" ];
-  15 -> 4	[ xlabel="DEFY" ];
+  15 -> 101	[ xlabel="OBEY" ];	// promise not to escape
+  15 -> 4	[ xlabel="DEFY" ];	// refuse to promise
   16 -> 80;
   18 -> 1;
   20 -> 112;
@@ -56,7 +83,7 @@ digraph g{
   61 -> 96;
   61 -> 48;
   62 -> 36;
-  
+  // 64-65 Bram Stoker Dracula bookmark w/ drawings;
   70 -> 81;
   72 -> 32;
   72 -> 94;
@@ -74,9 +101,9 @@ digraph g{
   87 -> 19;
   87 -> 82;
   88 -> 18	[ xlabel="hit RESET" ];
-  88 -> 6	[ xlabel="hit DELETE", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  88 -> 24	[ xlabel="hit PAUSE", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  88 -> 76	[ xlabel="hit ESCAPE", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  88 -> 6	[ xlabel="hit DELETE" ];
+  88 -> 24	[ xlabel="hit PAUSE" ];
+  88 -> 76	[ xlabel="hit ESCAPE" ];
   90 -> 53;
   93 -> 20;
   99 -> 23;
@@ -103,14 +130,16 @@ digraph g{
   113 -> 52;
   116 -> 77;
   116 -> 11;
-  6	[ xlabel="E-BAD" ];
-  10	[ xlabel="E-GOOD" ];
-  12	[ xlabel="E-GOOD" ];
-  19	[ xlabel="E-OK" ];
-  24	[ xlabel="E-OK" ];
-  32	[ xlabel="E-OK" ];
-  35	[ xlabel="E-OK" ];
-  37	[ xlabel="E-GOOD" ];
+
+  // Endings;
   
+  6	[ xlabel="E-BAD" ];	// "Delete" function erases you from the Earth
+  10	[ xlabel="E-GOOD" ];	// Reunite with loved ones and write a bestseller
+  12	[ xlabel="E-GOOD" ];	// Reunited with parents
+  19	[ xlabel="E-OK" ];	// Return to school computer, but memory is erased
+  24	[ xlabel="E-OK" ];	// "Pause" function leads to purgatory outside time; potential for Resume
+  32	[ xlabel="E-OK" ];	// Red button re-programs your entire life to be OK but uninteresting
+  35	[ xlabel="E-OK" ];	// Returned to Earth; younger than your kid brother, but advising experts in alien psych
+  37	[ xlabel="E-GOOD" ];	// Returned to Earth; lecture at universities around the world on space travel
 }
 

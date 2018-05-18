@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="14-32 Ghostwriter -- Match of Wills.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="14-32 Ghostwriter -- Match of Wills" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   1 -> 2;
@@ -32,7 +32,7 @@ digraph g{
   31 -> 33;
   33 -> 34;
   34 -> 35;
-  35 -> 20	[ xlabel="REFER", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  35 -> 20	[ xlabel="REFER" ];
   35 -> 36;
   36 -> 37;
   37 -> 38;
@@ -72,17 +72,17 @@ digraph g{
   76 -> 77;
   77 -> 78;
   78 -> 79;
-  79 -> 77	[ xlabel="REFER", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
-  79 -> 78	[ xlabel="REFER", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  79 -> 77	[ xlabel="REFER" ];
+  79 -> 78	[ xlabel="REFER" ];
   79 -> 80;
-  80 -> 118	[ xlabel="REFER", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
-  118 -> 19	[ xlabel="REFER", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  80 -> 118	[ xlabel="REFER" ];
+  118 -> 19	[ xlabel="REFER" ];
   80 -> 81;
   81 -> 82;
   82 -> 83;
   83 -> 84;
-  84 -> 82	[ xlabel="REFER", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
-  84 -> 83	[ xlabel="REFER", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  84 -> 82	[ xlabel="REFER" ];
+  84 -> 83	[ xlabel="REFER" ];
   84 -> 85;
   85 -> 86;
   86 -> 88;
@@ -91,14 +91,14 @@ digraph g{
   90 -> 91;
   91 -> 92;
   92 -> 93;
-  93 -> 19	[ xlabel="REFER", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  93 -> 19	[ xlabel="REFER" ];
   93 -> 94;
   94 -> 95;
   95 -> 96;
   96 -> 97;
   97 -> 98;
   98 -> 99;
-  99 -> 20	[ xlabel="REFER", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  99 -> 20	[ xlabel="REFER" ];
   99 -> 100;
   100 -> 101;
   101 -> 102;

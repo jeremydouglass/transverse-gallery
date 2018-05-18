@@ -1,7 +1,31 @@
 digraph g{
-  graph [ label="39-04 Lone Wolf 25 Trail of the Wolf.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="39-04 Lone Wolf 25 Trail of the Wolf" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 39-04;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Yee-Ann Wong;
+  // role : encoder;
+  // date : 2017-09-16;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-04-28;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   1200 -> 1300;
   1300 -> 1400;
   1400 -> 1500;
@@ -44,6 +68,7 @@ digraph g{
   5100 -> 5200;
   5200 -> 5300;
   5300 -> 1;
+  
   1 -> 282;
   2 -> 252;
   3 -> 264;
@@ -610,9 +635,10 @@ digraph g{
   348 -> 8;
   348 -> 195;
   349 -> 45;
-  35200	[ xlabel="#reference" ];
+  
+  35200	[ xlabel="REF", shape=folder, fontsize=20, fillcolor=grey80 ];	// reference
   35300;
-  35400	[ xlabel="#reference" ];
-  35500	[ xlabel="#reference" ];
+  35400	[ xlabel="REF", shape=folder, fontsize=20, fillcolor=grey80 ];	// reference
+  35500	[ xlabel="REF", shape=folder, fontsize=20, fillcolor=grey80 ];	// reference
 }
 

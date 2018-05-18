@@ -1,7 +1,31 @@
 digraph g{
-  graph [ label="39-01 The Adventures of You -- Sugarcane Island.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="39-01 The Adventures of You -- Sugarcane Island" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 39-01;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Yee-Ann Wong;
+  // role : encoder;
+  // date : 2017-09-16;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-04-28;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   3 -> 4;
   4 -> 5;
   4 -> 6;
@@ -126,6 +150,5 @@ digraph g{
   110 -> 111;
   113 -> 5;
   113 -> 6;
-
 }
 

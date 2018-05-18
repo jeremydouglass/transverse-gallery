@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="12-04 HeartQuest 04 Isle of Illusion (GENRE).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="12-04 HeartQuest 04 Isle of Illusion (GENRE)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   // ---;
@@ -23,6 +23,8 @@ digraph g{
   // comment: >;
   
   // ---;
+  
+  // From | To | Label;
   
   0 -> 122	[ xlabel="BC" ];
   0 -> 122	[ xlabel="BC" ];
@@ -73,7 +75,7 @@ digraph g{
   104 -> 112;
   106 -> 108;
   106 -> 112;
-  108 -> 111	[ xlabel="EBD" ];
+  108 -> 111	[ xlabel="EBD" ];	// NO ROMANCE
   112 -> 133;
   116 -> 132	[ xlabel="LOV" ];
   116 -> 127;
@@ -88,7 +90,7 @@ digraph g{
   133 -> 141	[ xlabel="LOV" ];
   133 -> 137;
   133 -> 144	[ xlabel="LOV" ];
-  137	[ xlabel="E-BAD" ];
+  137	[ xlabel="E-BAD" ];	// NO ROMANCE
   138 -> 147;
   138 -> 144;
   141 -> 138	[ xlabel="LOV" ];
@@ -98,9 +100,9 @@ digraph g{
   147 -> 150;
   150 -> 155;
   150 -> 149	[ xlabel="FIGHT" ];
-  153 -> 154	[ xlabel="E-BAD" ];
+  153 -> 154	[ xlabel="E-BAD" ];	// NO ROMANCE
   155 -> 156;
   156 -> 157;
-  157	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  157	[ xlabel="EGR" ];
 }
 

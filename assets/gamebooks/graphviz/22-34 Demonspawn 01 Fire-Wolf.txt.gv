@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="22-34 Demonspawn 01 Fire-Wolf.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="22-34 Demonspawn 01 Fire-Wolf" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   0 -> 248	[ xlabel="refer" ];
@@ -26,7 +26,7 @@ digraph g{
   10 -> 4;
   11 -> 14;
   12 -> 9;
-  13	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  13	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   14 -> 19;
   14 -> 17;
   15 -> 18;
@@ -230,7 +230,7 @@ digraph g{
   121 -> 170;
   122 -> 242	[ xlabel="refer" ];
   122 -> 124;
-  122	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  122	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   123 -> 180;
   124 -> 127;
   124 -> 163;
@@ -353,7 +353,7 @@ digraph g{
   181 -> 250	[ xlabel="refer" ];
   181 -> 146;
   182 -> 13;
-  183	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  183	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   
 }
 

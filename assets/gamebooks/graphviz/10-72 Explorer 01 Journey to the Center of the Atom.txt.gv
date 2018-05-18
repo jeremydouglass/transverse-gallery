@@ -1,9 +1,9 @@
 digraph g{
-  graph [ label="10-72 Explorer 01 Journey to the Center of the Atom.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="10-72 Explorer 01 Journey to the Center of the Atom" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
 
-  1	[ xlabel="S" ];
+  1	[ xlabel="S", shape=Msquare, fontsize=20 ];
   1 -> 2;
   2 -> 3;
   3 -> 7;
@@ -32,7 +32,7 @@ digraph g{
   26 -> 28;
   28 -> 23;
   29 -> 30;
-  30	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  30	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   31 -> 33;
   33 -> 34;
   34 -> 35;
@@ -45,7 +45,7 @@ digraph g{
   41 -> 67;
   41 -> 31;
   43 -> 44;
-  44	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  44	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   45 -> 46;
   46 -> 48;
   48 -> 51;
@@ -54,7 +54,7 @@ digraph g{
   50 -> 53;
   50 -> 63;
   51 -> 52;
-  52	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  52	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   53 -> 54;
   54 -> 63;
   54 -> 57;
@@ -76,7 +76,7 @@ digraph g{
   67 -> 68;
   68 -> 31;
   69 -> 70;
-  70	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  70	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   71 -> 72;
   72 -> 81;
   73 -> 74;
@@ -91,7 +91,7 @@ digraph g{
   82 -> 84;
   84 -> 79;
   85 -> 86;
-  86	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  86	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   87 -> 96;
   88 -> 89;
   89 -> 92;
@@ -106,7 +106,7 @@ digraph g{
   97 -> 107;
   98 -> 99;
   99 -> 101;
-  101	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  101	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   102 -> 104;
   104 -> 105;
   105 -> 106;
@@ -115,6 +115,6 @@ digraph g{
   107 -> 108;
   108 -> 109;
   109 -> 111;
-  111	[ xlabel="WIN" ];
+  111	[ xlabel="WIN", shape=Msquare, fontsize=20, fillcolor=grey50 ];
 }
 

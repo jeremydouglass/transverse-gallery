@@ -1,9 +1,32 @@
 digraph g{
-  graph [ label="07-27 Endless Quest 06 Revenge of the Rainbow Dragons (157).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="07-27 Endless Quest 06 Revenge of the Rainbow Dragons (157)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
-  5	[ xlabel="S" ];
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Rachael Grainger;
+  // role : encoder;
+  // date : 2017-08-21;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
+  5	[ xlabel="S", shape=Msquare, fontsize=20 ];
   5 -> 6;
   6 -> 7;
   7 -> 110;
@@ -106,7 +129,7 @@ digraph g{
   91 -> 133;
   92 -> 93;
   93 -> 94;
-  94 -> 95;
+  94 -> 95;	// puzzle
   95 -> 96;
   96 -> 97;
   97 -> 98;
@@ -170,6 +193,5 @@ digraph g{
   154 -> 155;
   155 -> 156;
   156 -> 157;
-  
 }
 

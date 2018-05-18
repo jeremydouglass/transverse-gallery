@@ -1,7 +1,31 @@
 digraph g{
-  graph [ label="13-11 PIYAS -- Star Trek II (126).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="13-11 PIYAS -- Star Trek II (126)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 13-11;
+  // gbid   : 1908;
+  // series : Plot-It-Yourself Adventure Stories;
+  // title  : Star Trek II;
+  // author : William Rotsler;
+  // credit:;
+  // - name : Ryan Leach;
+  // role : encoder;
+  // date : 2017-08-16;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-04-28;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   1 -> 2;
   2 -> 3;
   2 -> 4;
@@ -135,5 +159,6 @@ digraph g{
   118 -> 119;
   120 -> 121;
   122 -> 123;
+  
 }
 

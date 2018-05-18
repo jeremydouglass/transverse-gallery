@@ -1,8 +1,31 @@
 digraph g{
-  graph [ label="09-33 Be an Interplanetary Spy 12 Skystalker.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="09-33 Be an Interplanetary Spy 12 Skystalker" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Juliet Way-Henthorne;
+  // role : encoder;
+  // date : 2017-08-30;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   2 -> 20;
   2 -> 11;
   4 -> 12;
@@ -24,31 +47,31 @@ digraph g{
   16 -> 42;
   16 -> 36;
   17 -> 30;
-  19	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  19	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   20 -> 3;
   21 -> 28;
   24 -> 7;
   24 -> 16;
   24 -> 36;
   24 -> 60;
-  27	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  27	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   28 -> 4;
   28 -> 33;
   29 -> 32;
   30 -> 58;
   31 -> 46;
   32 -> 9;
-  33	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  33	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   34 -> 71;
-  35	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  35	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   36 -> 60;
-  37	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  37	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   38 -> 13;
-  41	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  41	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   42 -> 55;
   43 -> 45;
   43 -> 67;
-  44	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  44	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   45 -> 67;
   46 -> 6;
   47 -> 57;
@@ -68,14 +91,14 @@ digraph g{
   58 -> 14;
   58 -> 41;
   59 -> 76;
-  62	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  62	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   63 -> 113;
   63 -> 49;
   64 -> 95;
-  65	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  65	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   66 -> 81;
   67 -> 82;
-  70	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  70	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   71 -> 43;
   74 -> 90;
   75 -> 89;
@@ -91,7 +114,7 @@ digraph g{
   83 -> 54;
   84 -> 115;
   84 -> 87;
-  85	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  85	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   86 -> 61;
   87 -> 116;
   87 -> 44;
@@ -120,18 +143,20 @@ digraph g{
   106 -> 99;
   107 -> 110;
   107 -> 100;
-  108	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  108	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   109 -> 94;
   112 -> 114;
-  113	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  113	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   114 -> 98;
-  115	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  115	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   116 -> 93;
-  117	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  117	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   118 -> 119;
-  119	[ xlabel="WIN" ];
-
-  91	[ xlabel="MAZE", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  88 -> 91	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  119	[ xlabel="WIN", shape=Msquare, fontsize=20, fillcolor=grey50 ];
+  
+  // MAP REFERENCES;
+  
+  91	[ xlabel="MAZE" ];
+  88 -> 91	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
 }
 

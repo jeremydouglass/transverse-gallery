@@ -1,9 +1,32 @@
 digraph g{
-  graph [ label="07-58 Endless Quest Forest of Darkness.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="07-58 Endless Quest Forest of Darkness" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
-  1	[ xlabel="S" ];
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Rachael Grainger;
+  // role : encoder;
+  // date : 2017-08-30;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
+  1	[ xlabel="S", shape=Msquare, fontsize=20 ];
   1 -> 20;
   2 -> 23;
   2 -> 27;
@@ -17,7 +40,7 @@ digraph g{
   9 -> 48;
   9 -> 37;
   10 -> 49;
-  11	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  11	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   12 -> 40;
   13 -> 32;
   14 -> 28;
@@ -42,7 +65,7 @@ digraph g{
   28 -> 47;
   29 -> 6;
   29 -> 38;
-  30	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  30	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   31 -> 9;
   32 -> 7;
   32 -> 17;
@@ -73,8 +96,8 @@ digraph g{
   52 -> 49;
   52 -> 42;
   53 -> 29;
-  54	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  54	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   55 -> 39;
-  56	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  56	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
 }
 

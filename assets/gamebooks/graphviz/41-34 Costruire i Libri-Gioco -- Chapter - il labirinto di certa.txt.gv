@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="41-34 Costruire i Libri-Gioco -- Chapter - il labirinto di certa.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="41-34 Costruire i Libri-Gioco -- Chapter - il labirinto di certa" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   1 -> 7;
@@ -110,7 +110,7 @@ digraph g{
   38 -> 35;
   38 -> 29;
   38 -> 14;
-  39	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  39	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   40 -> 15;
   40 -> 38;
   40 -> 41;

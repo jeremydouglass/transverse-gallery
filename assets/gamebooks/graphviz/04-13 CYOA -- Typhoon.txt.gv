@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="04-13 CYOA -- Typhoon.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="04-13 CYOA -- Typhoon" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
 
@@ -58,7 +58,7 @@ digraph g{
   61 -> 89;
   62	[ xlabel="REF", shape=folder, fontsize=20, fillcolor=grey80 ];
   62 -> 64;
-  64 -> 62	[ xlabel="R", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  64 -> 62	[ xlabel="R", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, label="" ];
   64 -> 75;
   64 -> 37;
   64 -> 82;

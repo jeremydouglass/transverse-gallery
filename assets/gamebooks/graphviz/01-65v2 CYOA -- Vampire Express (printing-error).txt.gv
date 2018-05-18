@@ -1,8 +1,31 @@
 digraph g{
-  graph [ label="01-65v2 CYOA -- Vampire Express (printing-error).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="01-65v2 CYOA -- Vampire Express (printing-error)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     : 01-65;
+  // gbid   : 541;
+  // series : CYOA;
+  // title  : Vampire Express;
+  // author : Tony Koltz;
+  // credit:;
+  // - name :;
+  // role : encoder;
+  // date : 2017-08-25;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   1 -> 2;
   2 -> 3;
   3 -> 4;
@@ -38,7 +61,7 @@ digraph g{
   29 -> 63;
   31 -> 7;
   32 -> 112;
-  34 -> 16;
+  34 -> 16;	// (errata - printed as 16 but 17 is correct)
   35 -> 102;
   36 -> 37;
   37 -> 49;
@@ -82,7 +105,7 @@ digraph g{
   77 -> 19;
   77 -> 43;
   81 -> 107;
-  82 -> 17;
+  82 -> 17;	// (errata - printed as 17 but 16 is correct)
   82 -> 42;
   83 -> 44;
   85 -> 14;
@@ -90,8 +113,8 @@ digraph g{
   86 -> 22;
   86 -> 64;
   90 -> 91;
-  91 -> 50;
-  91 -> 6;
+  91 -> 50;	// (errata, options switched on page)
+  91 -> 6;	// (errata, options switched on page)
   92 -> 59;
   96 -> 109;
   97 -> 110;

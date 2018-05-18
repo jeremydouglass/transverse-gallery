@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="22-30 SwordQuest -- Quest for the Elf King.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="22-30 SwordQuest -- Quest for the Elf King" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   1 -> 2;
@@ -136,7 +136,7 @@ digraph g{
   82 -> 89;
   82 -> 29;
   83 -> 86;
-  84	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  84	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   85 -> 82;
   85 -> 87;
   86 -> 81;

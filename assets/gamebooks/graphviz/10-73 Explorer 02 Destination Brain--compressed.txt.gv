@@ -1,9 +1,9 @@
 digraph g{
-  graph [ label="10-73 Explorer 02 Destination Brain--compressed.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="10-73 Explorer 02 Destination Brain--compressed" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
 
-  1	[ xlabel="S" ];
+  1	[ xlabel="S", shape=Msquare, fontsize=20 ];
   1 -> 5;
   5 -> 11;
   6 -> 18;
@@ -19,17 +19,17 @@ digraph g{
   35 -> 66;
   35 -> 57;
   35 -> 60;
-  41	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  41	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   44 -> 35;
   44 -> 54;
   49 -> 35;
   54 -> 49;
-  57	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  57	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   60 -> 68;
-  66	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  66	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   68 -> 76;
   68 -> 74;
-  71	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  71	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   74 -> 80;
   74 -> 90;
   76 -> 74;
@@ -42,12 +42,11 @@ digraph g{
   90 -> 88;
   93 -> 103;
   93 -> 99;
-  97	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  97	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   99 -> 97;
   99 -> 105;
-  103	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  103	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   105 -> 109;
-  109	[ xlabel="WIN" ];
-  
+  109	[ xlabel="WIN", shape=Msquare, fontsize=20, fillcolor=grey50 ];
 }
 

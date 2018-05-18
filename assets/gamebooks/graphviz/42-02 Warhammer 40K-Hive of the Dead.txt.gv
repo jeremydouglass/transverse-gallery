@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="42-02 Warhammer 40K-Hive of the Dead.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="42-02 Warhammer 40K-Hive of the Dead" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
 
@@ -17,7 +17,7 @@ digraph g{
   9 -> 65;
   10 -> 327;
   11 -> 239;
-  11 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  11 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   12 -> 162;
   13	[ xlabel="REF", shape=folder, fontsize=20, fillcolor=grey80 ];
   14 -> 131;
@@ -37,7 +37,7 @@ digraph g{
   23 -> 264;
   24 -> 118;
   25 -> 99;
-  25 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  25 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   28 -> 258;
   29 -> 189;
   29 -> 333;
@@ -62,7 +62,7 @@ digraph g{
   41 -> 96;
   43 -> 122;
   44 -> 353;
-  44 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  44 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   47 -> 336;
   48 -> 282;
   48 -> 380;
@@ -73,7 +73,7 @@ digraph g{
   53 -> 343;
   53 -> 186;
   54 -> 294;
-  54 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  54 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   55 -> 100;
   56 -> 142;
   56 -> 324;
@@ -103,7 +103,7 @@ digraph g{
   71 -> 161;
   71 -> 382;
   72 -> 178;
-  72 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  72 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   73 -> 394;
   73 -> 340;
   73 -> 98;
@@ -117,7 +117,7 @@ digraph g{
   78 -> 384;
   79 -> 341;
   81 -> 208;
-  81 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  81 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   82 -> 158;
   82 -> 381;
   83 -> 117;
@@ -127,12 +127,12 @@ digraph g{
   87 -> 330;
   88 -> 102;
   89 -> 228;
-  89 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  89 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   90 -> 292;
   90 -> 389;
   91 -> 210;
   92 -> 231;
-  92 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  92 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   93 -> 296;
   93 -> 51;
   94 -> 297;
@@ -200,7 +200,7 @@ digraph g{
   132 -> 76;
   133 -> 217;
   134 -> 393;
-  134 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  134 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   135 -> 243;
   135 -> 18;
   135 -> 211;
@@ -244,7 +244,7 @@ digraph g{
   158 -> 236;
   159 -> 293;
   160 -> 393;
-  160 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  160 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   161 -> 304;
   162 -> 195;
   162 -> 35;
@@ -465,7 +465,7 @@ digraph g{
   299 -> 163;
   300 -> 369;
   301 -> 186;
-  301 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  301 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   302 -> 89;
   302 -> 228;
   303 -> 162;
@@ -489,13 +489,13 @@ digraph g{
   315 -> 8;
   316 -> 227;
   317 -> 178;
-  317 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  317 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   318 -> 105;
   318 -> 304;
   318 -> 212;
   320 -> 354;
   321 -> 399;
-  321 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  321 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   322 -> 259;
   322 -> 187;
   323 -> 113;
@@ -525,7 +525,7 @@ digraph g{
   341 -> 138;
   342 -> 202;
   343 -> 186;
-  343 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  343 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   
   13	[ xlabel="REF", shape=folder, fontsize=20, fillcolor=grey80 ];
   
@@ -534,7 +534,7 @@ digraph g{
   345 -> 68;
   347 -> 148;
   348 -> 192;
-  348 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  348 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   349 -> 216;
   349 -> 177;
   350 -> 169;
@@ -601,7 +601,7 @@ digraph g{
   388 -> 200;
   389 -> 36;
   390 -> 208;
-  390 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  390 -> 13	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   391 -> 173;
   392 -> 293;
   393 -> 114;

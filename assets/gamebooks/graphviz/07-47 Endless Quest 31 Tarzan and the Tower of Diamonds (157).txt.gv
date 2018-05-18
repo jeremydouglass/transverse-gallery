@@ -1,9 +1,32 @@
 digraph g{
-  graph [ label="07-47 Endless Quest 31 Tarzan and the Tower of Diamonds (157).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="07-47 Endless Quest 31 Tarzan and the Tower of Diamonds (157)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
-  5	[ xlabel="S" ];
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Rachael Grainger;
+  // role : encoder;
+  // date : 2017-08-25;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
+  5	[ xlabel="S", shape=Msquare, fontsize=20 ];
   5 -> 6;
   6 -> 7;
   7 -> 8;
@@ -29,7 +52,7 @@ digraph g{
   21 -> 22;
   22 -> 23;
   23 -> 24;
-  24	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  24	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   25 -> 55;
   26 -> 27;
   27 -> 28;
@@ -61,7 +84,7 @@ digraph g{
   48 -> 49;
   49 -> 50;
   50 -> 51;
-  51	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  51	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   52 -> 53;
   53 -> 54;
   54 -> 40;
@@ -80,7 +103,7 @@ digraph g{
   67 -> 68;
   68 -> 140;
   68 -> 150;
-  69	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  69	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   70 -> 71;
   71 -> 72;
   72 -> 73;
@@ -88,7 +111,7 @@ digraph g{
   73 -> 61;
   74 -> 75;
   75 -> 76;
-  76	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  76	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   77 -> 78;
   78 -> 79;
   79 -> 80;
@@ -107,25 +130,25 @@ digraph g{
   90 -> 66;
   91 -> 92;
   92 -> 93;
-  93	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  93	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   94 -> 95;
   95 -> 96;
-  96	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  96	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   97 -> 98;
   98 -> 99;
   99 -> 155;
   99 -> 142;
   100 -> 101;
-  101	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  101	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   102 -> 103;
   103 -> 104;
   104 -> 105;
   105 -> 106;
-  106	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  106	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   107 -> 108;
   108 -> 109;
   109 -> 110;
-  110	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  110	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   111 -> 112;
   112 -> 100;
   112 -> 14;
@@ -140,7 +163,7 @@ digraph g{
   122 -> 123;
   122 -> 102;
   124 -> 125;
-  125	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  125	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   126 -> 127;
   127 -> 25;
   127 -> 55;
@@ -162,10 +185,10 @@ digraph g{
   139 -> 21;
   139 -> 115;
   140 -> 141;
-  141	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  141	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   142 -> 143;
   143 -> 144;
-  144	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  144	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   145 -> 146;
   146 -> 147;
   147 -> 148;
@@ -180,6 +203,6 @@ digraph g{
   154 -> 82;
   155 -> 156;
   156 -> 157;
-  157	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  157	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
 }
 

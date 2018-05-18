@@ -1,8 +1,32 @@
 digraph g{
-  graph [ label="39-14 Zebra Mystery Puzzler 44 The Witch's Tower Mystery.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="39-14 Zebra Mystery Puzzler 44 The Witch's Tower Mystery" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-  0	[ xlabel="#cover, illustration clue" ];
+  // ---;
+  // group  : Katz;
+  // id     : 39-14;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Yee-Ann Wong;
+  // role : encoder;
+  // date : 2017-09-16;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-04-28;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
+  0;	// cover, illustration clue
   5 -> 6;
   6 -> 7;
   7 -> 8;
@@ -32,7 +56,7 @@ digraph g{
   31 -> 32;
   32 -> 33;
   33 -> 34;
-  34 -> 35	[ xlabel="#illustration clue" ];
+  34 -> 35;	// illustration clue
   35 -> 36;
   36 -> 37;
   37 -> 38;
@@ -67,7 +91,7 @@ digraph g{
   66 -> 67;
   67 -> 68;
   68 -> 69;
-  69 -> 70	[ xlabel="#illustration clue" ];
+  69 -> 70;	// illustration clue
   70 -> 71;
   71 -> 72;
   72 -> 73;
@@ -97,7 +121,7 @@ digraph g{
   96 -> 97;
   97 -> 98;
   98 -> 99;
-  99 -> 100	[ xlabel="#illustration clue" ];
+  99 -> 100;	// illustration clue
   100 -> 101;
   101 -> 102;
   102 -> 103;
@@ -107,14 +131,14 @@ digraph g{
   106 -> 107;
   107 -> 108;
   108 -> 109;
-  109 -> 110	[ xlabel="#illustration clue" ];
+  109 -> 110;	// illustration clue
   110 -> 111;
   111 -> 112;
   112 -> 113;
   113 -> 114;
   114 -> 115;
   115 -> 116;
-  116 -> 117	[ xlabel="#illustration clue" ];
+  116 -> 117;	// illustration clue
   117 -> 118;
   118 -> 119;
   119 -> 120;
@@ -139,11 +163,11 @@ digraph g{
   138 -> 139;
   139 -> 140;
   140 -> 141;
-  141 -> 142	[ xlabel="#illustration clue" ];
+  141 -> 142;	// illustration clue
   142 -> 143;
   143 -> 144;
-  144 -> 145	[ xlabel="#Reader attempts solution" ];
-  145 -> 146	[ xlabel="#Solution; Reader must physically cut open sealed pages" ];
+  144 -> 145;	// Reader attempts solution
+  145 -> 146;	// Solution; Reader must physically cut open sealed pages
   146 -> 147;
   147 -> 148;
   148 -> 149;
@@ -156,7 +180,6 @@ digraph g{
   155 -> 156;
   156 -> 157;
   157 -> 158;
-  158 -> 159	[ xlabel="#Illustration clue solutions page" ];
-  
+  158 -> 159;	// Illustration clue solutions page
 }
 

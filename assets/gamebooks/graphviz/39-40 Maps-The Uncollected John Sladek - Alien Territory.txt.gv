@@ -1,10 +1,44 @@
 digraph g{
-  graph [ label="39-40 Maps-The Uncollected John Sladek - Alien Territory.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="39-40 Maps-The Uncollected John Sladek - Alien Territory" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
-  A1	[ xlabel="START" ];
-
+  // ---;
+  // group  : Katz;
+  // id     : 39-40;
+  // gbid   : 4740;
+  // series : Maps-The Uncollected John Sladek;
+  // title  : Maps-The Uncollected John Sladek;
+  // chapter: Alien Territory (pp21-23);
+  // author : John Sladek;
+  // credit:;
+  // - name : Jeremy Douglass;
+  // role : encoder;
+  // date : 2017-09-28;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-04-28;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  // p21 is a "how to read" explanation -- the actual work is two pages;
+  // with an unusual spatial arrow system connecting a grid of small;
+  // paragraphs with no lexia names -- resembles a J.Sayers comic.;
+  // From gamebooks.org:;
+  // "written in the late 1960s ... a previously unpublished humor piece;
+  // written for the author’s then-girlfriend.";
+  
+  // ---;
+  
+  // Alien Territory (pp21-23);
+  
+  // From | To | Label;
+  
+  A1	[ xlabel="START", shape=Msquare, fontsize=20 ];
+  
+  // Right arrows;
+  
   A1 -> B1;
   B1 -> C1;
   C1 -> D1;
@@ -40,16 +74,20 @@ digraph g{
   A9 -> B9;
   B9 -> C9;
   C9 -> D9;
-
-  D1 -> A2	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
-  D2 -> A3	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
-  D3 -> A4	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
-  D4 -> A5	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
-  D5 -> A6	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
-  D6 -> A7	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
-  D7 -> A8	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
-  D8 -> A9	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
-
+  
+  // Right wrap-around;
+  
+  D1 -> A2	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
+  D2 -> A3	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
+  D3 -> A4	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
+  D4 -> A5	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
+  D5 -> A6	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
+  D6 -> A7	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
+  D7 -> A8	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
+  D8 -> A9	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
+  
+  // Down arrows;
+  
   A1 -> A2;
   A2 -> A3;
   A3 -> A4;
@@ -85,11 +123,13 @@ digraph g{
   D6 -> D7;
   D7 -> D8;
   D8 -> D9;
-
-  A9 -> B1	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
-  B9 -> C1	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
-  C9 -> D1	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
   
-  D9	[ xlabel="END" ];
+  // Down wrap-around;
+  
+  A9 -> B1	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
+  B9 -> C1	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
+  C9 -> D1	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
+  
+  D9	[ xlabel="END", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
 }
 

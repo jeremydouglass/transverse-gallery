@@ -1,8 +1,31 @@
 digraph g{
-  graph [ label="12-31 Dungeons and Dragons Cartoon Show Books 01 Tower of Midnight Dreams.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="12-31 Dungeons and Dragons Cartoon Show Books 01 Tower of Midnight Dreams" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Juliet Way-Henthorne;
+  // role : encoder;
+  // date : 2017-09-07;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : ?;
+  // styles : ?;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   7 -> 12;
   7 -> 30;
   12 -> 17;
@@ -23,7 +46,7 @@ digraph g{
   42	[ xlabel="E-GOOD" ];
   43 -> 32;
   44 -> 45;
-  45	[ xlabel="E-BAD" ];
+  45	[ xlabel="E-BAD" ];	// MONSTER
   47 -> 50;
   47 -> 54;
   50 -> 54;

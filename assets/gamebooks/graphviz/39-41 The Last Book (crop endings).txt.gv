@@ -1,8 +1,31 @@
 digraph g{
-  graph [ label="39-41 The Last Book (crop endings).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="39-41 The Last Book (crop endings)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-  // Jeremy Douglass 2017-09-28;
+  // ---;
+  // group  : Katz;
+  // id     : 39-41;
+  // gbid   : 1378;
+  // series : Last Book, The;
+  // title  : Last Book, The;
+  // version: crop-endings;
+  // author : Thomas Ainlay, Jr;
+  // credit:;
+  // - name : Jeremy Douglass;
+  // role : encoder;
+  // date : 2017-09-28;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-04-28;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
   
   1 -> 2;
   1 -> 11;
@@ -399,11 +422,11 @@ digraph g{
   206 -> 205;
   207	[ xlabel="END (1)" ];
   
-  // 208;
+  // 208 | BLANK;
   
   209	[ xlabel="THE END" ];
   
-  // 210;
+  // 210 | BLANK;
   
   211	[ xlabel="BEHOLD THE ZENITH" ];
 }

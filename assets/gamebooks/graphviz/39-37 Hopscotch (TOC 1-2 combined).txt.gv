@@ -1,8 +1,31 @@
 digraph g{
-  graph [ label="39-37 Hopscotch (TOC 1-2 combined).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="39-37 Hopscotch (TOC 1-2 combined)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     : 39-37;
+  // gbid   : 9161;
+  // series : Miscellaneous Works by Julio Cortazar;
+  // title  : Hopscotch;
+  // author : Julio Cortazar;
+  // credit:;
+  // - name : Jeremy Douglass;
+  // role : encoder;
+  // date : 2017-09-28;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-04-28;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  // (based on data collected ~2012-13);
+  // ---;
+  
+  // From | To | Label;
+  
   73 -> 1;
   1 -> 2;
   2 -> 116;

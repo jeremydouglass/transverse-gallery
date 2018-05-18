@@ -1,9 +1,9 @@
 digraph g{
-  graph [ label="10-72v2 Explorer 01 Journey to the Center of the Atom (compressed).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="10-72v2 Explorer 01 Journey to the Center of the Atom (compressed)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
 
-  1	[ xlabel="S" ];
+  1	[ xlabel="S", shape=Msquare, fontsize=20 ];
   1 -> 7;
   4 -> 23;
   4 -> 10;
@@ -18,18 +18,18 @@ digraph g{
   23 -> 43;
   23 -> 45;
   26 -> 23;
-  29	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  29	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   31 -> 71;
   31 -> 69;
   36 -> 23;
   39 -> 67;
   39 -> 31;
-  43	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  43	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   45 -> 51;
   45 -> 55;
   49 -> 53;
   49 -> 63;
-  51	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  51	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   53 -> 63;
   53 -> 57;
   55 -> 49;
@@ -42,14 +42,14 @@ digraph g{
   63 -> 39;
   65 -> 63;
   67 -> 31;
-  69	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  69	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   71 -> 81;
   73 -> 88;
   73 -> 98;
   79 -> 73;
   79 -> 85;
   81 -> 79;
-  85	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  85	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   87 -> 96;
   88 -> 92;
   90 -> 94;
@@ -57,9 +57,9 @@ digraph g{
   92 -> 94;
   94 -> 102;
   96 -> 107;
-  98	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  98	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   102 -> 96;
   102 -> 87;
-  107	[ xlabel="WIN" ];
+  107	[ xlabel="WIN", shape=Msquare, fontsize=20, fillcolor=grey50 ];
 }
 

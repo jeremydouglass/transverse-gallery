@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="04-38 CYOA -- Journey Under the Sea.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="04-38 CYOA -- Journey Under the Sea" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
 
@@ -95,9 +95,9 @@ digraph g{
   74 -> 92;
   74 -> 93;
   75 -> 106	[ xlabel="alternative end" ];
-  75	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  75	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   77 -> 107	[ xlabel="alternative end" ];
-  77	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  77	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   79 -> 51;
   81 -> 116;
   81 -> 117;

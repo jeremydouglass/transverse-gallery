@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="12-04 HeartQuest 04 Isle of Illusion.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="12-04 HeartQuest 04 Isle of Illusion" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   // ---;
@@ -24,11 +24,13 @@ digraph g{
   
   // ---;
   
+  // From | To | Label;
+  
   6 -> 18;
   6 -> 22;
   17 -> 39;
   18 -> 20;
-  20 -> 21	[ xlabel="E-BAD" ];
+  20 -> 21	[ xlabel="E-BAD" ];	// NO ROMANCE
   22 -> 34;
   22 -> 30;
   30 -> 20;
@@ -61,7 +63,7 @@ digraph g{
   86 -> 102;
   86 -> 94;
   91 -> 64;
-  93	[ xlabel="E-BAD" ];
+  93	[ xlabel="E-BAD" ];	// NO ROMANCE
   94 -> 96	[ xlabel="E-BAD" ];
   97 -> 104;
   97 -> 106;
@@ -70,7 +72,7 @@ digraph g{
   104 -> 112;
   106 -> 108;
   106 -> 112;
-  108 -> 11	[ xlabel="E-BAD" ];
+  108 -> 11	[ xlabel="E-BAD" ];	// NO ROMANCE
   112 -> 133;
   116 -> 132;
   116 -> 127;
@@ -85,7 +87,7 @@ digraph g{
   133 -> 141;
   133 -> 137;
   133 -> 144;
-  137	[ xlabel="E-BAD" ];
+  137	[ xlabel="E-BAD" ];	// NO ROMANCE
   138 -> 147;
   138 -> 144;
   141 -> 138;
@@ -95,9 +97,9 @@ digraph g{
   147 -> 150;
   150 -> 155;
   150 -> 149;
-  153 -> 154	[ xlabel="E-BAD" ];
+  153 -> 154	[ xlabel="E-BAD" ];	// NO ROMANCE
   155 -> 156;
   156 -> 157;
-  157	[ xlabel="E-GOOD" ];
+  157	[ xlabel="E-GOOD" ];	// ROMANCE
 }
 

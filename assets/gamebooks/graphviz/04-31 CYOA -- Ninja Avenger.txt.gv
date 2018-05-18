@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="04-31 CYOA -- Ninja Avenger.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="04-31 CYOA -- Ninja Avenger" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
 
@@ -70,7 +70,7 @@ digraph g{
   76 -> 37;
   77 -> 11;
   78 -> 79;
-  79 -> 1	[ xlabel="RETURN", dir=both, arrowhead=none, arrowtail=box, style=dashed, constraint=false ];
+  79 -> 1	[ xlabel="RETURN", dir=both, arrowhead=none, arrowtail=box, style=dashed, constraint=false, label="" ];
   80 -> 74;
   81 -> 66;
   83 -> 57;

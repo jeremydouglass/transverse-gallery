@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="34-16 Terrores fuera del tiempo (Spanish).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="34-16 Terrores fuera del tiempo (Spanish)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   1 -> 16;
@@ -637,7 +637,7 @@ digraph g{
   339 -> 314;
   339 -> 352;
   340 -> 374;
-  342 -> 375	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  342 -> 375	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   343 -> 325;
   343 -> 245;
   343 -> 204;
@@ -663,7 +663,7 @@ digraph g{
   353 -> 363;
   353 -> 147;
   354 -> 321;
-  355 -> 375	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  355 -> 375	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   356 -> 370;
   356 -> 343;
   357 -> 289;

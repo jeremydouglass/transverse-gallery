@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="10-01 WWY 01 Forest of Twisted Dreams, The.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="10-01 WWY 01 Forest of Twisted Dreams, The" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   // 10-01 WWY 01 The Forest of Twisted Dreams;
@@ -14,16 +14,16 @@ digraph g{
   6 -> 48	[ xlabel="If you picked" ];	// unusual control node from previous page
   6 -> 50;
   7 -> 80;
-  8 -> 97	[ xlabel="R", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];	// read book of spells and return
+  8 -> 97	[ xlabel="R", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, label="" ];	// read book of spells and return
   8 -> 16;
   9 -> 50;	// coin flips
   9 -> 50;	// duplicate edge
   9 -> 34;
   9 -> 46;
-  9	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// choice page ending
-  10 -> 101	[ xlabel="R", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];	// read book of weapons and return
+  9	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// choice page ending
+  10 -> 101	[ xlabel="R", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, label="" ];	// read book of weapons and return
   10 -> 12;
-  11	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  11	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   12 -> 13;
   13 -> 34;
   13 -> 9;
@@ -37,16 +37,16 @@ digraph g{
   17 -> 22;
   17 -> 32;
   18 -> 58;
-  20	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  20	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   21 -> 18;
   21 -> 30;
   22 -> 49;
   22 -> 41;
-  23	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  23	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   24 -> 38;
   24 -> 43;
   25 -> 51;
-  25	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// choice page ending
+  25	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// choice page ending
   26 -> 52;
   27 -> 47;
   28 -> 29;
@@ -58,13 +58,13 @@ digraph g{
   34 -> 50;
   34 -> 9;
   34 -> 46;
-  34	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// choice page ending
+  34	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// choice page ending
   35 -> 39;
   36 -> 47;
   37 -> 15;
   37 -> 93;
-  38	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  39	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  38	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  39	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   40 -> 80;
   41 -> 25;
   42 -> 14;
@@ -76,13 +76,13 @@ digraph g{
   46 -> 50;
   46 -> 34;
   46 -> 9;
-  46	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// choice page ending
+  46	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// choice page ending
   47 -> 60;
   47 -> 27;
   48 -> 50;
   49 -> 56;
   50 -> 21;
-  50 -> 101	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  50 -> 101	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   51 -> 56;
   52 -> 53;
   53 -> 37;
@@ -93,7 +93,7 @@ digraph g{
   57 -> 23	[ xlabel="!" ];	// If you are reading this book on a Sunday night...
   57 -> 77;
   58 -> 82;
-  59	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  59	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   60 -> 64;
   60 -> 54;
   61 -> 72;
@@ -105,10 +105,10 @@ digraph g{
   65 -> 90;
   66 -> 67;
   67 -> 78;
-  67	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// choice page ending
+  67	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// choice page ending
   68 -> 61;
   68 -> 72;
-  69	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  69	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   70 -> 59;
   70 -> 62;
   71 -> 95;
@@ -116,9 +116,9 @@ digraph g{
   73 -> 35;
   73 -> 7;
   74 -> 88;
-  74	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// choice page ending
+  74	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// choice page ending
   76 -> 78;
-  76	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// choice page ending
+  76	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// choice page ending
   77 -> 92;
   77 -> 71;
   78 -> 79;
@@ -129,22 +129,22 @@ digraph g{
   82 -> 65;
   82 -> 76;
   82 -> 69;
-  84	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  85	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  84	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  85	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   86 -> 87;
   87 -> 78;
   88 -> 78;	// many duplicate edges
   88 -> 78;
   88 -> 78;
-  88	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// choice page ending -- twice!
-  89	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  88	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// choice page ending -- twice!
+  89	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   90 -> 11;
-  91	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  92	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  93	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  91	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  92	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  93	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   94 -> 95;
-  95	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-
+  95	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  
   // REFERENCES;
   97	[ xlabel="REF", shape=folder, fontsize=20, fillcolor=grey80 ];	// The Book of Spells
   101	[ xlabel="REF", shape=folder, fontsize=20, fillcolor=grey80 ];	// The Book of Weapons

@@ -1,7 +1,31 @@
 digraph g{
-  graph [ label="39-03 Lone Wolf 19 Wolf's Bane (NO REFS).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="39-03 Lone Wolf 19 Wolf's Bane (NO REFS)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 39-03;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Yee-Ann Wong;
+  // role : encoder;
+  // date : 2017-09-16;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-04-28;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   1 -> 195;
   1 -> 302;
   2 -> 348;
@@ -532,6 +556,5 @@ digraph g{
   347 -> 137;
   348 -> 115;
   349 -> 21;
-
 }
 

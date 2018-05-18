@@ -1,12 +1,12 @@
 digraph g{
-  graph [ label="10-10 WWY 06 The Revenge of the Falcon Knight--labeled.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="10-10 WWY 06 The Revenge of the Falcon Knight--labeled" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   // 10-10 WWY 06 The Revenge of the Falcon Knight;
   // Jeremy Douglass;
   // 2017-08-24;
   
-  1	[ xlabel="S" ];
+  1	[ xlabel="S", shape=Msquare, fontsize=20 ];
   1 -> 2;
   2 -> 3;
   3 -> 10;
@@ -23,7 +23,7 @@ digraph g{
   10 -> 5	[ xlabel="refer" ];	// reference Who's Who
   10 -> 7;
   11 -> 33;
-  12	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  12	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   13 -> 36;
   14 -> 101	[ xlabel="refer" ];	// reference Spells
   14 -> 5	[ xlabel="refer" ];	// reference Who's Who
@@ -46,12 +46,12 @@ digraph g{
   26 -> 27;
   27 -> 59;
   28 -> 38;
-  29	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  29	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   30 -> 84	[ xlabel="coin flips" ];	// five flips--if it comes up heads the first time and tails the last
   30 -> 35	[ xlabel="coin flips" ];
   31 -> 66	[ xlabel="battle-axe" ];
   31 -> 70	[ xlabel="sword" ];
-  32	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  32	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   33 -> 46	[ xlabel="coin flips" ];	// three flips--if it comes up heads two or more times
   33 -> 57	[ xlabel="coin flips" ];
   34 -> 76	[ xlabel="longbow" ];
@@ -59,7 +59,7 @@ digraph g{
   35 -> 50;
   36 -> 12;
   36 -> 52;
-  37	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  37	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   38 -> 55;
   39 -> 58;
   40 -> 39	[ xlabel="triple crossbow" ];
@@ -69,14 +69,14 @@ digraph g{
   43 -> 60	[ xlabel="coin flips" ];
   44 -> 45;
   45 -> 6;
-  46	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  46	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   47 -> 51;
   47 -> 54;
-  48	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  49	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  48	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  49	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   50 -> 15;
-  50	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  51	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  50	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  51	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   52 -> 53;
   53 -> 44;
   54 -> 7;
@@ -89,10 +89,10 @@ digraph g{
   59 -> 78	[ xlabel="coin flips" ];	// five flips--heads three or more times
   59 -> 64	[ xlabel="coin flips" ];
   60 -> 68;
-  61	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  61	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   62 -> 21;
-  64	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  65	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  64	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  65	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   66 -> 13	[ xlabel="coin flips" ];	// two flips--both heads
   66 -> 72	[ xlabel="coin flips" ];	// two flips--both tails
   66 -> 80	[ xlabel="coin flips" ];	// two flips--one each
@@ -101,29 +101,29 @@ digraph g{
   68 -> 69;
   69 -> 74;
   69 -> 62;
-  70	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  70	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   71 -> 75;
   71 -> 77;
-  72	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  73	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  74	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  75	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  76	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  72	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  73	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  74	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  75	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  76	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   77 -> 93;
   78 -> 17;
   79 -> 71;
-  80	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  81	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  80	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  81	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   83 -> 85;
   83 -> 87;
-  84	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  85	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  86	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  84	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  85	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  86	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   87 -> 88;
   87 -> 61;
   88 -> 89;
   89 -> 94;
-  90	[ xlabel="WIN" ];
+  90	[ xlabel="WIN", shape=Msquare, fontsize=20, fillcolor=grey50 ];
   // 90 | 14;
   // 90 | 10;
   91 -> 79;
@@ -134,8 +134,8 @@ digraph g{
   95 -> 90;
   
   // REFERENCES;
-  5	[ xlabel="Who's Who REF", shape=folder, fontsize=20, fillcolor=grey80 ];
-  97	[ xlabel="The Book of Spells REF", shape=folder, fontsize=20, fillcolor=grey80 ];	// reference
-  101	[ xlabel="The Book of Weapons REF", shape=folder, fontsize=20, fillcolor=grey80 ];	// reference
+  5	[ xlabel="Who's Who REF" ];
+  97	[ xlabel="The Book of Spells REF" ];	// reference
+  101	[ xlabel="The Book of Weapons REF" ];	// reference
 }
 

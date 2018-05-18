@@ -1,9 +1,32 @@
 digraph g{
-  graph [ label="07-34 Endless Quest 18 Undaunted (157), The.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="07-34 Endless Quest 18 Undaunted (157), The" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
-  5	[ xlabel="S" ];
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Rachael Grainger;
+  // role : encoder;
+  // date : 2017-08-23;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  // Endings grouped at bottom of data.;
+  // ---;
+  
+  // From | To | Label;
+  
+  5	[ xlabel="S", shape=Msquare, fontsize=20 ];
   5 -> 6;
   6 -> 7;
   7 -> 8;
@@ -167,19 +190,19 @@ digraph g{
   155 -> 156;
   156 -> 157;
   
-  157	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  125	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  134	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  152	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  113	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  53	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  123	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  115	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  29	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  139	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  39	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  110	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  61	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  77	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  157	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  125	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  134	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  152	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  113	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  53	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  123	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  115	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  29	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  139	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  39	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  110	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  61	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  77	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
 }
 

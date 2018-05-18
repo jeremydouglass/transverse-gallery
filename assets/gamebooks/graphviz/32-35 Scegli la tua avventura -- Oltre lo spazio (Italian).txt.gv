@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="32-35 Scegli la tua avventura -- Oltre lo spazio (Italian).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="32-35 Scegli la tua avventura -- Oltre lo spazio (Italian)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   1 -> 2;
@@ -77,7 +77,7 @@ digraph g{
   54 -> 76;
   55 -> 78;
   55 -> 77;
-  56 -> 999	[ xlabel="END" ];
+  56 -> 999	[ xlabel="END", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   56 -> 58;
   58 -> 81;
   58 -> 80;

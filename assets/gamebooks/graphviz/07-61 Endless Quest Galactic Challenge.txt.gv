@@ -1,11 +1,34 @@
 digraph g{
-  graph [ label="07-61 Endless Quest Galactic Challenge.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="07-61 Endless Quest Galactic Challenge" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Rachael Grainger;
+  // role : encoder;
+  // date : 2017-08-30;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   0 -> 54;
   0 -> 51;
-  1	[ xlabel="S" ];
+  1	[ xlabel="S", shape=Msquare, fontsize=20 ];
   1 -> 13;
   1 -> 15;
   1 -> 45;
@@ -145,10 +168,10 @@ digraph g{
   88 -> 42;
   89 -> 6;
   90 -> 88;
-  91	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  91	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   92 -> 90;
   92 -> 76;
   92 -> 69;
-  93	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  93	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
 }
 

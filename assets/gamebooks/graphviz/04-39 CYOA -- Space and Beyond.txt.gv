@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="04-39 CYOA -- Space and Beyond.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="04-39 CYOA -- Space and Beyond" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
 
@@ -94,7 +94,7 @@ digraph g{
   79 -> 103;
   79 -> 102;
   80 -> 77	[ xlabel="end or choice" ];
-  80	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  80	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   80 -> 8000	[ xlabel="www.cyoa.com/space3992.htm" ];
   82 -> 106;
   82 -> 107;
@@ -125,6 +125,6 @@ digraph g{
   109 -> 119;
   111 -> 121;
   111 -> 122;
-  115 -> 1	[ xlabel="RETURN", dir=both, arrowhead=none, arrowtail=box, style=dashed, constraint=false ];
+  115 -> 1	[ xlabel="RETURN", dir=both, arrowhead=none, arrowtail=box, style=dashed, constraint=false, label="" ];
 }
 

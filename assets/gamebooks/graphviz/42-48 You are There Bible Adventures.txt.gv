@@ -1,8 +1,45 @@
 digraph g{
-  graph [ label="42-48 You are There Bible Adventures.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="42-48 You are There Bible Adventures" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     : 42-48;
+  // gbid   : 3833;
+  // series : You Are There Bible Adventures;
+  // title  : You Are There Bible Adventures;
+  // author : Paul J. Loth;
+  // credit:;
+  // - name : Jeremy Douglass;
+  // role : encoder;
+  // date : 2017-11-20;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-05-04;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
+  TOC -> 8;
+  TOC -> 32;
+  TOC -> 68;
+  TOC -> 106;
+  TOC -> 144;
+  TOC -> 190;
+  TOC -> 236;
+  TOC -> 280;
+  
+  // Chapter 1;
+  // Your Adventure with Jonah;
+  // --Jonah 1:1-3:10;
+  // pp.8-31;
+  
   8 -> 15;
   9 -> 16;
   10 -> 12;
@@ -27,12 +64,17 @@ digraph g{
   24 -> 14;
   25 -> 26;
   26 -> 30;
-  27	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  27	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   28 -> 19;
   29 -> 28;
   30 -> 22;
   31 -> 19;
 
+  // Chapter 2;
+  // Your Adventure with Joseph;
+  // --Genesis 37-50;
+  // pp.32-67;
+  
   32 -> 55;
   33 -> 39;
   34 -> 58;
@@ -53,9 +95,9 @@ digraph g{
   45 -> 54;
   46 -> 65;
   47 -> 36;
-  48	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  48	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   49 -> 67;
-  50	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  50	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   51 -> 56;
   52 -> 39;
   52 -> 61;
@@ -77,7 +119,12 @@ digraph g{
   67 -> 60;
   67 -> 51;
   67 -> 33;
-
+  
+  // Chapter 3;
+  // Your Adventure with Mary and Joseph;
+  // --Luke 2:1-21;
+  // pp.68-105;
+  
   68 -> 75;
   69 -> 83;
   69 -> 71;
@@ -99,7 +146,7 @@ digraph g{
   83 -> 74;
   84 -> 79;
   85 -> 81;
-  86	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  86	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   87 -> 76;
   88 -> 78;
   89 -> 80;
@@ -121,7 +168,12 @@ digraph g{
   104 -> 87;
   104 -> 98;
   105 -> 84;
-
+  
+  // Chapter 4;
+  // Your Adventure with David and Goliath;
+  // --1 Samuel 17;
+  // pp.106-143;
+  
   106 -> 123;
   107 -> 120;
   108 -> 119;
@@ -153,7 +205,7 @@ digraph g{
   128 -> 134;
   129 -> 120;
   130 -> 142;
-  131	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  131	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   132 -> 111;
   133 -> 126;
   134 -> 117;
@@ -167,7 +219,12 @@ digraph g{
   141 -> 138;
   142 -> 118;
   143 -> 141;
-
+  
+  // Chapter 5;
+  // Your Adventure with Paul;
+  // --Acts 23;
+  // pp.144-189;
+  
   144 -> 159;
   145 -> 174;
   146 -> 166;
@@ -194,7 +251,7 @@ digraph g{
   166 -> 175;
   167 -> 147;
   168 -> 153;
-  169	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  169	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   170 -> 157;
   171 -> 186;
   172 -> 180;
@@ -219,7 +276,12 @@ digraph g{
   188 -> 156;
   188 -> 154;
   189 -> 166;
-
+  
+  // Chapter 6;
+  // Your Adventure with Baby Moses;
+  // --Exodus 1:15-2:10;
+  // pp.190-235;
+  
   190 -> 202;
   191 -> 228;
   192 -> 225;
@@ -255,7 +317,7 @@ digraph g{
   218 -> 227;
   219 -> 191;
   219 -> 231;
-  220	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  220	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   221 -> 215;
   222 -> 229;
   223 -> 226;
@@ -275,7 +337,12 @@ digraph g{
   233 -> 198;
   234 -> 212;
   235 -> 204;
-
+  
+  // Chapter 7;
+  // Your Adventure with Jesus and the Disciples;
+  // --Matthew 8:23-27; Mark 4:35-41; Luke 8:22-25;
+  // pp.236-279;
+  
   236 -> 248;
   237 -> 253;
   238 -> 256;
@@ -294,14 +361,14 @@ digraph g{
   247 -> 254;
   247 -> 270;
   248 -> 262;
-  249	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  249	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   250 -> 259;
   251 -> 276;
   252 -> 259;
   253 -> 271;
   253 -> 269;
   254 -> 256;
-  255	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  255	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   256 -> 240;
   257 -> 245;
   258 -> 242;
@@ -327,7 +394,12 @@ digraph g{
   277 -> 257;
   278 -> 238;
   279 -> 239;
-
+  
+  // Chapter 8;
+  // Your Adventure with Jesus and the Paralyzed Man;
+  // --Mark 2:1-12;
+  // pp.280-;
+  
   280 -> 294;
   281 -> 298;
   282 -> 295;
@@ -366,7 +438,7 @@ digraph g{
   310 -> 293;
   311 -> 309;
   311 -> 319;
-  312	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  312	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   313 -> 310;
   314 -> 316;
   315 -> 296;
@@ -375,5 +447,47 @@ digraph g{
   318 -> 301;
   319 -> 285;
   320 -> 281;
+
+  // Groups;
+  
+  subgraph cluster_Chapter1 {
+    label="Chapter 1";
+    10;  11;  12;  13;  14;  15;  16;  17;  18;  19;  20;  21;  22;  23;  24;  25;  26;  27;  28;  29;  30;  31;  8;  9;
+  }
+  
+  subgraph cluster_Chapter2 {
+    label="Chapter 2";
+    32;  33;  34;  35;  36;  37;  38;  39;  40;  41;  42;  43;  44;  45;  46;  47;  48;  49;  50;  51;  52;  53;  54;  55;  56;  57;  58;  59;  60;  61;  62;  63;  64;  65;  66;  67;
+  }
+  
+  subgraph cluster_Chapter3 {
+    label="Chapter 3";
+    100;  101;  102;  103;  104;  105;  68;  69;  70;  71;  72;  73;  74;  75;  76;  77;  78;  79;  80;  81;  82;  83;  84;  85;  86;  87;  88;  89;  90;  91;  92;  93;  94;  95;  96;  97;  98;  99;
+  }
+  
+  subgraph cluster_Chapter4 {
+    label="Chapter 4";
+    106;  107;  108;  109;  110;  111;  112;  113;  114;  115;  116;  117;  118;  119;  120;  121;  122;  123;  124;  125;  126;  127;  128;  129;  130;  131;  132;  133;  134;  135;  136;  137;  138;  139;  140;  141;  142;  143;
+  }
+  
+  subgraph cluster_Chapter5 {
+    label="Chapter 5";
+    144;  145;  146;  147;  148;  149;  150;  151;  152;  153;  154;  155;  156;  157;  158;  159;  160;  161;  162;  163;  164;  165;  166;  167;  168;  169;  170;  171;  172;  173;  174;  175;  176;  177;  178;  179;  180;  181;  182;  183;  184;  185;  186;  187;  188;  189;
+  }
+  
+  subgraph cluster_Chapter6 {
+    label="Chapter 6";
+    190;  191;  192;  193;  194;  195;  196;  197;  198;  199;  200;  201;  202;  203;  204;  205;  206;  207;  208;  209;  210;  211;  212;  213;  214;  215;  216;  217;  218;  219;  220;  221;  222;  223;  224;  225;  226;  227;  228;  229;  230;  231;  232;  233;  234;  235;
+  }
+  
+  subgraph cluster_Chapter7 {
+    label="Chapter 7";
+    236;  237;  238;  239;  240;  241;  242;  243;  244;  245;  246;  247;  248;  249;  250;  251;  252;  253;  254;  255;  256;  257;  258;  259;  260;  261;  262;  263;  264;  265;  266;  267;  268;  269;  270;  271;  272;  273;  274;  275;  276;  277;  278;  279;
+  }
+  
+  subgraph cluster_Chapter8 {
+    label="Chapter 8";
+    280;  281;  282;  283;  284;  285;  286;  287;  288;  289;  290;  291;  292;  293;  294;  295;  296;  297;  298;  299;  300;  301;  302;  303;  304;  305;  306;  307;  308;  309;  310;  311;  312;  313;  314;  315;  316;  317;  318;  319;  320;
+  }
 }
 

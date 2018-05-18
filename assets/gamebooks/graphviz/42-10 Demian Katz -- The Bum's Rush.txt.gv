@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="42-10 Demian Katz -- The Bum's Rush.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="42-10 Demian Katz -- The Bum's Rush" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
 
@@ -33,14 +33,14 @@ digraph g{
   26 -> 27;
   27 -> 16;
   28 -> 39;
-  29	[ xlabel="END" ];
+  29	[ xlabel="END", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   30 -> 19;
   30 -> 41;
   31 -> 30;
   32 -> 43;
   33 -> 44;
   34 -> 45;
-  35	[ xlabel="END" ];
+  35	[ xlabel="END", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   36 -> 35;
   37 -> 26;
   38 -> 37;
@@ -49,19 +49,19 @@ digraph g{
   40 -> 29;
   41 -> 52;
   42 -> 31;
-  43	[ xlabel="END" ];
-  44	[ xlabel="END" ];
+  43	[ xlabel="END", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  44	[ xlabel="END", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   45 -> 46;
   46 -> 57;
   47 -> 36;
   48 -> 49;
-  49	[ xlabel="END" ];
+  49	[ xlabel="END", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   50 -> 51;
   51 -> 40;
   52 -> 63;
   53 -> 42;
   54 -> 53;
-  55	[ xlabel="END" ];
+  55	[ xlabel="END", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   56 -> 67;
   57 -> 56;
   58 -> 47;

@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="22-38 Sagard the Barbarian -- The Ice Dragon.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="22-38 Sagard the Barbarian -- The Ice Dragon" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   1 -> 2;
@@ -72,13 +72,13 @@ digraph g{
   43 -> 17;
   43 -> 31;
   44 -> 45;
-  45	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  45	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   45 -> 46;
   46 -> 47;
   47 -> 48;
   47 -> 49;
   47 -> 15;
-  48	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  48	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   48 -> 70;
   48 -> 47;
   49 -> 74;
@@ -99,12 +99,12 @@ digraph g{
   58 -> 59;
   59 -> 60;
   59 -> 61;
-  60	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  60	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   60 -> 62;
   61 -> 63;
   61 -> 64;
   62 -> 39;
-  63	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  63	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   63 -> 62;
   64 -> 39;
   65 -> 67;
@@ -115,23 +115,23 @@ digraph g{
   67 -> 9;
   68 -> 22;
   69 -> 22;
-  70	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  70	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   70 -> 71;
   70 -> 47;
   71 -> 47;
   71 -> 72;
   72 -> 73;
-  73	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  73	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   73 -> 77;
   73 -> 78;
-  74	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  74	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   74 -> 54;
   75 -> 76;
   75 -> 47;
   76 -> 47;
   77 -> 78;
   78 -> 79;
-  79	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  79	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   79 -> 81;
   79 -> 80;
   80 -> 82;
@@ -191,9 +191,9 @@ digraph g{
   114 -> 115;	// tally points, determines ending
   114 -> 116;
   114 -> 117;
-  115	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  116	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// GOOD
-  117	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// GOOD
+  115	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  116	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// GOOD
+  117	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// GOOD
   118 -> 12;
   119 -> 120;
   119 -> 99;

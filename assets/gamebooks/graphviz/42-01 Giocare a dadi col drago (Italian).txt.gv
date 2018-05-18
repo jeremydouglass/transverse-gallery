@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="42-01 Giocare a dadi col drago (Italian).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="42-01 Giocare a dadi col drago (Italian)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   1 -> 40;
@@ -13,7 +13,7 @@ digraph g{
   5 -> 60;
   6 -> 108;
   7 -> 111;
-  8	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  8	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   9 -> 20;
   10 -> 77;
   11 -> 54;
@@ -23,7 +23,7 @@ digraph g{
   13 -> 8;
   14 -> 62;
   14 -> 80;
-  15	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  15	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   16;
   17 -> 121;
   17 -> 95;
@@ -34,18 +34,18 @@ digraph g{
   20 -> 17;
   21 -> 131;
   21 -> 125;
-  22	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  23	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  22	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  23	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   24 -> 5;
   25 -> 129;
   25 -> 53;
   25 -> 19;
   26 -> 111;
   26 -> 57;
-  27	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  27	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   28 -> 117;
   28 -> 47;
-  29	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  29	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   30 -> 70;
   30 -> 123;
   31 -> 76;
@@ -66,7 +66,7 @@ digraph g{
   41 -> 120;
   42 -> 39;
   43 -> 71;
-  44	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  44	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   45 -> 79;
   45 -> 79;
   56 -> 68;
@@ -134,7 +134,7 @@ digraph g{
   86 -> 25;
   86 -> 33;
   87 -> 12;
-  88	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  88	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   89 -> 99;
   90 -> 63;
   90 -> 134;
@@ -167,7 +167,7 @@ digraph g{
   108 -> 90;
   108 -> 67;
   109 -> 28;
-  110	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  110	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   111 -> 94;
   111 -> 14;
   112 -> 12;
@@ -185,7 +185,7 @@ digraph g{
   118 -> 73;
   119 -> 15;
   119 -> 29;
-  120	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  120	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   121 -> 35;
   122 -> 32;
   122 -> 2;

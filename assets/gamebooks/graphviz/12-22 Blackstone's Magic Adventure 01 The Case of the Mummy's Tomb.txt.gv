@@ -1,8 +1,31 @@
 digraph g{
-  graph [ label="12-22 Blackstone's Magic Adventure 01 The Case of the Mummy's Tomb.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="12-22 Blackstone's Magic Adventure 01 The Case of the Mummy's Tomb" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Juliet Way-Henthorne;
+  // role : encoder;
+  // date : 2017-09-07;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : ?;
+  // styles : ?;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   5 -> 10;
   5 -> 8;
   8 -> 28;
@@ -10,12 +33,12 @@ digraph g{
   10 -> 12;
   10 -> 14;
   12 -> 13;
-  13	[ xlabel="E-BAD" ];
+  13	[ xlabel="E-BAD" ];	// MAGIC
   14 -> 58;
   16 -> 18;
   16 -> 20;
   16 -> 21;
-  18	[ xlabel="E-BAD" ];
+  18	[ xlabel="E-BAD" ];	// CREATURE
   20	[ xlabel="E-BAD" ];
   21 -> 23;
   21 -> 25;
@@ -29,7 +52,7 @@ digraph g{
   33 -> 24;
   36 -> 46;
   36 -> 44;
-  44	[ xlabel="E-BAD" ];
+  44	[ xlabel="E-BAD" ];	// MAGIC
   46 -> 28;
   46 -> 48;
   47 -> 49;

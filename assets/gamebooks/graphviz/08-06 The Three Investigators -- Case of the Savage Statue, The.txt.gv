@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="08-06 The Three Investigators -- Case of the Savage Statue, The.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="08-06 The Three Investigators -- Case of the Savage Statue, The" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   5 -> 18;
@@ -57,7 +57,7 @@ digraph g{
   52 -> 104;
   52 -> 114;
   53 -> 40;
-  54 -> 56	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  54 -> 56	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   57 -> 58;
   58 -> 117;
   58 -> 33;
@@ -66,7 +66,7 @@ digraph g{
   60 -> 61;
   61 -> 44;
   61 -> 19;
-  62 -> 63	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  62 -> 63	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   65 -> 66;
   66 -> 67;
   67 -> 17;
@@ -81,7 +81,7 @@ digraph g{
   76 -> 39;
   76 -> 94;
   77 -> 28;
-  78 -> 80	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  78 -> 80	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   81 -> 11;
   82 -> 83;
   83 -> 84;
@@ -120,6 +120,6 @@ digraph g{
   121 -> 59;
   121 -> 32;
   122 -> 8;
-  123 -> 124	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  123 -> 124	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
 }
 

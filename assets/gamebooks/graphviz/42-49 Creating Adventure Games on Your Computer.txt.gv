@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="42-49 Creating Adventure Games on Your Computer.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="42-49 Creating Adventure Games on Your Computer" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   1 -> 11;
@@ -52,7 +52,7 @@ digraph g{
   25 -> 1;
   25 -> 21;
   26 -> 42;
-  27	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  27	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   28 -> 6;
   29 -> 40;
   29 -> 6;

@@ -1,12 +1,12 @@
 digraph g{
-  graph [ label="10-04 WWY 03 Who Kidnapped Princess Saralinda.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="10-04 WWY 03 Who Kidnapped Princess Saralinda" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   // 10-04 WWY 03 Who Kidnapped Princess Saralinda;
   // Jeremy Douglass;
   // 2017-08-16;
   
-  1	[ xlabel="S" ];
+  1	[ xlabel="S", shape=Msquare, fontsize=20 ];
   1 -> 2;
   2 -> 3;
   3 -> 4;
@@ -32,7 +32,7 @@ digraph g{
   14 -> 64;
   15 -> 33;
   15 -> 90;
-  16	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  16	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   17 -> 37;
   18 -> 42;
   19 -> 46;
@@ -82,17 +82,17 @@ digraph g{
   49 -> 66;
   50 -> 76;
   50 -> 91;
-  51	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  51	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   52 -> 16;
   52 -> 27;
   53 -> 72;
   54 -> 43;
   55 -> 32;
   55 -> 5500;
-  5500	[ xlabel="55-E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  5500	[ xlabel="55-E" ];
   56 -> 51;
   56 -> 23;
-  57	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  57	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   58 -> 59;
   59 -> 74;
   59 -> 67;
@@ -101,28 +101,28 @@ digraph g{
   61 -> 35;
   61 -> 77;
   62 -> 92;
-  64	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  65	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  64	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  65	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   66 -> 73;
   66 -> 26;
   67 -> 54;
-  68	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  68	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   69 -> 70;
   70 -> 71;
   71 -> 95;
   72 -> 14;
   73 -> 10;
-  74	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  74	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   75 -> 69;
   75 -> 7500;
-  7500	[ xlabel="75-E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  7500	[ xlabel="75-E" ];
   76 -> 80;
-  77	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  78	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  77	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  78	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   79 -> 69;
   80 -> 1000;	// Reverse the digits now, and go to that page
   80 -> 18;
-  81	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  81	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   82 -> 95;
   84 -> 19;
   84 -> 22;
@@ -134,11 +134,11 @@ digraph g{
   89 -> 48;
   90 -> 49;
   90 -> 81;
-  91	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  91	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   92 -> 93;
   93 -> 61;
   94 -> 18;
-  95	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// the good ending
+  95	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// the good ending
   
   // REFERENCES;
   97	[ xlabel="97 The Book of Spells" ];	// reference

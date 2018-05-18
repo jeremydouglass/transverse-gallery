@@ -1,7 +1,31 @@
 digraph g{
-  graph [ label="13-70 Troll FF -- War of the Wizards.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="13-70 Troll FF -- War of the Wizards" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 13-70;
+  // gbid   : 26;
+  // series : Troll Forgotten Forest;
+  // title  : War of the Wizards;
+  // author : Carol Gaskin;
+  // credit:;
+  // - name : Ryan Leach;
+  // role : encoder;
+  // date : 2017-08-21;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-04-28;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   1 -> 2;
   2 -> 3;
   3 -> 4;
@@ -93,7 +117,7 @@ digraph g{
   80 -> 84;
   81 -> 103;
   81 -> 8100;
-  8100	[ xlabel="81E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  8100	[ xlabel="81E" ];
   85 -> 122	[ xlabel="refer" ];
   85 -> 86;
   86 -> 87;

@@ -1,8 +1,34 @@
 digraph g{
-  graph [ label="01-14 CYOA -- By Balloon to the Sahara.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="01-14 CYOA -- By Balloon to the Sahara" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     : 01-14;
+  // gbid   : 563;
+  // series : CYOA;
+  // title  : By Balloon to the Sahara;
+  // author : Douglas Terman;
+  // credit:;
+  // - name : Juliet Way-Henthorn;
+  // role : encoder;
+  // date : 2017-08-17;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-04-28;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   1 -> 2;
   1 -> 3;
   2 -> 4;
@@ -81,6 +107,7 @@ digraph g{
   51 -> 71;
   53 -> 60;
   53 -> 54;
+  54 -> 55;
   55 -> 101;
   55 -> 106;
   56 -> 86;
@@ -126,5 +153,94 @@ digraph g{
   114 -> 117;
   114 -> 116;
   116 -> 117;
+  
+  // Endings;
+  
+  81	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  26	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  67	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  46	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  47	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  48	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  52	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  108	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  72	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  75	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  84	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  85	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  31	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  106	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  38	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  64	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  65	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  77	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  99	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  100	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  97	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  96	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  54	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  109	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  73	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  61	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  90	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  112	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  66	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  93	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  92	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  80	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  63	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  107	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  68	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  113	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  115	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  111	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  117	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  
+  // Illustrations;
+  
+  1	[ xlabel="P" ];	// upper
+  2	[ xlabel="P" ];	// upper
+  5	[ xlabel="P" ];	// upper
+  6	[ xlabel="P" ];	// lower
+  10 -> 11	[ xlabel="I", image="illustration-full.png", xlabel="" ];
+  11	[ xlabel="P" ];	// full
+  14	[ xlabel="P" ];	// lower
+  16	[ xlabel="P" ];	// mid
+  20	[ xlabel="P" ];	// lower
+  22	[ xlabel="P" ];	// upper
+  24 -> 25	[ xlabel="I", image="illustration-full.png", xlabel="" ];
+  25	[ xlabel="P" ];	// full
+  26	[ xlabel="P" ];	// lower
+  31	[ xlabel="P" ];	// upper
+  34 -> 35	[ xlabel="I", image="illustration-full.png", xlabel="" ];
+  35	[ xlabel="P" ];	// full
+  38	[ xlabel="P" ];	// lower
+  41 -> 40	[ xlabel="I", image="illustration-full.png", xlabel="" ];
+  40	[ xlabel="P" ];	// full
+  46	[ xlabel="P" ];	// upper
+  48	[ xlabel="P" ];	// lower
+  54	[ xlabel="P" ];	// lower
+  58 -> 59	[ xlabel="I", image="illustration-full.png", xlabel="" ];
+  59	[ xlabel="P" ];	// full
+  62	[ xlabel="P" ];	// mid
+  54	[ xlabel="P" ];	// upper
+  68 -> 69	[ xlabel="I", image="illustration-full.png", xlabel="" ];
+  69	[ xlabel="P" ];	// full
+  72	[ xlabel="P" ];	// upper
+  75	[ xlabel="P" ];	// upper
+  77	[ xlabel="P" ];	// lower
+  78	[ xlabel="P" ];	// lower
+  82	[ xlabel="P" ];	// lower
+  86	[ xlabel="P" ];	// lower
+  91 -> 90	[ xlabel="I", image="illustration-full.png", xlabel="" ];
+  91	[ xlabel="P" ];	// full
+  94	[ xlabel="P" ];	// upper
+  97	[ xlabel="P" ];	// upper
+  103	[ xlabel="P" ];	// mid
+  104 -> 105	[ xlabel="I", image="illustration-full.png", xlabel="" ];
+  105	[ xlabel="P" ];	// full
+  111 -> 110	[ xlabel="I", image="illustration-full.png", xlabel="" ];
+  110	[ xlabel="P" ];	// full
+  115	[ xlabel="P" ];	// upper
 }
 

@@ -1,8 +1,31 @@
 digraph g{
-  graph [ label="07-20 Endless Quest 02 Mountain of Mirrors.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="07-20 Endless Quest 02 Mountain of Mirrors" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Juliet Way-Henthorne;
+  // role : encoder;
+  // date : 2017-10-18;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   1 -> 38;
   1 -> 119;
   23 -> 39;
@@ -10,11 +33,11 @@ digraph g{
   30 -> 143;
   30 -> 102;
   30 -> 135;
-  37	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  37	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   38 -> 73;
   38 -> 41;
   38 -> 91;
-  40	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  40	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   41 -> 84;
   41 -> 76;
   42 -> 95;
@@ -27,19 +50,19 @@ digraph g{
   49 -> 98;
   49 -> 101;
   49 -> 30;
-  68	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  68	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   69 -> 93;
   69 -> 39;
   69 -> 91;
   72 -> 42;
   73 -> 75;
-  75	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  75	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   76 -> 43;
   76 -> 42;
-  79 -> 80	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  81 -> 83	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  84	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  85 -> 88	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  79 -> 80	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  81 -> 83	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  84	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  85 -> 88	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   89 -> 69;
   90 -> 75;
   91 -> 96;
@@ -66,7 +89,7 @@ digraph g{
   102 -> 40;
   102 -> 137;
   102 -> 115;
-  115 -> 118	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  115 -> 118	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   119 -> 89;
   119 -> 69;
   119 -> 37;
@@ -75,13 +98,13 @@ digraph g{
   132 -> 67;
   133 -> 39;
   133 -> 145;
-  135	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  135	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   136 -> 39;
   136 -> 145;
   137 -> 68;
   137 -> 147;
-  143	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  145 -> 146	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  147 -> 153	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  143	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  145 -> 146	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  147 -> 153	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
 }
 

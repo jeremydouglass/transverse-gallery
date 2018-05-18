@@ -1,8 +1,32 @@
 digraph g{
-  graph [ label="39-15 A Solve-It-Yourself Mystery 58 The Laughing Dragon Mystery.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="39-15 A Solve-It-Yourself Mystery 58 The Laughing Dragon Mystery" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-  0	[ xlabel="#cover, illustration clue" ];
+  // ---;
+  // group  : Katz;
+  // id     : 39-15;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Yee-Ann Wong;
+  // role : encoder;
+  // date : 2017-09-16;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-04-28;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
+  0;	// cover, illustration clue
   5 -> 6;
   6 -> 7;
   7 -> 8;
@@ -142,8 +166,8 @@ digraph g{
   141 -> 142;
   142 -> 143;
   143 -> 144;
-  144 -> 145	[ xlabel="#reader attempts solution" ];
-  145 -> 146	[ xlabel="#Solution; Reader must physically cut open sealed pages" ];
+  144 -> 145;	// reader attempts solution
+  145 -> 146;	// Solution; Reader must physically cut open sealed pages
   146 -> 147;
   147 -> 148;
   148 -> 149;

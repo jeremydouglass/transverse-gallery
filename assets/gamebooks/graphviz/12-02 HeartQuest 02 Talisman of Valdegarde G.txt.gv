@@ -1,8 +1,31 @@
 digraph g{
-  graph [ label="12-02 HeartQuest 02 Talisman of Valdegarde G.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="12-02 HeartQuest 02 Talisman of Valdegarde G" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Juliet Way-Henthorne;
+  // role : encoder;
+  // date : 2017-09-29;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : ?;
+  // styles : ?;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   0 -> 44	[ xlabel="BC" ];
   0 -> 122	[ xlabel="BC" ];
   6 -> 47	[ xlabel="FIGHT" ];
@@ -35,7 +58,7 @@ digraph g{
   45 -> 101	[ xlabel="FEMP" ];
   47	[ xlabel="EBD" ];
   48 -> 49;
-  48 -> 49	[ xlabel="E-BAD" ];
+  48 -> 49	[ xlabel="E-BAD" ];	// NO ROMANCE
   50 -> 123	[ xlabel="FIGHT" ];
   50 -> 62	[ xlabel="FIGHT" ];
   52 -> 121	[ xlabel="LOV" ];
@@ -84,7 +107,7 @@ digraph g{
   112 -> 25	[ xlabel="FLIGHT" ];
   112 -> 30	[ xlabel="FLIGHT" ];
   119 -> 27;
-  121 -> 63	[ xlabel="FEMP" ];
+  121 -> 63	[ xlabel="FEMP" ];	// SAVE WOMAN
   121 -> 138;
   122 -> 145;
   123 -> 143;
@@ -112,8 +135,8 @@ digraph g{
   148 -> 88;
   149 -> 153;
   150 -> 152;
-  152	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  152	[ xlabel="EGR" ];
   153 -> 157;
-  157	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  157	[ xlabel="EGR" ];
 }
 

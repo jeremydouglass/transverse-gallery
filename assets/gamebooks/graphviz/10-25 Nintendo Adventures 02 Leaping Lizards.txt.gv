@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="10-25 Nintendo Adventures 02 Leaping Lizards.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="10-25 Nintendo Adventures 02 Leaping Lizards" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
 
@@ -119,7 +119,7 @@ digraph g{
   48 -> 49;
   49 -> 55;
   50 -> 51;
-  51	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  51	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   52 -> 53;
   53 -> 67;
   53 -> 108;
@@ -143,7 +143,7 @@ digraph g{
   64 -> 65;
   65 -> 45;
   65 -> 27;
-  66	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  66	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   67 -> 68;
   68 -> 7;
   69 -> 70;
@@ -175,14 +175,14 @@ digraph g{
   91 -> 92;
   92 -> 93;
   93 -> 69;
-  94	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  94	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   95 -> 96;
   96 -> 15;
   97 -> 19;
   98 -> 99;
   99 -> 37;
   100 -> 12;
-  101	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  101	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   102 -> 103;
   103 -> 47;
   104 -> 105;
@@ -207,7 +207,7 @@ digraph g{
   117 -> 118;
   118 -> 58;
   119 -> 120;
-  120	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  120	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
 
   121	[ xlabel="121 Drip by Drip Scorecard" ];
 }

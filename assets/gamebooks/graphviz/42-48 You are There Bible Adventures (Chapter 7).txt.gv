@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="42-48 You are There Bible Adventures (Chapter 7).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="42-48 You are There Bible Adventures (Chapter 7)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
 
@@ -21,14 +21,14 @@ digraph g{
   247 -> 254;
   247 -> 270;
   248 -> 262;
-  249	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  249	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   250 -> 259;
   251 -> 276;
   252 -> 259;
   253 -> 271;
   253 -> 269;
   254 -> 256;
-  255	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  255	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   256 -> 240;
   257 -> 245;
   258 -> 242;

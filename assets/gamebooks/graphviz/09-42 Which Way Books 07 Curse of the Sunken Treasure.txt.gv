@@ -1,8 +1,31 @@
 digraph g{
-  graph [ label="09-42 Which Way Books 07 Curse of the Sunken Treasure.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="09-42 Which Way Books 07 Curse of the Sunken Treasure" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Juliet Way-Henthorne;
+  // role : encoder;
+  // date : 2017-09-01;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   1 -> 10;
   1 -> 17;
   6 -> 13;
@@ -42,7 +65,7 @@ digraph g{
   29 -> 43;
   29 -> 52;
   30	[ xlabel="E-GOOD" ];
-  30 -> 22	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  30 -> 22	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   31	[ xlabel="E-OK" ];
   32 -> 54;
   32 -> 59;
@@ -52,7 +75,7 @@ digraph g{
   35 -> 32;
   36 -> 37;
   37	[ xlabel="E-GOOD" ];
-  37 -> 14	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false ];
+  37 -> 14	[ xlabel="R*", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, constraint=false, label="" ];
   39 -> 42;
   39 -> 58;
   40 -> 56;
@@ -66,14 +89,14 @@ digraph g{
   47	[ xlabel="E-BAD" ];
   48 -> 49;
   49	[ xlabel="E-OK" ];
-  49 -> 113	[ xlabel="PUZZLE", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  49 -> 113	[ xlabel="PUZZLE" ];
   50	[ xlabel="E-GOOD" ];
   51 -> 66;
   52	[ xlabel="E-OK" ];
   53 -> 68;
   53 -> 73;
   54	[ xlabel="E-OK" ];
-  54 -> 114	[ xlabel="PUZZLE", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  54 -> 114	[ xlabel="PUZZLE" ];
   56	[ xlabel="E-BAD" ];
   57	[ xlabel="E-BAD" ];
   58	[ xlabel="E-BAD" ];
@@ -122,7 +145,7 @@ digraph g{
   91 -> 109;
   92	[ xlabel="E-BAD" ];
   93;
-  94 -> 95;
+  94 -> 95;	// E-BAD
   95 -> 82;
   95 -> 110;
   96	[ xlabel="E-BAD" ];

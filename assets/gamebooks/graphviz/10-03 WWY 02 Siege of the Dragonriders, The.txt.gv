@@ -1,9 +1,9 @@
 digraph g{
-  graph [ label="10-03 WWY 02 Siege of the Dragonriders, The.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="10-03 WWY 02 Siege of the Dragonriders, The" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
 
-  1	[ xlabel="S" ];
+  1	[ xlabel="S", shape=Msquare, fontsize=20 ];
   1 -> 2;
   2 -> 4;
   4 -> 5;
@@ -18,7 +18,7 @@ digraph g{
   9 -> 32;
   10 -> 6;
   10 -> 64;
-  11	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  11	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   12 -> 13;
   13 -> 36;
   13 -> 0;
@@ -26,7 +26,7 @@ digraph g{
   14 -> 66;
   15 -> 97;
   15 -> 20;
-  16	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  16	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   17 -> 101;
   17 -> 8;
   18 -> 19;
@@ -48,8 +48,8 @@ digraph g{
   31 -> 6;
   31 -> 40;
   32 -> 33;
-  33	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  34	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  33	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  34	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   35 -> 49;
   36 -> 37;
   37 -> 52;
@@ -61,10 +61,10 @@ digraph g{
   41 -> 56;
   42 -> 74;
   42 -> 47;
-  43	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  43	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   44 -> 80;
   44 -> 70;
-  45	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  45	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   46 -> 76;
   46 -> 94;
   46 -> 43;
@@ -80,9 +80,9 @@ digraph g{
   54 -> 65;
   54 -> 14;
   54 -> 0;
-  55	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  56	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  57	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  55	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  56	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  57	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   58 -> 59;
   59 -> 92;
   60 -> 67;
@@ -93,18 +93,18 @@ digraph g{
   63 -> 42;
   63 -> 46;
   63 -> 82;
-  64	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  64	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   65 -> 85;
   65 -> 0;
-  66	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  66	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   67 -> 32;
   68 -> 22;
   70 -> 71;
   71 -> 90;
   72 -> 73;
   73 -> 83;
-  74	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  75	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  74	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  75	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   76 -> 77;
   77 -> 30;
   78 -> 86;
@@ -113,7 +113,7 @@ digraph g{
   82 -> 95;
   82 -> 75;
   83 -> 0;
-  84	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  84	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   85 -> 71;
   86 -> 87;
   87 -> 34;
@@ -124,8 +124,8 @@ digraph g{
   91 -> 58;
   92 -> 93;
   93 -> 62;
-  94	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  95	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  94	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  95	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
 
   97	[ xlabel="97 The Book of Spells" ];
   101	[ xlabel="101 The Book of Weapons" ];

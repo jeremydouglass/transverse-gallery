@@ -1,8 +1,31 @@
 digraph g{
-  graph [ label="12-50 Find Your Fate Junior - Golden Girl 02 Golden Girl in the Land of Dreams (GENRE).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="12-50 Find Your Fate Junior - Golden Girl 02 Golden Girl in the Land of Dreams (GENRE)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     : 12-50;
+  // gbid   : 1142;
+  // series : Find Your Fate Junior - Golden Girl;
+  // title  : Golden Girl in the Land of Dreams;
+  // author : Alice Storey;
+  // credit:;
+  // - name : Juliet Way-Henthorne;
+  // role : encoder;
+  // date : 2017-10-16;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - render:  fantasy;
+  // engine:  dot;
+  // styles:  gvStyles-fantasy.txt;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   1 -> 10;
   1 -> 19;
   3 -> 4;
@@ -10,7 +33,7 @@ digraph g{
   5 -> 12	[ xlabel="FEMP" ];
   5 -> 40	[ xlabel="AV" ];
   6 -> 61;
-  8	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  8	[ xlabel="EGR" ];	// KROMA
   9	[ xlabel="EBD" ];
   10 -> 25	[ xlabel="AV" ];
   10 -> 31;
@@ -29,7 +52,7 @@ digraph g{
   25 -> 28;
   26	[ xlabel="E-OK" ];
   27 -> 45	[ xlabel="LOV" ];
-  27 -> 37	[ xlabel="FEMP" ];
+  27 -> 37	[ xlabel="FEMP" ];	// GROUP
   28 -> 27;
   30 -> 32;
   30 -> 52;
@@ -54,7 +77,7 @@ digraph g{
   48 -> 21;
   50 -> 24;
   51 -> 54;
-  52	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  52	[ xlabel="EGR" ];
   53 -> 56;
   54 -> 66;
   56	[ xlabel="EBD" ];

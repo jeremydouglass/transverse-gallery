@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="22-35 Demonspawn 02 The Crypts of Terror.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="22-35 Demonspawn 02 The Crypts of Terror" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   0 -> 50;
@@ -28,7 +28,7 @@ digraph g{
   11 -> 90;
   12 -> 43;
   12 -> 32;
-  13	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  13	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   14 -> 186	[ xlabel="refer" ];
   14 -> 45;
   14 -> 3;
@@ -337,7 +337,7 @@ digraph g{
   157 -> 187	[ xlabel="refer" ];
   157 -> 13;
   157 -> 158;
-  158	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  158	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   
 }
 

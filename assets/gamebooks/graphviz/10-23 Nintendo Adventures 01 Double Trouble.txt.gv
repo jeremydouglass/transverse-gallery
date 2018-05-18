@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="10-23 Nintendo Adventures 01 Double Trouble.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="10-23 Nintendo Adventures 01 Double Trouble" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   // 10-23 Nintendo Adventures 01 Double Trouble;
@@ -114,7 +114,7 @@ digraph g{
   26 -> 27;
   27 -> 31;
   27 -> 51;
-  28	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// GAME OVER!
+  28	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// GAME OVER!
   29 -> 30;
   30 -> 12;
   31 -> 32;
@@ -183,7 +183,7 @@ digraph g{
   84 -> 29;
   84 -> 28;
   85 -> 86;
-  86	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// GAME OVER!
+  86	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// GAME OVER!
   87 -> 88;
   88 -> 89;
   89 -> 94;
@@ -194,7 +194,7 @@ digraph g{
   93 -> 118;
   94 -> 58;
   95 -> 96;
-  96	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// GAME OVER!
+  96	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// GAME OVER!
   97 -> 98;
   98 -> 99;
   99 -> 40;

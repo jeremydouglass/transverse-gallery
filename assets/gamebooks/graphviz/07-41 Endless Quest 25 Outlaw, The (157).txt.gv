@@ -1,9 +1,32 @@
 digraph g{
-  graph [ label="07-41 Endless Quest 25 Outlaw, The (157).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="07-41 Endless Quest 25 Outlaw, The (157)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
-  5	[ xlabel="S" ];
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Rachael Grainger;
+  // role : encoder;
+  // date : 2017-08-24;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
+  5	[ xlabel="S", shape=Msquare, fontsize=20 ];
   5 -> 6;
   6 -> 7;
   7 -> 8;
@@ -72,7 +95,7 @@ digraph g{
   61 -> 35;
   61 -> 54;
   62 -> 63;
-  63	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  63	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   64 -> 90;
   64 -> 119;
   65 -> 66;
@@ -103,13 +126,13 @@ digraph g{
   86 -> 102;
   87 -> 88;
   88 -> 89;
-  89	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  89	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   90 -> 91;
   91 -> 92;
   92 -> 93;
   93 -> 94;
   94 -> 95;
-  95	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  95	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   96 -> 51;
   97 -> 98;
   98 -> 99;
@@ -121,11 +144,11 @@ digraph g{
   104 -> 105;
   105 -> 106;
   106 -> 107;
-  107	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  107	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   108 -> 109;
   109 -> 110;
   110 -> 111;
-  111	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  111	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   112 -> 113;
   113 -> 114;
   114 -> 115;
@@ -137,43 +160,43 @@ digraph g{
   118 -> 112;
   119 -> 120;
   120 -> 121;
-  121	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  121	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   122 -> 123;
   123 -> 124;
   124 -> 125;
   125 -> 126;
-  126	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  126	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   127 -> 128;
   128 -> 87;
   128 -> 139;
   129 -> 130;
   130 -> 131;
-  131	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  131	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   132 -> 133;
-  133	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  133	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   134 -> 135;
   135 -> 136;
   136 -> 137;
   137 -> 138;
-  138	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  138	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   139 -> 140;
   140 -> 141;
-  141	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  141	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   142 -> 143;
   143 -> 144;
   144 -> 145;
   145 -> 43;
   146 -> 147;
-  147	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  147	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   148 -> 149;
   149 -> 150;
   150 -> 151;
   151 -> 152;
-  152	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  152	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   153 -> 154;
   154 -> 155;
   155 -> 156;
   156 -> 157;
-  157	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  157	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
 }
 

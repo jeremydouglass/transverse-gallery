@@ -1,11 +1,34 @@
 digraph g{
-  graph [ label="12-49 Find Your Fate Junior - Golden Girl 01 Golden Girl and the Vanishing Unicorn.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="12-49 Find Your Fate Junior - Golden Girl 01 Golden Girl and the Vanishing Unicorn" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Juliet Way-Henthorne;
+  // role : encoder;
+  // date : 2017-09-07;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : ?;
+  // styles : ?;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   1 -> 26;
   3 -> 71;
-  4	[ xlabel="E-BAD" ];
+  4	[ xlabel="E-BAD" ];	// MONSTER
   5 -> 21;
   6 -> 19;
   8 -> 18;
@@ -33,7 +56,7 @@ digraph g{
   28 -> 16;
   30 -> 10;
   30 -> 45;
-  31	[ xlabel="E-BAD" ];
+  31	[ xlabel="E-BAD" ];	// MAGIC
   32 -> 37;
   33 -> 31;
   34 -> 52;

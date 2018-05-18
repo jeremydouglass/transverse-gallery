@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="12-01 HeartQuest Book 01 Ring of the Ruby Dragon (GENRE).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="12-01 HeartQuest Book 01 Ring of the Ruby Dragon (GENRE)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   // ---;
@@ -23,6 +23,8 @@ digraph g{
   // comment: >;
   
   // ---;
+  
+  // From | To | Label;
   
   0 -> 78	[ xlabel="BC" ];
   0 -> 94	[ xlabel="BC" ];
@@ -52,7 +54,7 @@ digraph g{
   47 -> 79;	// GENDER CHOICE
   47 -> 34;	// GENDER CHOICE
   53 -> 55;
-  55	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  55	[ xlabel="EGR" ];
   56 -> 90;
   56 -> 31;
   61	[ xlabel="EBD" ];
@@ -65,7 +67,7 @@ digraph g{
   70 -> 51;
   72	[ xlabel="E-BAD" ];
   74 -> 77;
-  77	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  77	[ xlabel="EGR" ];
   78 -> 15;
   79 -> 113;
   79 -> 131;
@@ -80,7 +82,7 @@ digraph g{
   93 -> 81;
   94 -> 15;
   94 -> 146;
-  97	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  97	[ xlabel="EGR" ];
   99 -> 132;
   99 -> 47;
   106 -> 113;
@@ -91,7 +93,7 @@ digraph g{
   113 -> 114;
   114	[ xlabel="EBD" ];
   115 -> 116;
-  116	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  116	[ xlabel="EGR" ];
   117 -> 97;
   117 -> 16;
   122 -> 26;
@@ -106,6 +108,6 @@ digraph g{
   146 -> 84;
   146 -> 28;
   152	[ xlabel="E-BAD" ];
-  153 -> 157	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  153 -> 157	[ xlabel="EGR" ];
 }
 

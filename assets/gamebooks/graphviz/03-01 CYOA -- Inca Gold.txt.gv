@@ -1,8 +1,31 @@
 digraph g{
-  graph [ label="03-01 CYOA -- Inca Gold.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="03-01 CYOA -- Inca Gold" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series : CYOA;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Sarah Cifranic;
+  // role : encoder;
+  // date : 2017-08-18;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   1 -> 2;
   2 -> 3;
   3 -> 6;
@@ -98,6 +121,6 @@ digraph g{
   107 -> 110;
   110 -> 35;
   114 -> 103;
-
+  
 }
 

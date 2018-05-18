@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="22-17 Marvel Super Heroes -- Uncanny X-Men - An X-cellent Death.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="22-17 Marvel Super Heroes -- Uncanny X-Men - An X-cellent Death" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   1 -> 81;	// W
@@ -9,7 +9,7 @@ digraph g{
   4 -> 46;	// N
   5 -> 94;	// S
   6 -> 186;	// R
-  7	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  7	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   8 -> 72;	// W
   9 -> 155;	// R
   9 -> 109;
@@ -17,7 +17,7 @@ digraph g{
   10 -> 143;
   11 -> 83;	// R
   12 -> 150;	// S
-  13	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// R
+  13	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// R
   14 -> 161;	// N
   15 -> 129;	// W
   16 -> 87;	// N
@@ -34,7 +34,7 @@ digraph g{
   22 -> 178;	// R
   23 -> 199;	// S
   23 -> 39;
-  24	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// N
+  24	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// N
   25 -> 164;	// N
   26 -> 32;	// W
   26 -> 191;
@@ -43,7 +43,7 @@ digraph g{
   29 -> 18;	// N
   30 -> 129;	// W
   31 -> 102;	// S
-  32	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// W
+  32	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// W
   33 -> 149;	// N
   33 -> 69;
   33 -> 200;
@@ -82,12 +82,12 @@ digraph g{
   57 -> 202;	// R
   58 -> 182;	// S
   58 -> 176;
-  59	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// S
+  59	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// S
   60 -> 24	[ xlabel="N" ];
   60 -> 67;
-  61	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// W
+  61	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// W
   62 -> 79;	// R
-  63	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// S
+  63	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// S
   64 -> 12;	// S
   64 -> 194;
   65 -> 151;	// W
@@ -114,7 +114,7 @@ digraph g{
   82 -> 164;	// N
   83 -> 68;	// R
   83 -> 78;
-  84	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// S
+  84	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// S
   85 -> 23;	// S
   86 -> 159;	// W
   86 -> 195;
@@ -123,27 +123,27 @@ digraph g{
   88 -> 151;	// W
   89 -> 8;	// W
   89 -> 108;
-  90	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// S
+  90	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// S
   91 -> 193;	// R
   91 -> 135;
   92 -> 142;	// R
-  93	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// N
+  93	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// N
   94 -> 41;	// S
   95 -> 158;	// R
   96 -> 121;	// S
   97 -> 110;	// S
   98 -> 19;	// S
-  99	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// R
+  99	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// R
   100 -> 136;	// N
   100 -> 29;
   101 -> 165;	// R
   101 -> 111;
-  102 -> 169	[ xlabel="R", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  102 -> 169	[ xlabel="R", dir=both, arrowhead=tee, arrowtail=odot, style=dashed, label="" ];
   102 -> 9;
   103 -> 56;	// W
   104 -> 93;	// N
   104 -> 123;
-  105	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  105	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   106 -> 59;	// W
   107 -> 117;	// R
   108 -> 124;	// W
@@ -160,18 +160,18 @@ digraph g{
   113 -> 30;
   114 -> 75;	// N
   115 -> 151;	// W
-  116	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// W
+  116	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// W
   117 -> 14;	// R
   118 -> 31;	// S
   118 -> 181;
   119 -> 150;	// W
   120 -> 82;	// S
-  121	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// W
+  121	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// W
   122 -> 105;	// N
   122 -> 80;
   123 -> 17;	// N
   124 -> 34;	// W
-  125	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// R
+  125	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// R
   126 -> 201;	// N
   127 -> 152;	// W
   127 -> 40;
@@ -227,14 +227,14 @@ digraph g{
   167 -> 36;
   168 -> 76;	// W
   168 -> 49;
-  169	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// R
-  170	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  169	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// R
+  170	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   171 -> 65;	// W
   171 -> 88;
   172 -> 3;	// W
   173 -> 56;	// W
   174 -> 156;	// N
-  175	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// S
+  175	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// S
   176 -> 110;	// S
   177 -> 121;	// W
   178 -> 188;	// W
@@ -269,7 +269,7 @@ digraph g{
   199 -> 192;	// R
   199 -> 22;
   200 -> 51;	// N
-  201	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];	// W
+  201	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// W
   202 -> 196;	// S
 }
 

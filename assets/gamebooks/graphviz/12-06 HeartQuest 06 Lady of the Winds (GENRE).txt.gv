@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="12-06 HeartQuest 06 Lady of the Winds (GENRE).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="12-06 HeartQuest 06 Lady of the Winds (GENRE)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   // ---;
@@ -23,6 +23,8 @@ digraph g{
   // comment: >;
   
   // ---;
+  
+  // From | To | Label;
   
   6 -> 13	[ xlabel="JOIN-M" ];
   6 -> 16	[ xlabel="JOIN-W" ];
@@ -81,7 +83,7 @@ digraph g{
   118 -> 126	[ xlabel="JOIN-M" ];
   118 -> 139;
   123 -> 125;
-  125	[ xlabel="E-OK" ];
+  125	[ xlabel="E-OK" ];	// ROMANCE
   126 -> 35	[ xlabel="LOV" ];
   126 -> 64	[ xlabel="AV" ];
   126 -> 130	[ xlabel="JOIN-M" ];
@@ -93,12 +95,12 @@ digraph g{
   140 -> 151;
   140 -> 148;
   145 -> 146;
-  146	[ xlabel="E-OK" ];
-  147	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  146	[ xlabel="E-OK" ];	// ROMANCE
+  147	[ xlabel="EGR" ];
   148 -> 147	[ xlabel="LOV" ];
   148 -> 153;
   151	[ xlabel="EBD" ];
   153 -> 157;
-  157	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  157	[ xlabel="EGR" ];
 }
 

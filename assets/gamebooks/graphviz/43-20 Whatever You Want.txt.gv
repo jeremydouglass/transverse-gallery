@@ -1,18 +1,53 @@
 digraph g{
-  graph [ label="43-20 Whatever You Want.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="43-20 Whatever You Want" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-  // Whatever You Want;
-  // 2015-08-03;
-  // Text from CYOA gamebook graph database data [GDrive sheet/.xlsx];
+  // ---;
+  // group  : Katz;
+  // id     : 43-20;
+  // gbid   : 1990;
+  // series : Whatever You Want;
+  // title  : Whatever You Want;
+  // author : Rachel Timms and Laurence Hayes;
+  // credit:;
+  // - name : Jeremy Douglass;
+  // role : encoder;
+  // date : 2015-08-03;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-05-02;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
   
-  // This book has multiple errors -- they seem to be manuscript errors;
-  // rather than wrong choice numbers.;
+  // Whatever You Want begins with a first choice that is interpreted;
+  // as implicitly indicating a gender preference, leading the reader;
+  // to assume the role of one of two cruel young socialites out on the;
+  // town -- either Barnaby or Barbarella. Two interactive stories;
+  // follow, each tracing the same night of crazy partying and romantic;
+  // hijinks among the same London social set, but from two different;
+  // perspectives.;
   
-  // -  There are a pair of related orphan endings in Barbarella's story;
-  // connected to the character Harvey (99,100).;
-  // -  There is an orphan storyline that begins at 180.;
-  // -  There is an orphaned ending 258 (the Bloody End).;
+  // The writing is split about 60/40 between the two characters.;
+  // Barnaby's story has 138 scenes and 21 endings; Barbarella's story;
+  // has 117 scenes and 15 endings.;
+  
+  // The book has multiple errors, and unusually they seem to be;
+  // manuscript errors with incompletely incorporated lexias rather;
+  // than misprinted choice numbers in what could be a correct graph:;
+  
+  // * There are a pair of related orphan endings in Barbarella's;
+  // story connected to the character Harvey (99,100).;
+  // * Another orphan node is ending 258 (the Bloody End).;
+  // * An orphan storyline begins at 180, 134 and merges with 182, 112.;
+  
+  // Encoding from CYOA gamebook graph database [GDrive sheet/.xlsx];
+  
+  // ---;
+  
+  // From | To | Label;
   
   0	[ xlabel="Prologue" ];
   0 -> 202;	// 4-5
@@ -31,7 +66,8 @@ digraph g{
   8 -> 16;	// 18-25
   9 -> 65;	// 26
   10 -> 62;	// 27-28
-  11	[ xlabel="The (Distrubed) End" ];	// end
+  11	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p29-32
+  11	[ xlabel="The (Distrubed) End" ];
   12 -> 14;	// 33-35
   13 -> 133;	// 36-37
   14 -> 122;	// 38-39
@@ -42,7 +78,8 @@ digraph g{
   17 -> 137;	// 43-45
   17 -> 251;	// 43-45
   18 -> 84;	// 46-47
-  19	[ xlabel="The (Exposed) End" ];	// end
+  19	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p48-51
+  19	[ xlabel="The (Exposed) End" ];
   20 -> 208;	// 52-53
   20 -> 261;	// 52-53
   21 -> 13;	// 54
@@ -50,7 +87,8 @@ digraph g{
   23 -> 246;	// 59-62
   24 -> 196;	// 63-64
   24 -> 186;	// 63-64
-  25	[ xlabel="The (Mud Glorious Mud) End" ];	// end
+  25	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p65-66
+  25	[ xlabel="The (Mud Glorious Mud) End" ];
   26 -> 66;	// 67-72
   26 -> 72;	// 67-72
   27 -> 89;	// 73-74
@@ -58,7 +96,8 @@ digraph g{
   29 -> 165;	// 76-77
   29 -> 43;	// 76-77
   30 -> 32;	// 78
-  31	[ xlabel="The (Sticky) End" ];	// end
+  31	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p79-80
+  31	[ xlabel="The (Sticky) End" ];
   32 -> 226;	// 81
   32 -> 218;	// 81
   33 -> 117;	// 82
@@ -84,7 +123,8 @@ digraph g{
   47 -> 159;	// 106-107
   48 -> 10;	// 108-110
   49 -> 57;	// 111-112
-  50	[ xlabel="The (Silly Bugger) End" ];	// end
+  50	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p113-115
+  50	[ xlabel="The (Silly Bugger) End" ];
   51 -> 21;	// 116
   52 -> 54;	// 117-118
   52 -> 56;	// 117-118
@@ -114,11 +154,13 @@ digraph g{
   69 -> 111;	// 142-143
   70 -> 241;	// 144-145
   71 -> 25;	// 146-147
-  72	[ xlabel="The (Dead) End" ];	// end
+  72	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p148-149
+  72	[ xlabel="The (Dead) End" ];
   73 -> 27;	// 150
   73 -> 5;	// 150
   74 -> 200;	// 151-152
-  75	[ xlabel="The (Soggy) End" ];	// end
+  75	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p153-154
+  75	[ xlabel="The (Soggy) End" ];
   76 -> 220;	// 155-156
   76 -> 230;	// 155-156
   77 -> 3;	// 157-158
@@ -132,7 +174,8 @@ digraph g{
   83 -> 151;	// 169
   84 -> 86;	// 170
   85 -> 167;	// 171-173
-  86	[ xlabel="The (Forlorn) End" ];	// end
+  86	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p174-175
+  86	[ xlabel="The (Forlorn) End" ];
   87 -> 7;	// 176-177
   88 -> 104;	// 178-179
   89 -> 37;	// 180-181
@@ -142,21 +185,26 @@ digraph g{
   92 -> 82;	// 192-194
   93 -> 177;	// 195-196
   94 -> 96;	// 197-198
-  95	[ xlabel="The (Crash 'n' Burn) End" ];	// end
+  95	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p199
+  95	[ xlabel="The (Crash 'n' Burn) End" ];
   96 -> 88;	// 200-202
   97 -> 137;	// 203-205
   97 -> 61;	// 203-205
-  98	[ xlabel="The (Self-Love) End" ];	// end
+  98	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p206
+  98	[ xlabel="The (Self-Love) End" ];
   99 -> 125;	// 207-209
-  100	[ xlabel="The (Elixir of Youth) End" ];	// end
+  100	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p210
+  100	[ xlabel="The (Elixir of Youth) End" ];
   101 -> 87;	// 211-212
   101 -> 77;	// 211-212
-  102	[ xlabel="The (Sexually Charged) End" ];	// end
+  102	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p213-215
+  102	[ xlabel="The (Sexually Charged) End" ];
   103 -> 145;	// 216-218
   104 -> 108;	// 219-223
   105 -> 113;	// 224-225
   105 -> 33;	// 224-225
-  106	[ xlabel="The (Banged Up the Wrong Way) End" ];	// end
+  106	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p226-227
+  106	[ xlabel="The (Banged Up the Wrong Way) End" ];
   107 -> 141;	// 228-229
   108 -> 112;	// 230-231
   108 -> 110;	// 230-231
@@ -165,7 +213,8 @@ digraph g{
   110 -> 120;	// 233-234
   111 -> 115;	// 235
   111 -> 117;	// 235
-  112	[ xlabel="The (Disappointingly Dull) End" ];	// end
+  112	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p236-237
+  112	[ xlabel="The (Disappointingly Dull) End" ];
   113 -> 139;	// 238
   114 -> 6;	// 239-240
   115 -> 49;	// 241-242
@@ -204,12 +253,14 @@ digraph g{
   139 -> 95;	// 285
   140 -> 142;	// 286-287
   140 -> 150;	// 286-287
-  141	[ xlabel="The (Boy's Own) End" ];	// end
+  141	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p288-290
+  141	[ xlabel="The (Boy's Own) End" ];
   142 -> 152;	// 291
   143 -> 19;	// 292-294
   144 -> 146;	// 295-296
   144 -> 148;	// 295-296
-  145	[ xlabel="The (Would You Adam and Eve It) End" ];	// end
+  145	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p297-298
+  145	[ xlabel="The (Would You Adam and Eve It) End" ];
   146 -> 76;	// 299-300
   147 -> 83;	// 301
   147 -> 155;	// 301
@@ -235,8 +286,10 @@ digraph g{
   159 -> 29;	// 325-326
   160 -> 158;	// 327
   161 -> 157;	// 328-329
-  162	[ xlabel="The (Testosterone Free) End" ];	// end
-  163	[ xlabel="The (Think of England) End" ];	// end
+  162	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p330
+  162	[ xlabel="The (Testosterone Free) End" ];
+  163	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p331-333
+  163	[ xlabel="The (Think of England) End" ];
   164 -> 18;	// 334
   165 -> 161;	// 335-337
   166 -> 190;	// 338
@@ -260,7 +313,8 @@ digraph g{
   178 -> 22;	// 366
   179 -> 183;	// 367-368
   180 -> 134;	// 369
-  181	[ xlabel="The (Lads Together) End" ];	// end
+  181	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p370
+  181	[ xlabel="The (Lads Together) End" ];
   182 -> 112;	// 371
   183 -> 256;	// 372
   184 -> 24;	// 373
@@ -280,43 +334,57 @@ digraph g{
   195 -> 257;	// 400-403
   195 -> 199;	// 400-403
   196 -> 78;	// 404
-  197	[ xlabel="The (Dead) End" ];	// end
+  197	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p405-407
+  197	[ xlabel="The (Dead) End" ];
   198 -> 20;	// 408-409
-  199	[ xlabel="The (Bottled) End" ];	// end
-  200	[ xlabel="The (Uncomfortable) End" ];	// end
-  201	[ xlabel="The (Messy) End" ];	// end
+  199	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p410
+  199	[ xlabel="The (Bottled) End" ];
+  200	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p411-414
+  200	[ xlabel="The (Uncomfortable) End" ];
+  201	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p415-416
+  201	[ xlabel="The (Messy) End" ];
   202 -> 2;	// 417
   203 -> 231;	// 418-419
   204 -> 1;	// 420
   205 -> 197;	// 421
-  206	[ xlabel="The (Premature) End" ];	// end
-  207	[ xlabel="The (Lonesome) End" ];	// end
-  208	[ xlabel="The (Threesome) End" ];	// end
+  206	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p422
+  206	[ xlabel="The (Premature) End" ];
+  207	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p423
+  207	[ xlabel="The (Lonesome) End" ];
+  208	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p424-425
+  208	[ xlabel="The (Threesome) End" ];
   209 -> 227;	// 426-427
   209 -> 211;	// 426-427
   210 -> 212;	// 428-430
   210 -> 90;	// 428-430
   211 -> 260;	// 431
-  212	[ xlabel="The (Humiliating) End" ];	// end
+  212	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p432-433
+  212	[ xlabel="The (Humiliating) End" ];
   213 -> 217;	// 434
   214 -> 76;	// 435
   215 -> 195;	// 436-437
   216 -> 150;	// 438
-  217	[ xlabel="The End (of an Era)" ];	// end
-  218	[ xlabel="The (Fucked Up) End" ];	// end
+  217	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p439-440
+  217	[ xlabel="The End (of an Era)" ];
+  218	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p441-442
+  218	[ xlabel="The (Fucked Up) End" ];
   219 -> 169;	// 443-445
   220 -> 132;	// 446
   220 -> 136;	// 446
-  221	[ xlabel="The (Proper) Julie Andrews End" ];	// end
-  222	[ xlabel="The (Disappointing) End" ];	// end
+  221	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p447-449
+  221	[ xlabel="The (Proper) Julie Andrews End" ];
+  222	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p450-451
+  222	[ xlabel="The (Disappointing) End" ];
   223 -> 99;	// 452
   224 -> 118;	// 453-454
   224 -> 50;	// 453-454
-  225	[ xlabel="The (Stunned) End" ];	// end
+  225	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p455-456
+  225	[ xlabel="The (Stunned) End" ];
   226 -> 24;	// 457
   227 -> 213;	// 458-460
   227 -> 191;	// 458-460
-  228	[ xlabel="The (Sensible) End" ];	// end
+  228	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p461
+  228	[ xlabel="The (Sensible) End" ];
   229 -> 205;	// 462-463
   229 -> 260;	// 462-463
   230 -> 140;	// 464-465
@@ -341,25 +409,34 @@ digraph g{
   243 -> 207;	// 493-495
   243 -> 249;	// 493-495
   244 -> 242;	// 496-497
-  245	[ xlabel="The (Bitter) End" ];	// end
+  245	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p498-500
+  245	[ xlabel="The (Bitter) End" ];
   246 -> 35;	// 501-502
   247 -> 241;	// 503
   248 -> 219;	// 504
-  249	[ xlabel="The (Blind Drunk) End" ];	// end
+  249	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p505
+  249	[ xlabel="The (Blind Drunk) End" ];
   250 -> 133;	// 506-507
-  251	[ xlabel="The (Evil Sinner) End" ];	// end
+  251	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p508-509
+  251	[ xlabel="The (Evil Sinner) End" ];
   252 -> 242;	// 510
   253 -> 67;	// 511
   254 -> 63;	// 511
   254 -> 107;	// 511
-  255	[ xlabel="The (Julie Andrews) End, 221" ];	// end
+  255	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p512-513
+  255	[ xlabel="The (Julie Andrews) End, 221" ];
   255 -> 221;	// ...another ending that continues after the ending
   256 -> 187;	// 514
   257 -> 203;	// 515
-  258	[ xlabel="The (Bloody) End" ];	// end
+  258	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p516
+  258	[ xlabel="The (Bloody) End" ];
   259 -> 183;	// 517
   260 -> 225;	// 518
-  261	[ xlabel="Truly This Is The (Perfect) End" ];	// end
-  262	[ xlabel="Truly This Is The (Perfect) End" ];	// end
+  261	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p519-520
+  261	[ xlabel="WIN", shape=Msquare, fontsize=20, fillcolor=grey50 ];
+  261	[ xlabel="Truly This Is The (Perfect) End" ];
+  262	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// p521-522
+  262	[ xlabel="WIN", shape=Msquare, fontsize=20, fillcolor=grey50 ];
+  262	[ xlabel="Truly This Is The (Perfect) End" ];
 }
 

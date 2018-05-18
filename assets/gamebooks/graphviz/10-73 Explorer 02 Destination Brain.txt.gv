@@ -1,9 +1,9 @@
 digraph g{
-  graph [ label="10-73 Explorer 02 Destination Brain.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="10-73 Explorer 02 Destination Brain" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
 
-  1	[ xlabel="S" ];
+  1	[ xlabel="S", shape=Msquare, fontsize=20 ];
   1 -> 2;
   2 -> 3;
   3 -> 4;
@@ -47,7 +47,7 @@ digraph g{
   40 -> 60;
   41 -> 42;
   42 -> 43;
-  43	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  43	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   44 -> 45;
   45 -> 46;
   46 -> 48;
@@ -62,20 +62,20 @@ digraph g{
   56 -> 49;
   57 -> 58;
   58 -> 59;
-  59	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  59	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   60 -> 61;
   61 -> 62;
   62 -> 63;
   63 -> 64;
   64 -> 68;
   66 -> 67;
-  67	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  67	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   68 -> 70;
   70 -> 76;
   70 -> 74;
   71 -> 72;
   72 -> 73;
-  73	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  73	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   74 -> 75;
   75 -> 80;
   75 -> 90;
@@ -101,16 +101,15 @@ digraph g{
   96 -> 103;
   96 -> 99;
   97 -> 98;
-  98	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  98	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   99 -> 102;
   102 -> 97;
   102 -> 105;
   103 -> 104;
-  104	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  104	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   105 -> 106;
   106 -> 108;
   108 -> 109;
-  109	[ xlabel="WIN" ];
-  
+  109	[ xlabel="WIN", shape=Msquare, fontsize=20, fillcolor=grey50 ];
 }
 

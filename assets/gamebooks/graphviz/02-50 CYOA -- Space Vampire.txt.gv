@@ -1,14 +1,14 @@
 digraph g{
-  graph [ label="02-50 CYOA -- Space Vampire.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="02-50 CYOA -- Space Vampire" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   // ---;
   // group  : Katz;
   // id     : 02-50;
-  // gbid   :;
+  // gbid   : 485;
   // series : CYOA;
   // title  : Space Vampire;
-  // author :;
+  // author : Edward Packard;
   // credit:;
   // - name : Ryan Leach;
   // role : encoder;
@@ -24,9 +24,9 @@ digraph g{
   
   // ---;
   
-  // ID | TARGET | TAGS;
+  // From | To | Label;
   
-  1	[ xlabel="START" ];	// Start
+  1	[ xlabel="START", shape=Msquare, fontsize=20 ];	// Start
   1 -> 39;
   2 -> 3;
   3 -> 13;

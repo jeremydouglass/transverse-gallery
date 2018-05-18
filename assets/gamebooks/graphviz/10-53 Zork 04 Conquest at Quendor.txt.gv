@@ -1,9 +1,9 @@
 digraph g{
-  graph [ label="10-53 Zork 04 Conquest at Quendor.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="10-53 Zork 04 Conquest at Quendor" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
 
-  7	[ xlabel="S" ];
+  7	[ xlabel="S", shape=Msquare, fontsize=20 ];
   7 -> 9;
   9 -> 10;
   10 -> 12;
@@ -14,7 +14,7 @@ digraph g{
   16 -> 19;
   16 -> 26;
   17 -> 18;
-  18	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  18	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   19 -> 21;
   21 -> 23;
   23 -> 24;
@@ -22,8 +22,8 @@ digraph g{
   25 -> 28;
   25 -> 30;
   26 -> 27;
-  27	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  28	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  27	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  28	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   30 -> 31;
   31 -> 32;
   32 -> 33;
@@ -38,20 +38,20 @@ digraph g{
   40 -> 45;
   40 -> 46;
   41 -> 42;
-  42	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  42	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   43 -> 45;
   45 -> 48;
   45 -> 56;
   46 -> 47;
-  47	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  47	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   48 -> 49;
   49 -> 50;
   50 -> 52;
   52 -> 53;
   52 -> 58;
   53 -> 55;
-  55	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  56	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  55	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  56	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   58 -> 59;
   59 -> 60;
   60 -> 61;
@@ -81,11 +81,11 @@ digraph g{
   85 -> 90;
   85 -> 92;
   85 -> 94;
-  86	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  88	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  90	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  86	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  88	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  90	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   92 -> 93;
-  93	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  93	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   94 -> 95;
   95 -> 90;
   95 -> 92;
@@ -99,27 +99,27 @@ digraph g{
   100 -> 110;
   100 -> 112;
   101 -> 103;
-  103	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  103	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   104 -> 106;
   106 -> 107;
   107 -> 68;
   107 -> 114;
   107 -> 116;
-  108	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  108	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   110 -> 111;
-  111	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  111	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   112 -> 113;
   113 -> 114;
-  114	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  114	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   116 -> 117;
   117 -> 119;
   119 -> 120;
   119 -> 122;
   120 -> 121;
-  121	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  121	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   122 -> 124;
   124 -> 125;
   125 -> 127;
-  127	[ xlabel="WIN" ];
+  127	[ xlabel="WIN", shape=Msquare, fontsize=20, fillcolor=grey50 ];
 }
 

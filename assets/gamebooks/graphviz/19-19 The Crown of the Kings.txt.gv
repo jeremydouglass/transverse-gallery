@@ -1,8 +1,8 @@
 digraph g{
-  graph [ label="19-19 The Crown of the Kings.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="19-19 The Crown of the Kings" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-  1	[ xlabel="S" ];
+  1	[ xlabel="S", shape=Msquare, fontsize=20 ];
   1 -> 222;
   1 -> 136;
   1 -> 534;
@@ -35,7 +35,7 @@ digraph g{
   13 -> 72;
   14 -> 318;
   14 -> 99;
-  15	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  15	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   16 -> 55;
   16 -> 134;
   16 -> 269;
@@ -101,7 +101,7 @@ digraph g{
   55 -> 269;
   56 -> 235;
   56 -> 299;
-  57	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  57	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   58 -> 152;
   58 -> 363;
   59 -> 183;
@@ -112,7 +112,7 @@ digraph g{
   61 -> 388;
   62 -> 293;
   62 -> 419;
-  63	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  63	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   64 -> 251;
   65 -> 458;
   65 -> 305;
@@ -132,7 +132,7 @@ digraph g{
   73 -> 144;
   74 -> 33;
   75 -> 102;
-  76	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  76	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   77 -> 141;
   77 -> 428;
   78 -> 153;
@@ -215,7 +215,7 @@ digraph g{
   108 -> 473;
   109 -> 242;
   110 -> 340;
-  111	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  111	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   112 -> 15;
   112 -> 682;
   112 -> 594;
@@ -240,7 +240,7 @@ digraph g{
   121 -> 97;
   121 -> 57;
   121 -> 12;
-  122	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  122	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   123 -> 286;
   123 -> 635;
   123 -> 607;
@@ -255,11 +255,11 @@ digraph g{
   127 -> 360;
   127 -> 466;
   127 -> 506;
-  128	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  128	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   129 -> 206;
   129 -> 493;
   129 -> 253;
-  130	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  130	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   131 -> 90;
   132 -> 20;
   132 -> 160;
@@ -285,7 +285,7 @@ digraph g{
   140 -> 357;
   141 -> 17;
   141 -> 266;
-  142	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  142	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   143 -> 19;
   144 -> 295;
   144 -> 536;
@@ -304,7 +304,7 @@ digraph g{
   149 -> 457;
   150 -> 13;
   150 -> 308;
-  151	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  151	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   152 -> 21;
   152 -> 71;
   152 -> 252;
@@ -337,7 +337,7 @@ digraph g{
   163 -> 51;
   164 -> 481;
   164 -> 397;
-  165	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  165	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   166 -> 68;
   166 -> 370;
   167 -> 77;
@@ -354,7 +354,7 @@ digraph g{
   171 -> 695;
   171 -> 660;
   171 -> 590;
-  172	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  172	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   173 -> 377;
   174 -> 564;
   174 -> 435;
@@ -372,7 +372,7 @@ digraph g{
   180 -> 227;
   180 -> 349;
   181 -> 90;
-  182	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  182	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   183 -> 424;
   183 -> 323;
   183 -> 257;
@@ -442,7 +442,7 @@ digraph g{
   213 -> 727;
   213 -> 775;
   213 -> 793;
-  214	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  214	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   215 -> 399;
   215 -> 230;
   216 -> 242;
@@ -491,7 +491,7 @@ digraph g{
   236 -> 91;
   236 -> 310;
   237 -> 1;
-  238	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  238	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   239 -> 262;
   239 -> 359;
   239 -> 488;
@@ -554,7 +554,7 @@ digraph g{
   264 -> 387;
   264 -> 487;
   265 -> 499;
-  266	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  266	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   267 -> 310;
   268 -> 469;
   268 -> 490;
@@ -569,7 +569,7 @@ digraph g{
   271 -> 121;
   272 -> 28;
   272 -> 248;
-  273	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  273	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   274 -> 358;
   274 -> 126;
   275 -> 462;
@@ -589,13 +589,13 @@ digraph g{
   280 -> 307;
   280 -> 144;
   281 -> 448;
-  282	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  282	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   283 -> 204;
   283 -> 103;
   284 -> 168;
   284 -> 156;
   284 -> 16;
-  285	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  285	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   286 -> 99;
   286 -> 14;
   286 -> 384;
@@ -608,7 +608,7 @@ digraph g{
   290 -> 463;
   291 -> 271;
   291 -> 218;
-  292	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  292	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   293 -> 384;
   294 -> 449;
   294 -> 670;
@@ -619,7 +619,7 @@ digraph g{
   295 -> 335;
   295 -> 191;
   295 -> 106;
-  296	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  296	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   297 -> 3;
   297 -> 187;
   298 -> 117;
@@ -648,7 +648,7 @@ digraph g{
   312 -> 344;
   313 -> 340;
   314 -> 441;
-  315	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  315	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   316 -> 159;
   317 -> 430;
   318 -> 99;
@@ -684,7 +684,7 @@ digraph g{
   331 -> 451;
   332 -> 497;
   332 -> 128;
-  333	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  333	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   334 -> 631;
   335 -> 566;
   336 -> 541;
@@ -705,12 +705,12 @@ digraph g{
   342 -> 439;
   342 -> 10;
   343 -> 430;
-  344	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  344	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   345 -> 573;
   345 -> 517;
   346 -> 469;
   346 -> 558;
-  347	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  347	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   348 -> 418;
   349 -> 249;
   349 -> 410;
@@ -757,7 +757,7 @@ digraph g{
   366 -> 574;
   367 -> 440;
   367 -> 223;
-  368	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  368	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   369 -> 499;
   370 -> 462;
   370 -> 605;
@@ -800,8 +800,8 @@ digraph g{
   383 -> 509;
   384 -> 339;
   384 -> 298;
-  385	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  386	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  385	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  386	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   387 -> 219;
   388 -> 535;
   388 -> 8;
@@ -833,15 +833,15 @@ digraph g{
   398 -> 84;
   398 -> 305;
   399 -> 150;
-  400	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  401	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  400	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  401	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   402 -> 427;
   402 -> 631;
   403 -> 517;
   403 -> 6;
   404 -> 123;
   404 -> 534;
-  405	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  405	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   406 -> 344;
   407	[ xlabel="reference book 1" ];
   408 -> 555;
@@ -865,17 +865,17 @@ digraph g{
   416 -> 253;
   416 -> 493;
   417 -> 310;
-  418	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  418	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   419 -> 222;
   419 -> 136;
   419 -> 293;
-  420	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  420	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   421 -> 481;
   421 -> 164;
   422 -> 26;
   422 -> 448;
   423 -> 385;
-  424	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  424	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   425 -> 233;
   425 -> 325;
   425 -> 135;
@@ -938,7 +938,7 @@ digraph g{
   446 -> 756;
   446 -> 765;
   446 -> 641;
-  447	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  447	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   448 -> 236;
   449 -> 401;
   450 -> 543;
@@ -1006,7 +1006,7 @@ digraph g{
   475 -> 443;
   476 -> 142;
   476 -> 177;
-  477	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  477	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   478 -> 270;
   479 -> 6;
   479 -> 517;
@@ -1015,8 +1015,8 @@ digraph g{
   480 -> 515;
   481 -> 397;
   482 -> 360;
-  483	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  484	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  483	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  484	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   485 -> 532;
   485 -> 233;
   486 -> 430;
@@ -1038,7 +1038,7 @@ digraph g{
   494 -> 226;
   494 -> 108;
   494 -> 208;
-  495	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  495	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   496 -> 556;
   496 -> 364;
   497 -> 426;
@@ -1108,7 +1108,7 @@ digraph g{
   517 -> 677;
   517 -> 698;
   517 -> 799;
-  518	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  518	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   519 -> 18;
   519 -> 221;
   520 -> 485;
@@ -1149,8 +1149,8 @@ digraph g{
   538 -> 492;
   539 -> 59;
   539 -> 323;
-  540	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  541	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  540	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  541	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   542 -> 238;
   542 -> 292;
   543 -> 441;
@@ -1209,7 +1209,7 @@ digraph g{
   561 -> 786;
   561 -> 706;
   561 -> 650;
-  562	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  562	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   563 -> 44;
   563 -> 176;
   564 -> 503;
@@ -1234,10 +1234,10 @@ digraph g{
   572 -> 129;
   573 -> 517;
   573 -> 194;
-  574	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  575	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  576	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  577	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  574	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  575	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  576	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  577	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   578 -> 82;
   579 -> 136;
   580 -> 504;
@@ -1320,7 +1320,7 @@ digraph g{
   627 -> 110;
   628 -> 172;
   628 -> 608;
-  629	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  629	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   630 -> 221;
   631 -> 321;
   632 -> 344;
@@ -1450,7 +1450,7 @@ digraph g{
   718 -> 40;
   719 -> 580;
   719 -> 681;
-  720	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  720	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   721 -> 394;
   721 -> 495;
   722 -> 145;
@@ -1526,7 +1526,7 @@ digraph g{
   766 -> 40;
   767 -> 98;
   768 -> 362;
-  769	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  769	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   770 -> 270;
   770 -> 557;
   771 -> 580;
@@ -1570,7 +1570,6 @@ digraph g{
   798 -> 172;
   798 -> 540;
   799 -> 764;
-  800	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-
+  800	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
 }
 

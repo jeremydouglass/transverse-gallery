@@ -1,7 +1,31 @@
 digraph g{
-  graph [ label="13-71 Troll FF -- Master of Mazes.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="13-71 Troll FF -- Master of Mazes" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 13-71;
+  // gbid   : 25;
+  // series : Troll Forgotten Forest;
+  // title  : Master of Mazes;
+  // author : Carol Gaskin;
+  // credit:;
+  // - name : Ryan Leach;
+  // role : encoder;
+  // date : 2017-08-21;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-04-28;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   1 -> 2;
   2 -> 3;
   3 -> 4;
@@ -106,7 +130,7 @@ digraph g{
   90 -> 82;
   92 -> 45;
   92 -> 47;
-  93	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  93	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   93 -> 8	[ xlabel="begin again" ];
   94 -> 95;
   102 -> 81;

@@ -1,8 +1,31 @@
 digraph g{
-  graph [ label="07-22 Endless Quest 03 Pillars of Pentegarn.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="07-22 Endless Quest 03 Pillars of Pentegarn" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     : 07-22;
+  // gbid   : 901;
+  // series : Endless Quest;
+  // title  : Pillars of Pentegarn;
+  // author : Rose Estes;
+  // credit:;
+  // - name : Juliet Way-Henthorne;
+  // role : encoder;
+  // date : 2017-10-18;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : fantasy;
+  // styles : gvStyles-fantasy.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   2 -> 100;
   2 -> 9	[ xlabel="DS" ];
   7 -> 12;

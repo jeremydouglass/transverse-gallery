@@ -1,8 +1,31 @@
 digraph g{
-  graph [ label="12-05 HeartQuest 05 Moon Dragon Summer (GENRE).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="12-05 HeartQuest 05 Moon Dragon Summer (GENRE)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Juliet Way-Henthorne;
+  // role : encoder;
+  // date : 2017-09-15;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : ?;
+  // styles : ?;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   6 -> 54	[ xlabel="DS" ];
   6 -> 139	[ xlabel="JOIN-M" ];
   6 -> 49;
@@ -19,7 +42,7 @@ digraph g{
   27 -> 28;
   28	[ xlabel="EBD" ];
   29 -> 32;
-  32	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  32	[ xlabel="EGR" ];
   34 -> 103;
   35 -> 36;
   36	[ xlabel="E-OK" ];
@@ -55,13 +78,13 @@ digraph g{
   91 -> 121	[ xlabel="AV" ];
   91 -> 90	[ xlabel="LOV" ];
   93 -> 97;
-  97	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  97	[ xlabel="EGR" ];
   98 -> 127	[ xlabel="LOV" ];
   98 -> 136;
   102 -> 21;
   103 -> 15;
   107 -> 109;
-  109	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  109	[ xlabel="EGR" ];
   110 -> 65;
   116 -> 27;
   116 -> 150;
@@ -78,6 +101,6 @@ digraph g{
   147 -> 29;
   147 -> 138	[ xlabel="FLIGHT" ];
   150 -> 157;
-  157	[ xlabel="EGR", dir=both, arrowhead=tee, arrowtail=odot, style=dashed ];
+  157	[ xlabel="EGR" ];
 }
 

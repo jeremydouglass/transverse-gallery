@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="12-51 Find Your Fate Junior - Golden Girl 03 Golden Girl and the Crystal of Doom.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="12-51 Find Your Fate Junior - Golden Girl 03 Golden Girl and the Crystal of Doom" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   // ---;
@@ -23,6 +23,8 @@ digraph g{
   // comment: >;
   
   // ---;
+  
+  // From | To | Label;
   
   1 -> 64;
   4 -> 44;
@@ -100,6 +102,6 @@ digraph g{
   70 -> 12;
   71 -> 19;
   71 -> 22;
-  72	[ xlabel="E-GOOD" ];
+  72	[ xlabel="E-GOOD" ];	// SAVE THE PRINCE
 }
 

@@ -1,7 +1,31 @@
 digraph g{
-  graph [ label="39-10 Sleep and the City Trembles.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="39-10 Sleep and the City Trembles" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 39-10;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Yee-Ann Wong;
+  // role : encoder;
+  // date : 2017-09-16;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-04-28;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   9 -> 10;
   10 -> 11;
   11 -> 12;
@@ -36,7 +60,7 @@ digraph g{
   40 -> 41;
   41 -> 53;
   41 -> 46;
-  42	[ xlabel="#sassy ‘quit reading like a normal person and make a decision’ page" ];
+  42;	// sassy ‘quit reading like a normal person and make a decision’ page
   43 -> 44;
   44 -> 45;
   45 -> 46;
@@ -67,7 +91,7 @@ digraph g{
   66 -> 67;
   67 -> 68;
   68 -> 69;
-  69 -> 22	[ xlabel="#ref" ];
+  69 -> 22;	// ref
   69 -> 70;
   70 -> 71;
   71 -> 72;
@@ -85,7 +109,7 @@ digraph g{
   82 -> 83;
   83 -> 84;
   84 -> 85;
-  85 -> 86	[ xlabel="#youcheatedandI’mproudofyou" ];
+  85 -> 86;	// youcheatedandI’mproudofyou
   86 -> 87;
   87 -> 88;
   88 -> 89;
@@ -95,12 +119,12 @@ digraph g{
   92 -> 93;
   93 -> 94;
   94 -> 95;
-  95 -> 216	[ xlabel="#ref" ];
-  95 -> 108	[ xlabel="#ref" ];
+  95 -> 216;	// ref
+  95 -> 108;	// ref
   95 -> 96;
   96 -> 110;
   96 -> 98;
-  216 -> 108	[ xlabel="#ref" ];
+  216 -> 108;	// ref
   98 -> 99;
   99 -> 100;
   100 -> 101;
@@ -122,7 +146,7 @@ digraph g{
   115 -> 98;
   115 -> 117;
   115 -> 97;
-  115 -> 116	[ xlabel="#ref" ];
+  115 -> 116;	// ref
   117 -> 118;
   118 -> 119;
   119 -> 120;
@@ -132,7 +156,7 @@ digraph g{
   123 -> 124;
   124 -> 125;
   125 -> 126;
-  126 -> 219	[ xlabel="#ref" ];
+  126 -> 219;	// ref
   126 -> 132;
   126 -> 129;
   126 -> 127;
@@ -197,18 +221,18 @@ digraph g{
   183 -> 184;
   184 -> 187;
   185 -> 186;
-  186 -> 897	[ xlabel="#this is" ];
-  186 -> 978	[ xlabel="#the sassiest book" ];
-  186 -> 987	[ xlabel="#i have ever read" ];
-  186 -> 879	[ xlabel="#these 4 answers are fake theres only 1 real choice" ];
-  186 -> 176	[ xlabel="#the only real choice" ];
+  186 -> 897;	// this is
+  186 -> 978;	// the sassiest book
+  186 -> 987;	// i have ever read
+  186 -> 879;	// these 4 answers are fake theres only 1 real choice
+  186 -> 176;	// the only real choice
   187 -> 188;
   188 -> 189;
   189 -> 190;
   190 -> 191;
-  191 -> 132	[ xlabel="#reread" ];
+  191 -> 132;	// reread
   191 -> 192;
-  132 -> 191	[ xlabel="#sent back to reread if from 191" ];
+  132 -> 191;	// sent back to reread if from 191
   192 -> 195;
   192 -> 198;
   192 -> 193;
@@ -241,6 +265,5 @@ digraph g{
   220 -> 221;
   221 -> 126;
   221 -> 213;
-
 }
 

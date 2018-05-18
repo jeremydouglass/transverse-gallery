@@ -1,9 +1,32 @@
 digraph g{
-  graph [ label="07-56 Endless Quest Siege of the Tower.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="07-56 Endless Quest Siege of the Tower" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
-  1	[ xlabel="S" ];
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Rachael Grainger;
+  // role : encoder;
+  // date : 2017-08-29;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
+  1	[ xlabel="S", shape=Msquare, fontsize=20 ];
   1 -> 2;
   2 -> 25;
   2 -> 23;
@@ -13,37 +36,37 @@ digraph g{
   5 -> 30;
   5 -> 38;
   6 -> 16;
-  7	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  7	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   8 -> 37;
   9 -> 22;
   9 -> 21;
   10 -> 7;
   10 -> 29;
-  11	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  11	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   12 -> 27;
   13 -> 41;
   14 -> 8;
   14 -> 36;
-  15	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  15	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   16 -> 10;
   17 -> 12;
   17 -> 6;
   18 -> 21;
   19 -> 4;
   19 -> 18;
-  20	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  20	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   21 -> 5;
   22 -> 4;
   23 -> 20;
   23 -> 34;
   24 -> 35;
   25 -> 9;
-  26	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  26	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   27 -> 33;
-  28	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  28	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   29 -> 39;
-  29	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
-  31	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  29	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  31	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   32 -> 10;
   33 -> 12;
   33 -> 6;
@@ -61,6 +84,6 @@ digraph g{
   40 -> 17;
   41 -> 24;
   41 -> 11;
-  42	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  42	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
 }
 

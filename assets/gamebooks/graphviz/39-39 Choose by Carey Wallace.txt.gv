@@ -1,8 +1,31 @@
 digraph g{
-  graph [ label="39-39 Choose by Carey Wallace.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="39-39 Choose by Carey Wallace" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
+  // ---;
+  // group  : Katz;
+  // id     : 39-39;
+  // gbid   : 4740;
+  // series : Miscellaneous Works by Julio Cortazar;
+  // title  : Choose;
+  // author : Carey Wallace;
+  // credit:;
+  // - name : Jeremy Douglass;
+  // role : encoder;
+  // date : 2017-10-12;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2018-04-28;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
   1 -> 2;
   1 -> 3;
   2 -> 4;
@@ -22,8 +45,8 @@ digraph g{
   9 -> 15;
   10 -> 18;
   10 -> 17;
-  11 -> 19;
-  11 -> 19;
+  11 -> 19;	// forced choice
+  11 -> 19;	// forced choice
   12 -> 28;
   12 -> 200;
   13 -> 27;
@@ -76,7 +99,7 @@ digraph g{
   37 -> 57;
   38 -> 200;
   39 -> 200;
-  40 -> 58;
+  40 -> 58;	// per correction slip -- error was 58
   40 -> 56;
   41 -> 55;
   41 -> 40;
@@ -131,7 +154,7 @@ digraph g{
   71 -> 95;
   71 -> 96;
   72 -> 113;
-  73 -> 6;
+  73 -> 6;	// recursive, a la The Neverending Story -- pulls the book Choose off the shelf and asks "want to check the transcript?" forced choice leads back to an early choose-point.
   74 -> 212;
   75 -> 212;
   76 -> 107;
@@ -325,6 +348,6 @@ digraph g{
   209 -> 212;
   210 -> 212;
   211 -> 212;
-  212	[ xlabel="END" ];
+  212	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
 }
 

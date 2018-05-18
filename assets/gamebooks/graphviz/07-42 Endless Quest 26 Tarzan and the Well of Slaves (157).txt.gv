@@ -1,9 +1,32 @@
 digraph g{
-  graph [ label="07-42 Endless Quest 26 Tarzan and the Well of Slaves (157).txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="07-42 Endless Quest 26 Tarzan and the Well of Slaves (157)" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
-
-  5	[ xlabel="S" ];
+  // ---;
+  // group  : Katz;
+  // id     :;
+  // gbid   :;
+  // series :;
+  // title  :;
+  // author :;
+  // credit:;
+  // - name : Rachael Grainger;
+  // role : encoder;
+  // date : 2017-08-24;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2017-10-19;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  // comment: >;
+  
+  // ---;
+  
+  // From | To | Label;
+  
+  5	[ xlabel="S", shape=Msquare, fontsize=20 ];
   5 -> 6;
   6 -> 7;
   7 -> 8;
@@ -61,16 +84,16 @@ digraph g{
   49 -> 50;
   50 -> 51;
   51 -> 52;
-  52	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  52	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   53 -> 54;
-  54	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  54	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   55 -> 56;
   56 -> 57;
   57 -> 58;
   58 -> 59;
   59 -> 67;
   59 -> 38;
-  60	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  60	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   61 -> 62;
   62 -> 63;
   63 -> 64;
@@ -90,14 +113,14 @@ digraph g{
   74 -> 128;
   75 -> 76;
   76 -> 77;
-  77	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  77	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   78 -> 79;
   79 -> 102;
   79 -> 80;
   80 -> 91;
   81 -> 82;
   82 -> 83;
-  83	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  83	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   84 -> 85;
   85 -> 153;
   86 -> 87;
@@ -110,7 +133,7 @@ digraph g{
   93 -> 46;
   94 -> 95;
   95 -> 96;
-  96	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  96	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   97 -> 98;
   98 -> 155;
   98 -> 53;
@@ -121,16 +144,16 @@ digraph g{
   102 -> 103;
   103 -> 104;
   104 -> 105;
-  105	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  105	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   106 -> 153;
   107 -> 55;
   107 -> 14;
   108 -> 109;
   109 -> 110;
-  110	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  110	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   111 -> 112;
   112 -> 113;
-  113	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  113	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   114 -> 115;
   115 -> 116;
   116 -> 117;
@@ -145,7 +168,7 @@ digraph g{
   123 -> 124;
   124 -> 27;
   125 -> 126;
-  126	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  126	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   127 -> 60;
   127 -> 29;
   128 -> 129;
@@ -164,7 +187,7 @@ digraph g{
   139 -> 140;
   140 -> 141;
   141 -> 142;
-  142	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  142	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   143 -> 144;
   144 -> 145;
   145 -> 130;
@@ -176,12 +199,12 @@ digraph g{
   149 -> 150;
   150 -> 151;
   151 -> 152;
-  152	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  152	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   153 -> 102;
   153 -> 80;
-  154	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  154	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
   155 -> 156;
   156 -> 157;
-  157	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70 ];
+  157	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
 }
 

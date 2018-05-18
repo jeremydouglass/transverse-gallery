@@ -1,5 +1,5 @@
 digraph g{
-  graph [ label="42-31 Sports Illustrated for Kids Play Book! -- Baseball - You Are the Manager, You Call the Shots.txt" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  graph [ label="42-31 Sports Illustrated for Kids Play Book! -- Baseball - You Are the Manager, You Call the Shots" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
   node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
   edge  [labelfloat=true, penwidth=3, fontsize=12];
   2 -> 3;
