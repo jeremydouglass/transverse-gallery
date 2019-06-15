@@ -1,0 +1,127 @@
+# ---
+# group  : Katz
+# id     : 08-50
+# gbid   : 1096
+# series : Find Your Fate – Doctor Who
+# title  : Invasion of the Ormazoids
+# author : Philip Martin
+# credit: 
+#   - name : Sami Stebbins
+#     role : encoder
+#     date : 2019-05-29
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2019-06-15
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+#     
+# ---
+
+#From	To	Label	Comment
+1	8
+	11
+2	6
+3	9		End w/ option to re-try
+3		RETRY	
+4	28
+	51
+5	2		End w/ option to re-try
+5		RETRY
+6	13
+	9
+7	5	ROLL	Roll 2 dice and score less than 6
+	2	ROLL	Roll 2 dice and score more than 6
+8	11
+	1		End w/ option to re-try
+8		RETRY	
+9	3
+	13
+10	18
+	23
+11	7
+	2
+12	46
+	40
+13	22
+	15
+14	33
+	12
+15	10
+16	50
+	31
+17	24
+18	29		Able to translate the riddle
+	23		Unable to translate the riddle
+19	62
+	17
+20		E
+21	55
+22	13		End w/ option to re-try
+22		RETRY
+23	29
+24	21
+	55
+25	33
+26	32
+	44
+27		E
+28	36
+29	35
+	35
+30	4
+	49
+31	19
+32	27
+33	14		End w/ option to re-try
+33		RETRY
+34		E
+35	14
+36	26
+	43
+37		E
+38	57
+39		E
+40	33
+41	66
+42	45	ROLL	Roll 2 dice and score 4 or less
+	34	ROLL	Roll 2 dice and score more than 4 but less than 8
+	58	ROLL	Roll 2 dice and score 8 or more
+43		E
+44	42
+45	47
+46	63	ROLL	Roll 2 dice and score 4 or less
+	25	ROLL	Roll 2 dice and score more than 4 but less than 8
+	16	ROLL	Roll 2 dice and score 8 or more
+47	54
+	37
+48	66
+	60
+49	27
+50	16		End w/ option to re-try
+50		RETRY
+51		E
+52	65
+	59
+53		E
+54	52
+55	30
+56	59
+57	39
+	48
+58		E
+59	64
+	38
+60	41	ROLL	Roll 2 dice and score more than 6
+	20	ROLL	Roll 2 dice and score less than 6
+61	56
+	59
+62	19		End w/ option to re-try
+62		RETRY
+63	46		End w/ option to re-try
+63		RETRY
+64	53
+65	61
+	59
+66		E

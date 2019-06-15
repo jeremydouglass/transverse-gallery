@@ -1,0 +1,86 @@
+# ---
+# group  : Katz
+# id     : 08-46
+# gbid   : 1092
+# series : Find Your Fate – Doctor Who
+# title  : Search for the Doctor
+# author : David (Dave) Martin
+# credit: 
+#   - name : Sami Stebbins
+#     role : encoder
+#     date : 2019-05-21
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2019-05-14
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+#     
+# ---
+
+#From	To	Label	Comment
+1	5
+	2
+2	17
+	6
+	10
+3	22
+	15
+4		E
+5	8
+	13
+6	7	ROLL	Roll die and score 6 or above
+6		E	Roll die and score 5 or below
+7	9		Solve riddle : "What six-letter English word can the letters in 'Medusa' be made to spell?"
+8	2		End w/ option to re-try
+8		RETRY
+9		E
+10	1	ROLL	Roll 2 dice and score 6 to 9
+	4	ROLL	Roll 2 dice and score less than 6
+	12	ROLL	Roll 2 dice and score more than 9
+11	15
+	3
+12	14
+13	2		End w/ option to re-try
+13		RETRY
+14	16
+	11
+15	20
+	19
+16	14		End w/ option to re-try
+16		RETRY
+17	6		End w/ option to re-try
+17		RETRY
+18	21		Dice game to "wait"
+19	21	ROLL	Roll 2 dice and roll any double
+	18	ROLL	Roll 2 dice and do not roll a double
+20	23	ROLL	Roll 2 dice and score 6 or more
+	15	ROLL	Roll 2 dice and score 5 or below (End w/ option to re-try)
+21	22
+22	25	ROLL	Roll 2 dice and score 6 or more
+	24	ROLL	Roll 2 dice and score 5 or below
+23	15		End w/ option to re-try
+23		RETRY
+24	27
+	26
+	28
+25	22		End w/ option to re-try
+25		RETRY
+22	24	H	Multi-step instruction that sends you to 22 through to 24; Instructions from 25
+26	29
+	30
+	31
+	32
+27	24		End w/ option to re-try
+27		RETRY
+28	24		End w/ option to re-try
+28		RETRY
+29	26		End w/ option to re-try
+29		RETRY
+30	26		End w/ option to re-try
+30		RETRY
+31	26		End w/ option to re-try
+31		RETRY
+32	33
+33		E

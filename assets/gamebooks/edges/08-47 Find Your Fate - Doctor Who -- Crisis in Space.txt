@@ -1,0 +1,130 @@
+# ---
+# group  : Katz
+# id     : 08-47
+# gbid   : 1092
+# series : Find Your Fate – Doctor Who
+# title  : Crisis in Space
+# author : Michael Holt
+# credit: 
+#   - name : Sami Stebbins
+#     role : encoder
+#     date : 2019-05-21
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2019-05-14
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+#     
+# ---
+
+#From	To	Label	Comment
+1	2
+2	3
+	4
+3	5
+4	41
+	27
+5	11
+6	33	ROLL	Roll die and score an odd number
+	52	ROLL	Roll die and score an even number
+7	46
+8	35
+	21
+9	70
+	53
+10	16
+11	13
+	68
+12	52
+	56
+13	43
+14	26
+	55
+15	23
+	9
+16	5
+	61
+17	42
+18	15
+19		E
+20	40
+	32
+21	54
+	36
+22	2		End w/ option to re-try
+22		RETRY
+23		E
+24	39		Wrong answer; End w/ option to re-try
+24		RETRY
+25	44
+26	62
+	65
+	30
+27	6
+28	14
+29	21
+	66
+30	25
+	63
+31		E	Roll die and score a 1, 2, 3, or 4
+31	60	ROLL	Roll die and score a 5 or 6
+32	39
+33	12
+	22
+34	31
+35	29
+	17
+36	15
+37	53		Wrong answer; End w/ option to re-try
+37		RETRY
+38	30		Wrong answer; Appears orphaned due to a misprint
+38		RETRY
+39	24
+	28
+40	39
+41	4		Wrong answer; End w/ option to re-try
+41		RETRY
+42	10
+43	20
+	48
+44	49
+45		E
+46	8
+47	51		Wrong answer
+48	44
+49		E
+50	58
+	59
+51	7
+	47
+52	2		End w/ option to re-try
+52		RETRY
+53	37
+	34
+54	2		End w/ option to re-try
+54		RETRY
+55	14		Wrong answer
+56	51
+	45
+57	2		End w/ option to re-try
+57		RETRY
+58	2		End w/ option to re-try
+58		RETRY
+59	57
+60	50
+	57
+61	18
+62	69		Wrong answer
+	64
+63	30		Wrong answer
+64	30
+65	66		Wrong answer
+	67
+66	18
+	19
+67	26		Wrong answer
+68	43		Wrong answer
+69	26		Wrong answer
+70		E

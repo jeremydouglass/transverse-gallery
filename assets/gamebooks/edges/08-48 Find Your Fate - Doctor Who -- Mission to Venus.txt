@@ -1,0 +1,90 @@
+# ---
+# group  : Katz
+# id     : 08-48
+# gbid   : 1095
+# series : Find Your Fate – Doctor Who
+# title  : Mission to Venus
+# author : William Emms
+# credit: 
+#   - name : Sami Stebbins
+#     role : encoder
+#     date : 2019-05-29
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2019-06-15
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+#     
+# ---
+
+#From	To	Label	Comment
+1	6
+	11
+	4
+2	13		End w/ option to re-try
+2		RETRY
+3	26
+	10
+	17
+4	18
+	7	ROLL	Roll 2 dice and score less than 8
+	9	ROLL	Roll 2 dice and score 8 or above
+5	24	ROLL	Roll 2 dice and score 4 or below
+	2	ROLL	Roll 2 dice and score 5 through 9
+	13	ROLL	Roll 2 dice and score 10 or above
+6	4		End w/ option to re-try
+6		RETRY
+7	9		End w/ option to re-try
+7		RETRY
+8	23		End w/ option to re-try
+8		RETRY
+9	21
+	20
+	5
+10	17		End w/ option to re-try
+10		RETRY
+11	4		End w/ option to re-try
+11		RETRY
+12	28		End w/ option to re-try ; ORPHANED
+12		RETRY
+13	15
+	19
+	3
+14	8		Figure out anagram "A" first
+	16		Figure out anagram "B" first
+	23		Figure out anagram "C" first
+15	3		End w/ option to re-try
+15		RETRY
+16	23		End w/ option to re-try
+16		RETRY
+17			"Take three pieces of paper. On one, print 'A', and on another 'B' and on the last 'C'. Fold them so that you can't see which is which and drop them into any box, tin or hat. Take out one of them and unfold it."
+17	25		Draw 'A'
+	27		Draw 'B'
+	14		Draw 'C'
+18	9		End w/ option to re-try
+18		RETRY
+19	3		End w/ option to re-try
+19		RETRY
+20	5		End w/ option to re-try
+20		RETRY
+21	5		End w/ option to re-try
+21		RETRY
+22	28		End w/ option to re-try	; ORPHANED
+22		RETRY
+23			"A. In your head, multiply 12 by 16.
+			 B. In your head, divide 160 by 4.
+			 C. What is 1% of 1,600?"
+23	8		If you answer A. first 
+	16		If you answer B. first
+	28		If you answer C. first
+24	5		End w/ option to re-try
+24		RETRY
+25	14		End w/ option to re-try
+25		RETRY
+26	17		End w/ option to re-try
+26		RETRY
+27	14		End w/ option to re-try
+27		RETRY
+28		E

@@ -1,0 +1,245 @@
+# ---
+# group  : Katz
+# id     : 08-52
+# gbid   : 1097
+# series : Find Your Fate – Doctor Who
+# title  : Race Against Time
+# author : Pip Baker, Jane Baker
+# credit: 
+#   - name : Sami Stebbins
+#     role : encoder
+#     date : 2019-05-29
+#   - name : Jeremy Douglass
+#     role : editor
+#     date : 2019-06-15
+# render:
+#   - name   : small
+#     styles : gvStyles-small.txt
+#     engine : dot
+#     
+# ---
+
+#From	To	Label	Comment
+1	56
+2	45
+	141
+3		E
+4	155
+5	26
+	47
+6	114
+	74	ROLL	Roll a die and score 3 or 6
+	114	ROLL	Roll a die and score 1,2,4, or 5
+7		E
+8	96
+9	110
+10		E
+11	22
+	72
+12		E
+13	48		Able to solve the puzzle
+	27	ROLL	Unable to solve the puzzle. Roll a die and score an even number
+	120	ROLL	Unable to solve the puzzle. Roll a die and score an odd number
+14	119
+15	79
+16	144
+17	130
+18	158
+	106
+19		E
+20	21
+	128
+	136	ROLL	Roll a die three times and score a total of 10 or more
+	86	ROLL	Roll a die three times and score a total less than 10
+22	122
+23	62
+24	90
+25	64		Able to solve the puzzle
+	121	ROLL	Unable to solve the puzzle. Roll a die and score an even number
+	75	ROLL	Unable to solve the puzzle. Roll a die and score an odd number
+26	82	ROLL	Roll a die and score a 1
+	68	ROLL	Roll a die and score a 2
+	89	ROLL	Roll a die and score a 4, 5, or 6
+	123	ROLL	Roll a die and score a 3
+27		E
+28		E
+29	104
+30	133		Correctly solve the puzzle
+	2		Incorrectly solve the puzzle
+31	15
+32	58
+	144		Sends you through to 144 to choose roll dice option
+33	127
+34	19
+35	140
+36	102		Roll two dice and score a 2
+	83		Roll two dice and score any number other than 2
+37	65
+38	80
+39	77
+40	41		Sends you through to 41 then to 60
+41	60
+42	63
+43	39		Correctly solve the puzzle
+43		E	Incorrectly solve the puzzle
+44	117
+45		E
+46	85		Correctly solve the puzzle
+	103	ROLL	Roll a die and score an odd number
+	23	ROLL	Roll a die and score an even number
+47	112
+48	81		Correctly solve the puzzle
+	120		Incorrectly solve the puzzle
+49	33	ROLL	Roll a die and score a 2
+	10	ROLL	Roll a die and score a 4
+	116	ROLL	Roll a die and score a 6
+50		E
+51	70		Sends you through to 70 then to 71
+70	71	
+52	30		Able to solve the puzzle
+	2		Unable to solve the puzzle
+53	78
+54	6
+55	115		Correctly solve the puzzle
+	24		Incorrectly solve the puzzle
+56	113
+	25
+57	152
+	11
+58	97
+59	149
+60	134		Correctly solve the puzzle 
+60	134	ROLL	Roll die until score a 6
+61	107
+62	142
+63	108
+64	140		Able to solve the puzzle
+	25		Unable to solve the puzzle
+65	139		Able to solve the puzzle
+	109		Unable to solve the puzzle
+66	150
+67	51
+68		E
+69		E
+70	92	ROLL	Land on 'Escape'
+70		E	Land on 'Rani"
+72	52
+73	12
+	46
+74		E
+75	100
+76		E
+77	20
+78	153
+79	107
+80	111
+81	17
+82		E
+83	145
+84	29
+85	53		Correctly solve the riddle
+	46		Incorrectly solve the riddle
+86		E
+87		E
+88	104		Sends you through to 104 then to 151
+104	151	
+89	148	ROLL	Roll a die and score an odd number
+	7	ROLL	Roll a die and score an even number
+90	115
+91	4
+92	137
+93	40
+94	31
+95	54
+96	160
+97	67
+98	38
+99	133
+100	3
+	35
+101		E
+102		E
+103		E
+104	91		Believe in the truth of Riddle #1
+	34		Believe in the truth of Riddle #2
+	138		Believe in the truth of Riddle #2
+105	150
+106	28
+	49
+107	61
+	131
+	157
+108	36
+109	139
+110	66
+111	129
+112	5		Sends you through to 5 then to 26
+5	26	
+113	25
+114	13
+115	93
+	124
+	156
+116	146
+117	104
+118	58
+119	43
+	154
+	39
+120	59
+121		E
+122		E
+123		E
+124		E
+125	63		Correctly solve the riddle
+125	63	ROLL	Roll die until score a 6 twice
+126	73
+127	116
+128	8		Correctly solve the riddle or don't... and "no penalty"
+129	88
+130	105	ROLL	Roll a die and score a 5 or 2
+	76	ROLL	Roll a die and score a 4
+	9	ROLL	Roll a die and score 1, 3, or 6
+131		E
+132		E
+133	5		Able to solve the puzzle
+	47		Unable to solve the puzzle
+134	16
+135	1
+	14
+136	128		Sends you through to 128 then to 8
+128	8	
+137	18
+138	98
+139	132
+	95
+140	57
+141	99
+142	53
+143		E
+144	32		Able to solve the puzzle
+	118		Roll a die three times without scoring a 5
+	87		Roll a die three times and score a 5
+145	135
+146	147
+147	101
+	69
+	159
+	84
+148	50
+	94
+149	54
+150	55
+151	125		Able to solve the riddle
+	42		Unable to solve the riddle
+152	1
+153	125		Sends you to 125 to "browse"
+153	37
+154	39
+155	143
+	44
+156	40
+157	126
+158		E
+159		E
+160		E
