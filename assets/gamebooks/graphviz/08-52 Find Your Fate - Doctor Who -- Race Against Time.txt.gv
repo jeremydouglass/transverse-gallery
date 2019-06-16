@@ -1,0 +1,251 @@
+digraph g{
+  graph [ label="08-52 Find Your Fate - Doctor Who -- Race Against Time" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 08-52;
+  // gbid   : 1097;
+  // series : Find Your Fate – Doctor Who;
+  // title  : Race Against Time;
+  // author : Pip Baker, Jane Baker;
+  // credit:;
+  // - name : Sami Stebbins;
+  // role : encoder;
+  // date : 2019-05-29;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2019-06-15;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  
+  // ---;
+  
+  // From | To | Label;
+  1 -> 56;
+  2 -> 45;
+  2 -> 141;
+  3	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  4 -> 155;
+  5 -> 26;
+  5 -> 47;
+  6 -> 114;
+  6 -> 74	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score 3 or 6
+  6 -> 114	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score 1,2,4, or 5
+  7	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  8 -> 96;
+  9 -> 110;
+  10	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  11 -> 22;
+  11 -> 72;
+  12	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  13 -> 48;	// Able to solve the puzzle
+  13 -> 27	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Unable to solve the puzzle. Roll a die and score an even number
+  13 -> 120	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Unable to solve the puzzle. Roll a die and score an odd number
+  14 -> 119;
+  15 -> 79;
+  16 -> 144;
+  17 -> 130;
+  18 -> 158;
+  18 -> 106;
+  19	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  20 -> 21;
+  20 -> 128;
+  20 -> 136	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die three times and score a total of 10 or more
+  20 -> 86	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die three times and score a total less than 10
+  22 -> 122;
+  23 -> 62;
+  24 -> 90;
+  25 -> 64;	// Able to solve the puzzle
+  25 -> 121	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Unable to solve the puzzle. Roll a die and score an even number
+  25 -> 75	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Unable to solve the puzzle. Roll a die and score an odd number
+  26 -> 82	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score a 1
+  26 -> 68	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score a 2
+  26 -> 89	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score a 4, 5, or 6
+  26 -> 123	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score a 3
+  27	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  28	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  29 -> 104;
+  30 -> 133;	// Correctly solve the puzzle
+  30 -> 2;	// Incorrectly solve the puzzle
+  31 -> 15;
+  32 -> 58;
+  32 -> 144;	// Sends you through to 144 to choose roll dice option
+  33 -> 127;
+  34 -> 19;
+  35 -> 140;
+  36 -> 102;	// Roll two dice and score a 2
+  36 -> 83;	// Roll two dice and score any number other than 2
+  37 -> 65;
+  38 -> 80;
+  39 -> 77;
+  40 -> 41;	// Sends you through to 41 then to 60
+  41 -> 60;
+  42 -> 63;
+  43 -> 39;	// Correctly solve the puzzle
+  43	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// Incorrectly solve the puzzle
+  44 -> 117;
+  45	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  46 -> 85;	// Correctly solve the puzzle
+  46 -> 103	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score an odd number
+  46 -> 23	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score an even number
+  47 -> 112;
+  48 -> 81;	// Correctly solve the puzzle
+  48 -> 120;	// Incorrectly solve the puzzle
+  49 -> 33	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score a 2
+  49 -> 10	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score a 4
+  49 -> 116	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score a 6
+  50	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  51 -> 70;	// Sends you through to 70 then to 71
+  70 -> 71;
+  52 -> 30;	// Able to solve the puzzle
+  52 -> 2;	// Unable to solve the puzzle
+  53 -> 78;
+  54 -> 6;
+  55 -> 115;	// Correctly solve the puzzle
+  55 -> 24;	// Incorrectly solve the puzzle
+  56 -> 113;
+  56 -> 25;
+  57 -> 152;
+  57 -> 11;
+  58 -> 97;
+  59 -> 149;
+  60 -> 134;	// Correctly solve the puzzle
+  60 -> 134	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll die until score a 6
+  61 -> 107;
+  62 -> 142;
+  63 -> 108;
+  64 -> 140;	// Able to solve the puzzle
+  64 -> 25;	// Unable to solve the puzzle
+  65 -> 139;	// Able to solve the puzzle
+  65 -> 109;	// Unable to solve the puzzle
+  66 -> 150;
+  67 -> 51;
+  68	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  69	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  70 -> 92	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Land on 'Escape'
+  70	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// Land on 'Rani"
+  72 -> 52;
+  73 -> 12;
+  73 -> 46;
+  74	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  75 -> 100;
+  76	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  77 -> 20;
+  78 -> 153;
+  79 -> 107;
+  80 -> 111;
+  81 -> 17;
+  82	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  83 -> 145;
+  84 -> 29;
+  85 -> 53;	// Correctly solve the riddle
+  85 -> 46;	// Incorrectly solve the riddle
+  86	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  87	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  88 -> 104;	// Sends you through to 104 then to 151
+  104 -> 151;
+  89 -> 148	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score an odd number
+  89 -> 7	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score an even number
+  90 -> 115;
+  91 -> 4;
+  92 -> 137;
+  93 -> 40;
+  94 -> 31;
+  95 -> 54;
+  96 -> 160;
+  97 -> 67;
+  98 -> 38;
+  99 -> 133;
+  100 -> 3;
+  100 -> 35;
+  101	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  102	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  103	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  104 -> 91;	// Believe in the truth of Riddle #1
+  104 -> 34;	// Believe in the truth of Riddle #2
+  104 -> 138;	// Believe in the truth of Riddle #2
+  105 -> 150;
+  106 -> 28;
+  106 -> 49;
+  107 -> 61;
+  107 -> 131;
+  107 -> 157;
+  108 -> 36;
+  109 -> 139;
+  110 -> 66;
+  111 -> 129;
+  112 -> 5;	// Sends you through to 5 then to 26
+  5 -> 26;
+  113 -> 25;
+  114 -> 13;
+  115 -> 93;
+  115 -> 124;
+  115 -> 156;
+  116 -> 146;
+  117 -> 104;
+  118 -> 58;
+  119 -> 43;
+  119 -> 154;
+  119 -> 39;
+  120 -> 59;
+  121	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  122	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  123	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  124	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  125 -> 63;	// Correctly solve the riddle
+  125 -> 63	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll die until score a 6 twice
+  126 -> 73;
+  127 -> 116;
+  128 -> 8;	// Correctly solve the riddle or don't... and "no penalty"
+  129 -> 88;
+  130 -> 105	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score a 5 or 2
+  130 -> 76	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score a 4
+  130 -> 9	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll a die and score 1, 3, or 6
+  131	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  132	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  133 -> 5;	// Able to solve the puzzle
+  133 -> 47;	// Unable to solve the puzzle
+  134 -> 16;
+  135 -> 1;
+  135 -> 14;
+  136 -> 128;	// Sends you through to 128 then to 8
+  128 -> 8;
+  137 -> 18;
+  138 -> 98;
+  139 -> 132;
+  139 -> 95;
+  140 -> 57;
+  141 -> 99;
+  142 -> 53;
+  143	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  144 -> 32;	// Able to solve the puzzle
+  144 -> 118;	// Roll a die three times without scoring a 5
+  144 -> 87;	// Roll a die three times and score a 5
+  145 -> 135;
+  146 -> 147;
+  147 -> 101;
+  147 -> 69;
+  147 -> 159;
+  147 -> 84;
+  148 -> 50;
+  148 -> 94;
+  149 -> 54;
+  150 -> 55;
+  151 -> 125;	// Able to solve the riddle
+  151 -> 42;	// Unable to solve the riddle
+  152 -> 1;
+  153 -> 125;	// Sends you to 125 to "browse"
+  153 -> 37;
+  154 -> 39;
+  155 -> 143;
+  155 -> 44;
+  156 -> 40;
+  157 -> 126;
+  158	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  159	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  160	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+}
+

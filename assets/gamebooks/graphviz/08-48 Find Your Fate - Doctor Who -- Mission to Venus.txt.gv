@@ -1,0 +1,96 @@
+digraph g{
+  graph [ label="08-48 Find Your Fate - Doctor Who -- Mission to Venus" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 08-48;
+  // gbid   : 1095;
+  // series : Find Your Fate – Doctor Who;
+  // title  : Mission to Venus;
+  // author : William Emms;
+  // credit:;
+  // - name : Sami Stebbins;
+  // role : encoder;
+  // date : 2019-05-29;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2019-06-15;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  
+  // ---;
+  
+  // From | To | Label;
+  1 -> 6;
+  1 -> 11;
+  1 -> 4;
+  2 -> 13;	// End w/ option to re-try
+  2	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  3 -> 26;
+  3 -> 10;
+  3 -> 17;
+  4 -> 18;
+  4 -> 7	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score less than 8
+  4 -> 9	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score 8 or above
+  5 -> 24	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score 4 or below
+  5 -> 2	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score 5 through 9
+  5 -> 13	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score 10 or above
+  6 -> 4;	// End w/ option to re-try
+  6	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  7 -> 9;	// End w/ option to re-try
+  7	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  8 -> 23;	// End w/ option to re-try
+  8	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  9 -> 21;
+  9 -> 20;
+  9 -> 5;
+  10 -> 17;	// End w/ option to re-try
+  10	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  11 -> 4;	// End w/ option to re-try
+  11	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  12 -> 28;	// End w/ option to re-try ; ORPHANED
+  12	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  13 -> 15;
+  13 -> 19;
+  13 -> 3;
+  14 -> 8;	// Figure out anagram "A" first
+  14 -> 16;	// Figure out anagram "B" first
+  14 -> 23;	// Figure out anagram "C" first
+  15 -> 3;	// End w/ option to re-try
+  15	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  16 -> 23;	// End w/ option to re-try
+  16	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  17;	// "Take three pieces of paper. On one, print 'A', and on another 'B' and on the last 'C'. Fold them so that you can't see which is which and drop them into any box, tin or hat. Take out one of them and unfold it."
+  17 -> 25;	// Draw 'A'
+  17 -> 27;	// Draw 'B'
+  17 -> 14;	// Draw 'C'
+  18 -> 9;	// End w/ option to re-try
+  18	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  19 -> 3;	// End w/ option to re-try
+  19	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  20 -> 5;	// End w/ option to re-try
+  20	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  21 -> 5;	// End w/ option to re-try
+  21	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  22 -> 28;	// End w/ option to re-try | ; ORPHANED
+  22	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  23;	// "A. In your head, multiply 12 by 16.
+  // B. In your head, divide 160 by 4.;
+  // C. What is 1% of 1,600?";
+  23 -> 8;	// If you answer A. first
+  23 -> 16;	// If you answer B. first
+  23 -> 28;	// If you answer C. first
+  24 -> 5;	// End w/ option to re-try
+  24	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  25 -> 14;	// End w/ option to re-try
+  25	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  26 -> 17;	// End w/ option to re-try
+  26	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  27 -> 14;	// End w/ option to re-try
+  27	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  28	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+}
+

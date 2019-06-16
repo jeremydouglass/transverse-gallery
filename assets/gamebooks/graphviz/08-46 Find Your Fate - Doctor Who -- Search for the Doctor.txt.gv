@@ -1,0 +1,92 @@
+digraph g{
+  graph [ label="08-46 Find Your Fate - Doctor Who -- Search for the Doctor" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 08-46;
+  // gbid   : 1092;
+  // series : Find Your Fate – Doctor Who;
+  // title  : Search for the Doctor;
+  // author : David (Dave) Martin;
+  // credit:;
+  // - name : Sami Stebbins;
+  // role : encoder;
+  // date : 2019-05-21;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2019-05-14;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  
+  // ---;
+  
+  // From | To | Label;
+  1 -> 5;
+  1 -> 2;
+  2 -> 17;
+  2 -> 6;
+  2 -> 10;
+  3 -> 22;
+  3 -> 15;
+  4	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  5 -> 8;
+  5 -> 13;
+  6 -> 7	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll die and score 6 or above
+  6	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];	// Roll die and score 5 or below
+  7 -> 9;	// Solve riddle : "What six-letter English word can the letters in 'Medusa' be made to spell?"
+  8 -> 2;	// End w/ option to re-try
+  8	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  9	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  10 -> 1	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score 6 to 9
+  10 -> 4	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score less than 6
+  10 -> 12	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score more than 9
+  11 -> 15;
+  11 -> 3;
+  12 -> 14;
+  13 -> 2;	// End w/ option to re-try
+  13	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  14 -> 16;
+  14 -> 11;
+  15 -> 20;
+  15 -> 19;
+  16 -> 14;	// End w/ option to re-try
+  16	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  17 -> 6;	// End w/ option to re-try
+  17	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  18 -> 21;	// Dice game to "wait"
+  19 -> 21	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and roll any double
+  19 -> 18	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and do not roll a double
+  20 -> 23	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score 6 or more
+  20 -> 15	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score 5 or below (End w/ option to re-try)
+  21 -> 22;
+  22 -> 25	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score 6 or more
+  22 -> 24	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score 5 or below
+  23 -> 15;	// End w/ option to re-try
+  23	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  24 -> 27;
+  24 -> 26;
+  24 -> 28;
+  25 -> 22;	// End w/ option to re-try
+  25	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  22 -> 24	[ xlabel="H" ];	// Multi-step instruction that sends you to 22 through to 24; Instructions from 25
+  26 -> 29;
+  26 -> 30;
+  26 -> 31;
+  26 -> 32;
+  27 -> 24;	// End w/ option to re-try
+  27	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  28 -> 24;	// End w/ option to re-try
+  28	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  29 -> 26;	// End w/ option to re-try
+  29	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  30 -> 26;	// End w/ option to re-try
+  30	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  31 -> 26;	// End w/ option to re-try
+  31	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  32 -> 33;
+  33	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+}
+

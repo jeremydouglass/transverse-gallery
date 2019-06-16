@@ -1,0 +1,133 @@
+digraph g{
+  graph [ label="08-50 Find Your Fate - Doctor Who -- Invasion of the Ormazoids" rankdir=LR, ordering=out, fontsize=36, nodesep="0.35", ranksep="0.45"];
+  node  [shape=rect, penwidth=2, fontsize=20, style=filled, fillcolor=grey90, margin="0,0", labelfloat=true, regular=true, fixedsize=true];
+  edge  [labelfloat=true, penwidth=3, fontsize=12];
+  // ---;
+  // group  : Katz;
+  // id     : 08-50;
+  // gbid   : 1096;
+  // series : Find Your Fate – Doctor Who;
+  // title  : Invasion of the Ormazoids;
+  // author : Philip Martin;
+  // credit:;
+  // - name : Sami Stebbins;
+  // role : encoder;
+  // date : 2019-05-29;
+  // - name : Jeremy Douglass;
+  // role : editor;
+  // date : 2019-06-15;
+  // render:;
+  // - name   : small;
+  // styles : gvStyles-small.txt;
+  // engine : dot;
+  
+  // ---;
+  
+  // From | To | Label;
+  1 -> 8;
+  1 -> 11;
+  2 -> 6;
+  3 -> 9;	// End w/ option to re-try
+  3	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  4 -> 28;
+  4 -> 51;
+  5 -> 2;	// End w/ option to re-try
+  5	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  6 -> 13;
+  6 -> 9;
+  7 -> 5	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score less than 6
+  7 -> 2	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score more than 6
+  8 -> 11;
+  8 -> 1;	// End w/ option to re-try
+  8	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  9 -> 3;
+  9 -> 13;
+  10 -> 18;
+  10 -> 23;
+  11 -> 7;
+  11 -> 2;
+  12 -> 46;
+  12 -> 40;
+  13 -> 22;
+  13 -> 15;
+  14 -> 33;
+  14 -> 12;
+  15 -> 10;
+  16 -> 50;
+  16 -> 31;
+  17 -> 24;
+  18 -> 29;	// Able to translate the riddle
+  18 -> 23;	// Unable to translate the riddle
+  19 -> 62;
+  19 -> 17;
+  20	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  21 -> 55;
+  22 -> 13;	// End w/ option to re-try
+  22	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  23 -> 29;
+  24 -> 21;
+  24 -> 55;
+  25 -> 33;
+  26 -> 32;
+  26 -> 44;
+  27	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  28 -> 36;
+  29 -> 35;
+  29 -> 35;
+  30 -> 4;
+  30 -> 49;
+  31 -> 19;
+  32 -> 27;
+  33 -> 14;	// End w/ option to re-try
+  33	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  34	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  35 -> 14;
+  36 -> 26;
+  36 -> 43;
+  37	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  38 -> 57;
+  39	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  40 -> 33;
+  41 -> 66;
+  42 -> 45	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score 4 or less
+  42 -> 34	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score more than 4 but less than 8
+  42 -> 58	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score 8 or more
+  43	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  44 -> 42;
+  45 -> 47;
+  46 -> 63	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score 4 or less
+  46 -> 25	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score more than 4 but less than 8
+  46 -> 16	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score 8 or more
+  47 -> 54;
+  47 -> 37;
+  48 -> 66;
+  48 -> 60;
+  49 -> 27;
+  50 -> 16;	// End w/ option to re-try
+  50	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  51	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  52 -> 65;
+  52 -> 59;
+  53	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  54 -> 52;
+  55 -> 30;
+  56 -> 59;
+  57 -> 39;
+  57 -> 48;
+  58	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+  59 -> 64;
+  59 -> 38;
+  60 -> 41	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score more than 6
+  60 -> 20	[ xlabel="ROLL", arrowtail=tee, style=dashed, label="", xlabel="" ];	// Roll 2 dice and score less than 6
+  61 -> 56;
+  61 -> 59;
+  62 -> 19;	// End w/ option to re-try
+  62	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  63 -> 46;	// End w/ option to re-try
+  63	[ xlabel="RETRY", shape=Mdiamond, fontsize=20, fillcolor=grey70, xlabel="" ];
+  64 -> 53;
+  65 -> 61;
+  65 -> 59;
+  66	[ xlabel="E", shape=Msquare, fontsize=20, fillcolor=grey70, xlabel="" ];
+}
+
