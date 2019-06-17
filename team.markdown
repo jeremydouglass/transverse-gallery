@@ -34,6 +34,16 @@ Ryan's research traverses the fields of digital humanities, media theory, and sc
 ## Undergraduate Research Fellows
 
 <br>
+__Sami Stebbins__ (3rd-year Communication Major/ Spanish and Professional Writing Double Minor, UCSB) 2019
+
+Sami just finished two years juggling the UCSB Honors Program, UCSB Division One Water Polo, and her incredible obsession with Spider-Man, and continues to pursue her major in Communication with the hope of one day going into a job in Public Relations. Her dream is to one day embark on an adventure so grand that the world sings her praises for years to come, but in the mean time she gets her thrills coding Doctor Who gamebooks for the Transverse Reading Project–– an adventure altogether electrifying in its own right. She is quite interested in how gamebooks have the potential to be a teaching force for audiences to learn about the consequences of their actions.
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+<br>
 __Sarah Cifranic__ (3rd-year English Major/Linguistics Minor, UCSB)
 
 Sarah enjoys studying language and narratives. She is pursuing a minor in linguistics, and enjoys reading science fiction and classic literature. While working on the Transverse Reading Project, she has become interested in researching variations between Spanish translations of a text. She is especially interested in whether these differences are prevalent within specific genres. 
